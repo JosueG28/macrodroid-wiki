@@ -1,0 +1,2888 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentación no oficial de MacroDroid">
+      
+      
+        <meta name="author" content="JosueG28">
+      
+      
+      
+        <link rel="prev" href="../triggers/">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>General - MacroDroid Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#texto-magico" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../" title="MacroDroid Wiki" class="md-header__button md-logo" aria-label="MacroDroid Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MacroDroid Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              General
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../magic_text/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../" title="MacroDroid Wiki" class="md-nav__button md-logo" aria-label="MacroDroid Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    MacroDroid Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inicio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Disparadores
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Disparadores
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../triggers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    General
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Acciones
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Acciones
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../actions/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    General
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Restricciones
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Restricciones
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../constraints/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    General
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Texto magico
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Texto magico
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    General
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    General
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#texto-magico-manual" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Texto Mágico Manual
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estilos-de-formato" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔸 Estilos de Formato
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Ejemplos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flujo-de-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Flujo de control
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧪 Flujo de control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-clause" class="md-nav__link">
+    <span class="md-ellipsis">
+      If clause
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-confirmed-then" class="md-nav__link">
+    <span class="md-ellipsis">
+      If confirmed then
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#repeat-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Repeat actions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iterate-dictionaryarray" class="md-nav__link">
+    <span class="md-ellipsis">
+      Iterate Dictionary/Array
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#break-from-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Break from loop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continue-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Continue loop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requiere-disparador-para-funcionar" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Requiere disparador para funcionar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧪 Requiere disparador para funcionar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app-installremoveupdate" class="md-nav__link">
+    <span class="md-ellipsis">
+      App Install/Remove/Update
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#application-launchedclosed" class="md-nav__link">
+    <span class="md-ellipsis">
+      Application Launched/Closed
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bluetooth-device-connected-or-device-disconnected" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bluetooth (Device connected or device disconnected)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#call-active-ended-incoming-missed-outgoing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Call (Active, Ended, Incoming, Missed, Outgoing)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sms-received" class="md-nav__link">
+    <span class="md-ellipsis">
+      SMS received
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logcat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logcat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notifications
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#texto-del-mensaje-emergente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Texto del mensaje emergente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spotify" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spotify
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      System settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#texto-compartido" class="md-nav__link">
+    <span class="md-ellipsis">
+      Texto compartido
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asunto-de-texto-compartido" class="md-nav__link">
+    <span class="md-ellipsis">
+      Asunto de texto compartido
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#texto-de-la-interfaz-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Texto de la interfaz de usuario
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usb-device-connected" class="md-nav__link">
+    <span class="md-ellipsis">
+      USB device connected
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weather" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weather
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#webhook-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      Webhook URL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#no-requiere-disparador-para-funcionar" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 No requiere disparador para funcionar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧪 No requiere disparador para funcionar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ampm" class="md-nav__link">
+    <span class="md-ellipsis">
+      am/pm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-de-android" class="md-nav__link">
+    <span class="md-ellipsis">
+      Versión de Android
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-de-android-nivel-de-sdk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Versión de Android (nivel de SDK)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#corriente-de-la-bateria-ahora-ma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Corriente de la batería ahora (mA)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#temperatura-de-la-bateria-en-c" class="md-nav__link">
+    <span class="md-ellipsis">
+      Temperatura de la batería en °C
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tipo-de-conexion-de-celda" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo de conexión de celda
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#id-de-celda" class="md-nav__link">
+    <span class="md-ellipsis">
+      ID de celda
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intensidad-de-senal-de-antena-gsm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intensidad de señal de antena GSM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#texto-del-portapapeles-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      Texto del portapapeles text
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crear-guid" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear GUID
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bateria-actual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Batería actual %
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#brillo-actual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Brillo actual
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#brillo-actual-alternativa-android-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Brillo actual (alternativa Android 9+ )
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#direccion-ip-actual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dirección IP actual
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#direccion-ip-actual-v6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dirección IP actual (V6)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volumen-actual-alarma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volúmen actual (Alarma)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volumen-actual-voz-bluetooth" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volúmen actual (Voz Bluetooth)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volumen-actual-multimediamusica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volúmen actual (Multimedia/Música)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volumen-actual-notificacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volúmen actual (Notificación)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volumen-actual-timbre" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volúmen actual (Timbre)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volumen-actual-sonidos-de-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volúmen actual (Sonidos de sistema)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volumen-actual-llamada-de-voz" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volúmen actual (Llamada de voz)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dia-del-mes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Día del mes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dia-de-la-semana" class="md-nav__link">
+    <span class="md-ellipsis">
+      Día de la semana
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fabricante-del-dispositivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fabricante del dispositivo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modelo-del-dispositivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelo del dispositivo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#device-uptime" class="md-nav__link">
+    <span class="md-ellipsis">
+      Device uptime
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#device-uptime-s" class="md-nav__link">
+    <span class="md-ellipsis">
+      Device uptime (s)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#device-serial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Device serial
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dictionaryarray-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dictionary/Array size
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nombre-de-aplicacion-en-primer-plano" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nombre de aplicación en primer plano
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paquete-de-aplicacion-en-primer-plano" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paquete de aplicación en primer plano
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clase-de-actividad-de-la-aplicacion-en-primer-plano" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clase de actividad de la aplicación en primer plano
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hora-del-dia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hora del día
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hora-del-dia-12h" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hora del día (12h)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hora-del-dia-cero-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hora del día (Cero inicial)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#imei" class="md-nav__link">
+    <span class="md-ellipsis">
+      IMEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#codigo-de-idioma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código de idioma
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultima-ubicacion-conocida-metros-de-exactitud" class="md-nav__link">
+    <span class="md-ellipsis">
+      Última ubicación conocida (metros de exactitud)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultima-ubicacion-conocida-altitud" class="md-nav__link">
+    <span class="md-ellipsis">
+      Última ubicación conocida (altitud)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultima-ubicacion-conocida-lat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Última ubicación conocida (lat)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultima-ubicacion-conocida-latlon" class="md-nav__link">
+    <span class="md-ellipsis">
+      Última ubicación conocida (lat,lon)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultima-ubicacion-conocida-enlace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Última ubicación conocida (enlace)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultima-ubicacion-conocida-lon" class="md-nav__link">
+    <span class="md-ellipsis">
+      Última ubicación conocida (lon)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultima-ubicacion-conocida-hora" class="md-nav__link">
+    <span class="md-ellipsis">
+      Última ubicación conocida (hora)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#velocidad-de-la-ultima-ubicacion-kmh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Velocidad de la ultima ubicación (kmh)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#velocidad-de-la-ultima-ubicacion-mph" class="md-nav__link">
+    <span class="md-ellipsis">
+      Velocidad de la ultima ubicación (mph)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#codigo-de-aerea-de-ubicacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código de áerea de ubicación
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#categoria-del-macro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categoria del Macro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#id-de-macro" class="md-nav__link">
+    <span class="md-ellipsis">
+      id de Macro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nombre-de-macro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nombre de Macro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#macrodroid-es-pro" class="md-nav__link">
+    <span class="md-ellipsis">
+      MacroDroid es pro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-de-macrodroid" class="md-nav__link">
+    <span class="md-ellipsis">
+      Versión de MacroDroid
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#minuto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Minuto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#codigo-del-pais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código del país
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#codigo-de-red-movil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código de red móvil
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mes-numero" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mes (número)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nueva-linea" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nueva línea
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#encendido-activadodesactivado" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encendido (Activado/Desactivado)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ram-total" class="md-nav__link">
+    <span class="md-ellipsis">
+      RAM (Total)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ram-disponible" class="md-nav__link">
+    <span class="md-ellipsis">
+      RAM (disponible)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resolucion-de-pantalla" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resolución de pantalla
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resolucion-de-pantalla-x" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resolución de pantalla (X)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resolucion-de-pantalla-y" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resolución de pantalla (Y)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tiempo-de-espera-de-pantalla-segundos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tiempo de espera de pantalla (segundos)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#segundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      segundo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nombre-del-operador-sim" class="md-nav__link">
+    <span class="md-ellipsis">
+      nombre del operador SIM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nombre-del-operador-sim-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      nombre del operador SIM 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cronometros" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cronómetros
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#almacenamiento-libre-externo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Almacenamiento libre (externo)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#almacenamiento-libre-interno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Almacenamiento libre (interno)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#almacenamiento-total-externo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Almacenamiento total (externo))
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#almacenamiento-total-interno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Almacenamiento total (interno)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valor-de-variable-de-cadena" class="md-nav__link">
+    <span class="md-ellipsis">
+      Valor de variable de cadena
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracion-del-sistema-global" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuración del sistema (Global)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracion-del-sistema-secure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuración del sistema (Secure)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracion-del-sistema-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuración del sistema (System)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tiempo-del-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tiempo del sistema
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tiempo-del-sistema-ms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tiempo del sistema (ms)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#semana-del-ano" class="md-nav__link">
+    <span class="md-ellipsis">
+      Semana del año
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#url-base-de-webhook" class="md-nav__link">
+    <span class="md-ellipsis">
+      Url Base de Webhook
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intensidad-de-la-senal-wifi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intensidad de la señal Wifi
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ano" class="md-nav__link">
+    <span class="md-ellipsis">
+      Año
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#texto-magico-manual" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Texto Mágico Manual
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estilos-de-formato" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔸 Estilos de Formato
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplos" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Ejemplos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flujo-de-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Flujo de control
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧪 Flujo de control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-clause" class="md-nav__link">
+    <span class="md-ellipsis">
+      If clause
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-confirmed-then" class="md-nav__link">
+    <span class="md-ellipsis">
+      If confirmed then
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#repeat-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Repeat actions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iterate-dictionaryarray" class="md-nav__link">
+    <span class="md-ellipsis">
+      Iterate Dictionary/Array
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#break-from-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Break from loop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continue-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Continue loop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requiere-disparador-para-funcionar" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Requiere disparador para funcionar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧪 Requiere disparador para funcionar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app-installremoveupdate" class="md-nav__link">
+    <span class="md-ellipsis">
+      App Install/Remove/Update
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#application-launchedclosed" class="md-nav__link">
+    <span class="md-ellipsis">
+      Application Launched/Closed
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bluetooth-device-connected-or-device-disconnected" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bluetooth (Device connected or device disconnected)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#call-active-ended-incoming-missed-outgoing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Call (Active, Ended, Incoming, Missed, Outgoing)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sms-received" class="md-nav__link">
+    <span class="md-ellipsis">
+      SMS received
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logcat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logcat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notifications
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#texto-del-mensaje-emergente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Texto del mensaje emergente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spotify" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spotify
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      System settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#texto-compartido" class="md-nav__link">
+    <span class="md-ellipsis">
+      Texto compartido
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asunto-de-texto-compartido" class="md-nav__link">
+    <span class="md-ellipsis">
+      Asunto de texto compartido
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#texto-de-la-interfaz-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Texto de la interfaz de usuario
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usb-device-connected" class="md-nav__link">
+    <span class="md-ellipsis">
+      USB device connected
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weather" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weather
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#webhook-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      Webhook URL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#no-requiere-disparador-para-funcionar" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 No requiere disparador para funcionar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧪 No requiere disparador para funcionar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ampm" class="md-nav__link">
+    <span class="md-ellipsis">
+      am/pm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-de-android" class="md-nav__link">
+    <span class="md-ellipsis">
+      Versión de Android
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-de-android-nivel-de-sdk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Versión de Android (nivel de SDK)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#corriente-de-la-bateria-ahora-ma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Corriente de la batería ahora (mA)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#temperatura-de-la-bateria-en-c" class="md-nav__link">
+    <span class="md-ellipsis">
+      Temperatura de la batería en °C
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tipo-de-conexion-de-celda" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipo de conexión de celda
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#id-de-celda" class="md-nav__link">
+    <span class="md-ellipsis">
+      ID de celda
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intensidad-de-senal-de-antena-gsm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intensidad de señal de antena GSM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#texto-del-portapapeles-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      Texto del portapapeles text
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crear-guid" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear GUID
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bateria-actual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Batería actual %
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#brillo-actual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Brillo actual
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#brillo-actual-alternativa-android-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Brillo actual (alternativa Android 9+ )
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#direccion-ip-actual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dirección IP actual
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#direccion-ip-actual-v6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dirección IP actual (V6)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volumen-actual-alarma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volúmen actual (Alarma)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volumen-actual-voz-bluetooth" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volúmen actual (Voz Bluetooth)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volumen-actual-multimediamusica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volúmen actual (Multimedia/Música)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volumen-actual-notificacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volúmen actual (Notificación)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volumen-actual-timbre" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volúmen actual (Timbre)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volumen-actual-sonidos-de-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volúmen actual (Sonidos de sistema)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volumen-actual-llamada-de-voz" class="md-nav__link">
+    <span class="md-ellipsis">
+      Volúmen actual (Llamada de voz)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dia-del-mes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Día del mes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dia-de-la-semana" class="md-nav__link">
+    <span class="md-ellipsis">
+      Día de la semana
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fabricante-del-dispositivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fabricante del dispositivo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modelo-del-dispositivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelo del dispositivo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#device-uptime" class="md-nav__link">
+    <span class="md-ellipsis">
+      Device uptime
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#device-uptime-s" class="md-nav__link">
+    <span class="md-ellipsis">
+      Device uptime (s)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#device-serial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Device serial
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dictionaryarray-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dictionary/Array size
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nombre-de-aplicacion-en-primer-plano" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nombre de aplicación en primer plano
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paquete-de-aplicacion-en-primer-plano" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paquete de aplicación en primer plano
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clase-de-actividad-de-la-aplicacion-en-primer-plano" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clase de actividad de la aplicación en primer plano
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hora-del-dia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hora del día
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hora-del-dia-12h" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hora del día (12h)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hora-del-dia-cero-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hora del día (Cero inicial)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#imei" class="md-nav__link">
+    <span class="md-ellipsis">
+      IMEI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#codigo-de-idioma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código de idioma
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultima-ubicacion-conocida-metros-de-exactitud" class="md-nav__link">
+    <span class="md-ellipsis">
+      Última ubicación conocida (metros de exactitud)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultima-ubicacion-conocida-altitud" class="md-nav__link">
+    <span class="md-ellipsis">
+      Última ubicación conocida (altitud)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultima-ubicacion-conocida-lat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Última ubicación conocida (lat)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultima-ubicacion-conocida-latlon" class="md-nav__link">
+    <span class="md-ellipsis">
+      Última ubicación conocida (lat,lon)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultima-ubicacion-conocida-enlace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Última ubicación conocida (enlace)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultima-ubicacion-conocida-lon" class="md-nav__link">
+    <span class="md-ellipsis">
+      Última ubicación conocida (lon)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ultima-ubicacion-conocida-hora" class="md-nav__link">
+    <span class="md-ellipsis">
+      Última ubicación conocida (hora)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#velocidad-de-la-ultima-ubicacion-kmh" class="md-nav__link">
+    <span class="md-ellipsis">
+      Velocidad de la ultima ubicación (kmh)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#velocidad-de-la-ultima-ubicacion-mph" class="md-nav__link">
+    <span class="md-ellipsis">
+      Velocidad de la ultima ubicación (mph)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#codigo-de-aerea-de-ubicacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código de áerea de ubicación
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#categoria-del-macro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categoria del Macro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#id-de-macro" class="md-nav__link">
+    <span class="md-ellipsis">
+      id de Macro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nombre-de-macro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nombre de Macro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#macrodroid-es-pro" class="md-nav__link">
+    <span class="md-ellipsis">
+      MacroDroid es pro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-de-macrodroid" class="md-nav__link">
+    <span class="md-ellipsis">
+      Versión de MacroDroid
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#minuto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Minuto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#codigo-del-pais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código del país
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#codigo-de-red-movil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código de red móvil
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mes-numero" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mes (número)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nueva-linea" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nueva línea
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#encendido-activadodesactivado" class="md-nav__link">
+    <span class="md-ellipsis">
+      Encendido (Activado/Desactivado)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ram-total" class="md-nav__link">
+    <span class="md-ellipsis">
+      RAM (Total)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ram-disponible" class="md-nav__link">
+    <span class="md-ellipsis">
+      RAM (disponible)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resolucion-de-pantalla" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resolución de pantalla
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resolucion-de-pantalla-x" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resolución de pantalla (X)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resolucion-de-pantalla-y" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resolución de pantalla (Y)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tiempo-de-espera-de-pantalla-segundos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tiempo de espera de pantalla (segundos)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#segundo" class="md-nav__link">
+    <span class="md-ellipsis">
+      segundo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nombre-del-operador-sim" class="md-nav__link">
+    <span class="md-ellipsis">
+      nombre del operador SIM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nombre-del-operador-sim-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      nombre del operador SIM 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cronometros" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cronómetros
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#almacenamiento-libre-externo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Almacenamiento libre (externo)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#almacenamiento-libre-interno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Almacenamiento libre (interno)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#almacenamiento-total-externo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Almacenamiento total (externo))
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#almacenamiento-total-interno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Almacenamiento total (interno)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valor-de-variable-de-cadena" class="md-nav__link">
+    <span class="md-ellipsis">
+      Valor de variable de cadena
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracion-del-sistema-global" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuración del sistema (Global)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracion-del-sistema-secure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuración del sistema (Secure)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracion-del-sistema-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuración del sistema (System)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tiempo-del-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tiempo del sistema
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tiempo-del-sistema-ms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tiempo del sistema (ms)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#semana-del-ano" class="md-nav__link">
+    <span class="md-ellipsis">
+      Semana del año
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#url-base-de-webhook" class="md-nav__link">
+    <span class="md-ellipsis">
+      Url Base de Webhook
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intensidad-de-la-senal-wifi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intensidad de la señal Wifi
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ano" class="md-nav__link">
+    <span class="md-ellipsis">
+      Año
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="texto-magico">✨ Texto Mágico<a class="headerlink" href="#texto-magico" title="Permanent link">&para;</a></h1>
+<p>En muchos disparadores, acciones y restricciones, encontrará campos con un botón <strong>"..."</strong> junto a ellos. Al hacer clic en este botón, se muestra una lista de opciones de <strong>Texto Mágico</strong> disponibles según el contexto actual.</p>
+<p>El Texto Mágico permite insertar valores dinámicos (como información del sistema, fecha/hora, datos del sensor, etc.) en lugar de texto estático fijo. Estos valores se resuelven en tiempo de ejecución, al ejecutar la macro.</p>
+<p>Por ejemplo:</p>
+<p>Usar <code>[Battery]</code> en una acción de notificación insertará el <strong>nivel actual de batería</strong> en el momento de ejecutar la macro.</p>
+<hr />
+<h2 id="texto-magico-manual">🔹 Texto Mágico Manual<a class="headerlink" href="#texto-magico-manual" title="Permanent link">&para;</a></h2>
+<p>También puedes escribir el Texto Mágico manualmente en lugar de usar la lista. Pero ten cuidado: los errores tipográficos o de sintaxis pueden dañar el valor.</p>
+<hr />
+<h2 id="estilos-de-formato">🔸 Estilos de Formato<a class="headerlink" href="#estilos-de-formato" title="Permanent link">&para;</a></h2>
+<p>Existen dos formatos:</p>
+<ul>
+<li><strong>Llaves <code>{}</code></strong> → Formato moderno (recomendado)  </li>
+<li><strong>Corchetes <code>[]</code></strong> → Formato heredado (aún compatible)</li>
+</ul>
+<blockquote>
+<p>✅ Usa llaves <code>{}</code> siempre que sea posible. Son más confiables y fáciles de leer, especialmente en expresiones complejas (como listas o diccionarios anidados).</p>
+</blockquote>
+<hr />
+<h2 id="ejemplos">🧪 Ejemplos<a class="headerlink" href="#ejemplos" title="Permanent link">&para;</a></h2>
+<p><code>[clipboard]          → Texto actual del portapapeles</code>  </p>
+<p><code>[battery]            → Nivel actual de batería</code>  </p>
+<p><code>{current_brightness} → Nivel actual de brillo</code>  </p>
+<p><code>{ip}                 → IP actual</code></p>
+<hr />
+<h2 id="flujo-de-control">🧪 Flujo de control<a class="headerlink" href="#flujo-de-control" title="Permanent link">&para;</a></h2>
+<h3 id="if-clause"><a href="mt_If clause.md">If clause</a><a class="headerlink" href="#if-clause" title="Permanent link">&para;</a></h3>
+<h3 id="if-confirmed-then"><a href="mt_If confirmed then.md">If confirmed then</a><a class="headerlink" href="#if-confirmed-then" title="Permanent link">&para;</a></h3>
+<h3 id="repeat-actions"><a href="mt_Repeat actions.md">Repeat actions</a><a class="headerlink" href="#repeat-actions" title="Permanent link">&para;</a></h3>
+<h3 id="iterate-dictionaryarray"><a href="mt_Iterate%20Dictionary_Array/">Iterate Dictionary/Array</a><a class="headerlink" href="#iterate-dictionaryarray" title="Permanent link">&para;</a></h3>
+<h3 id="break-from-loop"><a href="mt_Break from loop.md">Break from loop</a><a class="headerlink" href="#break-from-loop" title="Permanent link">&para;</a></h3>
+<h3 id="continue-loop"><a href="mt_Continue loop.md">Continue loop</a><a class="headerlink" href="#continue-loop" title="Permanent link">&para;</a></h3>
+<h2 id="requiere-disparador-para-funcionar">🧪 Requiere disparador para funcionar<a class="headerlink" href="#requiere-disparador-para-funcionar" title="Permanent link">&para;</a></h2>
+<h3 id="app-installremoveupdate"><a href="mt_App%20Install_Remove_Update/">App Install/Remove/Update</a><a class="headerlink" href="#app-installremoveupdate" title="Permanent link">&para;</a></h3>
+<h3 id="application-launchedclosed"><a href="mt_Application Launched_Closed.md">Application Launched/Closed</a><a class="headerlink" href="#application-launchedclosed" title="Permanent link">&para;</a></h3>
+<h3 id="bluetooth-device-connected-or-device-disconnected"><a href="mt_Bluetooth.md">Bluetooth (Device connected or device disconnected)</a><a class="headerlink" href="#bluetooth-device-connected-or-device-disconnected" title="Permanent link">&para;</a></h3>
+<h3 id="call-active-ended-incoming-missed-outgoing"><a href="mt_Call.md">Call (Active, Ended, Incoming, Missed, Outgoing)</a><a class="headerlink" href="#call-active-ended-incoming-missed-outgoing" title="Permanent link">&para;</a></h3>
+<h3 id="sms-received"><a href="mt_SMS received.md">SMS received</a><a class="headerlink" href="#sms-received" title="Permanent link">&para;</a></h3>
+<h3 id="logcat"><a href="mt_Logcat.md">Logcat</a><a class="headerlink" href="#logcat" title="Permanent link">&para;</a></h3>
+<h3 id="notifications"><a href="mt_Notifications.md">Notifications</a><a class="headerlink" href="#notifications" title="Permanent link">&para;</a></h3>
+<h3 id="texto-del-mensaje-emergente"><a href="mt_Popup message text.md">Texto del mensaje emergente</a><a class="headerlink" href="#texto-del-mensaje-emergente" title="Permanent link">&para;</a></h3>
+<h3 id="spotify"><a href="mt_Spotify.md">Spotify</a><a class="headerlink" href="#spotify" title="Permanent link">&para;</a></h3>
+<h3 id="system-settings"><a href="mt_System settings.md">System settings</a><a class="headerlink" href="#system-settings" title="Permanent link">&para;</a></h3>
+<h3 id="texto-compartido"><a href="mt_Text Shared to MacroDroid.md">Texto compartido</a><a class="headerlink" href="#texto-compartido" title="Permanent link">&para;</a></h3>
+<h3 id="asunto-de-texto-compartido"><a href="mt_Shared Text Subject.md">Asunto de texto compartido</a><a class="headerlink" href="#asunto-de-texto-compartido" title="Permanent link">&para;</a></h3>
+<h3 id="texto-de-la-interfaz-de-usuario"><a href="mt_UI click.md">Texto de la interfaz de usuario</a><a class="headerlink" href="#texto-de-la-interfaz-de-usuario" title="Permanent link">&para;</a></h3>
+<h3 id="usb-device-connected"><a href="mt_USB device connected.md">USB device connected</a><a class="headerlink" href="#usb-device-connected" title="Permanent link">&para;</a></h3>
+<h3 id="weather"><a href="mt_Weather.md">Weather</a><a class="headerlink" href="#weather" title="Permanent link">&para;</a></h3>
+<h3 id="webhook-url"><a href="mt_Webhook URL.md">Webhook URL</a><a class="headerlink" href="#webhook-url" title="Permanent link">&para;</a></h3>
+<h2 id="no-requiere-disparador-para-funcionar">🧪 No requiere disparador para funcionar<a class="headerlink" href="#no-requiere-disparador-para-funcionar" title="Permanent link">&para;</a></h2>
+<h3 id="ampm"><a href="mt_am_pm/">am/pm</a><a class="headerlink" href="#ampm" title="Permanent link">&para;</a></h3>
+<h3 id="version-de-android"><a href="mt_Android version.md">Versión de Android</a><a class="headerlink" href="#version-de-android" title="Permanent link">&para;</a></h3>
+<h3 id="version-de-android-nivel-de-sdk"><a href="mt_Android version (SDK level).md">Versión de Android (nivel de SDK)</a><a class="headerlink" href="#version-de-android-nivel-de-sdk" title="Permanent link">&para;</a></h3>
+<h3 id="corriente-de-la-bateria-ahora-ma"><a href="mt_Battery current now (mA).md">Corriente de la batería ahora (mA)</a><a class="headerlink" href="#corriente-de-la-bateria-ahora-ma" title="Permanent link">&para;</a></h3>
+<h3 id="temperatura-de-la-bateria-en-c"><a href="mt_Battery temp ºC.md">Temperatura de la batería en °C</a><a class="headerlink" href="#temperatura-de-la-bateria-en-c" title="Permanent link">&para;</a></h3>
+<h3 id="tipo-de-conexion-de-celda"><a href="mt_Cell connection type.md">Tipo de conexión de celda</a><a class="headerlink" href="#tipo-de-conexion-de-celda" title="Permanent link">&para;</a></h3>
+<h3 id="id-de-celda"><a href="mt_Cell id.md">ID de celda</a><a class="headerlink" href="#id-de-celda" title="Permanent link">&para;</a></h3>
+<h3 id="intensidad-de-senal-de-antena-gsm"><a href="mt_Cell tower signal strength.md">Intensidad de señal de antena GSM</a><a class="headerlink" href="#intensidad-de-senal-de-antena-gsm" title="Permanent link">&para;</a></h3>
+<h3 id="texto-del-portapapeles-text"><a href="mt_Clipboard text.md">Texto del portapapeles text</a><a class="headerlink" href="#texto-del-portapapeles-text" title="Permanent link">&para;</a></h3>
+<h3 id="crear-guid"><a href="mt_Create GUID.md">Crear GUID</a><a class="headerlink" href="#crear-guid" title="Permanent link">&para;</a></h3>
+<h3 id="bateria-actual"><a href="mt_Current battery %.md">Batería actual %</a><a class="headerlink" href="#bateria-actual" title="Permanent link">&para;</a></h3>
+<h3 id="brillo-actual"><a href="mt_Current brightness.md">Brillo actual</a><a class="headerlink" href="#brillo-actual" title="Permanent link">&para;</a></h3>
+<h3 id="brillo-actual-alternativa-android-9"><a href="mt_Current brightness (Android 9+ alternative).md">Brillo actual (alternativa Android 9+ )</a><a class="headerlink" href="#brillo-actual-alternativa-android-9" title="Permanent link">&para;</a></h3>
+<h3 id="direccion-ip-actual"><a href="mt_Current IP address.md">Dirección IP actual</a><a class="headerlink" href="#direccion-ip-actual" title="Permanent link">&para;</a></h3>
+<h3 id="direccion-ip-actual-v6"><a href="mt_Current IP address (V6).md">Dirección IP actual (V6)</a><a class="headerlink" href="#direccion-ip-actual-v6" title="Permanent link">&para;</a></h3>
+<h3 id="volumen-actual-alarma"><a href="mt_Current volume (Alarm).md">Volúmen actual (Alarma)</a><a class="headerlink" href="#volumen-actual-alarma" title="Permanent link">&para;</a></h3>
+<h3 id="volumen-actual-voz-bluetooth"><a href="mt_Current volume (Bluetooth voice).md">Volúmen actual (Voz Bluetooth)</a><a class="headerlink" href="#volumen-actual-voz-bluetooth" title="Permanent link">&para;</a></h3>
+<h3 id="volumen-actual-multimediamusica"><a href="mt_Current volume (Media / Music).md">Volúmen actual (Multimedia/Música)</a><a class="headerlink" href="#volumen-actual-multimediamusica" title="Permanent link">&para;</a></h3>
+<h3 id="volumen-actual-notificacion"><a href="mt_Current volume (Notification).md">Volúmen actual (Notificación)</a><a class="headerlink" href="#volumen-actual-notificacion" title="Permanent link">&para;</a></h3>
+<h3 id="volumen-actual-timbre"><a href="mt_Current volume (Ringer).md">Volúmen actual (Timbre)</a><a class="headerlink" href="#volumen-actual-timbre" title="Permanent link">&para;</a></h3>
+<h3 id="volumen-actual-sonidos-de-sistema"><a href="mt_Current volume (System sounds).md">Volúmen actual (Sonidos de sistema)</a><a class="headerlink" href="#volumen-actual-sonidos-de-sistema" title="Permanent link">&para;</a></h3>
+<h3 id="volumen-actual-llamada-de-voz"><a href="mt_Current volume (Voice call).md">Volúmen actual (Llamada de voz)</a><a class="headerlink" href="#volumen-actual-llamada-de-voz" title="Permanent link">&para;</a></h3>
+<h3 id="dia-del-mes"><a href="mt_Day of the month.md">Día del mes</a><a class="headerlink" href="#dia-del-mes" title="Permanent link">&para;</a></h3>
+<h3 id="dia-de-la-semana"><a href="mt_Day of the week.md">Día de la semana</a><a class="headerlink" href="#dia-de-la-semana" title="Permanent link">&para;</a></h3>
+<h3 id="fabricante-del-dispositivo"><a href="mt_Device manufacturer.md">Fabricante del dispositivo</a><a class="headerlink" href="#fabricante-del-dispositivo" title="Permanent link">&para;</a></h3>
+<h3 id="modelo-del-dispositivo"><a href="mt_Device model.md">Modelo del dispositivo</a><a class="headerlink" href="#modelo-del-dispositivo" title="Permanent link">&para;</a></h3>
+<h3 id="device-uptime"><a href="mt_Device uptime.md">Device uptime</a><a class="headerlink" href="#device-uptime" title="Permanent link">&para;</a></h3>
+<h3 id="device-uptime-s"><a href="mt_Device uptime (s).md">Device uptime (s)</a><a class="headerlink" href="#device-uptime-s" title="Permanent link">&para;</a></h3>
+<h3 id="device-serial"><a href="mt_Device serial.md">Device serial</a><a class="headerlink" href="#device-serial" title="Permanent link">&para;</a></h3>
+<h3 id="dictionaryarray-size"><a href="mt_Dictionary/Array size.md">Dictionary/Array size</a><a class="headerlink" href="#dictionaryarray-size" title="Permanent link">&para;</a></h3>
+<h3 id="nombre-de-aplicacion-en-primer-plano"><a href="mt_Foreground app name.md">Nombre de aplicación en primer plano</a><a class="headerlink" href="#nombre-de-aplicacion-en-primer-plano" title="Permanent link">&para;</a></h3>
+<h3 id="paquete-de-aplicacion-en-primer-plano"><a href="mt_Foreground app package.md">Paquete de aplicación en primer plano</a><a class="headerlink" href="#paquete-de-aplicacion-en-primer-plano" title="Permanent link">&para;</a></h3>
+<h3 id="clase-de-actividad-de-la-aplicacion-en-primer-plano"><a href="mt_Foreground app activity class.md">Clase de actividad de la aplicación en primer plano</a><a class="headerlink" href="#clase-de-actividad-de-la-aplicacion-en-primer-plano" title="Permanent link">&para;</a></h3>
+<h3 id="hora-del-dia"><a href="mt_Hour of day.md">Hora del día</a><a class="headerlink" href="#hora-del-dia" title="Permanent link">&para;</a></h3>
+<h3 id="hora-del-dia-12h"><a href="mt_Hour of day (12h).md">Hora del día (12h)</a><a class="headerlink" href="#hora-del-dia-12h" title="Permanent link">&para;</a></h3>
+<h3 id="hora-del-dia-cero-inicial"><a href="mt_Hour of day (Leanding zero).md">Hora del día (Cero inicial)</a><a class="headerlink" href="#hora-del-dia-cero-inicial" title="Permanent link">&para;</a></h3>
+<h3 id="imei"><a href="mt_IMEI.md">IMEI</a><a class="headerlink" href="#imei" title="Permanent link">&para;</a></h3>
+<h3 id="codigo-de-idioma"><a href="mt_Language code.md">Código de idioma</a><a class="headerlink" href="#codigo-de-idioma" title="Permanent link">&para;</a></h3>
+<h3 id="ultima-ubicacion-conocida-metros-de-exactitud"><a href="mt_Last known location (accuracy meters).md">Última ubicación conocida (metros de exactitud)</a><a class="headerlink" href="#ultima-ubicacion-conocida-metros-de-exactitud" title="Permanent link">&para;</a></h3>
+<h3 id="ultima-ubicacion-conocida-altitud"><a href="mt_Last known location (altitude).md">Última ubicación conocida (altitud)</a><a class="headerlink" href="#ultima-ubicacion-conocida-altitud" title="Permanent link">&para;</a></h3>
+<h3 id="ultima-ubicacion-conocida-lat"><a href="mt_Last known location (lat).md">Última ubicación conocida (lat)</a><a class="headerlink" href="#ultima-ubicacion-conocida-lat" title="Permanent link">&para;</a></h3>
+<h3 id="ultima-ubicacion-conocida-latlon"><a href="mt_Last known location (lat,lon).md">Última ubicación conocida (lat,lon)</a><a class="headerlink" href="#ultima-ubicacion-conocida-latlon" title="Permanent link">&para;</a></h3>
+<h3 id="ultima-ubicacion-conocida-enlace"><a href="mt_Last known location (link).md">Última ubicación conocida (enlace)</a><a class="headerlink" href="#ultima-ubicacion-conocida-enlace" title="Permanent link">&para;</a></h3>
+<h3 id="ultima-ubicacion-conocida-lon"><a href="mt_Last known location (lon).md">Última ubicación conocida (lon)</a><a class="headerlink" href="#ultima-ubicacion-conocida-lon" title="Permanent link">&para;</a></h3>
+<h3 id="ultima-ubicacion-conocida-hora"><a href="mt_Last known location (time).md">Última ubicación conocida (hora)</a><a class="headerlink" href="#ultima-ubicacion-conocida-hora" title="Permanent link">&para;</a></h3>
+<h3 id="velocidad-de-la-ultima-ubicacion-kmh"><a href="mt_Last location speed (kmh).md">Velocidad de la ultima ubicación (kmh)</a><a class="headerlink" href="#velocidad-de-la-ultima-ubicacion-kmh" title="Permanent link">&para;</a></h3>
+<h3 id="velocidad-de-la-ultima-ubicacion-mph"><a href="mt_Last location speed (mph).md">Velocidad de la ultima ubicación (mph)</a><a class="headerlink" href="#velocidad-de-la-ultima-ubicacion-mph" title="Permanent link">&para;</a></h3>
+<h3 id="codigo-de-aerea-de-ubicacion"><a href="mt_Location area code.md">Código de áerea  de ubicación</a><a class="headerlink" href="#codigo-de-aerea-de-ubicacion" title="Permanent link">&para;</a></h3>
+<h3 id="categoria-del-macro"><a href="mt_Macro category.md">Categoria del Macro</a><a class="headerlink" href="#categoria-del-macro" title="Permanent link">&para;</a></h3>
+<h3 id="id-de-macro"><a href="mt_Macro id.md">id de Macro</a><a class="headerlink" href="#id-de-macro" title="Permanent link">&para;</a></h3>
+<h3 id="nombre-de-macro"><a href="mt_Macro name.md">Nombre de Macro</a><a class="headerlink" href="#nombre-de-macro" title="Permanent link">&para;</a></h3>
+<h3 id="macrodroid-es-pro"><a href="mt_Macrodroid is pro.md">MacroDroid es pro</a><a class="headerlink" href="#macrodroid-es-pro" title="Permanent link">&para;</a></h3>
+<h3 id="version-de-macrodroid"><a href="mt_Macrodroid version.md">Versión de MacroDroid</a><a class="headerlink" href="#version-de-macrodroid" title="Permanent link">&para;</a></h3>
+<h3 id="minuto"><a href="mt_Minute.md">Minuto</a><a class="headerlink" href="#minuto" title="Permanent link">&para;</a></h3>
+<h3 id="codigo-del-pais"><a href="mt_Mobile country code.md">Código del país</a><a class="headerlink" href="#codigo-del-pais" title="Permanent link">&para;</a></h3>
+<h3 id="codigo-de-red-movil"><a href="mt_Mobile network code.md">Código de red móvil</a><a class="headerlink" href="#codigo-de-red-movil" title="Permanent link">&para;</a></h3>
+<h3 id="mes"><a href="mt_Month.md">Mes</a><a class="headerlink" href="#mes" title="Permanent link">&para;</a></h3>
+<h3 id="mes-numero"><a href="mt_Month (as digit).md">Mes (número)</a><a class="headerlink" href="#mes-numero" title="Permanent link">&para;</a></h3>
+<h3 id="nueva-linea"><a href="mt_New line.md">Nueva línea</a><a class="headerlink" href="#nueva-linea" title="Permanent link">&para;</a></h3>
+<h3 id="encendido-activadodesactivado"><a href="mt_Power (on/off).md">Encendido (Activado/Desactivado)</a><a class="headerlink" href="#encendido-activadodesactivado" title="Permanent link">&para;</a></h3>
+<h3 id="ram-total"><a href="mt_RAM (Total).md">RAM (Total)</a><a class="headerlink" href="#ram-total" title="Permanent link">&para;</a></h3>
+<h3 id="ram-disponible"><a href="mt_RAM (available).md">RAM (disponible)</a><a class="headerlink" href="#ram-disponible" title="Permanent link">&para;</a></h3>
+<h3 id="resolucion-de-pantalla"><a href="mt_Screen resolution.md">Resolución de pantalla</a><a class="headerlink" href="#resolucion-de-pantalla" title="Permanent link">&para;</a></h3>
+<h3 id="resolucion-de-pantalla-x"><a href="mt_Screen resolution (X).md">Resolución de pantalla (X)</a><a class="headerlink" href="#resolucion-de-pantalla-x" title="Permanent link">&para;</a></h3>
+<h3 id="resolucion-de-pantalla-y"><a href="mt_Screen resolution (Y).md">Resolución de pantalla (Y)</a><a class="headerlink" href="#resolucion-de-pantalla-y" title="Permanent link">&para;</a></h3>
+<h3 id="tiempo-de-espera-de-pantalla-segundos"><a href="mt_Screen timeout (seconds).md">Tiempo de espera de pantalla (segundos)</a><a class="headerlink" href="#tiempo-de-espera-de-pantalla-segundos" title="Permanent link">&para;</a></h3>
+<h3 id="segundo"><a href="mt_Second.md">segundo</a><a class="headerlink" href="#segundo" title="Permanent link">&para;</a></h3>
+<h3 id="nombre-del-operador-sim"><a href="mt_Sim operator name.md">nombre del operador SIM</a><a class="headerlink" href="#nombre-del-operador-sim" title="Permanent link">&para;</a></h3>
+<h3 id="nombre-del-operador-sim-2"><a href="mt_Sim 2 operator name.md">nombre del operador SIM 2</a><a class="headerlink" href="#nombre-del-operador-sim-2" title="Permanent link">&para;</a></h3>
+<h3 id="cronometros"><a href="mt_Stopwatches.md">Cronómetros</a><a class="headerlink" href="#cronometros" title="Permanent link">&para;</a></h3>
+<h3 id="almacenamiento-libre-externo"><a href="mt_Storage free (external).md">Almacenamiento libre (externo)</a><a class="headerlink" href="#almacenamiento-libre-externo" title="Permanent link">&para;</a></h3>
+<h3 id="almacenamiento-libre-interno"><a href="mt_Storage free (internal).md">Almacenamiento libre (interno)</a><a class="headerlink" href="#almacenamiento-libre-interno" title="Permanent link">&para;</a></h3>
+<h3 id="almacenamiento-total-externo"><a href="mt_Storage total (external).md">Almacenamiento total (externo))</a><a class="headerlink" href="#almacenamiento-total-externo" title="Permanent link">&para;</a></h3>
+<h3 id="almacenamiento-total-interno"><a href="mt_Storage total (internal).md">Almacenamiento total (interno)</a><a class="headerlink" href="#almacenamiento-total-interno" title="Permanent link">&para;</a></h3>
+<h3 id="valor-de-variable-de-cadena"><a href="mt_String variable value.md">Valor de variable de cadena</a><a class="headerlink" href="#valor-de-variable-de-cadena" title="Permanent link">&para;</a></h3>
+<h3 id="configuracion-del-sistema-global"><a href="mt_System setting (Global).md">Configuración del sistema (Global)</a><a class="headerlink" href="#configuracion-del-sistema-global" title="Permanent link">&para;</a></h3>
+<h3 id="configuracion-del-sistema-secure"><a href="mt_System setting (Secure).md">Configuración del sistema (Secure)</a><a class="headerlink" href="#configuracion-del-sistema-secure" title="Permanent link">&para;</a></h3>
+<h3 id="configuracion-del-sistema-system"><a href="mt_System setting (System).md">Configuración del sistema (System)</a><a class="headerlink" href="#configuracion-del-sistema-system" title="Permanent link">&para;</a></h3>
+<h3 id="tiempo-del-sistema"><a href="mt_System time.md">Tiempo del sistema</a><a class="headerlink" href="#tiempo-del-sistema" title="Permanent link">&para;</a></h3>
+<h3 id="tiempo-del-sistema-ms"><a href="mt_System time (ms).md">Tiempo del sistema (ms)</a><a class="headerlink" href="#tiempo-del-sistema-ms" title="Permanent link">&para;</a></h3>
+<h3 id="semana-del-ano"><a href="mt_Week of year.md">Semana del año</a><a class="headerlink" href="#semana-del-ano" title="Permanent link">&para;</a></h3>
+<h3 id="url-base-de-webhook"><a href="mt_Webhook Base Url.md">Url Base de Webhook</a><a class="headerlink" href="#url-base-de-webhook" title="Permanent link">&para;</a></h3>
+<h3 id="intensidad-de-la-senal-wifi"><a href="mt_Wifi signal strength.md">Intensidad de la señal Wifi</a><a class="headerlink" href="#intensidad-de-la-senal-wifi" title="Permanent link">&para;</a></h3>
+<h3 id="ano"><a href="mt_Year.md">Año</a><a class="headerlink" href="#ano" title="Permanent link">&para;</a></h3>
+<h3 id="_1"><a href="mt_.md"></a><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.sections", "content.code.copy", "content.action.edit", "search.suggest", "search.highlight", "i18n"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
