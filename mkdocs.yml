@@ -54,7 +54,7 @@ plugins:
             - Constraints:
                 - Overview: constraints/index.md
             - Magic text:
-                - General: magic_text/index.md
+                - Introduction to the Magic Text: magic_text/index.md
 
         - locale: es
           name: Español
@@ -71,7 +71,7 @@ plugins:
             - Restricciones:
                 - General: constraints/index.md
             - Texto magico:
-                - General: magic_text/index.md
+                - Introduccion al texto magico: magic_text/index.md
 
 extra:
   alternate:
