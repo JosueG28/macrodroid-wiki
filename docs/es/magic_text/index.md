@@ -41,32 +41,32 @@ Existen dos formatos:
 
 ## 🧪 Flujo de control
 
-### [If clause](<mt_If clause.md>)
-### [If confirmed then](<mt_If confirmed then.md>)
-### [Repeat actions](<mt_Repeat actions.md>)
-### [Iterate Dictionary/Array](<mt_Iterate Dictionary_Array.md>)
-### [Break from loop](<mt_Break from loop.md>)
-### [Continue loop](<mt_Continue loop.md>)
+### [Cláusula 'Si'](<mt_If clause.md>)
+### [Cláusula 'Si Confirmada Entonces'](<mt_If confirmed then.md>)
+### [Repetir Acciones](<mt_Repeat actions.md>)
+### [Iterar Diccionario/Arreglo](<mt_Iterate Dictionary_Array.md>)
+### [Salir del bucle](<mt_Break from loop.md>)
+### [Continuar bucle](<mt_Continue loop.md>)
 
 
 ## 🧪 Requiere disparador para funcionar
 
-### [App Install/Remove/Update](<mt_App Install_Remove_Update.md>)
-### [Application Launched/Closed](<mt_Application Launched_Closed.md>)
+### [Instalar/Desinstalar/Actualizar app](<mt_App Install_Remove_Update.md>)
+### [Aplicación Ejecutada/Cerrada](<mt_Application Launched_Closed.md>)
 ### [Bluetooth (Device connected or device disconnected)](<mt_Bluetooth.md>)
-### [Call (Active, Ended, Incoming, Missed, Outgoing)](<mt_Call.md>)
-### [SMS received](<mt_SMS received.md>)
+### [Llamada (activa, finalizada, entrante, perdida, saliente)](<mt_Call.md>)
+### [SMS Recibido](<mt_SMS received.md>)
 ### [Logcat](<mt_Logcat.md>)
-### [Notifications](<mt_Notifications.md>)
+### [Notificaciones](<mt_Notifications.md>)
 ### [Texto del mensaje emergente](<mt_Popup message text.md>)
 ### [Spotify](<mt_Spotify.md>)
-### [System settings](<mt_System settings.md>)
+### [Configuración del sistema](<mt_System settings.md>)
 ### [Texto compartido](<mt_Text Shared to MacroDroid.md>)
 ### [Asunto de texto compartido](<mt_Shared Text Subject.md>)
 ### [Texto de la interfaz de usuario](<mt_UI click.md>)
-### [USB device connected](<mt_USB device connected.md>)
-### [Weather](<mt_Weather.md>)
-### [Webhook URL](<mt_Webhook URL.md>)
+### [Dispositivo USB conectado](<mt_USB device connected.md>)
+### [Clima](<mt_Weather.md>)
+### [Url Base de Webhook](<mt_Webhook URL.md>)
 
 ## 🧪 No requiere disparador para funcionar
 
