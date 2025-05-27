@@ -1,0 +1,84 @@
+site_name: MacroDroid Wiki
+site_description: Unofficial MacroDroid Documentation
+site_author: JosueG28
+
+theme:
+
+
+  name: material
+
+  language: en
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - i18n
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - footnotes
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.tasklist
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      default_language: en
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+          site_name: MacroDroid Wiki
+          site_description: Unofficial MacroDroid Documentation
+          site_author: JosueG28
+          nav:
+            - Home: index.md
+            - Triggers:
+                - Overview: triggers/index.md
+            - Actions:
+                - Overview: actions/index.md
+            - Constraints:
+                - Overview: constraints/index.md
+            - Magic text:
+                - General: magic_text/index.md
+
+        - locale: es
+          name: Español
+          build: true
+          site_name: MacroDroid Wiki
+          site_description: Documentación no oficial de MacroDroid
+          site_author: JosueG28
+          nav:
+            - Inicio: index.md
+            - Disparadores:
+                - General: triggers/index.md
+            - Acciones:
+                - General: actions/index.md
+            - Restricciones:
+                - General: constraints/index.md
+            - Texto magico:
+                - General: magic_text/index.md
+
+extra:
+  alternate:
+    - name: English
+      link: ""    # raíz (/)
+      lang: en
+
+    - name: Español
+      link: es    # /es/
+      lang: es
