@@ -48,14 +48,16 @@ plugins:
           nav:
             - Home: index.md
             - Triggers:
-                - Overview: triggers/index.md
+                - Introduction to triggers: triggers/index.md
             - Actions:
-                - Overview: actions/index.md
+                - Introduction to actions: actions/index.md
+                - Control flow: actions/control_flow/index.md
             - Constraints:
-                - Overview: constraints/index.md
+                - Introduction to restrictions: constraints/index.md
             - Magic text:
                 - Introduction to the Magic Text: magic_text/index.md
-
+                - No trigger required to operate: magic_text\no_trigger\index.md
+                - Trigger required to operate: magic_text\trigger_requiered\index.md
         - locale: es
           name: Español
           build: true
@@ -65,11 +67,12 @@ plugins:
           nav:
             - Inicio: index.md
             - Disparadores:
-                - General: triggers/index.md
+                - Introducción a disparadores: triggers/index.md
             - Acciones:
-                - General: actions/index.md
+                - Introducción a acciones: actions/index.md
+                - Flujo de control: actions/control_flow/index.md
             - Restricciones:
-                - General: constraints/index.md
+                - Introducción a restricciones: constraints/index.md
             - Texto magico:
                 - Introduccion al texto magico: magic_text/index.md
 

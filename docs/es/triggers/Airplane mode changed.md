@@ -1,10 +1,10 @@
-# ✈️ Modo Avión Activado/Desactivado
+# ✈️ Airplane Mode Changed
 
-## 🔹 Descripción  
-Este disparador se activa cuando el modo avión se **activa** o se **desactiva**.
+## 🔹 Description  
+This trigger fires when airplane mode is turned **on** or **off**.
 
-## ⚙️ Requisitos  
-- No requiere permisos especiales. 
+## ⚙️ Requirements  
+- No special permissions required. 
 
 ## 🧪 Magic Text  
 *Not applicable*

@@ -1,19 +1,19 @@
-# 📲 Reconocimiento de Actividad
+# 📲 Activity Recognition
 
-## 🔹 Descripción  
-Este disparador se activa cuando el dispositivo detecta una actividad específica, como ir en coche, andar en bicicleta, correr, caminar o estar quieto.
+## 🔹 Description  
+This trigger activates when your device detects a specific activity, such as driving, cycling, running, walking, or standing still.
 
-## ⚙️ Requisitos  
-- Tener los Servicios de Google Play instalados y actualizados.
+## ⚙️ Requirements  
+- Google Play Services must be installed and up to date.
 
-## 🛠️ Configuración disponible  
-- **Tipo de actividad:**  
-  Elige la actividad a detectar: `En vehículo`, `En bicicleta`, `Corriendo`, `Caminando` o `Quieto`.
+## 🛠️ Available Configuration  
+- **Activity type:**  
+  Choose the activity to detect: `In Vehicle`, `On Bicycle`, `Running`, `Walking`, or `Still`.
 
-- **Nivel de confianza (0–100):**  
-  Controla qué tan sensible es la detección.  
-  - Un **valor bajo** se activa más fácilmente, pero puede fallar.  
-  - Un **valor alto** es más preciso, pero podría no activarse cuando debería.
+- **Confidence value (0–100):**  
+  Controls how easily the trigger activates.  
+  - A **low value** may trigger more often, but can be inaccurate.  
+  - A **high value** avoids false triggers but may miss some valid ones.
 
-  ## 🧪 Magic Text  
+## 🧪 Magic Text  
 *Not applicable*

@@ -1,14 +1,17 @@
 # ⌚ Android Wear
 
-## 🔹 Descripción  
-Este disparador se activa cuando tocas una complicación de MacroDroid en tu smartwatch con Wear OS. Puedes usarlo para iniciar una macro directamente desde tu reloj.
+## 🔹 Description  
+This trigger activates when you tap a MacroDroid complication on your Wear OS smartwatch. You can use it to start a macro directly from your watch.
 
-## ⚙️ Requisitos  
-- Debes tener instalada la **app complementaria de MacroDroid para Wear OS** en el reloj.  
-  Para instalarla:  
-  - Abre la **Play Store** en el reloj  
-  - Ve a **“Apps en tu teléfono”**  
-  - Busca e instala **MacroDroid**
+## ⚙️ Requirements  
+- **MacroDroid Wear OS Companion App** must be installed on the smartwatch.  
+  To install it:  
+  - Open the **Play Store** on your watch  
+  - Go to **“Apps on your phone”**  
+  - Find and install **MacroDroid**
 
-## 🧪 Texto mágico  
-*No aplica*
+## 🛠️ Available Configuration  
+- **Complication Type:** Choose which complication area (e.g., shortcut, icon, etc.) will trigger the macro when tapped.
+
+## 🧪 Magic Text  
+*Not applicable*
