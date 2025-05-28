@@ -120,6 +120,13 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_clipboard/"/>
     </url>
     <url>
+        <loc>Nonemagic_text/no_trigger/magic_text_create_guid/</loc>
+        <lastmod>2025-05-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_create_guid/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_create_guid/"/>
+    </url>
+    <url>
         <loc>Nonemagic_text/no_trigger/magic_text_current_battery/</loc>
         <lastmod>2025-05-28</lastmod>
         <changefreq>daily</changefreq>
@@ -909,6 +916,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_clipboard/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_clipboard/"/>
+    </url>
+    <url>
+        <loc>Nonees/magic_text/no_trigger/magic_text_create_guid/</loc>
+        <lastmod>2025-05-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_create_guid/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_create_guid/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_current_battery/</loc>
