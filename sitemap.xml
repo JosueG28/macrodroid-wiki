@@ -43,11 +43,11 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/"/>
     </url>
     <url>
-        <loc>Nonemagic_text/introduction/</loc>
+        <loc>Nonemagic_text/magic_text_list/</loc>
         <lastmod>2025-05-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/introduction/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/introduction/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/magic_text_list/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/magic_text_list/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/</loc>
@@ -834,11 +834,11 @@
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/"/>
     </url>
     <url>
-        <loc>Nonees/magic_text/introduction/</loc>
+        <loc>Nonees/magic_text/magic_text_list/</loc>
         <lastmod>2025-05-28</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/introduction/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/introduction/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/magic_text_list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/magic_text_list/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/</loc>
