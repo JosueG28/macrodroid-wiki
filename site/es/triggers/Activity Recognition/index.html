@@ -20,7 +20,7 @@
     
     
       
-        <title>📲 Reconocimiento de Actividad - MacroDroid Wiki</title>
+        <title>📲 Activity Recognition - MacroDroid Wiki</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#reconocimiento-de-actividad" class="md-skip">
+        <a href="#activity-recognition" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              📲 Reconocimiento de Actividad
+              📲 Activity Recognition
             
           </span>
         </div>
@@ -300,7 +300,7 @@
   
   
   <span class="md-ellipsis">
-    General
+    Introducción a disparadores
     
   </span>
   
@@ -368,12 +368,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../actions/index.md" class="md-nav__link">
+      <a href="../../actions/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    General
+    Introducción a acciones
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../actions/control_flow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Flujo de control
     
   </span>
   
@@ -441,12 +464,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../constraints/index.md" class="md-nav__link">
+      <a href="../../constraints/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    General
+    Introducción a restricciones
     
   </span>
   
@@ -564,27 +587,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#descripcion" class="md-nav__link">
+  <a href="#description" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Descripción
+      🔹 Description
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#requisitos" class="md-nav__link">
+  <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
-      ⚙️ Requisitos
+      ⚙️ Requirements
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#configuracion-disponible" class="md-nav__link">
+  <a href="#available-configuration" class="md-nav__link">
     <span class="md-ellipsis">
-      🛠️ Configuración disponible
+      🛠️ Available Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#magic-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Magic Text
     </span>
   </a>
   
@@ -606,28 +638,28 @@
 
 
 
-<h1 id="reconocimiento-de-actividad">📲 Reconocimiento de Actividad<a class="headerlink" href="#reconocimiento-de-actividad" title="Permanent link">&para;</a></h1>
-<h2 id="descripcion">🔹 Descripción<a class="headerlink" href="#descripcion" title="Permanent link">&para;</a></h2>
-<p>Este disparador se activa cuando el dispositivo detecta una actividad específica, como ir en coche, andar en bicicleta, correr, caminar o estar quieto.</p>
-<h2 id="requisitos">⚙️ Requisitos<a class="headerlink" href="#requisitos" title="Permanent link">&para;</a></h2>
+<h1 id="activity-recognition">📲 Activity Recognition<a class="headerlink" href="#activity-recognition" title="Permanent link">&para;</a></h1>
+<h2 id="description">🔹 Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
+<p>This trigger activates when your device detects a specific activity, such as driving, cycling, running, walking, or standing still.</p>
+<h2 id="requirements">⚙️ Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Tener los Servicios de Google Play instalados y actualizados.</li>
+<li>Google Play Services must be installed and up to date.</li>
 </ul>
-<h2 id="configuracion-disponible">🛠️ Configuración disponible<a class="headerlink" href="#configuracion-disponible" title="Permanent link">&para;</a></h2>
+<h2 id="available-configuration">🛠️ Available Configuration<a class="headerlink" href="#available-configuration" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
-<p><strong>Tipo de actividad:</strong><br />
-  Elige la actividad a detectar: <code>En vehículo</code>, <code>En bicicleta</code>, <code>Corriendo</code>, <code>Caminando</code> o <code>Quieto</code>.</p>
+<p><strong>Activity type:</strong><br />
+  Choose the activity to detect: <code>In Vehicle</code>, <code>On Bicycle</code>, <code>Running</code>, <code>Walking</code>, or <code>Still</code>.</p>
 </li>
 <li>
-<p><strong>Nivel de confianza (0–100):</strong><br />
-  Controla qué tan sensible es la detección.  </p>
+<p><strong>Confidence value (0–100):</strong><br />
+  Controls how easily the trigger activates.  </p>
 </li>
-<li>Un <strong>valor bajo</strong> se activa más fácilmente, pero puede fallar.  </li>
-<li>Un <strong>valor alto</strong> es más preciso, pero podría no activarse cuando debería.</li>
+<li>A <strong>low value</strong> may trigger more often, but can be inaccurate.  </li>
+<li>A <strong>high value</strong> avoids false triggers but may miss some valid ones.</li>
 </ul>
-<p>## 🧪 Magic Text<br />
-<em>Not applicable</em></p>
+<h2 id="magic-text">🧪 Magic Text<a class="headerlink" href="#magic-text" title="Permanent link">&para;</a></h2>
+<p><em>Not applicable</em></p>
 
 
 

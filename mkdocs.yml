@@ -52,6 +52,7 @@ plugins:
             - Actions:
                 - Introduction to actions: actions/index.md
                 - Control flow: actions/control_flow/index.md
+                - Actions list: actions/index.md
             - Constraints:
                 - Introduction to restrictions: constraints/index.md
             - Magic text:

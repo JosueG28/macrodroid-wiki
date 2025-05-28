@@ -1,106 +1,63 @@
-# 🧪 Does not require a trigger to operate
+# ✨ Magic Text in MacroDroid
 
-### [Am/pm](<magic_text_am_pm.md>)
-### [Android version](<magic_text_android_version.md>)
-### [Android version (sdk level)](<magic_text_android_version_(sdk_level).md>)
-### [Battery current now (ma)](<magic_text_battery_current_now_(ma).md>)
-### [Battery temp ºc](<magic_text_battery_temp.md>)
-### [Cell connection type](<magic_text_cell_connection_type.md>)
-### [Cell id](<magic_text_cell_id.md>)
-### [Cell tower signal strength](<magic_text_cell_tower_signal_strength.md>)
-### [Clipboard text](<magic_text_clipboard_text.md>)
-### [Create guid](<magic_text_create_guid.md>)
-### [Current battery %](<magic_text_current_battery.md>)
-### [Current brightness](<magic_text_current_brightness.md>)
-### [Current brightness (android 9+ alternative)](<magic_text_current_brightness_alternative.md>)
-### [Current ip address](<magic_text_current_ip_address.md>)
-### [Current ip address (v6)](<magic_text_current_ip_address_(v6).md>)
-### [Current volume (alarm)](<magic_text_current_volume_(alarm)).md>)
-### [Current volume (bluetooth voice)](<magic_text_current_volume_(bluetooth_voice).md>)
-### [Current volume (media / music)](<magic_text_current_volume_(media_music).md>)
-### [Current volume (notification)](<magic_text_current_volume_(notification).md>)
-### [Current volume (ringer)](<magic_text_current_volume_(ringer).md>)
-### [Current volume (system sounds)](<magic_text_current_volume_(system_sounds).md>)
-### [Current volume (voice call)](<magic_text_current_volume_(voice_call).md>)
-### [Day of the month](<magic_text_day_of_the_month.md>)
-### [Day of the week](<magic_text_day_of_the_week.md>)
-### [Device manufacturer](<magic_text_device_manufacturer.md>)
-### [Device model](<magic_text_device_model.md>)
-### [Device serial](<magic_text_device_serial.md>)
-### [Device uptime](<magic_text_device_uptime.md>)
-### [Device uptime (s)](<magic_text_device_uptime_(s).md>)
-### [Dictionary/array size](<magic_text_dictionary_array_size.md>)
-### [Foreground app activity class](<magic_text_foreground_app_activity_class.md>)
-### [Foreground app name](<magic_text_foreground_app_name.md>)
-### [Foreground app package](<magic_text_foreground_app_package.md>)
-### [Hour of day](<magic_text_hour_of_day.md>)
-### [Hour of day (12h)](<magic_text_hour_of_day_(12h).md>)
-### [Hour of day (leanding zero)](<magic_text_hour_of_day_(leanding_zero).md>)
-### [Imei](<magic_text_imei.md>)
-### [Language code](<magic_text_language_code.md>)
-### [Last known location (accuracy meters)](<magic_text_last_known_location_(accuracy_meters).md>)
-### [Last known location (altitude)](<magic_text_last_known_location_(altitude).md>)
-### [Last known location (lat)](<magic_text_last_known_location_(lat).md>)
-### [Last known location (lat,lon)](<magic_text_last_known_location_(lat,lon).md>)
-### [Last known location (link)](<magic_text_last_known_location_(link).md>)
-### [Last known location (lon)](<magic_text_last_known_location_(lon).md>)
-### [Last known location (time)](<magic_text_last_known_location_(time).md>)
-### [Last location speed (kmh)](<magic_text_last_location_speed_(kmh).md>)
-### [Last location speed (mph)](<magic_text_last_location_speed_(mph).md>)
-### [Location area code](<magic_text_location_area_code.md>)
-### [Macro category](<magic_text_macro_category.md>)
-### [Macro id](<magic_text_macro_id.md>)
-### [Macro name](<magic_text_macro_name.md>)
-### [Macrodroid is pro](<magic_text_macrodroid_is_pro.md>)
-### [Macrodroid version](<magic_text_macrodroid_version.md>)
-### [Minute](<magic_text_minute.md>)
-### [Mobile country code](<magic_text_mobile_country_code.md>)
-### [Mobile network code](<magic_text_mobile_network_code.md>)
-### [Month](<magic_text_month.md>)
-### [Month (as digit)](<magic_text_month_(as_digit).md>)
-### [New line](<magic_text_new_line.md>)
-### [Power (on/off)](<magic_text_power_(on_off).md>)
-### [Ram (available)](<magic_text_ram_(available).md>)
-### [Ram (total)](<magic_text_ram_(total).md>)
-### [Screen resolution](<magic_text_screen_resolution.md>)
-### [Screen resolution (x)](<magic_text_screen_resolution_(x).md>)
-### [Screen resolution (y)](<magic_text_screen_resolution_(y).md>)
-### [Screen timeout (seconds)](<magic_text_screen_timeout_(seconds).md>)
-### [Second](<magic_text_second.md>)
-### [Sim 2 operator name](<magic_text_sim_2_operator_name.md>)
-### [Sim operator name](<magic_text_sim_operator_name.md>)
-### [Stopwatches](<magic_text_stopwatches.md>)
-### [Storage free (external)](<magic_text_storage_free_(external).md>)
-### [Storage free (internal)](<magic_text_storage_free_(internal).md>)
-### [Storage total (external)](<magic_text_storage_total_(external).md>)
-### [Storage total (internal)](<magic_text_storage_total_(internal).md>)
-### [Ssid](<magic_text_ssid.md>)
-### [System setting (global)](<magic_text_system_setting_(global).md>)
-### [System setting (secure)](<magic_text_system_setting_(secure).md>)
-### [System setting (system)](<magic_text_system_setting_(system).md>)
-### [System time](<magic_text_system_time.md>)
-### [System time (ms)](<magic_text_system_time_(ms).md>)
-### [Variable length string](<variable_length_string.md>)
-### [Variable type](<magic_text_variable_type.md>)
-### [Week of year](<magic_text_week_of_year.md>)
-### [Webhook base url](<magic_text_webhook_base_url.md>)
-### [Weather](<magic_text_weather.md>)
-### [Wifi signal strength](<magic_text_wifi_signal_strength.md>)
-### [Year](<magic_text_year.md>)
+**Magic Text** is a powerful feature in MacroDroid that lets you insert dynamic values into your macros instead of static text. These values, such as battery level, current time, sensor data, or device location, are updated in real-time when the macro runs, making your automations more flexible and responsive.
 
-## 🧪 Requires a trigger to operate
+---
 
-### [App install/remove/update](<magic_text_app_install_remove_update.md>)
-### [App Launched/Closed](<magic_text_application_launched_closed.md>)
-### [Bluetooth (device connected or device disconnected)](<magic_text_bluetooth.md>)
-### [Call (active, ended, incoming, missed, outgoing)](<magic_text_call.md>)
-### [Logcat](<magic_text_logcat.md>)
-### [Notifications](<magic_text_notifications.md>)
-### [Popup message text](<magic_text_popup_message_text.md>)
-### [Sms received](<magic_text_sms_received.md>)
-### [Spotify](<magic_text_spotify.md>)
-### [System settings](<magic_text_system_settings.md>)
-### [System log entry](<magic_text_system_log_entry.md>)
-### [Text shared to macrodroid](<magic_text_text_shared_to_macrodroid.md>)
-### [Ui click](<magic_text_ui_click.md>)
-### [Usb device connected](<magic_text_usb_device_connected.md>)
+## 🔹 What is Magic Text and Where Do You Find It?
+
+In many **triggers**, **actions**, and **constraints** in MacroDroid, you’ll notice fields with a **"..."** button next to them. Clicking this button opens a list of available **Magic Text** options, which depend on the context of the field you’re working with.
+
+These dynamic values are resolved at runtime, meaning they reflect the device’s state when the macro executes.
+
+### Example:
+If you set up a notification with the text "My battery is at {battery}%", when the macro runs, MacroDroid replaces `{battery}` with the actual battery percentage. For instance, if your battery is at 42%, the notification will read: "My battery is at 42%."
+
+---
+
+## 🔹 How Does Magic Text Work?
+
+Magic Text acts as a placeholder that MacroDroid automatically replaces with the corresponding value when the macro is triggered. This makes it ideal for customizing actions or making decisions based on real-time data.
+
+---
+
+## 🔹 Using Magic Text Manually
+
+You can also type Magic Text directly into text fields instead of selecting from the list. This is helpful if you know the exact code or if an option isn’t listed.
+
+### Warning:
+- **Syntax matters:** Magic Text must be written exactly as shown (e.g., `{battery}`). A typo like `{batery}` will not work, and the text will appear as "{batery}" instead of the intended value.
+- **Test your macros:** Always run a test to ensure manually entered Magic Text resolves correctly.
+
+---
+
+## 🔹 Format Styles
+
+There are two formats for Magic Text:
+
+- **Curly brackets `{}`**: Modern format (recommended).  
+- **Square brackets `[]`**: Legacy format (still supported).
+
+✅ **Use curly brackets `{}` whenever possible.** They’re more reliable and easier to read, especially for complex expressions (like nested lists or dictionaries).
+
+### Example:
+- Modern: `{battery}` → Displays the current battery level (e.g., "42").
+- Legacy: `[battery]` → Also works but less preferred.
+
+---
+
+## 🔹 Tips for New Users
+
+If you’re new to MacroDroid, Magic Text might seem complex at first, but these tips will help you get started:
+
+- **Explore the options:** Click the **"..."** button whenever you see it to discover available Magic Text values for that field.
+- **Start simple:** Try using `{battery}` in a notification to see how dynamic values work.
+- **Test your setup:** Run your macro after adding Magic Text to confirm it behaves as expected.
+
+---
+
+## 🔹 Why Magic Text is So Powerful
+
+Magic Text transforms your macros from static to dynamic, enabling them to adapt to your device’s current state. Whether you’re displaying real-time information, making decisions based on sensor data, or automating tasks more intelligently, Magic Text is one of MacroDroid’s most versatile tools.
+
+Experiment with Magic Text to take your macros to the next level, whether you’re a beginner or a seasoned pro!
