@@ -1,83 +1,178 @@
-/* Definir colores inspirados en MacroDroid */
-:root {
-  --md-macrodroid-trigger: #4CAF50;    /* Verde para Triggers */
-  --md-macrodroid-action: #e6fb00;     /* Azul para Actions */
-  --md-macrodroid-constraint: #FF9800; /* Naranja para Constraints */
+/* ===== ESTILOS DE SECCIÓN - FORZAR APLICACIÓN ===== */
+body[class*="-section"] .md-header,
+body[class*="-section"] .md-tabs {
+  background-color: transparent !important;
 }
 
-/* Estilos para secciones específicas */
-.trigger-section h1,
-.trigger-section h2,
-.trigger-section h3 {
-  color: var(--md-macrodroid-trigger);
-  border-bottom: 1px solid rgba(76, 175, 80, 0.2);
+/* Triggers - Verde */
+body.trigger-section {
+  --md-primary-fg-color: #4CAF50 !important;
+  --md-primary-fg-color--light: #81C784 !important;
+  --md-primary-fg-color--dark: #388E3C !important;
+  --md-accent-fg-color: #1B5E20 !important;
 }
 
-.action-section h1,
-.action-section h2,
-.action-section h3 {
-  color: var(--md-macrodroid-action);
-  border-bottom: 1px solid rgba(255, 183, 0, 0.2);
+body.trigger-section h1,
+body.trigger-section h2,
+body.trigger-section h3 {
+  color: #4CAF50 !important;
+  border-bottom: 2px solid rgba(76, 175, 80, 0.3) !important;
 }
 
-.constraint-section h1,
-.constraint-section h2,
-.constraint-section h3 {
-  color: var(--md-macrodroid-constraint);
-  border-bottom: 1px solid rgba(255, 152, 0, 0.2);
+body.trigger-section .md-nav__link--active {
+  color: #4CAF50 !important;
+  font-weight: bold !important;
 }
 
-/* Barra lateral */
-.trigger-section .md-nav__link--active {
-  color: var(--md-macrodroid-trigger) !important;
+/* Actions - Azul */
+body.action-section {
+  --md-primary-fg-color: #2196F3 !important;
+  --md-primary-fg-color--light: #64B5F6 !important;
+  --md-primary-fg-color--dark: #1976D2 !important;
+  --md-accent-fg-color: #0D47A1 !important;
 }
 
-.action-section .md-nav__link--active {
-  color: var(--md-macrodroid-action) !important;
+body.action-section h1,
+body.action-section h2,
+body.action-section h3 {
+  color: #2196F3 !important;
+  border-bottom: 2px solid rgba(33, 150, 243, 0.3) !important;
 }
 
-.constraint-section .md-nav__link--active {
-  color: var(--md-macrodroid-constraint) !important;
+body.action-section .md-nav__link--active {
+  color: #2196F3 !important;
+  font-weight: bold !important;
+}
+
+/* Constraints - Naranja */
+body.constraint-section {
+  --md-primary-fg-color: #FF9800 !important;
+  --md-primary-fg-color--light: #FFB74D !important;
+  --md-primary-fg-color--dark: #F57C00 !important;
+  --md-accent-fg-color: #E65100 !important;
+}
+
+body.constraint-section h1,
+body.constraint-section h2,
+body.constraint-section h3 {
+  color: #FF9800 !important;
+  border-bottom: 2px solid rgba(255, 152, 0, 0.3) !important;
+}
+
+body.constraint-section .md-nav__link--active {
+  color: #FF9800 !important;
+  font-weight: bold !important;
+}
+
+/* Aplicar colores a elementos clave */
+body.trigger-section .md-typeset a,
+body.trigger-section .md-nav__link--active {
+  color: #4CAF50 !important;
+}
+
+body.action-section .md-typeset a,
+body.action-section .md-nav__link--active {
+  color: #2196F3 !important;
+}
+
+body.constraint-section .md-typeset a,
+body.constraint-section .md-nav__link--active {
+  color: #FF9800 !important;
 }
 
 /* Fondos para bloques de código */
-.trigger-section .md-typeset .codehilite,
-.trigger-section .md-typeset pre {
-  background-color: rgba(76, 175, 80, 0.05);
-  border-left: 3px solid var(--md-macrodroid-trigger);
+body.trigger-section .md-typeset .codehilite,
+body.trigger-section .md-typeset pre {
+  background-color: rgba(76, 175, 80, 0.05) !important;
+  border-left: 3px solid #4CAF50 !important;
 }
 
-.action-section .md-typeset .codehilite,
-.action-section .md-typeset pre {
-  background-color: rgba(33, 150, 243, 0.05);
-  border-left: 3px solid var(--md-macrodroid-action);
+body.action-section .md-typeset .codehilite,
+body.action-section .md-typeset pre {
+  background-color: rgba(33, 150, 243, 0.05) !important;
+  border-left: 3px solid #2196F3 !important;
 }
 
-.constraint-section .md-typeset .codehilite,
-.constraint-section .md-typeset pre {
-  background-color: rgba(255, 152, 0, 0.05);
-  border-left: 3px solid var(--md-macrodroid-constraint);
+body.constraint-section .md-typeset .codehilite,
+body.constraint-section .md-typeset pre {
+  background-color: rgba(255, 152, 0, 0.05) !important;
+  border-left: 3px solid #FF9800 !important;
 }
 
-/* Ajustes para modo oscuro */
-[data-md-color-scheme="slate"] {
-  --md-macrodroid-trigger: #81C784;    /* Verde más claro */
-  --md-macrodroid-action: #ff0b65;     /* Azul más claro */
-  --md-macrodroid-constraint: #FFB74D; /* Naranja más claro */
+/* Modo oscuro - Sobrescribir completamente */
+[data-md-color-scheme="slate"] body.trigger-section {
+  --md-primary-fg-color: #81C784 !important;
+  --md-primary-fg-color--light: #A5D6A7 !important;
+  --md-primary-fg-color--dark: #388E3C !important;
 }
 
-/* Fondos en modo oscuro */
-[data-md-color-scheme="slate"] .trigger-section .md-typeset .codehilite,
-[data-md-color-scheme="slate"] .trigger-section .md-typeset pre {
-  background-color: rgba(76, 175, 80, 0.1);
+[data-md-color-scheme="slate"] body.action-section {
+  --md-primary-fg-color: #64B5F6 !important;
+  --md-primary-fg-color--light: #90CAF9 !important;
+  --md-primary-fg-color--dark: #1976D2 !important;
 }
 
-[data-md-color-scheme="slate"] .action-section .md-typeset .codehilite,
-[data-md-color-scheme="slate"] .action-section .md-typeset pre {
-  background-color: rgba(57, 161, 131, 0.1);
+[data-md-color-scheme="slate"] body.constraint-section {
+  --md-primary-fg-color: #FFB74D !important;
+  --md-primary-fg-color--light: #FFCC80 !important;
+  --md-primary-fg-color--dark: #F57C00 !important;
 }
 
-[data-md-color-scheme="slate"] .constraint-section .md-typeset .codehilite,
-[data-md-color-scheme="slate"] .constraint-section .md-typeset pre {
-  background-color: rgba(255, 152, 0, 0.1);
+[data-md-color-scheme="slate"] body.trigger-section .md-typeset .codehilite,
+[data-md-color-scheme="slate"] body.trigger-section .md-typeset pre {
+  background-color: rgba(76, 175, 80, 0.1) !important;
+}
+
+[data-md-color-scheme="slate"] body.action-section .md-typeset .codehilite,
+[data-md-color-scheme="slate"] body.action-section .md-typeset pre {
+  background-color: rgba(33, 150, 243, 0.1) !important;
+}
+
+[data-md-color-scheme="slate"] body.constraint-section .md-typeset .codehilite,
+[data-md-color-scheme="slate"] body.constraint-section .md-typeset pre {
+  background-color: rgba(255, 152, 0, 0.1) !important;
+}
+
+/* Forzar aplicación en elementos del header */
+body.trigger-section .md-header {
+  background-color: var(--md-primary-fg-color) !important;
+}
+
+body.action-section .md-header {
+  background-color: var(--md-primary-fg-color) !important;
+}
+
+body.constraint-section .md-header {
+  background-color: var(--md-primary-fg-color) !important;
+}
+
+/* TEST: Verificar que el CSS se carga */
+body::after {
+  content: "¡CSS de secciones cargado!";
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  padding: 10px;
+  z-index: 9999;
+  font-weight: bold;
+}
+
+/* Actions (azul MacroDroid) */
+body[class*="md-route-"][class*="-actions-"] {
+  --md-default-primary-color: #1e88e5 !important;
+  --md-default-accent-color:  #1e88e5 !important;
+}
+
+/* Triggers (rojo MacroDroid) */
+body[class*="md-route-"][class*="-triggers-"] {
+  --md-default-primary-color: #e53935 !important;
+  --md-default-accent-color:  #e53935 !important;
+}
+
+/* Constraints (verde MacroDroid) */
+body[class*="md-route-"][class*="-constraints-"] {
+  --md-default-primary-color: #43a047 !important;
+  --md-default-accent-color:  #43a047 !important;
 }
