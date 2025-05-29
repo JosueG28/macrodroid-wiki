@@ -1,25 +1,71 @@
 /* docs/stylesheets/section-colors.css */
 
-/* Solo colores para encabezado */
+/* Colores base */
+:root {
+  --trigger-color: #4CAF50;
+  --action-color: #2196F3;
+  --constraint-color: #FF9800;
+  --magic-color: #9C27B0;
+  --home-color: #607D8B;
+}
+
+[data-md-color-scheme="slate"] {
+  --trigger-color: #81C784;
+  --action-color: #64B5F6;
+  --constraint-color: #FFB74D;
+  --magic-color: #BA68C8;
+  --home-color: #90A4AE;
+}
+
+/* Encabezado */
 .trigger-section .md-header {
-  background-color: #4CAF50 !important;
+  background-color: var(--trigger-color) !important;
 }
 
 .action-section .md-header {
-  background-color: #2196F3 !important;
+  background-color: var(--action-color) !important;
 }
 
 .constraint-section .md-header {
-  background-color: #FF9800 !important;
+  background-color: var(--constraint-color) !important;
 }
 
 .magic-section .md-header {
-  background-color: #9C27B0 !important;
+  background-color: var(--magic-color) !important;
+}
+
+.home-section .md-header {
+  background-color: var(--home-color) !important;
+}
+
+/* Títulos */
+.trigger-section h1,
+.trigger-section h2,
+.trigger-section h3 {
+  color: var(--trigger-color) !important;
+}
+
+.action-section h1,
+.action-section h2,
+.action-section h3 {
+  color: var(--action-color) !important;
+}
+
+.constraint-section h1,
+.constraint-section h2,
+.constraint-section h3 {
+  color: var(--constraint-color) !important;
+}
+
+.magic-section h1,
+.magic-section h2,
+.magic-section h3 {
+  color: var(--magic-color) !important;
 }
 
 /* Test visual de CSS */
 body::after {
-  content: "CSS cargado!";
+  content: "CSS activo!";
   position: fixed;
   bottom: 10px;
   left: 10px;

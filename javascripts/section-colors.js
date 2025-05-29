@@ -1,57 +1,55 @@
-// Detectar cambios en la navegación
-function applySectionColors() {
-  // Función para obtener la sección base
-  function getBaseSection() {
-    const path = window.location.pathname;
-    const segments = path.split('/').filter(segment => segment.trim() !== '');
-    
-    // Para rutas en español
-    if (path.startsWith('/es/')) {
-      return segments[1] || ''; // Ej: /es/disparadores/ → disparadores
-    }
-    
-    // Para rutas en inglés
-    return segments[0] || ''; // Ej: /triggers/ → triggers
+// docs/javascripts/section-colors.js
+
+// Configuración base para GitHub Pages
+const BASE_PATH = '/macrodroid-wiki/';
+
+// Función para normalizar rutas
+function normalizePath(path) {
+  // Eliminar BASE_PATH si existe
+  if (path.startsWith(BASE_PATH)) {
+    return path.substring(BASE_PATH.length);
   }
   
-  // Mapeo de secciones a colores
-  const sectionMap = {
-    'triggers': 'trigger',
-    'disparadores': 'trigger',
-    'actions': 'action',
-    'acciones': 'action',
-    'constraints': 'constraint',
-    'restricciones': 'constraint',
-    'magic_text': 'magic',
-    'texto_mágico': 'magic',
-    'index': 'home' // Para la página principal
-  };
+  // Eliminar parámetros de consulta y fragmentos
+  return path.split('?')[0].split('#')[0];
+}
+
+// Función para detectar sección
+function detectSection() {
+  const rawPath = window.location.pathname;
+  const path = normalizePath(rawPath);
   
-  // Obtener sección actual
-  const currentSection = getBaseSection();
-  const sectionClass = sectionMap[currentSection] || '';
+  // Detección de sección
+  if (path.startsWith('es/')) {
+    // Rutas en español
+    if (path.includes('disparadores')) return 'trigger';
+    if (path.includes('acciones')) return 'action';
+    if (path.includes('restricciones')) return 'constraint';
+    if (path.includes('texto_mágico')) return 'magic';
+  } else {
+    // Rutas en inglés
+    if (path.includes('triggers')) return 'trigger';
+    if (path.includes('actions')) return 'action';
+    if (path.includes('constraints')) return 'constraint';
+    if (path.includes('magic_text')) return 'magic';
+  }
   
+  return 'home';
+}
+
+// Aplicar clase de sección
+function applySectionClass(section) {
   // Limpiar clases anteriores
-  document.body.classList.remove(
-    'trigger-section', 
-    'action-section', 
-    'constraint-section', 
-    'magic-section',
-    'home-section'
-  );
+  const sections = ['trigger', 'action', 'constraint', 'magic', 'home'];
+  sections.forEach(s => document.body.classList.remove(`${s}-section`));
   
-  // Aplicar nueva clase al body si se detectó una sección
-  if (sectionClass) {
-    document.body.classList.add(sectionClass + '-section');
-  }
-  
-  // Verificación en consola
-  console.log('Sección base:', currentSection);
-  console.log('Clase aplicada:', sectionClass ? sectionClass + '-section' : 'ninguna');
+  // Aplicar nueva clase
+  document.body.classList.add(`${section}-section`);
   
   // Actualizar test visual
-  const testDiv = document.getElementById('section-test-div') || document.createElement('div');
-  testDiv.id = 'section-test-div';
+  const testDiv = document.getElementById('section-test') || document.createElement('div');
+  testDiv.id = 'section-test';
+  testDiv.textContent = `Sección: ${section}`;
   testDiv.style.cssText = `
     position: fixed;
     top: 10px;
@@ -63,46 +61,40 @@ function applySectionColors() {
     font-weight: bold;
     border-radius: 5px;
   `;
-  testDiv.textContent = sectionClass ? `Sección: ${sectionClass}` : 'Home';
   
-  if (!document.getElementById('section-test-div')) {
+  if (!document.getElementById('section-test')) {
     document.body.appendChild(testDiv);
   }
 }
 
-// Ejecutar en carga inicial
-document.addEventListener('DOMContentLoaded', applySectionColors);
-
-// Observar cambios de navegación
-if (typeof app !== 'undefined' && app.document$) {
-  // Usar el sistema de observables de Material for MkDocs
-  app.document$.subscribe(function() {
-    setTimeout(applySectionColors, 100);
-  });
-} else {
-  // Alternativa para navegación con History API
-  window.addEventListener('popstate', function() {
-    setTimeout(applySectionColors, 100);
-  });
-  
-  // Capturar clics en enlaces
-  document.addEventListener('click', function(e) {
-    if (e.target.tagName === 'A' && e.target.href) {
-      setTimeout(applySectionColors, 300);
-    }
-  });
+// Función principal
+function updateSection() {
+  const section = detectSection();
+  applySectionClass(section);
+  console.log('Ruta detectada:', window.location.pathname, 'Sección:', section);
 }
 
-// Observar cambios en el contenido principal como respaldo
-const observer = new MutationObserver(function(mutations) {
-  mutations.forEach(function(mutation) {
-    if (mutation.type === 'childList') {
-      setTimeout(applySectionColors, 200);
-    }
-  });
+// Inicialización
+document.addEventListener('DOMContentLoaded', updateSection);
+
+// Manejar navegación instantánea
+if (typeof app !== 'undefined' && app.document$) {
+  app.document$.subscribe(updateSection);
+}
+
+// Manejar cambios de ruta
+window.addEventListener('popstate', updateSection);
+window.addEventListener('pushstate', updateSection);
+window.addEventListener('replacestate', updateSection);
+
+// Observador de mutación como respaldo
+const observer = new MutationObserver(mutations => {
+  if (mutations.some(m => m.type === 'childList')) {
+    updateSection();
+  }
 });
 
-observer.observe(document.querySelector('main'), {
+observer.observe(document.documentElement, {
   childList: true,
   subtree: true
 });
