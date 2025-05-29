@@ -1,7 +1,7 @@
 /* Definir colores inspirados en MacroDroid */
 :root {
   --md-macrodroid-trigger: #4CAF50;    /* Verde para Triggers */
-  --md-macrodroid-action: #2196F3;     /* Azul para Actions */
+  --md-macrodroid-action: #e6fb00;     /* Azul para Actions */
   --md-macrodroid-constraint: #FF9800; /* Naranja para Constraints */
 }
 
@@ -17,7 +17,7 @@
 .action-section h2,
 .action-section h3 {
   color: var(--md-macrodroid-action);
-  border-bottom: 1px solid rgba(33, 150, 243, 0.2);
+  border-bottom: 1px solid rgba(255, 183, 0, 0.2);
 }
 
 .constraint-section h1,
@@ -62,7 +62,7 @@
 /* Ajustes para modo oscuro */
 [data-md-color-scheme="slate"] {
   --md-macrodroid-trigger: #81C784;    /* Verde más claro */
-  --md-macrodroid-action: #64B5F6;     /* Azul más claro */
+  --md-macrodroid-action: #ff0b65;     /* Azul más claro */
   --md-macrodroid-constraint: #FFB74D; /* Naranja más claro */
 }
 
@@ -74,7 +74,7 @@
 
 [data-md-color-scheme="slate"] .action-section .md-typeset .codehilite,
 [data-md-color-scheme="slate"] .action-section .md-typeset pre {
-  background-color: rgba(33, 150, 243, 0.1);
+  background-color: rgba(57, 161, 131, 0.1);
 }
 
 [data-md-color-scheme="slate"] .constraint-section .md-typeset .codehilite,
