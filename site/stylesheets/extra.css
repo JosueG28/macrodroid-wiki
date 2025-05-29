@@ -1,0 +1,83 @@
+/* Definir colores inspirados en MacroDroid */
+:root {
+  --md-macrodroid-trigger: #4CAF50;    /* Verde para Triggers */
+  --md-macrodroid-action: #2196F3;     /* Azul para Actions */
+  --md-macrodroid-constraint: #FF9800; /* Naranja para Constraints */
+}
+
+/* Estilos para secciones específicas */
+.trigger-section h1,
+.trigger-section h2,
+.trigger-section h3 {
+  color: var(--md-macrodroid-trigger);
+  border-bottom: 1px solid rgba(76, 175, 80, 0.2);
+}
+
+.action-section h1,
+.action-section h2,
+.action-section h3 {
+  color: var(--md-macrodroid-action);
+  border-bottom: 1px solid rgba(33, 150, 243, 0.2);
+}
+
+.constraint-section h1,
+.constraint-section h2,
+.constraint-section h3 {
+  color: var(--md-macrodroid-constraint);
+  border-bottom: 1px solid rgba(255, 152, 0, 0.2);
+}
+
+/* Barra lateral */
+.trigger-section .md-nav__link--active {
+  color: var(--md-macrodroid-trigger) !important;
+}
+
+.action-section .md-nav__link--active {
+  color: var(--md-macrodroid-action) !important;
+}
+
+.constraint-section .md-nav__link--active {
+  color: var(--md-macrodroid-constraint) !important;
+}
+
+/* Fondos para bloques de código */
+.trigger-section .md-typeset .codehilite,
+.trigger-section .md-typeset pre {
+  background-color: rgba(76, 175, 80, 0.05);
+  border-left: 3px solid var(--md-macrodroid-trigger);
+}
+
+.action-section .md-typeset .codehilite,
+.action-section .md-typeset pre {
+  background-color: rgba(33, 150, 243, 0.05);
+  border-left: 3px solid var(--md-macrodroid-action);
+}
+
+.constraint-section .md-typeset .codehilite,
+.constraint-section .md-typeset pre {
+  background-color: rgba(255, 152, 0, 0.05);
+  border-left: 3px solid var(--md-macrodroid-constraint);
+}
+
+/* Ajustes para modo oscuro */
+[data-md-color-scheme="slate"] {
+  --md-macrodroid-trigger: #81C784;    /* Verde más claro */
+  --md-macrodroid-action: #64B5F6;     /* Azul más claro */
+  --md-macrodroid-constraint: #FFB74D; /* Naranja más claro */
+}
+
+/* Fondos en modo oscuro */
+[data-md-color-scheme="slate"] .trigger-section .md-typeset .codehilite,
+[data-md-color-scheme="slate"] .trigger-section .md-typeset pre {
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+[data-md-color-scheme="slate"] .action-section .md-typeset .codehilite,
+[data-md-color-scheme="slate"] .action-section .md-typeset pre {
+  background-color: rgba(33, 150, 243, 0.1);
+}
+
+[data-md-color-scheme="slate"] .constraint-section .md-typeset .codehilite,
+[data-md-color-scheme="slate"] .constraint-section .md-typeset pre {
+  background-color: rgba(255, 152, 0, 0.1);
+}

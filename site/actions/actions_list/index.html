@@ -1,33 +1,37 @@
 
 <!doctype html>
-<html lang="es" class="no-js">
+<html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Documentación no oficial de MacroDroid">
+        <meta name="description" content="Unofficial MacroDroid Documentation">
       
       
         <meta name="author" content="JosueG28">
       
       
       
+        <link rel="prev" href="../control_flow/">
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+        <link rel="next" href="../../constraints/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>✨ Magic Text in MacroDroid - MacroDroid Wiki</title>
+        <title>Actions list - MacroDroid Wiki</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,7 +50,7 @@
       
     
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -58,21 +62,18 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
-      
-        
-        <a href="#magic-text-in-macrodroid" class="md-skip">
-          Saltar a contenido
-        </a>
       
     </div>
     <div data-md-component="announce">
@@ -85,8 +86,8 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Cabecera">
-    <a href="../../" title="MacroDroid Wiki" class="md-header__button md-logo" aria-label="MacroDroid Wiki" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="MacroDroid Wiki" class="md-header__button md-logo" aria-label="MacroDroid Wiki" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -106,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ✨ Magic Text in MacroDroid
+              Actions list
             
           </span>
         </div>
@@ -114,26 +115,52 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
+    <button class="md-header__button md-icon" aria-label="Select language">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../magic_text/introduction/" hreflang="en" class="md-select__link">
+            <a href="./" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="./" hreflang="es" class="md-select__link">
+            <a href="../../es/actions/actions_list/" hreflang="es" class="md-select__link">
               Español
             </a>
           </li>
@@ -154,16 +181,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Buscar">
+      <nav class="md-search__options" aria-label="Search">
         
-        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
@@ -176,7 +203,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Inicializando búsqueda
+            Initializing search
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -210,9 +237,9 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../" title="MacroDroid Wiki" class="md-nav__button md-logo" aria-label="MacroDroid Wiki" data-md-component="logo">
+    <a href="../.." title="MacroDroid Wiki" class="md-nav__button md-logo" aria-label="MacroDroid Wiki" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -230,12 +257,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../" class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Inicio
+    Home
     
   </span>
   
@@ -273,7 +300,7 @@
   
   
   <span class="md-ellipsis">
-    Disparadores
+    Triggers
     
   </span>
   
@@ -284,7 +311,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            Disparadores
+            Triggers
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -300,7 +327,7 @@
   
   
   <span class="md-ellipsis">
-    Introducción a disparadores
+    Introduction to triggers
     
   </span>
   
@@ -322,8 +349,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -334,11 +363,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
@@ -346,7 +375,7 @@
   
   
   <span class="md-ellipsis">
-    Acciones
+    Actions
     
   </span>
   
@@ -354,10 +383,10 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Acciones
+            Actions
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -368,12 +397,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../actions/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Introducción a acciones
+    Introduction to actions
     
   </span>
   
@@ -391,17 +420,48 @@
   
   
     <li class="md-nav__item">
-      <a href="../../actions/control_flow/" class="md-nav__link">
+      <a href="../control_flow/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Flujo de control
+    Control flow
     
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actions list
+    
+  </span>
+  
+
+      </a>
+      
     </li>
   
 
@@ -442,7 +502,7 @@
   
   
   <span class="md-ellipsis">
-    Restricciones
+    Constraints
     
   </span>
   
@@ -453,7 +513,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Restricciones
+            Constraints
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -469,7 +529,7 @@
   
   
   <span class="md-ellipsis">
-    Introducción a restricciones
+    Introduction to restrictions
     
   </span>
   
@@ -515,7 +575,7 @@
   
   
   <span class="md-ellipsis">
-    Texto magico
+    Magic text
     
   </span>
   
@@ -526,7 +586,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            Texto magico
+            Magic text
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -537,12 +597,58 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../magic_text/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Introduccion al texto magico
+    Introduction to the Magic Text
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magic_text/no_trigger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    No trigger required to operate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magic_text/trigger_required/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Trigger required to operate
     
   </span>
   
@@ -573,119 +679,10 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-magic-text-and-where-do-you-find-it" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 What is Magic Text and Where Do You Find It?
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔹 What is Magic Text and Where Do You Find It?">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-does-magic-text-work" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 How Does Magic Text Work?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-magic-text-manually" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Using Magic Text Manually
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔹 Using Magic Text Manually">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#warning" class="md-nav__link">
-    <span class="md-ellipsis">
-      Warning:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#format-styles" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Format Styles
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔹 Format Styles">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#example_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tips-for-new-users" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Tips for New Users
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-magic-text-is-so-powerful" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Why Magic Text is So Powerful
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -701,50 +698,9 @@
 
 
 
-<h1 id="magic-text-in-macrodroid">✨ Magic Text in MacroDroid<a class="headerlink" href="#magic-text-in-macrodroid" title="Permanent link">&para;</a></h1>
-<p><strong>Magic Text</strong> is a powerful feature in MacroDroid that lets you insert dynamic values into your macros instead of static text. These values, such as battery level, current time, sensor data, or device location, are updated in real-time when the macro runs, making your automations more flexible and responsive.</p>
-<hr />
-<h2 id="what-is-magic-text-and-where-do-you-find-it">🔹 What is Magic Text and Where Do You Find It?<a class="headerlink" href="#what-is-magic-text-and-where-do-you-find-it" title="Permanent link">&para;</a></h2>
-<p>In many <strong>triggers</strong>, <strong>actions</strong>, and <strong>constraints</strong> in MacroDroid, you’ll notice fields with a <strong>"..."</strong> button next to them. Clicking this button opens a list of available <strong>Magic Text</strong> options, which depend on the context of the field you’re working with.</p>
-<p>These dynamic values are resolved at runtime, meaning they reflect the device’s state when the macro executes.</p>
-<h3 id="example">Example:<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
-<p>If you set up a notification with the text "My battery is at {battery}%", when the macro runs, MacroDroid replaces <code>{battery}</code> with the actual battery percentage. For instance, if your battery is at 42%, the notification will read: "My battery is at 42%."</p>
-<hr />
-<h2 id="how-does-magic-text-work">🔹 How Does Magic Text Work?<a class="headerlink" href="#how-does-magic-text-work" title="Permanent link">&para;</a></h2>
-<p>Magic Text acts as a placeholder that MacroDroid automatically replaces with the corresponding value when the macro is triggered. This makes it ideal for customizing actions or making decisions based on real-time data.</p>
-<hr />
-<h2 id="using-magic-text-manually">🔹 Using Magic Text Manually<a class="headerlink" href="#using-magic-text-manually" title="Permanent link">&para;</a></h2>
-<p>You can also type Magic Text directly into text fields instead of selecting from the list. This is helpful if you know the exact code or if an option isn’t listed.</p>
-<h3 id="warning">Warning:<a class="headerlink" href="#warning" title="Permanent link">&para;</a></h3>
-<ul>
-<li><strong>Syntax matters:</strong> Magic Text must be written exactly as shown (e.g., <code>{battery}</code>). A typo like <code>{batery}</code> will not work, and the text will appear as "{batery}" instead of the intended value.</li>
-<li><strong>Test your macros:</strong> Always run a test to ensure manually entered Magic Text resolves correctly.</li>
-</ul>
-<hr />
-<h2 id="format-styles">🔹 Format Styles<a class="headerlink" href="#format-styles" title="Permanent link">&para;</a></h2>
-<p>There are two formats for Magic Text:</p>
-<ul>
-<li><strong>Curly brackets <code>{}</code></strong>: Modern format (recommended).  </li>
-<li><strong>Square brackets <code>[]</code></strong>: Legacy format (still supported).</li>
-</ul>
-<p>✅ <strong>Use curly brackets <code>{}</code> whenever possible.</strong> They’re more reliable and easier to read, especially for complex expressions (like nested lists or dictionaries).</p>
-<h3 id="example_1">Example:<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Modern: <code>{battery}</code> → Displays the current battery level (e.g., "42").</li>
-<li>Legacy: <code>[battery]</code> → Also works but less preferred.</li>
-</ul>
-<hr />
-<h2 id="tips-for-new-users">🔹 Tips for New Users<a class="headerlink" href="#tips-for-new-users" title="Permanent link">&para;</a></h2>
-<p>If you’re new to MacroDroid, Magic Text might seem complex at first, but these tips will help you get started:</p>
-<ul>
-<li><strong>Explore the options:</strong> Click the <strong>"..."</strong> button whenever you see it to discover available Magic Text values for that field.</li>
-<li><strong>Start simple:</strong> Try using <code>{battery}</code> in a notification to see how dynamic values work.</li>
-<li><strong>Test your setup:</strong> Run your macro after adding Magic Text to confirm it behaves as expected.</li>
-</ul>
-<hr />
-<h2 id="why-magic-text-is-so-powerful">🔹 Why Magic Text is So Powerful<a class="headerlink" href="#why-magic-text-is-so-powerful" title="Permanent link">&para;</a></h2>
-<p>Magic Text transforms your macros from static to dynamic, enabling them to adapt to your device’s current state. Whether you’re displaying real-time information, making decisions based on sensor data, or automating tasks more intelligently, Magic Text is one of MacroDroid’s most versatile tools.</p>
-<p>Experiment with Magic Text to take your macros to the next level, whether you’re a beginner or a seasoned pro!</p>
+  <h1>Actions list</h1>
+
+<p>NO hay nada aun.</p>
 
 
 
@@ -793,10 +749,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.sections", "content.code.copy", "content.action.edit", "search.suggest", "search.highlight", "i18n"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.sections", "content.code.copy", "content.action.edit", "search.suggest", "search.highlight", "i18n"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
     
   </body>

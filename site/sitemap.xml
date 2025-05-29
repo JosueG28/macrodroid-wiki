@@ -2,1589 +2,1617 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>None./</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
     </url>
     <url>
         <loc>Noneactions/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneactions/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/actions/"/>
     </url>
     <url>
+        <loc>Noneactions/actions_list/</loc>
+        <lastmod>2025-05-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneactions/actions_list/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/actions/actions_list/"/>
+    </url>
+    <url>
         <loc>Noneactions/control_flow/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneactions/control_flow/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/actions/control_flow/"/>
     </url>
     <url>
         <loc>Noneactions/control_flow/if_clause/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneactions/control_flow/if_clause/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/actions/control_flow/if_clause/"/>
     </url>
     <url>
         <loc>Noneconstraints/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneconstraints/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/constraints/"/>
     </url>
     <url>
         <loc>Nonemagic_text/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/"/>
     </url>
     <url>
-        <loc>Nonemagic_text/introduction/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <loc>Nonemagic_text/magic_text_list/</loc>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/introduction/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/introduction/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/magic_text_list/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/magic_text_list/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_am_pm/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_am_pm/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_am_pm/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_android_version/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_android_version/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_android_version/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_android_version_%28sdk_level%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_android_version_%28sdk_level%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_android_version_%28sdk_level%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_battery_current_now/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_battery_current_now/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_battery_current_now/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_battery_temp/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_battery_temp/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_battery_temp/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_cell_connection_type/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_cell_connection_type/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_cell_connection_type/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_cell_id/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_cell_id/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_cell_id/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_cell_signal_strength/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_cell_signal_strength/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_cell_signal_strength/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_clipboard/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_clipboard/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_clipboard/"/>
     </url>
     <url>
+        <loc>Nonemagic_text/no_trigger/magic_text_create_guid/</loc>
+        <lastmod>2025-05-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_create_guid/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_create_guid/"/>
+    </url>
+    <url>
         <loc>Nonemagic_text/no_trigger/magic_text_current_battery/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_battery/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_battery/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_current_brightness/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_brightness/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_brightness/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_current_brightness_alternative/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_brightness_alternative/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_brightness_alternative/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_current_ip_address/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_ip_address/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_ip_address/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_current_ip_address_%28v6%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_ip_address_%28v6%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_ip_address_%28v6%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_current_volume_%28alarm%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_volume_%28alarm%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_volume_%28alarm%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_current_volume_%28bluetooth_voice%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_volume_%28bluetooth_voice%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_volume_%28bluetooth_voice%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_current_volume_%28media_music%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_volume_%28media_music%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_volume_%28media_music%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_current_volume_%28notification%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_volume_%28notification%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_volume_%28notification%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_current_volume_%28ringer%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_volume_%28ringer%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_volume_%28ringer%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_current_volume_%28system_sounds%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_volume_%28system_sounds%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_volume_%28system_sounds%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_current_volume_%28voice_call%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_volume_%28voice_call%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_volume_%28voice_call%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_day_of_the_month/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_day_of_the_month/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_day_of_the_month/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_day_of_the_week/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_day_of_the_week/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_day_of_the_week/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_device_manufacturer/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_device_manufacturer/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_device_manufacturer/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_device_model/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_device_model/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_device_model/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_device_serial/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_device_serial/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_device_serial/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_device_uptime/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_device_uptime/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_device_uptime/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_device_uptime_%28s%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_device_uptime_%28s%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_device_uptime_%28s%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_dictionary_array_size/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_dictionary_array_size/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_dictionary_array_size/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_foreground_app_activity_class/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_foreground_app_activity_class/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_foreground_app_activity_class/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_foreground_app_name/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_foreground_app_name/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_foreground_app_name/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_foreground_app_package/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_foreground_app_package/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_foreground_app_package/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_hour_of_day/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_hour_of_day/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_hour_of_day/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_hour_of_day_%2812h%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_hour_of_day_%2812h%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_hour_of_day_%2812h%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_hour_of_day_%28leanding_zero%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_hour_of_day_%28leanding_zero%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_hour_of_day_%28leanding_zero%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_imei/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_imei/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_imei/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_language_code/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_language_code/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_language_code/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_last_known_location_%28accuracy_meters%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_known_location_%28accuracy_meters%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_known_location_%28accuracy_meters%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_last_known_location_%28altitude%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_known_location_%28altitude%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_known_location_%28altitude%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_last_known_location_%28lat%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_known_location_%28lat%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_known_location_%28lat%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_last_known_location_%28lat%2Clon%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_known_location_%28lat%2Clon%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_known_location_%28lat%2Clon%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_last_known_location_%28link%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_known_location_%28link%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_known_location_%28link%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_last_known_location_%28lon%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_known_location_%28lon%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_known_location_%28lon%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_last_known_location_%28time%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_known_location_%28time%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_known_location_%28time%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_last_location_speed_%28kmh%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_location_speed_%28kmh%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_location_speed_%28kmh%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_last_location_speed_%28mph%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_location_speed_%28mph%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_location_speed_%28mph%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_location_area_code/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_location_area_code/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_location_area_code/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_macro_category/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_macro_category/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_macro_category/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_macro_id/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_macro_id/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_macro_id/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_macro_name/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_macro_name/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_macro_name/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_macrodroid_is_pro/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_macrodroid_is_pro/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_macrodroid_is_pro/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_macrodroid_version/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_macrodroid_version/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_macrodroid_version/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_minute/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_minute/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_minute/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_mobile_country_code/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_mobile_country_code/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_mobile_country_code/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_mobile_network_code/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_mobile_network_code/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_mobile_network_code/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_month/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_month/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_month/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_month_%28as_digit%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_month_%28as_digit%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_month_%28as_digit%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_new_line/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_new_line/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_new_line/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_power_%28on_off%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_power_%28on_off%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_power_%28on_off%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_ram_%28available%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_ram_%28available%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_ram_%28available%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_ram_%28total%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_ram_%28total%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_ram_%28total%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_screen_resolution/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_screen_resolution/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_screen_resolution/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_screen_resolution_%28x%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_screen_resolution_%28x%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_screen_resolution_%28x%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_screen_resolution_%28y%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_screen_resolution_%28y%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_screen_resolution_%28y%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_screen_timeout_%28seconds%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_screen_timeout_%28seconds%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_screen_timeout_%28seconds%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_second/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_second/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_second/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_sim_2_operator_name/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_sim_2_operator_name/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_sim_2_operator_name/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_sim_operator_name/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_sim_operator_name/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_sim_operator_name/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_ssid/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_ssid/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_ssid/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_stopwatches/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_stopwatches/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_stopwatches/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_storage_free_%28external%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_storage_free_%28external%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_storage_free_%28external%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_storage_free_%28internal%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_storage_free_%28internal%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_storage_free_%28internal%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_storage_total_%28external%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_storage_total_%28external%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_storage_total_%28external%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_storage_total_%28internal%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_storage_total_%28internal%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_storage_total_%28internal%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_system_settings/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_system_settings/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_system_settings/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_system_time/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_system_time/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_system_time/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_system_time_%28ms%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_system_time_%28ms%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_system_time_%28ms%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_variable%20length%20string/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_variable%20length%20string/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_variable%20length%20string/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_variable_type/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_variable_type/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_variable_type/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_webhook_base_url/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_webhook_base_url/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_webhook_base_url/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_week_of_year/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_week_of_year/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_week_of_year/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_wifi_signal_strength/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_wifi_signal_strength/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_wifi_signal_strength/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/magic_text_year/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_year/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_year/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_app_install_remove_update/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_app_install_remove_update/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_app_install_remove_update/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_application_launched_closed/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_application_launched_closed/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_application_launched_closed/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_bluetooth/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_bluetooth/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_bluetooth/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_call/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_call/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_call/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_logcat/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_logcat/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_logcat/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_notifications/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_notifications/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_notifications/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_popup_message_text/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_popup_message_text/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_popup_message_text/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_sms_received/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_sms_received/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_sms_received/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_spotify/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_spotify/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_spotify/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_system_log_entry/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_system_log_entry/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_system_log_entry/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_system_setting_%28global%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_system_setting_%28global%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_system_setting_%28global%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_system_setting_%28secure%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_system_setting_%28secure%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_system_setting_%28secure%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_system_setting_%28system%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_system_setting_%28system%29/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_system_setting_%28system%29/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_text_shared_to_macrodroid/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_text_shared_to_macrodroid/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_text_shared_to_macrodroid/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_ui_click/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_ui_click/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_ui_click/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_requiered/magic_text_usb_device_connected/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_usb_device_connected/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_usb_device_connected/"/>
     </url>
     <url>
         <loc>Nonetriggers/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/"/>
     </url>
     <url>
         <loc>Nonetriggers/Activity%20Recognition/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/Activity%20Recognition/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/Activity%20Recognition/"/>
     </url>
     <url>
         <loc>Nonetriggers/Airplane%20mode%20changed/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/Airplane%20mode%20changed/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/Airplane%20mode%20changed/"/>
     </url>
     <url>
         <loc>Nonetriggers/Android%20Wear/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/Android%20Wear/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/Android%20Wear/"/>
     </url>
     <url>
         <loc>Nonetriggers/App%20Install_Remove_Update/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/App%20Install_Remove_Update/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/App%20Install_Remove_Update/"/>
     </url>
     <url>
         <loc>Nonees/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
     </url>
     <url>
         <loc>Nonees/actions/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/actions/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneactions/"/>
     </url>
     <url>
+        <loc>Nonees/actions/actions_list/</loc>
+        <lastmod>2025-05-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/actions/actions_list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneactions/actions_list/"/>
+    </url>
+    <url>
         <loc>Nonees/actions/control_flow/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/actions/control_flow/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneactions/control_flow/"/>
     </url>
     <url>
         <loc>Nonees/actions/control_flow/if_clause/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/actions/control_flow/if_clause/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneactions/control_flow/if_clause/"/>
     </url>
     <url>
         <loc>Nonees/constraints/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/constraints/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneconstraints/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/"/>
     </url>
     <url>
-        <loc>Nonees/magic_text/introduction/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <loc>Nonees/magic_text/magic_text_list/</loc>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/introduction/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/introduction/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/magic_text_list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/magic_text_list/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_am_pm/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_am_pm/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_am_pm/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_android_version/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_android_version/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_android_version/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_android_version_%28sdk_level%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_android_version_%28sdk_level%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_android_version_%28sdk_level%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_battery_current_now/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_battery_current_now/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_battery_current_now/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_battery_temp/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_battery_temp/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_battery_temp/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_cell_connection_type/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_cell_connection_type/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_cell_connection_type/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_cell_id/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_cell_id/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_cell_id/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_cell_signal_strength/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_cell_signal_strength/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_cell_signal_strength/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_clipboard/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_clipboard/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_clipboard/"/>
     </url>
     <url>
+        <loc>Nonees/magic_text/no_trigger/magic_text_create_guid/</loc>
+        <lastmod>2025-05-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_create_guid/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_create_guid/"/>
+    </url>
+    <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_current_battery/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_battery/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_battery/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_current_brightness/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_brightness/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_brightness/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_current_brightness_alternative/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_brightness_alternative/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_brightness_alternative/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_current_ip_address/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_ip_address/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_ip_address/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_current_ip_address_%28v6%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_ip_address_%28v6%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_ip_address_%28v6%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_current_volume_%28alarm%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_volume_%28alarm%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_volume_%28alarm%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_current_volume_%28bluetooth_voice%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_volume_%28bluetooth_voice%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_volume_%28bluetooth_voice%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_current_volume_%28media_music%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_volume_%28media_music%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_volume_%28media_music%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_current_volume_%28notification%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_volume_%28notification%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_volume_%28notification%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_current_volume_%28ringer%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_volume_%28ringer%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_volume_%28ringer%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_current_volume_%28system_sounds%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_volume_%28system_sounds%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_volume_%28system_sounds%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_current_volume_%28voice_call%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_current_volume_%28voice_call%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_current_volume_%28voice_call%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_day_of_the_month/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_day_of_the_month/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_day_of_the_month/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_day_of_the_week/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_day_of_the_week/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_day_of_the_week/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_device_manufacturer/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_device_manufacturer/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_device_manufacturer/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_device_model/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_device_model/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_device_model/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_device_serial/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_device_serial/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_device_serial/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_device_uptime/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_device_uptime/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_device_uptime/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_device_uptime_%28s%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_device_uptime_%28s%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_device_uptime_%28s%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_dictionary_array_size/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_dictionary_array_size/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_dictionary_array_size/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_foreground_app_activity_class/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_foreground_app_activity_class/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_foreground_app_activity_class/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_foreground_app_name/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_foreground_app_name/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_foreground_app_name/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_foreground_app_package/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_foreground_app_package/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_foreground_app_package/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_hour_of_day/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_hour_of_day/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_hour_of_day/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_hour_of_day_%2812h%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_hour_of_day_%2812h%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_hour_of_day_%2812h%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_hour_of_day_%28leanding_zero%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_hour_of_day_%28leanding_zero%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_hour_of_day_%28leanding_zero%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_imei/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_imei/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_imei/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_language_code/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_language_code/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_language_code/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_last_known_location_%28accuracy_meters%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_known_location_%28accuracy_meters%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_known_location_%28accuracy_meters%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_last_known_location_%28altitude%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_known_location_%28altitude%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_known_location_%28altitude%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_last_known_location_%28lat%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_known_location_%28lat%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_known_location_%28lat%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_last_known_location_%28lat%2Clon%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_known_location_%28lat%2Clon%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_known_location_%28lat%2Clon%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_last_known_location_%28link%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_known_location_%28link%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_known_location_%28link%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_last_known_location_%28lon%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_known_location_%28lon%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_known_location_%28lon%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_last_known_location_%28time%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_known_location_%28time%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_known_location_%28time%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_last_location_speed_%28kmh%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_location_speed_%28kmh%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_location_speed_%28kmh%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_last_location_speed_%28mph%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_last_location_speed_%28mph%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_last_location_speed_%28mph%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_location_area_code/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_location_area_code/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_location_area_code/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_macro_category/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_macro_category/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_macro_category/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_macro_id/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_macro_id/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_macro_id/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_macro_name/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_macro_name/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_macro_name/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_macrodroid_is_pro/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_macrodroid_is_pro/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_macrodroid_is_pro/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_macrodroid_version/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_macrodroid_version/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_macrodroid_version/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_minute/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_minute/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_minute/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_mobile_country_code/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_mobile_country_code/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_mobile_country_code/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_mobile_network_code/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_mobile_network_code/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_mobile_network_code/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_month/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_month/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_month/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_month_%28as_digit%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_month_%28as_digit%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_month_%28as_digit%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_new_line/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_new_line/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_new_line/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_power_%28on_off%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_power_%28on_off%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_power_%28on_off%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_ram_%28available%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_ram_%28available%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_ram_%28available%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_ram_%28total%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_ram_%28total%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_ram_%28total%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_screen_resolution/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_screen_resolution/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_screen_resolution/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_screen_resolution_%28x%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_screen_resolution_%28x%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_screen_resolution_%28x%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_screen_resolution_%28y%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_screen_resolution_%28y%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_screen_resolution_%28y%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_screen_timeout_%28seconds%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_screen_timeout_%28seconds%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_screen_timeout_%28seconds%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_second/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_second/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_second/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_sim_2_operator_name/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_sim_2_operator_name/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_sim_2_operator_name/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_sim_operator_name/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_sim_operator_name/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_sim_operator_name/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_ssid/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_ssid/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_ssid/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_stopwatches/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_stopwatches/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_stopwatches/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_storage_free_%28external%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_storage_free_%28external%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_storage_free_%28external%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_storage_free_%28internal%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_storage_free_%28internal%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_storage_free_%28internal%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_storage_total_%28external%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_storage_total_%28external%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_storage_total_%28external%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_storage_total_%28internal%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_storage_total_%28internal%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_storage_total_%28internal%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_system_settings/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_system_settings/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_system_settings/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_system_time/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_system_time/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_system_time/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_system_time_%28ms%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_system_time_%28ms%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_system_time_%28ms%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_variable%20length%20string/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_variable%20length%20string/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_variable%20length%20string/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_variable_type/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_variable_type/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_variable_type/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_webhook_base_url/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_webhook_base_url/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_webhook_base_url/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_week_of_year/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_week_of_year/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_week_of_year/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_wifi_signal_strength/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_wifi_signal_strength/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_wifi_signal_strength/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/magic_text_year/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/magic_text_year/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/magic_text_year/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_app_install_remove_update/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_app_install_remove_update/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_app_install_remove_update/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_application_launched_closed/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_application_launched_closed/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_application_launched_closed/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_bluetooth/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_bluetooth/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_bluetooth/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_call/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_call/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_call/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_logcat/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_logcat/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_logcat/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_notifications/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_notifications/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_notifications/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_popup_message_text/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_popup_message_text/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_popup_message_text/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_sms_received/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_sms_received/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_sms_received/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_spotify/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_spotify/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_spotify/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_system_log_entry/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_system_log_entry/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_system_log_entry/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_system_setting_%28global%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_system_setting_%28global%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_system_setting_%28global%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_system_setting_%28secure%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_system_setting_%28secure%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_system_setting_%28secure%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_system_setting_%28system%29/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_system_setting_%28system%29/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_system_setting_%28system%29/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_text_shared_to_macrodroid/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_text_shared_to_macrodroid/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_text_shared_to_macrodroid/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_ui_click/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_ui_click/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_ui_click/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_requiered/magic_text_usb_device_connected/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_requiered/magic_text_usb_device_connected/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_requiered/magic_text_usb_device_connected/"/>
     </url>
     <url>
         <loc>Nonees/triggers/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/"/>
     </url>
     <url>
         <loc>Nonees/triggers/Activity%20Recognition/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/Activity%20Recognition/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/Activity%20Recognition/"/>
     </url>
     <url>
         <loc>Nonees/triggers/Airplane%20mode%20changed/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/Airplane%20mode%20changed/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/Airplane%20mode%20changed/"/>
     </url>
     <url>
         <loc>Nonees/triggers/Android%20Wear/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/Android%20Wear/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/Android%20Wear/"/>
     </url>
     <url>
         <loc>Nonees/triggers/App%20Install_Remove_Update/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/App%20Install_Remove_Update/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/App%20Install_Remove_Update/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/list/</loc>
-        <lastmod>2025-05-28</lastmod>
+        <lastmod>2025-05-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/list/"/>
     </url>
