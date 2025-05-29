@@ -1,21 +1,25 @@
-/* Definir colores para cada sección en modo claro */
+/* Colores para modo claro */
 :root {
     --trigger-primary: #F44336;  /* Rojo para triggers */
-    --action-primary: #f32121;   /* Azul para actions */
+    --action-primary: #2196F3;   /* Azul para actions */
     --constraint-primary: #4CAF50; /* Verde para constraints */
     --trigger-accent: #F44336;
     --action-accent: #2196F3;
     --constraint-accent: #4CAF50;
+    --md-primary-fg-color: #757575; /* Gris por defecto para otras páginas */
+    --md-accent-fg-color: #757575;
 }
 
-/* Ajustar colores para modo oscuro */
+/* Colores para modo oscuro */
 [data-md-color-scheme="slate"] {
-    --trigger-primary: #EF5350;  /* Rojo más claro para modo oscuro */
-    --action-primary: #42A5F5;   /* Azul más claro para modo oscuro */
-    --constraint-primary: #66BB6A; /* Verde más claro para modo oscuro */
+    --trigger-primary: #EF5350;  /* Rojo más claro */
+    --action-primary: #42A5F5;   /* Azul más claro */
+    --constraint-primary: #66BB6A; /* Verde más claro */
     --trigger-accent: #EF5350;
     --action-accent: #42A5F5;
     --constraint-accent: #66BB6A;
+    --md-primary-fg-color: #757575; /* Gris por defecto para otras páginas */
+    --md-accent-fg-color: #757575;
 }
 
 /* Aplicar colores según la clase del body */

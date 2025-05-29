@@ -1,17 +1,24 @@
 document.addEventListener('DOMContentLoaded', function() {
     var path = window.location.pathname;
-    console.log("URL actual:", path); // Para depuración
-    var parts = path.split('/').filter(Boolean); // Divide la URL y elimina vacíos
-    var section = parts.length >= 2 && ['en', 'es'].includes(parts[0]) ? parts[1] : parts[0];
-    console.log("Sección detectada:", section); // Para depuración
+    console.log("URL actual:", path);
+    var parts = path.split('/').filter(Boolean);
+    // Tomar la primera parte como sección, manejar subpáginas
+    var section = parts[0] || '';
+    console.log("Sección detectada:", section);
 
-    if (section === 'triggers') {
+    // Limpiar clases previas para evitar conflictos
+    document.body.classList.remove('trigger', 'action', 'constraint');
+
+    if (section === 'triggers' || section === 'disparadores') {
         document.body.classList.add('trigger');
-    } else if (section === 'actions') {
+        console.log("Clase agregada: trigger");
+    } else if (section === 'actions' || section === 'acciones') {
         document.body.classList.add('action');
-    } else if (section === 'constraints') {
+        console.log("Clase agregada: action");
+    } else if (section === 'constraints' || section === 'restricciones') {
         document.body.classList.add('constraint');
+        console.log("Clase agregada: constraint");
+    } else {
+        console.log("No se agregó ninguna clase específica");
     }
 });
-console.log("URL actual:", window.location.pathname);
-console.log("Sección detectada:", section);
