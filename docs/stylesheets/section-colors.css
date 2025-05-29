@@ -1,0 +1,32 @@
+/* docs/stylesheets/section-colors.css */
+
+/* Solo colores para encabezado */
+.trigger-section .md-header {
+  background-color: #4CAF50 !important;
+}
+
+.action-section .md-header {
+  background-color: #2196F3 !important;
+}
+
+.constraint-section .md-header {
+  background-color: #FF9800 !important;
+}
+
+.magic-section .md-header {
+  background-color: #9C27B0 !important;
+}
+
+/* Test visual de CSS */
+body::after {
+  content: "CSS cargado!";
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background: blue;
+  color: white;
+  padding: 10px;
+  z-index: 9999;
+  font-weight: bold;
+  border-radius: 5px;
+}
