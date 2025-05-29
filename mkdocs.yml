@@ -4,39 +4,40 @@ site_author: JosueG28
 
 theme:
   name: material
+  #custom_dir: overrides/          # si usas overrides para templates
+  #logo: assets/logo.svg           # pon aquí tu logo si lo tienes
   language: en
-  
-  # Paleta de colores base (restaurada)
+
+  # Paleta de colores base (sin primary ni accent)
   palette:
     # Modo claro
     - scheme: default
-      primary: blue grey
-      accent: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to dark mode
 
     # Modo oscuro
     - scheme: slate
-      primary: blue grey
-      accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to light mode
 
+  # Habilita tu CSS extra con las variables de MacroDroid
+  extra_css:
+    - stylesheets/extra.css
+
+  extra_javascript:
+    - javascripts/section-highlights.js
+
+  # Funcionalidades de Material for MkDocs
   features:
     - navigation.instant
     - navigation.sections
     - content.code.copy
+    - content.action.edit
     - search.suggest
     - search.highlight
     - i18n
-
-extra_css:
-  - stylesheets/section-colors.css
-
-extra_javascript:
-  - javascripts/section-colors.js
 
 markdown_extensions:
   - admonition
@@ -45,6 +46,9 @@ markdown_extensions:
   - footnotes
   - codehilite
   - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.tasklist
 
 plugins:
   - search
@@ -61,10 +65,18 @@ plugins:
           site_author: JosueG28
           nav:
             - Home: index.md
-            - Triggers: triggers/index.md
-            - Actions: actions/index.md
-            - Constraints: constraints/index.md
-            - Magic text: magic_text/index.md
+            - Triggers:
+                - Introduction to triggers: triggers/index.md
+            - Actions:
+                - Introduction to actions: actions/index.md
+                - Control flow: actions/control_flow/index.md
+                - Actions list: actions/actions_list/index.md
+            - Constraints:
+                - Introduction to restrictions: constraints/index.md
+            - Magic text:
+                - Introduction to the Magic Text: magic_text/index.md
+                - No trigger required to operate: magic_text/no_trigger/index.md
+                - Trigger required to operate: magic_text/trigger_required/index.md
 
         - locale: es
           name: Español
@@ -74,16 +86,24 @@ plugins:
           site_author: JosueG28
           nav:
             - Inicio: index.md
-            - Disparadores: triggers/index.md
-            - Acciones: actions/index.md
-            - Restricciones: constraints/index.md
-            - Texto mágico: magic_text/index.md
+            - Disparadores:
+                - Introducción a disparadores: triggers/index.md
+            - Acciones:
+                - Introducción a acciones: actions/index.md
+                - Flujo de control: actions/control_flow/index.md
+            - Restricciones:
+                - Introducción a restricciones: constraints/index.md
+            - Texto mágico: 
+                - Introducción al texto mágico: magic_text/index.md
+                - No trigger required to operate: magic_text/no_trigger/index.md
+                - Trigger required to operate: magic_text/trigger_required/index.md
 
 extra:
   alternate:
     - name: English
-      link: "/"
+      link: "/"     # raíz
       lang: en
+
     - name: Español
-      link: "es/"
+      link: "es/"   # /es/
       lang: es

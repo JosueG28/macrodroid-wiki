@@ -1,28 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Detectar sección basada en la URL
-  const detectSection = () => {
-    const path = window.location.pathname;
-    const langPrefix = path.startsWith('/es') ? '/es' : '';
-    
-    if (path.includes(`${langPrefix}/triggers/`)) {
-      return 'trigger-section';
-    } else if (path.includes(`${langPrefix}/actions/`)) {
-      return 'action-section';
-    } else if (path.includes(`${langPrefix}/constraints/`)) {
-      return 'constraint-section';
-    }
-    return null;
-  };
+    var path = window.location.pathname;
+    console.log("URL actual:", path); // Para depuración
+    var parts = path.split('/').filter(Boolean); // Divide la URL y elimina vacíos
+    var section = parts.length >= 2 && ['en', 'es'].includes(parts[0]) ? parts[1] : parts[0];
+    console.log("Sección detectada:", section); // Para depuración
 
-  // Aplicar clase de sección al body
-  const sectionClass = detectSection();
-  if (sectionClass) {
-    document.body.classList.add(sectionClass);
-    
-    // Resaltar elemento activo en la barra lateral
-    const activeNavItem = document.querySelector('.md-nav__link--active');
-    if (activeNavItem) {
-      activeNavItem.closest('.md-nav__item').classList.add(sectionClass);
+    if (section === 'triggers') {
+        document.body.classList.add('trigger');
+    } else if (section === 'actions') {
+        document.body.classList.add('action');
+    } else if (section === 'constraints') {
+        document.body.classList.add('constraint');
     }
-  }
 });
+console.log("URL actual:", window.location.pathname);
+console.log("Sección detectada:", section);
