@@ -1,14 +1,35 @@
+/* Definir colores para cada sección en modo claro */
+:root {
+    --trigger-primary: #F44336;  /* Rojo para triggers */
+    --action-primary: #f32121;   /* Azul para actions */
+    --constraint-primary: #4CAF50; /* Verde para constraints */
+    --trigger-accent: #F44336;
+    --action-accent: #2196F3;
+    --constraint-accent: #4CAF50;
+}
+
+/* Ajustar colores para modo oscuro */
+[data-md-color-scheme="slate"] {
+    --trigger-primary: #EF5350;  /* Rojo más claro para modo oscuro */
+    --action-primary: #42A5F5;   /* Azul más claro para modo oscuro */
+    --constraint-primary: #66BB6A; /* Verde más claro para modo oscuro */
+    --trigger-accent: #EF5350;
+    --action-accent: #42A5F5;
+    --constraint-accent: #66BB6A;
+}
+
+/* Aplicar colores según la clase del body */
 body.trigger {
-    --md-primary-fg-color: #F44336; /* Rojo para triggers */
-    --md-accent-fg-color: #F44336;
+    --md-primary-fg-color: var(--trigger-primary) !important;
+    --md-accent-fg-color: var(--trigger-accent) !important;
 }
 
 body.action {
-    --md-primary-fg-color: #2196F3; /* Azul para actions */
-    --md-accent-fg-color: #2196F3;
+    --md-primary-fg-color: var(--action-primary) !important;
+    --md-accent-fg-color: var(--action-accent) !important;
 }
 
 body.constraint {
-    --md-primary-fg-color: #4CAF50; /* Verde para constraints */
-    --md-accent-fg-color: #4CAF50;
+    --md-primary-fg-color: var(--constraint-primary) !important;
+    --md-accent-fg-color: var(--constraint-accent) !important;
 }
