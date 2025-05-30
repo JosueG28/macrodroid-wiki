@@ -813,6 +813,13 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/App%20Install_Remove_Update/"/>
     </url>
     <url>
+        <loc>Nonetriggers/trigger_list/</loc>
+        <lastmod>2025-05-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/trigger_list/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/trigger_list/"/>
+    </url>
+    <url>
         <loc>Nonees/</loc>
         <lastmod>2025-05-30</lastmod>
         <changefreq>daily</changefreq>
@@ -1623,6 +1630,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/App%20Install_Remove_Update/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/App%20Install_Remove_Update/"/>
+    </url>
+    <url>
+        <loc>Nonees/triggers/trigger_list/</loc>
+        <lastmod>2025-05-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/trigger_list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/trigger_list/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/list/</loc>
