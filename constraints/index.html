@@ -24,14 +24,11 @@
     
     
       
-        <title>Título de la página - MacroDroid Wiki</title>
+        <title>Introduction to restrictions - MacroDroid Wiki</title>
       
     
     
       <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
-      
-        
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -50,6 +47,8 @@
       
     
     
+      <link rel="stylesheet" href="../stylesheets/macrodroid-colors.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -60,25 +59,13 @@
   </head>
   
   
-    
-    
-      
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    <body dir="ltr">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
-      
-        
-        <a href="#contenido-de-la-pagina" class="md-skip">
-          Skip to content
-        </a>
       
     </div>
     <div data-md-component="announce">
@@ -112,38 +99,12 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Título de la página
+              Introduction to restrictions
             
           </span>
         </div>
       </div>
     </div>
-    
-      
-        <form class="md-header__option" data-md-component="palette">
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
-    
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
-      </label>
-    
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
-    
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
-      </label>
-    
-  
-</form>
-      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -527,8 +488,6 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -690,8 +649,6 @@
   
   
   
-    
-  
   
 </nav>
                   </div>
@@ -707,61 +664,89 @@
 
 
 
-<h1 id="contenido-de-la-pagina">Contenido de la página<a class="headerlink" href="#contenido-de-la-pagina" title="Permanent link">&para;</a></h1>
-<p>...</p>
-<h1 id="introduction-to-constraints-in-macrodroid">🔒 Introduction to Constraints in MacroDroid<a class="headerlink" href="#introduction-to-constraints-in-macrodroid" title="Permanent link">&para;</a></h1>
-<p><strong>Constraints</strong> in MacroDroid are conditions that control whether a macro or specific actions within it will execute after a trigger is activated. They act as filters, ensuring your automations only run when specific conditions are met, making them precise and context-aware. MacroDroid supports two types of constraints: <strong>General Constraints</strong> and <strong>Individual Constraints</strong>, both of which can use logical operators (AND, OR, XOR, NOT) for flexible customization.</p>
-<hr />
-<h2 id="types-of-constraints">🔹 Types of Constraints<a class="headerlink" href="#types-of-constraints" title="Permanent link">&para;</a></h2>
-<h3 id="1-general-constraints">1. General Constraints<a class="headerlink" href="#1-general-constraints" title="Permanent link">&para;</a></h3>
-<ul>
-<li><strong>Location</strong>: Found at the bottom of the macro editing screen in the <strong>Constraints</strong> section.</li>
-<li><strong>Behavior</strong>: These constraints affect the <strong>entire macro</strong>. If any general constraint evaluates to false, the macro will not execute at all, regardless of the trigger.</li>
-<li><strong>Use Case</strong>: Ideal for setting broad conditions that determine whether the macro should run.</li>
-</ul>
-<h4 id="example">Example:<a class="headerlink" href="#example" title="Permanent link">&para;</a></h4>
-<p>A macro that turns on Wi-Fi when you connect your charger (trigger: "Charger Connected") might have a general constraint like "Time of Day: 8:00 AM - 10:00 PM" to ensure the entire macro only runs during the day.</p>
-<h3 id="2-individual-constraints">2. Individual Constraints<a class="headerlink" href="#2-individual-constraints" title="Permanent link">&para;</a></h3>
-<ul>
-<li><strong>Location</strong>: Applied directly to a specific <strong>trigger</strong> or <strong>action</strong>. To add one, tap the action or trigger in the macro editing screen and select <strong>Add Constraint</strong>.</li>
-<li><strong>Behavior</strong>: These constraints only affect the specific trigger or action they’re attached to. If the constraint fails, only that particular action or trigger is skipped, allowing other parts of the macro to proceed.</li>
-<li><strong>Use Case</strong>: Perfect for fine-tuning individual actions or triggers within a macro.</li>
-</ul>
-<h4 id="example_1">Example:<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h4>
-<p>In a macro with multiple actions, you could add an individual constraint to a "Send Notification" action, such as "Battery Level &gt; 30%," so the notification only appears if the battery is above 30%, while other actions in the macro run regardless.</p>
-<hr />
-<h2 id="how-do-constraints-work">🔹 How Do Constraints Work?<a class="headerlink" href="#how-do-constraints-work" title="Permanent link">&para;</a></h2>
-<ol>
-<li><strong>Evaluation</strong>: Constraints are checked <strong>after</strong> the macro’s trigger is activated.</li>
-<li><strong>Condition</strong>: For a macro or action to proceed, all constraints (general or individual) must evaluate to true. If any constraint is false, the affected macro or action stops.</li>
-<li><strong>Logical Operators</strong>: Both general and individual constraints support <strong>AND</strong>, <strong>OR</strong>, <strong>XOR</strong>, and <strong>NOT</strong> operators, allowing you to create complex conditions.</li>
-<li><strong>AND</strong>: All conditions must be true.</li>
-<li><strong>OR</strong>: At least one condition must be true.</li>
-<li><strong>XOR</strong>: Exactly one condition must be true.</li>
-<li><strong>NOT</strong>: Inverts the condition’s result.</li>
-</ol>
-<h3 id="example-with-logical-operators">Example with Logical Operators:<a class="headerlink" href="#example-with-logical-operators" title="Permanent link">&para;</a></h3>
-<p>A general constraint might combine "Wi-Fi Connected" <strong>AND</strong> "Day of the Week: Weekdays" to ensure a macro only runs when connected to Wi-Fi on a weekday.</p>
-<hr />
-<h2 id="common-constraint-examples">🔹 Common Constraint Examples<a class="headerlink" href="#common-constraint-examples" title="Permanent link">&para;</a></h2>
-<p>MacroDroid offers a wide range of constraints to customize your macros. Some popular options include:
-- <strong>Time-Based</strong>: "Day of the Week" (e.g., only Monday to Friday) or "Time of Day."
-- <strong>Device State</strong>: "Battery Level" (e.g., above 30%) or "Silent Mode."
-- <strong>Connectivity</strong>: "Wi-Fi Connection" (e.g., only at home) or "Bluetooth Enabled."
-- <strong>Apps</strong>: "Foreground App" (e.g., only if WhatsApp is open).</p>
-<hr />
-<h2 id="why-use-constraints">🔹 Why Use Constraints?<a class="headerlink" href="#why-use-constraints" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Precision</strong>: Ensure macros or specific actions only run under the exact conditions you define.</li>
-<li><strong>Efficiency</strong>: Prevent unnecessary resource usage, like battery or data.</li>
-<li><strong>Customization</strong>: Use general constraints for macro-wide control or individual constraints for granular control over specific actions or triggers.</li>
-</ul>
-<h3 id="practical-example">Practical Example:<a class="headerlink" href="#practical-example" title="Permanent link">&para;</a></h3>
-<p>A macro that silences your phone when you arrive at work (trigger: "Location") could include:
-- A <strong>general constraint</strong> like "Time of Day: 9:00 AM - 5:00 PM" to ensure the macro only runs during work hours.
-- An <strong>individual constraint</strong> on a "Send Notification" action, like "Battery Level &gt; 20%," to only send the notification if the battery is sufficiently charged.</p>
-<hr />
-<p>Constraints, with their support for general and individual applications and logical operators, are a cornerstone of MacroDroid’s flexibility. Experiment with them to create smarter, more efficient automations, whether you’re a beginner or an advanced user!</p>
+  <h1>Introduction to restrictions</h1>
+
+<p>theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - i18n</p>
+<p>extra_css:
+  - stylesheets/macrodroid-colors.css</p>
+<p>extra_javascript:
+  - javascripts/apply-colors.js</p>
+<p>markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - footnotes
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.tasklist</p>
+<p>plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      default_language: en
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+          site_name: MacroDroid Wiki
+          site_description: Unofficial MacroDroid Documentation
+          site_author: JosueG28
+          nav:
+            - Home: index.md
+            - Triggers:
+                - Introduction to triggers: triggers/index.md
+            - Actions:
+                - Introduction to actions: actions/index.md
+                - Control flow: actions/control_flow/index.md
+                - Actions list: actions/actions_list/index.md
+            - Constraints:
+                - Introduction to restrictions: constraints/index.md
+            - Magic text:
+                - Introduction to the Magic Text: magic_text/index.md
+                - No trigger required to operate: magic_text/no_trigger/index.md
+                - Trigger required to operate: magic_text/trigger_required/index.md</p>
+<div class="codehilite"><pre><span></span><code><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">locale</span><span class="p">:</span><span class="w"> </span><span class="n">es</span>
+<span class="w">      </span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="n">Español</span>
+<span class="w">      </span><span class="n">build</span><span class="p">:</span><span class="w"> </span><span class="bp">true</span>
+<span class="w">      </span><span class="n">site_name</span><span class="p">:</span><span class="w"> </span><span class="n">MacroDroid</span><span class="w"> </span><span class="n">Wiki</span>
+<span class="w">      </span><span class="n">site_description</span><span class="p">:</span><span class="w"> </span><span class="n">Documentación</span><span class="w"> </span><span class="n">no</span><span class="w"> </span><span class="n">oficial</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">MacroDroid</span>
+<span class="w">      </span><span class="n">site_author</span><span class="p">:</span><span class="w"> </span><span class="n">JosueG28</span>
+<span class="w">      </span><span class="n">nav</span><span class="p">:</span>
+<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">Inicio</span><span class="p">:</span><span class="w"> </span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
+<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">Disparadores</span><span class="p">:</span>
+<span class="w">            </span><span class="o">-</span><span class="w"> </span><span class="n">Introducción</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">disparadores</span><span class="p">:</span><span class="w"> </span><span class="n">triggers</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
+<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">Acciones</span><span class="p">:</span>
+<span class="w">            </span><span class="o">-</span><span class="w"> </span><span class="n">Introducción</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">acciones</span><span class="p">:</span><span class="w"> </span><span class="n">actions</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
+<span class="w">            </span><span class="o">-</span><span class="w"> </span><span class="n">Flujo</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">control</span><span class="p">:</span><span class="w"> </span><span class="n">actions</span><span class="o">/</span><span class="n">control_flow</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
+<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">Restricciones</span><span class="p">:</span>
+<span class="w">            </span><span class="o">-</span><span class="w"> </span><span class="n">Introducción</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">restricciones</span><span class="p">:</span><span class="w"> </span><span class="n">constraints</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
+<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">Texto</span><span class="w"> </span><span class="n">mágico</span><span class="p">:</span><span class="w"> </span>
+<span class="w">            </span><span class="o">-</span><span class="w"> </span><span class="n">Introducción</span><span class="w"> </span><span class="n">al</span><span class="w"> </span><span class="n">texto</span><span class="w"> </span><span class="n">mágico</span><span class="p">:</span><span class="w"> </span><span class="n">magic_text</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
+<span class="w">            </span><span class="o">-</span><span class="w"> </span><span class="n">No</span><span class="w"> </span><span class="n">trigger</span><span class="w"> </span><span class="n">required</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">operate</span><span class="p">:</span><span class="w"> </span><span class="n">magic_text</span><span class="o">/</span><span class="n">no_trigger</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
+<span class="w">            </span><span class="o">-</span><span class="w"> </span><span class="n">Trigger</span><span class="w"> </span><span class="n">required</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">operate</span><span class="p">:</span><span class="w"> </span><span class="n">magic_text</span><span class="o">/</span><span class="n">trigger_required</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
+</code></pre></div>
+
+<p>extra:
+  alternate:
+    - name: English
+      link: "/"
+      lang: en
+    - name: Español
+      link: "es/"
+      lang: es</p>
 
 
 
@@ -817,6 +802,8 @@
     
     
       <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../javascripts/apply-colors.js"></script>
       
     
   </body>
