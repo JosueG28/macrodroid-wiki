@@ -8,6 +8,13 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
     </url>
     <url>
+        <loc>Noneaction_blocks/</loc>
+        <lastmod>2025-05-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneaction_blocks/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/action_blocks/"/>
+    </url>
+    <url>
         <loc>Noneactions/</loc>
         <lastmod>2025-05-30</lastmod>
         <changefreq>daily</changefreq>
@@ -811,6 +818,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
+    </url>
+    <url>
+        <loc>Nonees/action_blocks/</loc>
+        <lastmod>2025-05-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/action_blocks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneaction_blocks/"/>
     </url>
     <url>
         <loc>Nonees/actions/</loc>
