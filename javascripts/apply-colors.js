@@ -6,26 +6,25 @@ document.addEventListener('DOMContentLoaded', async function () {
   const response = await fetch(`${basePath}assets/categories.json`);
   const categories = await response.json();
 
-  const path = window.location.pathname.replace(basePath, '');
-  const segments = path.split('/').filter(Boolean);
+  // Quitar ruta base (por ejemplo "/macrodroid-wiki/")
+  const cleanPath = window.location.pathname.replace(basePath, '');
+  const segments = cleanPath.split('/').filter(Boolean);
 
   let lang = 'en';
+  let slug = segments[0] || '';
+
+  // Detectar idioma: si está presente, está en [0], y el slug queda en [1]
+  if (segments[0] === 'es') {
+    lang = 'es';
+    slug = segments[1] || '';
+  }
+
+  // Buscar categoría correspondiente
   let currentCategory = categories.default;
-
-  if (segments.length > 0) {
-    if (segments[0] === 'es') {
-      lang = 'es';
-      segments.shift();
-    }
-
-    if (segments.length > 0) {
-      const slug = segments[0];
-      for (const key in categories) {
-        if (categories[key][lang] === slug) {
-          currentCategory = categories[key];
-          break;
-        }
-      }
+  for (const key in categories) {
+    if (categories[key][lang] === slug) {
+      currentCategory = categories[key];
+      break;
     }
   }
 
