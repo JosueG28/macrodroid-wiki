@@ -1,47 +1,60 @@
 document.addEventListener('DOMContentLoaded', async function () {
-  const response = await fetch('/assets/categories.json');
+  const isGitHubPages = window.location.hostname === 'josueg28.github.io';
+  const basePath = isGitHubPages ? '/macrodroid-wiki/' : '/';
+
+  // Cargar JSON de categorías
+  const response = await fetch(`${basePath}assets/categories.json`);
   const categories = await response.json();
 
-  const pathSegments = window.location.pathname.split('/').filter(Boolean);
-  const lang = pathSegments[0] === 'es' ? 'es' : 'en';
-  const categorySegment = lang === 'es' ? pathSegments[1] : pathSegments[0];
+  const path = window.location.pathname.replace(basePath, '');
+  const segments = path.split('/').filter(Boolean);
 
-  const currentCategory = Object.values(categories).find(
-    cat => cat[lang] === categorySegment
-  ) || categories.default;
+  let lang = 'en';
+  let currentCategory = categories.default;
 
-  const { color, hover } = currentCategory;
-  const neutralHover = '#b0bec5'; // Color neutro para elementos de otras categorías
+  if (segments.length > 0) {
+    if (segments[0] === 'es') {
+      lang = 'es';
+      segments.shift();
+    }
 
-  const css = `
+    if (segments.length > 0) {
+      const slug = segments[0];
+      for (const key in categories) {
+        if (categories[key][lang] === slug) {
+          currentCategory = categories[key];
+          break;
+        }
+      }
+    }
+  }
+
+  // Aplicar estilos dinámicos
+  const style = document.createElement('style');
+  style.textContent = `
     .md-header {
-      background-color: ${color} !important;
+      background-color: ${currentCategory.color} !important;
     }
 
     .md-tabs__link {
       color: rgba(255,255,255,0.9) !important;
     }
 
-    .md-tabs__link[data-category="${categorySegment}"]:hover {
-      background-color: ${hover} !important;
+    .md-tabs__link:hover {
       color: white !important;
-    }
-
-    .md-tabs__link:not([data-category="${categorySegment}"]):hover {
-      background-color: ${neutralHover} !important;
-      color: white !important;
+      background-color: ${currentCategory.hover} !important;
     }
 
     a:hover {
-      color: ${color} !important;
+      color: ${currentCategory.color} !important;
     }
 
     .md-nav__link svg {
-      color: ${color} !important;
+      color: ${currentCategory.color} !important;
     }
 
     .page-title {
-      border-bottom: 3px solid ${color};
+      border-bottom: 3px solid ${currentCategory.color};
       padding-bottom: 0.5rem;
     }
 
@@ -58,28 +71,19 @@ document.addEventListener('DOMContentLoaded', async function () {
       transform: translateY(-50%);
       width: 5px;
       height: 80%;
-      background-color: ${color};
+      background-color: ${currentCategory.color};
       border-radius: 2px;
     }
 
-    .md-button:not(.md-button--primary)[data-category="${categorySegment}"]:hover {
-      background-color: ${color} !important;
-      border-color: ${color} !important;
-      color: white !important;
-    }
-
-    .md-button:not(.md-button--primary):not([data-category="${categorySegment}"]):hover {
-      background-color: ${neutralHover} !important;
-      border-color: ${neutralHover} !important;
+    .md-button:not(.md-button--primary):hover {
+      background-color: ${currentCategory.color} !important;
+      border-color: ${currentCategory.color} !important;
       color: white !important;
     }
   `;
+  document.head.appendChild(style);
 
-  const styleEl = document.createElement('style');
-  styleEl.textContent = css;
-  document.head.appendChild(styleEl);
-
-  // Agregar clase y data-category al título
+  // Título de página
   const pageTitle = document.querySelector('.md-content h1');
   if (pageTitle) {
     pageTitle.classList.add('page-title');
@@ -87,14 +91,10 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   // Navegación activa
   const currentPath = window.location.pathname;
-  document.querySelectorAll('.md-nav__link').forEach(link => {
+  const navLinks = document.querySelectorAll('.md-nav__link');
+  navLinks.forEach(link => {
     if (link.getAttribute('href') === currentPath) {
       link.classList.add('active-category');
     }
-  });
-
-  // Asignar data-category para hover selectivo
-  document.querySelectorAll('.md-button, .md-tabs__link').forEach(el => {
-    el.setAttribute('data-category', categorySegment);
   });
 });
