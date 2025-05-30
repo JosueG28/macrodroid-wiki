@@ -1,99 +1,47 @@
-document.addEventListener('DOMContentLoaded', async function () {
-  const isGitHubPages = window.location.hostname === 'josueg28.github.io';
-  const basePath = isGitHubPages ? '/macrodroid-wiki/' : '/';
+;(function() {
+  // 1. Tu JSON embebido
+  const categories = {
+    triggers:    { en:'triggers',    es:'disparadores', color:'#e53935', hover:'#ff6b6b' },
+    actions:     { en:'actions',     es:'acciones',     color:'#1e88e5', hover:'#64b5f6' },
+    constraints: { en:'constraints', es:'restricciones', color:'#43a047', hover:'#81c784' },
+    magic_text:  { en:'magic_text',  es:'texto_magico',  color:'#9c27b0', hover:'#ba68c8' },
+    default:     { color:'#607d8b',  hover:'#90a4ae' }
+  };
 
-  // Cargar JSON de categorías
-  const response = await fetch(`${basePath}assets/categories.json`);
-  const categories = await response.json();
+  // 2. Limpia la ruta y detecta repo/idioma
+  let seg = location.pathname.split('/').filter(Boolean);
+  if (location.hostname === 'josueg28.github.io' && seg[0]==='macrodroid-wiki') seg.shift();
+  let lang = seg[0]==='es' ? 'es' : 'en';
+  let slug = (lang==='es' ? seg[1] : seg[0]) || '';
 
-  // Quitar ruta base (por ejemplo "/macrodroid-wiki/")
-  const cleanPath = window.location.pathname.replace(basePath, '');
-  const segments = cleanPath.split('/').filter(Boolean);
-
-  let lang = 'en';
-  let slug = segments[0] || '';
-
-  // Detectar idioma: si está presente, está en [0], y el slug queda en [1]
-  if (segments[0] === 'es') {
-    lang = 'es';
-    slug = segments[1] || '';
+  // 3. Elige categoría
+  let cat = categories.default;
+  for (let key in categories) {
+    if (categories[key][lang] === slug) { cat = categories[key]; break; }
   }
 
-  // Buscar categoría correspondiente
-  let currentCategory = categories.default;
-  for (const key in categories) {
-    if (categories[key][lang] === slug) {
-      currentCategory = categories[key];
-      break;
-    }
-  }
+  // 4. Inyecta estilos
+  const { color, hover } = cat;
+  const css = [
+    `.md-header{background:${color}!important}`,
+    `.md-tabs__link{color:rgba(255,255,255,0.9)!important}`,
+    `.md-tabs__link:hover{background:${hover}!important;color:white!important}`,
+    `a:hover{color:${color}!important}`,
+    `.md-nav__link svg{color:${color}!important}`,
+    `.page-title{border-bottom:3px solid ${color};padding-bottom:.5rem}`,
+    `.active-category{position:relative;padding-left:1.2rem!important}`,
+    `.active-category::before{content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);width:5px;height:80%;background:${color};border-radius:2px}`,
+    `.md-button:not(.md-button--primary):hover{background:${color}!important;border-color:${color}!important;color:white!important}`
+  ].join('');
 
-  // Aplicar estilos dinámicos
-  const style = document.createElement('style');
-  style.textContent = `
-    .md-header {
-      background-color: ${currentCategory.color} !important;
-    }
+  const s = document.createElement('style');
+  s.textContent = css;
+  document.head.appendChild(s);
 
-    .md-tabs__link {
-      color: rgba(255,255,255,0.9) !important;
-    }
-
-    .md-tabs__link:hover {
-      color: white !important;
-      background-color: ${currentCategory.hover} !important;
-    }
-
-    a:hover {
-      color: ${currentCategory.color} !important;
-    }
-
-    .md-nav__link svg {
-      color: ${currentCategory.color} !important;
-    }
-
-    .page-title {
-      border-bottom: 3px solid ${currentCategory.color};
-      padding-bottom: 0.5rem;
-    }
-
-    .active-category {
-      position: relative;
-      padding-left: 1.2rem !important;
-    }
-
-    .active-category::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 5px;
-      height: 80%;
-      background-color: ${currentCategory.color};
-      border-radius: 2px;
-    }
-
-    .md-button:not(.md-button--primary):hover {
-      background-color: ${currentCategory.color} !important;
-      border-color: ${currentCategory.color} !important;
-      color: white !important;
-    }
-  `;
-  document.head.appendChild(style);
-
-  // Título de página
-  const pageTitle = document.querySelector('.md-content h1');
-  if (pageTitle) {
-    pageTitle.classList.add('page-title');
-  }
-
-  // Navegación activa
-  const currentPath = window.location.pathname;
-  const navLinks = document.querySelectorAll('.md-nav__link');
-  navLinks.forEach(link => {
-    if (link.getAttribute('href') === currentPath) {
-      link.classList.add('active-category');
-    }
+  // 5. Marca título y nav activa
+  const h1 = document.querySelector('.md-content h1');
+  if (h1) h1.classList.add('page-title');
+  document.querySelectorAll('.md-nav__link').forEach(l=>{
+    if (l.getAttribute('href')===location.pathname) l.classList.add('active-category');
   });
-});
+})();
