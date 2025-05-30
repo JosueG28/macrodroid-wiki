@@ -1,5 +1,3 @@
-/* styles.css */
-
 /* 1. Variables globales actualizadas a púrpura */
 :root {
   --category-color: #673AB7;  /* Deep Purple */
@@ -67,4 +65,21 @@ a:hover {
 
 [data-md-color-scheme="slate"] a:hover {
   color: #bb86fc;
+}
+
+/* 6. Mejoras adicionales para móviles (ancho completo) */
+@media (max-width: 480px) {
+  .md-grid {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .md-content {
+    padding: 0.8rem;
+  }
+}
+
+/* 7. Mejora de contraste para títulos */
+.md-typeset h1, .md-typeset h2 {
+  color: var(--category-color);
 }
