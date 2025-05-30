@@ -1,9 +1,9 @@
 /* styles.css */
 
-/* 1. Variables globales de categoría (se actualizarán vía JS) */
+/* 1. Variables globales actualizadas a púrpura */
 :root {
-  --category-color: #607d8b;
-  --category-hover: #90a4ae;
+  --category-color: #673AB7;  /* Deep Purple */
+  --category-hover: #9575CD;  /* Light Purple */
 }
 
 /* 2. Estilos base */
