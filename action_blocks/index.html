@@ -13,10 +13,10 @@
       
       
       
-        <link rel="prev" href="./">
+        <link rel="prev" href="../constraints/">
       
       
-        <link rel="next" href="../magic_text/">
+        <link rel="next" href="../variables/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Guide - MacroDroid Wiki</title>
+        <title>Introduction to the action blocks - MacroDroid Wiki</title>
       
     
     
@@ -79,6 +79,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#understanding-action-blocks-in-macrodroid" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -110,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Guide
+              Introduction to the action blocks
             
           </span>
         </div>
@@ -440,17 +445,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../action_bñloks/index.md" class="md-nav__link">
         
   
   
@@ -461,7 +459,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -547,7 +544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../triggers/trigger_list/" class="md-nav__link">
+      <a href="../triggers/trigger_list.md" class="md-nav__link">
         
   
   
@@ -666,7 +663,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../actions/actions_list/" class="md-nav__link">
+      <a href="../actions/actions_list/index.md" class="md-nav__link">
         
   
   
@@ -789,8 +786,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -801,11 +800,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
@@ -821,7 +820,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Action blocks
@@ -841,18 +840,130 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Introduction to the action blocks
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Guide
+    Introduction to the action blocks
     
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔑 Key Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔑 Key Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-inputoutput-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣ Input/Output Parameters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-working-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣ Working Variables ⚙️
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anatomy-of-an-action-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Anatomy of an Action Block
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⭐ Key Benefits
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚫 Important Limitations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#real-world-example-send-custom-notification-action-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Real-World Example: "Send Custom Notification" Action Block
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pro-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      💡 Pro Tips
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -870,8 +981,6 @@
       
   
   
-    
-  
   
   
     
@@ -884,11 +993,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
           <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
@@ -904,7 +1013,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             Variables
@@ -915,28 +1024,20 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../variables/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Guide
+    Introduction to variables
     
   </span>
   
 
       </a>
-      
     </li>
   
 
@@ -1096,7 +1197,7 @@
   
   
   <span class="md-ellipsis">
-    MacroDroid log
+    Stopwatches
     
   </span>
   
@@ -1106,6 +1207,79 @@
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Stopwatches
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stopwatches/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction to stopwatches
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    MacroDroid log
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
             <span class="md-nav__icon md-icon"></span>
             MacroDroid log
           </label>
@@ -1184,10 +1358,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
         
           
-          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
             
   
   
@@ -1200,8 +1374,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_11">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
             <span class="md-nav__icon md-icon"></span>
             Import/Export
           </label>
@@ -1254,6 +1428,94 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔑 Key Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔑 Key Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-inputoutput-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      1️⃣ Input/Output Parameters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-working-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      2️⃣ Working Variables ⚙️
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anatomy-of-an-action-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Anatomy of an Action Block
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⭐ Key Benefits
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚫 Important Limitations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#real-world-example-send-custom-notification-action-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Real-World Example: "Send Custom Notification" Action Block
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pro-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      💡 Pro Tips
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1269,9 +1531,98 @@
 
 
 
-  <h1>Guide</h1>
+<h1 id="understanding-action-blocks-in-macrodroid">🧱 Understanding Action Blocks in MacroDroid<a class="headerlink" href="#understanding-action-blocks-in-macrodroid" title="Permanent link">&para;</a></h1>
+<p>Action Blocks let you create reusable "chunks" of actions to simplify your macros. Think of them like custom building blocks!</p>
+<h2 id="key-features">🔑 Key Features<a class="headerlink" href="#key-features" title="Permanent link">&para;</a></h2>
+<h3 id="1-inputoutput-parameters">1️⃣ Input/Output Parameters<a class="headerlink" href="#1-inputoutput-parameters" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Inputs</strong>: Values you feed into the Action Block  </li>
+<li><strong>Outputs</strong>: Results the Action Block returns to your macro  </li>
+<li><strong>Supported Types</strong>:<br />
+  ✅ Text (String)<br />
+  ✅ Numbers (Integer/Decimal)<br />
+  ✅ True/False (Boolean)<br />
+  ✅ Lists (Array)<br />
+  ✅ Key-Value Collections (Dictionary)  </li>
+</ul>
+<blockquote>
+<p><strong>Example:</strong> Create a <em>"Calculate Discount"</em> Action Block with <code>price</code> (input) and <code>final price</code> (output)</p>
+</blockquote>
+<h3 id="2-working-variables">2️⃣ Working Variables ⚙️<a class="headerlink" href="#2-working-variables" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Temporary "scratchpad" variables  </li>
+<li>Only exist <strong>while the Action Block is running</strong>  </li>
+<li>Ideal for intermediate calculations  </li>
+<li><strong>Automatically reset</strong> every time the block runs  </li>
+</ul>
+<blockquote>
+<p><strong>Example:</strong> Use <code>tempTotal</code> to hold intermediate values during a multi-step calculation</p>
+</blockquote>
+<hr />
+<h2 id="anatomy-of-an-action-block">🛠️ Anatomy of an Action Block<a class="headerlink" href="#anatomy-of-an-action-block" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>[Action Block Name]
+│
+├── 📥 INPUTS (Optional)
+│   └── e.g., userName (Text), itemPrice (Number)
+│
+├── ⚙️ WORKING VARIABLES (Optional)
+│   └── Temporary values (cleared after each run)
+│
+├── ▶️ ACTIONS
+│   ├── Your standard MacroDroid actions
+│   ├── Can use inputs + working variables
+│   └── Can set outputs/working variables
+│
+├── 🛑 CLAUSES/RESTRICTIONS (Optional)
+│
+└── 📤 OUTPUTS (Optional)
+    └── e.g., discountedPrice (Number), greetingMessage (Text)
+</code></pre></div>
+<hr />
+<h2 id="key-benefits">⭐ Key Benefits<a class="headerlink" href="#key-benefits" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Reusability</strong>: Use the same block in multiple macros  </li>
+<li><strong>Simplify Macros</strong>: Replace 10 actions with 1 block  </li>
+<li><strong>Easy Updates</strong>: Change logic in one place  </li>
+<li><strong>Cleaner Macros</strong>: Hide complex operations under the hood  </li>
+</ul>
+<hr />
+<h2 id="important-limitations">🚫 Important Limitations<a class="headerlink" href="#important-limitations" title="Permanent link">&para;</a></h2>
+<ul>
+<li>❌ No triggers (only actions/clauses/restrictions)  </li>
+<li>❌ Working variables disappear after the block finishes  </li>
+<li>❌ Can't run independently (must be called from a macro or another block)  </li>
+</ul>
+<hr />
+<h2 id="real-world-example-send-custom-notification-action-block">🧪 Real-World Example: "Send Custom Notification" Action Block<a class="headerlink" href="#real-world-example-send-custom-notification-action-block" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>INPUTS:
+  - title (Text)
+  - message (Text)
+  - icon (Text)
 
+WORKING VARIABLES:
+  - tempTimestamp (Text)
 
+ACTIONS:
+1. Set [tempTimestamp] = Current time
+2. Create notification:
+   Title = {title}
+   Text = {message} at {tempTimestamp}
+   Icon = {icon}
+
+OUTPUTS: (none)
+</code></pre></div>
+<hr />
+<h2 id="pro-tips">💡 Pro Tips<a class="headerlink" href="#pro-tips" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Start simple — add complexity later  </li>
+<li>Name variables clearly (<code>totalPrice</code> vs <code>tempCalc</code>)  </li>
+<li>Use "Comment" actions to document your logic  </li>
+<li>Test blocks individually before integrating them into macros  </li>
+</ul>
+<blockquote>
+<p>Action Blocks are like mini-macros inside your main macros. Build once, reuse everywhere ✨</p>
+</blockquote>
 
 
 

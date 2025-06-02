@@ -13,7 +13,7 @@
       
       
       
-        <link rel="prev" href="../actions/actions_list/">
+        <link rel="prev" href="../actions/control_flow/">
       
       
         <link rel="next" href="../action_blocks/">
@@ -443,7 +443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../action_blocks/" class="md-nav__link">
+      <a href="../action_bñloks/index.md" class="md-nav__link">
         
   
   
@@ -539,7 +539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../triggers/trigger_list/" class="md-nav__link">
+      <a href="../triggers/trigger_list.md" class="md-nav__link">
         
   
   
@@ -658,7 +658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../actions/actions_list/" class="md-nav__link">
+      <a href="../actions/actions_list/index.md" class="md-nav__link">
         
   
   
@@ -842,7 +842,7 @@
   
   
   <span class="md-ellipsis">
-    Guide
+    Introduction to the action blocks
     
   </span>
   
@@ -910,12 +910,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../action_blocks/" class="md-nav__link">
+      <a href="../variables/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Guide
+    Introduction to variables
     
   </span>
   
@@ -1080,7 +1080,7 @@
   
   
   <span class="md-ellipsis">
-    MacroDroid log
+    Stopwatches
     
   </span>
   
@@ -1090,6 +1090,79 @@
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Stopwatches
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stopwatches/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction to stopwatches
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    MacroDroid log
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
             <span class="md-nav__icon md-icon"></span>
             MacroDroid log
           </label>
@@ -1168,10 +1241,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
         
           
-          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
             
   
   
@@ -1184,8 +1257,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_11">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
             <span class="md-nav__icon md-icon"></span>
             Import/Export
           </label>
@@ -1255,96 +1328,13 @@
 
   <h1>Introduction to restrictions</h1>
 
-<p>theme:
-  name: material
-  language: en
-  features:
-    - navigation.instant
-    - navigation.sections
-    - content.code.copy
-    - content.action.edit
-    - search.suggest
-    - search.highlight
-    - i18n</p>
-<p>extra_css:
-  - stylesheets/macrodroid-colors.css</p>
-<p>extra_javascript:
-  - javascripts/apply-colors.js</p>
-<p>markdown_extensions:
-  - admonition
-  - toc:
-      permalink: true
-  - footnotes
-  - codehilite
-  - pymdownx.superfences
-  - pymdownx.details
-  - pymdownx.emoji
-  - pymdownx.tasklist</p>
-<p>plugins:
-  - search
-  - i18n:
-      docs_structure: folder
-      default_language: en
-      languages:
-        - locale: en
-          name: English
-          default: true
-          build: true
-          site_name: MacroDroid Wiki
-          site_description: Unofficial MacroDroid Documentation
-          site_author: JosueG28
-          nav:
-            - Home: index.md
-            - Triggers:
-                - Introduction to triggers: triggers/index.md
-            - Actions:
-                - Introduction to actions: actions/index.md
-                - Control flow: actions/control_flow/index.md
-                - Actions list: actions/actions_list/index.md
-            - Constraints:
-                - Introduction to restrictions: constraints/index.md
-            - Magic text:
-                - Introduction to the Magic Text: magic_text/index.md
-                - No trigger required to operate: magic_text/no_trigger/index.md
-                - Trigger required to operate: magic_text/trigger_required/index.md</p>
-<div class="codehilite"><pre><span></span><code><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">locale</span><span class="p">:</span><span class="w"> </span><span class="n">es</span>
-<span class="w">      </span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="n">Español</span>
-<span class="w">      </span><span class="n">build</span><span class="p">:</span><span class="w"> </span><span class="bp">true</span>
-<span class="w">      </span><span class="n">site_name</span><span class="p">:</span><span class="w"> </span><span class="n">MacroDroid</span><span class="w"> </span><span class="n">Wiki</span>
-<span class="w">      </span><span class="n">site_description</span><span class="p">:</span><span class="w"> </span><span class="n">Documentación</span><span class="w"> </span><span class="n">no</span><span class="w"> </span><span class="n">oficial</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">MacroDroid</span>
-<span class="w">      </span><span class="n">site_author</span><span class="p">:</span><span class="w"> </span><span class="n">JosueG28</span>
-<span class="w">      </span><span class="n">nav</span><span class="p">:</span>
-<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">Inicio</span><span class="p">:</span><span class="w"> </span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
-<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">Disparadores</span><span class="p">:</span>
-<span class="w">            </span><span class="o">-</span><span class="w"> </span><span class="n">Introducción</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">disparadores</span><span class="p">:</span><span class="w"> </span><span class="n">triggers</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
-<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">Acciones</span><span class="p">:</span>
-<span class="w">            </span><span class="o">-</span><span class="w"> </span><span class="n">Introducción</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">acciones</span><span class="p">:</span><span class="w"> </span><span class="n">actions</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
-<span class="w">            </span><span class="o">-</span><span class="w"> </span><span class="n">Flujo</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">control</span><span class="p">:</span><span class="w"> </span><span class="n">actions</span><span class="o">/</span><span class="n">control_flow</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
-<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">Restricciones</span><span class="p">:</span>
-<span class="w">            </span><span class="o">-</span><span class="w"> </span><span class="n">Introducción</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">restricciones</span><span class="p">:</span><span class="w"> </span><span class="n">constraints</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
-<span class="w">        </span><span class="o">-</span><span class="w"> </span><span class="n">Texto</span><span class="w"> </span><span class="n">mágico</span><span class="p">:</span><span class="w"> </span>
-<span class="w">            </span><span class="o">-</span><span class="w"> </span><span class="n">Introducción</span><span class="w"> </span><span class="n">al</span><span class="w"> </span><span class="n">texto</span><span class="w"> </span><span class="n">mágico</span><span class="p">:</span><span class="w"> </span><span class="n">magic_text</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
-<span class="w">            </span><span class="o">-</span><span class="w"> </span><span class="n">No</span><span class="w"> </span><span class="n">trigger</span><span class="w"> </span><span class="n">required</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">operate</span><span class="p">:</span><span class="w"> </span><span class="n">magic_text</span><span class="o">/</span><span class="n">no_trigger</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
-<span class="w">            </span><span class="o">-</span><span class="w"> </span><span class="n">Trigger</span><span class="w"> </span><span class="n">required</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">operate</span><span class="p">:</span><span class="w"> </span><span class="n">magic_text</span><span class="o">/</span><span class="n">trigger_required</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">md</span>
-</code></pre></div>
-
-<p>extra:
-  alternate:
-    - name: English
-      link: "/"
-      lang: en
-    - name: Español
-      link: "es/"
-      lang: es</p>
+<p><a href="list/"><strong>Go to constraints list</strong></a></p>
 
 
 
 
 
 
-
-  
-  
 
 
 

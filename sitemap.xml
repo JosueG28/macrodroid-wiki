@@ -22,11 +22,11 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/actions/"/>
     </url>
     <url>
-        <loc>Noneactions/actions_list/</loc>
+        <loc>Noneactions/list/</loc>
         <lastmod>2025-06-02</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneactions/actions_list/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/actions/actions_list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneactions/list/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/actions/list/"/>
     </url>
     <url>
         <loc>Noneactions/control_flow/</loc>
@@ -48,6 +48,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneconstraints/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/constraints/"/>
+    </url>
+    <url>
+        <loc>Noneconstraints/list/</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneconstraints/list/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/constraints/list/"/>
     </url>
     <url>
         <loc>Nonehelper/</loc>
@@ -78,11 +85,11 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/"/>
     </url>
     <url>
-        <loc>Nonemagic_text/magic_text_list/</loc>
+        <loc>Nonemagic_text/list/</loc>
         <lastmod>2025-06-02</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/magic_text_list/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/magic_text_list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/list/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/list/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/</loc>
@@ -799,6 +806,13 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_required/magic_text_usb_device_connected/"/>
     </url>
     <url>
+        <loc>Nonestopwatches/</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonestopwatches/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/stopwatches/"/>
+    </url>
+    <url>
         <loc>Nonetriggers/</loc>
         <lastmod>2025-06-02</lastmod>
         <changefreq>daily</changefreq>
@@ -834,11 +848,18 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/App%20Install_Remove_Update/"/>
     </url>
     <url>
-        <loc>Nonetriggers/trigger_list/</loc>
+        <loc>Nonetriggers/list/</loc>
         <lastmod>2025-06-02</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/trigger_list/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/trigger_list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/list/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/list/"/>
+    </url>
+    <url>
+        <loc>Nonevariables/</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonevariables/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/variables/"/>
     </url>
     <url>
         <loc>Nonees/</loc>
@@ -862,11 +883,11 @@
         <xhtml:link rel="alternate" hreflang="en" href="Noneactions/"/>
     </url>
     <url>
-        <loc>Nonees/actions/actions_list/</loc>
+        <loc>Nonees/actions/list/</loc>
         <lastmod>2025-06-02</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/actions/actions_list/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneactions/actions_list/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/actions/list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneactions/list/"/>
     </url>
     <url>
         <loc>Nonees/actions/control_flow/</loc>
@@ -888,6 +909,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/constraints/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneconstraints/"/>
+    </url>
+    <url>
+        <loc>Nonees/constraints/list/</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/constraints/list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneconstraints/list/"/>
     </url>
     <url>
         <loc>Nonees/helper/</loc>
@@ -918,11 +946,11 @@
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/"/>
     </url>
     <url>
-        <loc>Nonees/magic_text/magic_text_list/</loc>
+        <loc>Nonees/magic_text/list/</loc>
         <lastmod>2025-06-02</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/magic_text_list/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/magic_text_list/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/list/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/</loc>
@@ -1639,6 +1667,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_required/magic_text_usb_device_connected/"/>
     </url>
     <url>
+        <loc>Nonees/stopwatches/</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/stopwatches/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonestopwatches/"/>
+    </url>
+    <url>
         <loc>Nonees/triggers/</loc>
         <lastmod>2025-06-02</lastmod>
         <changefreq>daily</changefreq>
@@ -1674,10 +1709,17 @@
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/App%20Install_Remove_Update/"/>
     </url>
     <url>
-        <loc>Nonees/triggers/trigger_list/</loc>
+        <loc>Nonees/triggers/list/</loc>
         <lastmod>2025-06-02</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/trigger_list/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/trigger_list/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/list/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/list/"/>
+    </url>
+    <url>
+        <loc>Nonees/variables/</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/variables/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonevariables/"/>
     </url>
 </urlset>
