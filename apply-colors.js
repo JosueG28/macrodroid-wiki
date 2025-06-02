@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   // 1. Forzar tema oscuro al cargar (si no hay preferencia guardada)
   if (!localStorage.getItem('__palette')) {
     const darkModeConfig = {
-      index: 0, // 0 = dark, 1 = light
+      index: 0,
       color: {
         scheme: 'slate',
         primary: 'deep purple',
@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', async function () {
       }
     };
     localStorage.setItem('__palette', JSON.stringify(darkModeConfig));
-    // Recarga para que el tema se aplique antes de pintar categorías
     setTimeout(() => window.location.reload(), 100);
     return;
   }
@@ -19,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   const isGitHubPages = window.location.hostname === 'josueg28.github.io';
   const basePath = isGitHubPages ? '/macrodroid-wiki/' : '/';
 
-  // 3. Cargar categorías con manejo de errores
+  // 3. Cargar categorías
   let categories;
   try {
     const response = await fetch(`${basePath}assets/categories.json`);
@@ -29,7 +28,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     categories = {};
   }
 
-  // 4. Palabras clave para búsqueda
+  // 4. Palabras clave
   const allKeywords = [];
   for (const key in categories) {
     if (key !== 'default') {
@@ -37,13 +36,13 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
   }
 
-  // 5. Obtener ruta actual
+  // 5. Ruta actual
   let currentPath = window.location.pathname;
   if (basePath !== '/' && currentPath.startsWith(basePath)) {
     currentPath = currentPath.substring(basePath.length);
   }
 
-  // 6. Buscar categoría en la ruta
+  // 6. Buscar categoría
   let foundCategory = null;
   for (const keyword of allKeywords) {
     const regex = new RegExp(`(^|/)${keyword}($|/)`);
@@ -61,34 +60,27 @@ document.addEventListener('DOMContentLoaded', async function () {
       if (foundCategory) break;
     }
   }
-  
-  // 7. Fallback con colores púrpura
+
+  // 7. Fallback
   const defaultCategory = {
     color: '#673AB7',
     hover: '#9575CD'
   };
   const currentCategory = foundCategory || (categories.default || defaultCategory);
 
-  // 8. Aplicar estilos de categoría
+  // 8. Aplicar estilos
   applyCategoryStyles(currentCategory);
 });
 
-// Función para ajustar colores (para gradientes) - CORREGIDA
 function adjustColor(hex, amount) {
-  // 1. Quitamos el '#' inicial
   const stripped = hex.replace(/^#/, '');
-  // 2. Recorremos cada par de caracteres (canal de color)
   const result = stripped.replace(/../g, color => {
-    // Convertimos a entero, ajustamos el rango 0–255
     const num = Math.min(255, Math.max(0, parseInt(color, 16) + amount));
-    // Convertimos de vuelta a hex de dos dígitos
     return num.toString(16).padStart(2, '0');
   });
-  // 3. Devolvemos el color completo con '#'
   return `#${result}`;
 }
 
-// Función principal para aplicar estilos
 function applyCategoryStyles(category) {
   const style = document.createElement('style');
   style.textContent = `
@@ -97,32 +89,32 @@ function applyCategoryStyles(category) {
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       transition: background 0.3s ease;
     }
-    
+
     .md-tabs__link {
       color: rgba(255,255,255,0.9) !important;
       font-weight: 600;
       font-size: 0.85rem;
       padding: 0.8rem 1rem;
     }
-    
+
     .md-tabs__link--active {
       border-bottom: 3px solid white !important;
       padding-bottom: calc(0.8rem - 3px);
     }
-    
+
     .md-tabs__link:hover {
       color: white !important;
       background-color: ${category.hover} !important;
     }
-    
+
     a:hover {
       color: ${category.color} !important;
     }
-    
+
     .md-nav__link svg {
       color: ${category.color} !important;
     }
-    
+
     .page-title {
       border-bottom: 3px solid ${category.color};
       padding-bottom: 0.5rem;
@@ -130,12 +122,12 @@ function applyCategoryStyles(category) {
       align-items: center;
       gap: 10px;
     }
-    
+
     .active-category {
       position: relative;
       padding-left: 1.2rem !important;
     }
-    
+
     .active-category::before {
       content: "";
       position: absolute;
@@ -147,13 +139,13 @@ function applyCategoryStyles(category) {
       background-color: ${category.color};
       border-radius: 2px;
     }
-    
+
     .md-button:not(.md-button--primary):hover {
       background-color: ${category.color} !important;
       border-color: ${category.color} !important;
       color: white !important;
     }
-    
+
     .category-badge {
       background: ${category.color};
       padding: 2px 10px;
@@ -162,29 +154,36 @@ function applyCategoryStyles(category) {
       font-size: 0.85rem;
       font-weight: 500;
     }
-    
-    /* Estilos para el logo */
+
+    /* Estilos para el logo con anillo de color dinámico */
     .md-header__button.md-logo {
-      padding: 0.2rem;
+      padding: 0.4rem;
       background: rgba(255,255,255,0.15);
       border-radius: 50%;
+      box-shadow: 0 0 0 2px ${category.color}, 0 2px 6px rgba(0,0,0,0.3);
+      transition: box-shadow 0.3s ease, background 0.3s ease;
     }
-    
+
+    .md-header__button.md-logo:hover {
+      box-shadow: 0 0 0 3px ${category.hover}, 0 4px 10px rgba(0,0,0,0.4);
+    }
+
     .md-header__button.md-logo img {
       filter: drop-shadow(0 0 4px rgba(0,0,0,0.5));
       transition: transform 0.3s ease;
+      width: 28px;
+      height: 28px;
     }
-    
+
     .md-header__button.md-logo:hover img {
       transform: scale(1.1);
     }
-    
-    /* Correcciones móviles */
+
     @media (max-width: 960px) {
       .md-nav--primary .md-nav__title {
         background-color: ${category.color} !important;
       }
-      
+
       .md-nav__item {
         padding: 0.25rem 0.5rem;
       }
