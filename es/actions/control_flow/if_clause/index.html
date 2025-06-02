@@ -1,0 +1,1115 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentación no oficial de MacroDroid">
+      
+      
+        <meta name="author" content="JosueG28">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>🔄 Using the If Clause in MacroDroid - MacroDroid Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../macrodroid-colors.css">
+    
+      <link rel="stylesheet" href="../../../../overrides/categorias.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#using-the-if-clause-in-macrodroid" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../../" title="MacroDroid Wiki" class="md-header__button md-logo" aria-label="MacroDroid Wiki" data-md-component="logo">
+      
+  <img src="../../../../assets/macrodroid_icon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MacroDroid Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              🔄 Using the If Clause in MacroDroid
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple"  aria-label="Cambiar a tema claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a tema claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Cambiar a tema oscuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a tema oscuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../../actions/control_flow/if_clause/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../" title="MacroDroid Wiki" class="md-nav__button md-logo" aria-label="MacroDroid Wiki" data-md-component="logo">
+      
+  <img src="../../../../assets/macrodroid_icon.png" alt="logo">
+
+    </a>
+    MacroDroid Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inicio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Disparadores
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Disparadores
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../triggers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introducción a disparadores
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Acciones
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Acciones
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introducción a acciones
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Flujo de control
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Restricciones
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Restricciones
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../constraints/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introducción a restricciones
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Bloques de accion
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Bloques de accion
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../action_blocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introducción a bloques de accion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Texto mágico
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Texto mágico
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../magic_text/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introducción al texto mágico
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../magic_text/no_trigger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    No trigger required to operate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../magic_text/trigger_required/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Trigger required to operate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-the-if-clause" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 What is the If Clause?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔹 What is the If Clause?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Components:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-add-an-if-clause" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 How to Add an If Clause
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logical-operators-in-if-clauses" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Logical Operators in If Clauses
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔹 Logical Operators in If Clauses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#else-and-elseif-clauses" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Else and Else/If Clauses
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔹 Else and Else/If Clauses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nested-if-clauses" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Nested If Clauses
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔹 Nested If Clauses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#constraints-in-if-clauses" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Constraints in If Clauses
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔹 Constraints in If Clauses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comparison-operators-for-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparison Operators for Variables:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wildcards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wildcards:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-use-if-clauses" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Why Use If Clauses?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔹 Why Use If Clauses?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#practical-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Practical Example:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-for-new-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Tips for New Users
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips-for-advanced-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Tips for Advanced Users
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="using-the-if-clause-in-macrodroid">🔄 Using the If Clause in MacroDroid<a class="headerlink" href="#using-the-if-clause-in-macrodroid" title="Permanent link">&para;</a></h1>
+<p>The <strong>If Clause</strong> in MacroDroid is a powerful tool that allows you to add conditional logic to your macros, enabling actions to execute only when specific conditions are met. Found under the <strong>Conditions/Loops</strong> category in the "Add Action" menu, the If Clause, along with its terminating <strong>End If</strong>, lets you control the flow of your macro based on dynamic conditions, making your automations smarter and more precise.</p>
+<hr />
+<h2 id="what-is-the-if-clause">🔹 What is the If Clause?<a class="headerlink" href="#what-is-the-if-clause" title="Permanent link">&para;</a></h2>
+<p>The <strong>If Clause</strong> is an action that checks whether a specified condition is true before executing a set of subsequent actions. If the condition is met, the actions between the <strong>If</strong> and <strong>End If</strong> statements are executed. If the condition is false, those actions are skipped. Conditions in an If Clause work the same way as <strong>constraints</strong> in MacroDroid and support logical operators like <strong>AND</strong> (default) or <strong>OR</strong> for multiple conditions.</p>
+<h3 id="key-components">Key Components:<a class="headerlink" href="#key-components" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>If Clause</strong>: Defines the condition to check.</li>
+<li><strong>End If</strong>: Marks the end of the conditional block.</li>
+<li><strong>Else Clause</strong> (optional): Specifies alternative actions to execute if the condition is false.</li>
+<li><strong>Else/If or Else/If Confirmed Clause</strong> (optional): Allows additional conditions to be checked if the initial condition fails.</li>
+<li><strong>Nested Ifs</strong>: You can place additional If/End If pairs within an existing If Clause for more complex logic.</li>
+</ul>
+<h3 id="example">Example:<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
+<p>A macro might use an If Clause to check if the battery level is below 20%. If true, it could trigger a "Show Notification" action; if false, it could skip to an Else Clause to perform a different action, like "Increase Brightness."</p>
+<hr />
+<h2 id="how-to-add-an-if-clause">🔹 How to Add an If Clause<a class="headerlink" href="#how-to-add-an-if-clause" title="Permanent link">&para;</a></h2>
+<ol>
+<li>In the macro editing screen, select <strong>Add Action</strong> &gt; <strong>Conditions/Loops</strong> &gt; <strong>If Clause</strong>.</li>
+<li>Choose a condition (e.g., "Battery Level &lt; 20%"). These conditions are identical to those available in constraints.</li>
+<li>Add actions between the <strong>If</strong> and <strong>End If</strong> to execute if the condition is true.</li>
+<li>(Optional) To add an <strong>Else Clause</strong>, select the If Clause again, choose <strong>Add Else Clause</strong> from the action menu, and add actions to execute if the condition is false.</li>
+<li>(Optional) For additional conditions, select <strong>Add Else/If Clause</strong> or <strong>Add Else/If Confirmed Clause</strong> to check further conditions if the initial one fails.</li>
+</ol>
+<hr />
+<h2 id="logical-operators-in-if-clauses">🔹 Logical Operators in If Clauses<a class="headerlink" href="#logical-operators-in-if-clauses" title="Permanent link">&para;</a></h2>
+<p>When using multiple conditions in an If Clause, you can combine them with:
+- <strong>AND</strong> (default): All conditions must be true for the actions to execute.
+- <strong>OR</strong>: At least one condition must be true for the actions to execute.</p>
+<h3 id="example_1">Example:<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h3>
+<p>An If Clause with conditions "Battery Level &lt; 30%" <strong>AND</strong> "Not Charging" will only execute its actions if both are true.</p>
+<hr />
+<h2 id="else-and-elseif-clauses">🔹 Else and Else/If Clauses<a class="headerlink" href="#else-and-elseif-clauses" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Else Clause</strong>: Use this to define actions that run when the If condition is false. To add, select the If Clause, then choose <strong>Add Else Clause</strong> from the action menu.</li>
+<li><strong>Else/If Clause</strong>: Allows you to check an additional condition if the initial If condition fails. Select <strong>Add Else/If Clause</strong> to add another condition.</li>
+<li><strong>Else/If Confirmed Clause</strong>: Similar to Else/If but requires user confirmation (e.g., via a dialog) before proceeding.</li>
+</ul>
+<h3 id="example_2">Example:<a class="headerlink" href="#example_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>If</strong>: "Wi-Fi Connected" → Action: "Show Notification: Connected to Wi-Fi."</li>
+<li><strong>Else</strong>: Action: "Show Notification: No Wi-Fi Connection."</li>
+<li><strong>Else/If</strong>: "Mobile Data Enabled" → Action: "Show Notification: Using Mobile Data."</li>
+</ul>
+<hr />
+<h2 id="nested-if-clauses">🔹 Nested If Clauses<a class="headerlink" href="#nested-if-clauses" title="Permanent link">&para;</a></h2>
+<p>You can place additional <strong>If/End If</strong> pairs within an existing If Clause to create complex, layered logic. This is called <strong>nesting</strong> and is useful for scenarios requiring multiple levels of decision-making.</p>
+<h3 id="example_3">Example:<a class="headerlink" href="#example_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>If</strong>: "Time of Day: 8:00 AM - 10:00 PM"</li>
+<li><strong>Nested If</strong>: "Battery Level &gt; 50%" → Action: "Increase Volume."</li>
+<li><strong>Nested Else</strong>: Action: "Show Notification: Low Battery."</li>
+<li><strong>End If</strong></li>
+</ul>
+<hr />
+<h2 id="constraints-in-if-clauses">🔹 Constraints in If Clauses<a class="headerlink" href="#constraints-in-if-clauses" title="Permanent link">&para;</a></h2>
+<p>The conditions in an If Clause are the same as those used in <strong>constraints</strong> and include options like checking device states, time, connectivity, or variable values. One powerful option is <strong>MacroDroid Variable/Compare Values</strong>, which allows you to compare variables using specific operators.</p>
+<h3 id="comparison-operators-for-variables">Comparison Operators for Variables:<a class="headerlink" href="#comparison-operators-for-variables" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>= (Equal)</strong>: The variable’s content must exactly match the specified value.</li>
+<li><em>Compatible</em>: String, Integer, Decimal, Boolean (Boolean only in compare values condition/constraints).</li>
+<li><em>Example</em>: <code>{my_variable} = "hello"</code> → True if the variable contains exactly "hello."</li>
+<li><strong>!= (Not Equal)</strong>: The variable’s content must be different from the specified value.</li>
+<li><em>Compatible</em>: String, Integer, Decimal, Boolean.</li>
+<li><em>Example</em>: <code>{my_variable} != "hello"</code> → True if the variable does not contain "hello."</li>
+<li><strong>Contains</strong>: The variable’s content must include the specified text.</li>
+<li><em>Compatible</em>: String.</li>
+<li><em>Example</em>: <code>{my_variable} Contains "info"</code> → True if the variable includes "info" (e.g., "Here are the informations...").</li>
+<li><strong>Excludes</strong>: The variable’s content must not include the specified text.</li>
+<li><em>Compatible</em>: String.</li>
+<li><em>Example</em>: <code>{my_variable} Excludes "error"</code> → True if the variable does not contain "error."</li>
+</ul>
+<h3 id="wildcards">Wildcards:<a class="headerlink" href="#wildcards" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong><code>*</code></strong>: Represents any number of characters (0 or more, equivalent to <code>.*</code> in Regex).</li>
+<li><em>Example</em>: <code>{my_variable} = "data*"</code> → Matches "data," "database," or "data123."</li>
+<li><strong><code>?</code></strong>: Represents exactly one mandatory character (equivalent to <code>.{1}</code> in Regex).</li>
+<li><em>Example</em>: <code>{my_variable} = "dat?"</code> → Matches "data" or "date" but not "database."</li>
+<li><strong>Regular Expressions</strong>: Check the <strong>Enter regular expression matching</strong> box to use Regex syntax for advanced pattern matching (recommended for advanced users).</li>
+</ul>
+<hr />
+<h2 id="why-use-if-clauses">🔹 Why Use If Clauses?<a class="headerlink" href="#why-use-if-clauses" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Conditional Logic</strong>: Execute actions only when specific conditions are met, making macros smarter.</li>
+<li><strong>Flexibility</strong>: Combine conditions with AND/OR, use Else clauses, or nest Ifs for complex workflows.</li>
+<li><strong>Precision</strong>: Compare variables or use wildcards/Regex for fine-tuned control over macro behavior.</li>
+</ul>
+<h3 id="practical-example">Practical Example:<a class="headerlink" href="#practical-example" title="Permanent link">&para;</a></h3>
+<p>A macro to manage notifications based on battery and time:
+- <strong>Trigger</strong>: "Battery Level Drops Below 20%."
+- <strong>If Clause</strong>: "Time of Day: 8:00 AM - 10:00 PM"
+  - Action: "Show Notification: Low Battery, Charge Soon!"
+  - <strong>Nested If</strong>: <code>{battery_level} &lt; 10</code>
+    - Action: "Lower Brightness."
+  - <strong>Nested Else</strong>: Action: "Vibrate."
+- <strong>Else Clause</strong>: Action: "Show Notification: Low Battery (Night Mode)."
+- <strong>End If</strong></p>
+<hr />
+<h2 id="tips-for-new-users">🔹 Tips for New Users<a class="headerlink" href="#tips-for-new-users" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Start Simple</strong>: Begin with a basic If Clause, like checking "Battery Level &lt; 30%," to understand how conditions work.</li>
+<li><strong>Test Conditions</strong>: Run your macro to ensure the If Clause evaluates as expected.</li>
+<li><strong>Use Familiar Constraints</strong>: Choose conditions you’ve used in constraints to ease into If Clauses.</li>
+</ul>
+<hr />
+<h2 id="tips-for-advanced-users">🔹 Tips for Advanced Users<a class="headerlink" href="#tips-for-advanced-users" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Nest If Clauses</strong>: Use nested Ifs for multi-layered logic, such as checking multiple device states or variable values.</li>
+<li><strong>Leverage Variables</strong>: Combine If Clauses with variable comparisons (e.g., Contains, Excludes) for dynamic decision-making.</li>
+<li><strong>Use Regex</strong>: For complex string matching, enable regular expression matching to unlock advanced possibilities.</li>
+</ul>
+<hr />
+<p>The If Clause is a cornerstone of advanced MacroDroid automations, giving you the power to create dynamic, context-aware macros. Experiment with conditions, Else clauses, and wildcards to build smarter workflows, whether you’re just starting or crafting intricate automations!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.instant", "navigation.sections", "content.code.copy", "content.action.edit", "search.suggest", "search.highlight", "i18n"], "search": "../../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../../../assets/categories.json"></script>
+      
+        <script src="../../../../apply-colors.js"></script>
+      
+    
+  </body>
+</html>
