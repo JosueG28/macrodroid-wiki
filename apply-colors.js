@@ -42,31 +42,47 @@ document.addEventListener('DOMContentLoaded', async function () {
     currentPath = currentPath.substring(basePath.length);
   }
 
-  // 6. Buscar categoría
-  let foundCategory = null;
-  for (const keyword of allKeywords) {
-    const regex = new RegExp(`(^|/)${keyword}($|/)`);
-    if (regex.test(currentPath)) {
-      for (const key in categories) {
-        if (
-          key === keyword ||
-          categories[key].en === keyword ||
-          categories[key].es === keyword
-        ) {
-          foundCategory = categories[key];
-          break;
-        }
-      }
-      if (foundCategory) break;
+  // 5.5 Buscar color definido en metadatos de la página
+  let pageColorConfig = null;
+  const colorMetaTag = document.querySelector('meta[name="category-color"]');
+  if (colorMetaTag) {
+    try {
+      pageColorConfig = JSON.parse(colorMetaTag.getAttribute('content'));
+    } catch (e) {
+      console.error("Error parsing category-color metadata", e);
     }
   }
 
-  // 7. Fallback
+  // 6. Buscar categoría por URL (solo si no hay metadatos)
+  let foundCategory = null;
+  if (!pageColorConfig) {
+    for (const keyword of allKeywords) {
+      const regex = new RegExp(`(^|/)${keyword}($|/)`);
+      if (regex.test(currentPath)) {
+        for (const key in categories) {
+          if (
+            key === keyword ||
+            categories[key].en === keyword ||
+            categories[key].es === keyword
+          ) {
+            foundCategory = categories[key];
+            break;
+          }
+        }
+        if (foundCategory) break;
+      }
+    }
+  }
+
+  // 7. Prioridad de colores
   const defaultCategory = {
     color: '#673AB7',
     hover: '#9575CD'
   };
-  const currentCategory = foundCategory || (categories.default || defaultCategory);
+  
+  const currentCategory = pageColorConfig || 
+                         foundCategory || 
+                         (categories.default || defaultCategory);
 
   // 8. Aplicar estilos
   applyCategoryStyles(currentCategory);
