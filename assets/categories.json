@@ -34,6 +34,11 @@
     "color": "#00828f",
     "hover": "#00acc1"
   },
+  "import_export": {
+    "en": "Import/Export",
+    "color": "#f68549",
+    "hover": "#ffab73"
+  },
   "default": {
     "color": "#607d8b",
     "hover": "#90a4ae"

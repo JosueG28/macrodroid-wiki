@@ -8,27 +8,6 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
     </url>
     <url>
-        <loc>NoneImport_export/</loc>
-        <lastmod>2025-06-10</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="NoneImport_export/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Import_export/"/>
-    </url>
-    <url>
-        <loc>NoneImport_export/export/</loc>
-        <lastmod>2025-06-10</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="NoneImport_export/export/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Import_export/export/"/>
-    </url>
-    <url>
-        <loc>NoneImport_export/import/</loc>
-        <lastmod>2025-06-10</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="NoneImport_export/import/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Import_export/import/"/>
-    </url>
-    <url>
         <loc>Noneaction_blocks/</loc>
         <lastmod>2025-06-10</lastmod>
         <changefreq>daily</changefreq>
@@ -643,6 +622,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonehelper/universal/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/helper/universal/"/>
+    </url>
+    <url>
+        <loc>Noneimport_export/</loc>
+        <lastmod>2025-06-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneimport_export/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/import_export/"/>
     </url>
     <url>
         <loc>Nonemacrodroid_log/system_log/</loc>
@@ -2136,27 +2122,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
     </url>
     <url>
-        <loc>Nonees/Import_export/</loc>
-        <lastmod>2025-06-10</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Import_export/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="NoneImport_export/"/>
-    </url>
-    <url>
-        <loc>Nonees/Import_export/export/</loc>
-        <lastmod>2025-06-10</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Import_export/export/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="NoneImport_export/export/"/>
-    </url>
-    <url>
-        <loc>Nonees/Import_export/import/</loc>
-        <lastmod>2025-06-10</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/Import_export/import/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="NoneImport_export/import/"/>
-    </url>
-    <url>
         <loc>Nonees/action_blocks/</loc>
         <lastmod>2025-06-10</lastmod>
         <changefreq>daily</changefreq>
@@ -2771,6 +2736,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/helper/universal/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonehelper/universal/"/>
+    </url>
+    <url>
+        <loc>Nonees/import_export/</loc>
+        <lastmod>2025-06-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/import_export/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneimport_export/"/>
     </url>
     <url>
         <loc>Nonees/macrodroid_log/system_log/</loc>
