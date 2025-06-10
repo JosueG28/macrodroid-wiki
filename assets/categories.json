@@ -35,7 +35,7 @@
     "hover": "#00acc1"
   },
   "import_export": {
-    "en": "Import/Export",
+    "en": "import_export",
     "color": "#f68549",
     "hover": "#ffab73"
   },
