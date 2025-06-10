@@ -1,65 +1,133 @@
+
 # 🔒 Introduction to Constraints in MacroDroid
 
-**Constraints** in MacroDroid are conditions that control whether a macro or specific actions within it will execute after a trigger is activated. They act as filters, ensuring your automations only run when specific conditions are met, making them precise and context-aware. MacroDroid supports two types of constraints: **General Constraints** and **Individual Constraints**, both of which can use logical operators (AND, OR, XOR, NOT) for flexible customization.
+**Constraints** are conditions that must be met *at the moment a trigger fires* for your macro to execute. They act as filters for your triggers, adding precision to when your automations should run. While triggers define *when* a macro could start, constraints define *whether* it actually should based on additional criteria.
+
+[**Go to constraints list**](list.md)
 
 ---
 
-## 🔹 Types of Constraints
+## 🔹 What Are Constraints?
 
-### 1. General Constraints
-- **Location**: Found at the bottom of the macro editing screen in the **Constraints** section.
-- **Behavior**: These constraints affect the **entire macro**. If any general constraint evaluates to false, the macro will not execute at all, regardless of the trigger.
-- **Use Case**: Ideal for setting broad conditions that determine whether the macro should run.
+A **constraint** is a real-time condition checked when a trigger activates. If *all constraints* are satisfied, the macro runs. If any constraint fails, the macro is blocked. Constraints can check device states (e.g., Wi-Fi status), contextual data (e.g., time of day), or custom variables.
 
-#### Example:
-A macro that turns on Wi-Fi when you connect your charger (trigger: "Charger Connected") might have a general constraint like "Time of Day: 8:00 AM - 10:00 PM" to ensure the entire macro only runs during the day.
+### Key Rules:
+1. Constraints only validate conditions **at the exact moment the trigger fires**.  
+2. They use **AND logic** – *all* constraints must pass simultaneously.  
+3. Constraints *do not* continuously monitor conditions (unlike triggers).  
 
-### 2. Individual Constraints
-- **Location**: Applied directly to a specific **trigger** or **action**. To add one, tap the action or trigger in the macro editing screen and select **Add Constraint**.
-- **Behavior**: These constraints only affect the specific trigger or action they’re attached to. If the constraint fails, only that particular action or trigger is skipped, allowing other parts of the macro to proceed.
-- **Use Case**: Perfect for fine-tuning individual actions or triggers within a macro.
-
-#### Example:
-In a macro with multiple actions, you could add an individual constraint to a "Send Notification" action, such as "Battery Level > 30%," so the notification only appears if the battery is above 30%, while other actions in the macro run regardless.
+### Example:
+A "Headphones Connected" trigger + a "Media Volume < 30%" constraint will only run your macro when headphones are plugged in *and* volume is already low.
 
 ---
 
-## 🔹 How Do Constraints Work?
+## 🔹 Using Multiple Constraints
 
-1. **Evaluation**: Constraints are checked **after** the macro’s trigger is activated.
-2. **Condition**: For a macro or action to proceed, all constraints (general or individual) must evaluate to true. If any constraint is false, the affected macro or action stops.
-3. **Logical Operators**: Both general and individual constraints support **AND**, **OR**, **XOR**, and **NOT** operators, allowing you to create complex conditions.
-   - **AND**: All conditions must be true.
-   - **OR**: At least one condition must be true.
-   - **XOR**: Exactly one condition must be true.
-   - **NOT**: Inverts the condition’s result.
+You can add **multiple constraints** to a macro. All constraints must be satisfied for the macro to execute. This allows complex conditional logic without cluttering triggers.
 
-### Example with Logical Operators:
-A general constraint might combine "Wi-Fi Connected" **AND** "Day of the Week: Weekdays" to ensure a macro only runs when connected to Wi-Fi on a weekday.
+### How Constraints Interact:
+- **AND Logic Only**: Constraints are *always* combined with AND (`Constraint1 AND Constraint2 AND ...`).  
+- **Order Doesn't Matter**: Evaluation happens simultaneously when the trigger fires.  
+- **Flexible Combinations**: Mix different constraint types (e.g., time + location + battery).  
+
+### Example:
+A "Screen On" trigger with these constraints:  
+1. `Time of Day: 10:00 PM - 7:00 AM`  
+2. `Charging: No`  
+3. `Wifi Connected: Yes`  
+→ Only runs at night, on battery, when connected to Wi-Fi.
+
+---
+
+## 🔹 Two Ways to Apply Constraints
+
+### 1. Local Constraints (Attached to Triggers/Actions)
+- Added directly to **individual triggers or actions**
+- Only affect the specific component they're attached to
+- Don't impact other parts of the macro
+
+**Trigger Constraint Example**:  
+A "Screen On" trigger with local constraint `Charging = No`  
+→ Macro only starts when screen turns on *while not charging*
+
+**Action Constraint Example**:  
+A "Set Brightness to 100%" action with constraint `Time = Daytime`  
+→ This brightness action only runs during daytime
+
+### 2. Global Constraints (In Constraints Section)
+- Added in the macro's dedicated **Constraints section**
+- Affect the **entire macro**
+- Must be satisfied for the macro to run at all
+
+**Global Constraint Example**:  
+Global constraint `Wi-Fi Connected = Home Network`  
+→ Macro won't run unless device is on home Wi-Fi
+
+---
+
+## 🔹 Scopes Compared
+
+| Constraint Type | Where Added | Scope | Example Use Case |
+|-----------------|-------------|-------|------------------|
+| **Trigger Local** | On trigger | Only that trigger | Run macro when headphones connect, but only if volume > 50% |
+| **Action Local** | On action | Only that action | Send SMS only if battery > 20% |
+| **Global** | Constraints section | Entire macro | Block macro during work hours |
+
+---
+
+## 🔹 Practical Examples
+
+### Scenario 1: Morning Alarm Macro
+**Macro Goal**: Smart alarm that prepares your day only under the right conditions
+
+- **Trigger**: 7:00 AM Alarm
+- **Global Constraint**: Day of Week = Weekdays  
+→ Macro only runs Monday to Friday
+
+- **Action 1**: Increase Volume
+- **Action 2**: Read Weather Forecast
+- **Action 3**: Turn On Coffee Smart Plug  
+  - **Local Constraint**: Smart Plug must be connected
+
+This setup ensures the macro only runs on workdays, and only attempts to brew coffee if the smart plug is ready.
+
+### Scenario 2: Location-Based Reminder
+
+**Trigger**: Enter Grocery Store (geofence)  
+**Global Constraint**: Time = 8AM-8PM (macro won't run at night)  
+**Action**: Show "Buy Milk" notification  
+**Action Constraint**: Notification Not Exists (prevents duplicates)
 
 ---
 
 ## 🔹 Common Constraint Examples
 
-MacroDroid offers a wide range of constraints to customize your macros. Some popular options include:
-- **Time-Based**: "Day of the Week" (e.g., only Monday to Friday) or "Time of Day."
-- **Device State**: "Battery Level" (e.g., above 30%) or "Silent Mode."
-- **Connectivity**: "Wi-Fi Connection" (e.g., only at home) or "Bluetooth Enabled."
-- **Apps**: "Foreground App" (e.g., only if WhatsApp is open).
+| Category          | Examples                                      |
+|-------------------|-----------------------------------------------|
+| **Device State**  | Screen On/Off, Charging State, Headphones Plugged |
+| **Connectivity**  | Wi-Fi Connected/SSID, Bluetooth Device Active    |
+| **Time/Location** | Time Range, Day of Week, Enter/Exit Geofence    |
+| **System**        | Battery Level, Foreground App, Notification Exists |
+| **Custom**        | Variable Value, Macro Not Running               |
 
 ---
 
-## 🔹 Why Use Constraints?
+## 🔹 Why Constraints Matter
 
-- **Precision**: Ensure macros or specific actions only run under the exact conditions you define.
-- **Efficiency**: Prevent unnecessary resource usage, like battery or data.
-- **Customization**: Use general constraints for macro-wide control or individual constraints for granular control over specific actions or triggers.
-
-### Practical Example:
-A macro that silences your phone when you arrive at work (trigger: "Location") could include:
-- A **general constraint** like "Time of Day: 9:00 AM - 5:00 PM" to ensure the macro only runs during work hours.
-- An **individual constraint** on a "Send Notification" action, like "Battery Level > 20%," to only send the notification if the battery is sufficiently charged.
+- **Precision**: Prevent macros from running in unwanted scenarios (e.g., during meetings).
+- **Efficiency**: Reduce unnecessary macro executions to save battery/resources.
+- **Simplification**: Avoid creating duplicate macros for slight condition variations.
+- **Dynamic Control**: Combine with variables for context-aware automations.
 
 ---
 
-Constraints, with their support for general and individual applications and logical operators, are a cornerstone of MacroDroid’s flexibility. Experiment with them to create smarter, more efficient automations, whether you’re a beginner or an advanced user!
+## 🔹 Constraints vs. Triggers
+
+| Triggers                          | Constraints                          |
+|-----------------------------------|--------------------------------------|
+| Detect **events** (e.g., SMS received) | Check **states** (e.g., screen off)    |
+| Start macro execution             | Gatekeep *whether* macro runs        |
+| Support OR logic (multiple triggers) | Use AND logic (all must pass)        |
+| Instantaneous (moment of event)   | Evaluated at trigger-fire instant    |
+
+---

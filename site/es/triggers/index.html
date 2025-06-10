@@ -50,6 +50,10 @@
       
     
     
+      <link rel="stylesheet" href="../../macrodroid-colors.css">
+    
+      <link rel="stylesheet" href="../../overrides/categorias.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -67,7 +71,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -76,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduccion-a-los-disparadores-en-macrodroid" class="md-skip">
+        <a href="#introduction-to-triggers-in-macrodroid" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -94,8 +98,7 @@
   <nav class="md-header__inner md-grid" aria-label="Cabecera">
     <a href="../" title="MacroDroid Wiki" class="md-header__button md-logo" aria-label="MacroDroid Wiki" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/macrodroid_icon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -125,20 +128,20 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple"  aria-label="Cambiar a tema claro"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      <label class="md-header__button md-icon" title="Cambiar a tema claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
       </label>
     
   
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Cambiar a tema oscuro"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      <label class="md-header__button md-icon" title="Cambiar a tema oscuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
       </label>
     
   
@@ -246,8 +249,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../" title="MacroDroid Wiki" class="md-nav__button md-logo" aria-label="MacroDroid Wiki" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/macrodroid_icon.png" alt="logo">
 
     </a>
     MacroDroid Wiki
@@ -379,19 +381,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#que-son-los-disparadores" class="md-nav__link">
+  <a href="#what-are-triggers" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 ¿Qué son los Disparadores?
+      🔹 What Are Triggers?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 ¿Qué son los Disparadores?">
+    <nav class="md-nav" aria-label="🔹 What Are Triggers?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#ejemplo" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo:
+      Example:
     </span>
   </a>
   
@@ -403,29 +405,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#uso-de-multiples-disparadores" class="md-nav__link">
+  <a href="#using-multiple-triggers" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Uso de Múltiples Disparadores
+      🔹 Using Multiple Triggers
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 Uso de Múltiples Disparadores">
+    <nav class="md-nav" aria-label="🔹 Using Multiple Triggers">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#nota-importante" class="md-nav__link">
+  <a href="#important-note" class="md-nav__link">
     <span class="md-ellipsis">
-      Nota Importante:
+      Important Note:
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Nota Importante:">
+    <nav class="md-nav" aria-label="Important Note:">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#alternativa-a-la-logica-and" class="md-nav__link">
+  <a href="#alternative-to-and-logic" class="md-nav__link">
     <span class="md-ellipsis">
-      Alternativa a la Lógica AND:
+      Alternative to AND Logic:
     </span>
   </a>
   
@@ -437,9 +439,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#ejemplo_1" class="md-nav__link">
+  <a href="#example_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo:
+      Example:
     </span>
   </a>
   
@@ -451,28 +453,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ejemplos-comunes-de-disparadores" class="md-nav__link">
+  <a href="#common-trigger-examples" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Ejemplos Comunes de Disparadores
+      🔹 Common Trigger Examples
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#por-que-son-importantes-los-disparadores" class="md-nav__link">
+  <a href="#why-are-triggers-important" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 ¿Por qué son importantes los Disparadores?
+      🔹 Why Are Triggers Important?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 ¿Por qué son importantes los Disparadores?">
+    <nav class="md-nav" aria-label="🔹 Why Are Triggers Important?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#ejemplo-practico" class="md-nav__link">
+  <a href="#practical-example" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo Práctico:
+      Practical Example:
     </span>
   </a>
   
@@ -480,24 +482,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#consejos-para-usuarios-nuevos" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Consejos para Usuarios Nuevos
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#consejos-para-usuarios-avanzados" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Consejos para Usuarios Avanzados
-    </span>
-  </a>
   
 </li>
       
@@ -714,7 +698,7 @@
   
   
   <span class="md-ellipsis">
-    Texto mágico
+    Bloques de accion
     
   </span>
   
@@ -724,6 +708,79 @@
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Bloques de accion
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../action_blocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introducción a bloques de accion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Texto mágico
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Texto mágico
           </label>
@@ -832,19 +889,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#que-son-los-disparadores" class="md-nav__link">
+  <a href="#what-are-triggers" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 ¿Qué son los Disparadores?
+      🔹 What Are Triggers?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 ¿Qué son los Disparadores?">
+    <nav class="md-nav" aria-label="🔹 What Are Triggers?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#ejemplo" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo:
+      Example:
     </span>
   </a>
   
@@ -856,29 +913,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#uso-de-multiples-disparadores" class="md-nav__link">
+  <a href="#using-multiple-triggers" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Uso de Múltiples Disparadores
+      🔹 Using Multiple Triggers
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 Uso de Múltiples Disparadores">
+    <nav class="md-nav" aria-label="🔹 Using Multiple Triggers">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#nota-importante" class="md-nav__link">
+  <a href="#important-note" class="md-nav__link">
     <span class="md-ellipsis">
-      Nota Importante:
+      Important Note:
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Nota Importante:">
+    <nav class="md-nav" aria-label="Important Note:">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#alternativa-a-la-logica-and" class="md-nav__link">
+  <a href="#alternative-to-and-logic" class="md-nav__link">
     <span class="md-ellipsis">
-      Alternativa a la Lógica AND:
+      Alternative to AND Logic:
     </span>
   </a>
   
@@ -890,9 +947,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#ejemplo_1" class="md-nav__link">
+  <a href="#example_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo:
+      Example:
     </span>
   </a>
   
@@ -904,28 +961,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ejemplos-comunes-de-disparadores" class="md-nav__link">
+  <a href="#common-trigger-examples" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Ejemplos Comunes de Disparadores
+      🔹 Common Trigger Examples
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#por-que-son-importantes-los-disparadores" class="md-nav__link">
+  <a href="#why-are-triggers-important" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 ¿Por qué son importantes los Disparadores?
+      🔹 Why Are Triggers Important?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 ¿Por qué son importantes los Disparadores?">
+    <nav class="md-nav" aria-label="🔹 Why Are Triggers Important?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#ejemplo-practico" class="md-nav__link">
+  <a href="#practical-example" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo Práctico:
+      Practical Example:
     </span>
   </a>
   
@@ -933,24 +990,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#consejos-para-usuarios-nuevos" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Consejos para Usuarios Nuevos
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#consejos-para-usuarios-avanzados" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Consejos para Usuarios Avanzados
-    </span>
-  </a>
   
 </li>
       
@@ -970,59 +1009,46 @@
 
 
 
-<h1 id="introduccion-a-los-disparadores-en-macrodroid">🚀 Introducción a los Disparadores en MacroDroid<a class="headerlink" href="#introduccion-a-los-disparadores-en-macrodroid" title="Permanent link">&para;</a></h1>
-<p>Los <strong>Disparadores</strong> en MacroDroid son eventos instantáneos que tu dispositivo detecta para iniciar una macro. Son la chispa que pone en marcha tu automatización, indicando a MacroDroid cuándo ejecutar las acciones de la macro. Desde detectar el desbloqueo de la pantalla hasta recibir una notificación, los disparadores te permiten crear automatizaciones dinámicas y adaptadas a tus necesidades.</p>
+<h1 id="introduction-to-triggers-in-macrodroid">🚀 Introduction to Triggers in MacroDroid<a class="headerlink" href="#introduction-to-triggers-in-macrodroid" title="Permanent link">&para;</a></h1>
+<p><strong>Triggers</strong> in MacroDroid are instantaneous events that your device detects to start a macro. They are the spark that initiates your automation, telling MacroDroid when to execute the macro’s actions. From detecting a screen unlock to receiving a notification, triggers allow you to create responsive and dynamic automations tailored to your needs.</p>
+<p><a href="list/"><strong>Go to trigger list</strong></a></p>
 <hr />
-<h2 id="que-son-los-disparadores">🔹 ¿Qué son los Disparadores?<a class="headerlink" href="#que-son-los-disparadores" title="Permanent link">&para;</a></h2>
-<p>Un <strong>disparador</strong> es un evento que tu dispositivo puede detectar, como un cambio en el nivel de batería, una hora específica o una actualización de ubicación. Para que una macro sea válida, debe incluir <strong>al menos un disparador</strong>. Además, la macro debe estar <strong>habilitada</strong> (no desactivada) en el momento exacto en que ocurre el evento para que el disparador se active.</p>
-<h3 id="ejemplo">Ejemplo:<a class="headerlink" href="#ejemplo" title="Permanent link">&para;</a></h3>
-<p>Un disparador como "Cargador Conectado" puede iniciar una macro que ejecute acciones como "Activar Wi-Fi" o "Mostrar Notificación" cuando conectas tu dispositivo.</p>
+<h2 id="what-are-triggers">🔹 What Are Triggers?<a class="headerlink" href="#what-are-triggers" title="Permanent link">&para;</a></h2>
+<p>A <strong>trigger</strong> is an event that your device can detect, such as a change in battery level, a specific time, or a location update. For a macro to be valid, it must include <strong>at least one trigger</strong>. The macro must also be <strong>enabled</strong> (not disabled) at the exact moment the trigger event occurs for it to fire.</p>
+<h3 id="example">Example:<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
+<p>A trigger like "Charger Connected" can start a macro that runs actions such as "Turn On Wi-Fi" or "Show Notification" when you plug in your device.</p>
 <hr />
-<h2 id="uso-de-multiples-disparadores">🔹 Uso de Múltiples Disparadores<a class="headerlink" href="#uso-de-multiples-disparadores" title="Permanent link">&para;</a></h2>
-<p>Puedes agregar <strong>múltiples disparadores</strong> a una sola macro. Si cualquiera de estos disparadores se activa, la macro se ejecutará, siempre que se cumplan todas las restricciones (si las hay). Esto proporciona flexibilidad para iniciar una macro desde diferentes eventos.</p>
-<h3 id="nota-importante">Nota Importante:<a class="headerlink" href="#nota-importante" title="Permanent link">&para;</a></h3>
-<p>No es posible combinar disparadores con <strong>lógica AND</strong> (por ejemplo, "Disparador 1 AND Disparador 2") usando una restricción de "Disparador Activado", ya que los disparadores son <strong>eventos instantáneos</strong>. Es muy improbable que dos eventos ocurran exactamente al mismo tiempo. Cuando una macro se ejecuta, siempre es iniciada por <strong>exactamente un disparador</strong>.</p>
-<h4 id="alternativa-a-la-logica-and">Alternativa a la Lógica AND:<a class="headerlink" href="#alternativa-a-la-logica-and" title="Permanent link">&para;</a></h4>
-<p>En lugar de combinar disparadores con AND, puedes agregar <strong>restricciones</strong> a disparadores individuales para limitar cuándo se activan según otras condiciones. Por ejemplo, puedes añadir una restricción de "Hora del Día" a un disparador de "Pantalla Encendida" para que solo se active durante ciertas horas.</p>
-<h3 id="ejemplo_1">Ejemplo:<a class="headerlink" href="#ejemplo_1" title="Permanent link">&para;</a></h3>
-<p>Una macro con dos disparadores—"Cargador Conectado" y "Auriculares Conectados"—ejecutará sus acciones si <em>cualquiera</em> de estos eventos ocurre. Para que el disparador "Cargador Conectado" solo se active durante el día, añade una restricción como "Hora del Día: 8:00 AM - 10:00 PM" a ese disparador específico.</p>
+<h2 id="using-multiple-triggers">🔹 Using Multiple Triggers<a class="headerlink" href="#using-multiple-triggers" title="Permanent link">&para;</a></h2>
+<p>You can add <strong>multiple triggers</strong> to a single macro. If any one of these triggers fires, the macro will execute, assuming all constraints (if any) are met. This provides flexibility to start a macro from different events.</p>
+<h3 id="important-note">Important Note:<a class="headerlink" href="#important-note" title="Permanent link">&para;</a></h3>
+<p>Triggers cannot be combined with <strong>AND logic</strong> (e.g., "Trigger 1 AND Trigger 2") using a "Trigger Fired" constraint because triggers are <strong>instantaneous events</strong>. It’s highly improbable for two events to occur at exactly the same time. When a macro runs, it is always initiated by <strong>exactly one trigger</strong>.</p>
+<h4 id="alternative-to-and-logic">Alternative to AND Logic:<a class="headerlink" href="#alternative-to-and-logic" title="Permanent link">&para;</a></h4>
+<p>Instead of combining triggers with AND, you can add <strong>constraints</strong> to individual triggers to limit when they fire based on other conditions. For example, you can add a "Time of Day" constraint to a "Screen On" trigger to ensure it only activates during specific hours.</p>
+<h3 id="example_1">Example:<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h3>
+<p>A macro with two triggers—"Charger Connected" and "Headphones Connected"—will run its actions if <em>either</em> event occurs. To make a trigger like "Charger Connected" only fire during the day, add a constraint like "Time of Day: 8:00 AM - 10:00 PM" to that specific trigger.</p>
 <hr />
-<h2 id="ejemplos-comunes-de-disparadores">🔹 Ejemplos Comunes de Disparadores<a class="headerlink" href="#ejemplos-comunes-de-disparadores" title="Permanent link">&para;</a></h2>
-<p>MacroDroid ofrece una amplia variedad de disparadores para adaptarse a diferentes necesidades de automatización. Algunos ejemplos populares incluyen:
-- <strong>Eventos del Dispositivo</strong>: "Pantalla Encendida/Apagada", "Cargador Conectado/Desconectado" o "Nivel de Batería Bajo".
-- <strong>Basados en Tiempo</strong>: "Intervalo Regular" (por ejemplo, cada hora) o "Hora Específica".
-- <strong>Conectividad</strong>: "Wi-Fi Conectado/Desconectado" o "Dispositivo Bluetooth Conectado".
-- <strong>Notificaciones</strong>: "Notificación Recibida" de una app específica.
-- <strong>Ubicación</strong>: "Entrar/Salir de Ubicación" basado en datos de GPS o red.</p>
+<h2 id="common-trigger-examples">🔹 Common Trigger Examples<a class="headerlink" href="#common-trigger-examples" title="Permanent link">&para;</a></h2>
+<p>MacroDroid offers a wide variety of triggers to suit different automation needs. Some popular examples include:
+- <strong>Device Events</strong>: "Screen On/Off," "Charger Connected/Disconnected," or "Battery Level Drops."
+- <strong>Time-Based</strong>: "Regular Interval" (e.g., every hour) or "Specific Time."
+- <strong>Connectivity</strong>: "Wi-Fi Connected/Disconnected" or "Bluetooth Device Connected."
+- <strong>Notifications</strong>: "Notification Received" from a specific app.
+- <strong>Location</strong>: "Enter/Exit Location" based on GPS or network data.</p>
 <hr />
-<h2 id="por-que-son-importantes-los-disparadores">🔹 ¿Por qué son importantes los Disparadores?<a class="headerlink" href="#por-que-son-importantes-los-disparadores" title="Permanent link">&para;</a></h2>
+<h2 id="why-are-triggers-important">🔹 Why Are Triggers Important?<a class="headerlink" href="#why-are-triggers-important" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Iniciación</strong>: Los disparadores son el punto de partida de cada macro, determinando <em>cuándo</em> se ejecuta tu automatización.</li>
-<li><strong>Flexibilidad</strong>: Con múltiples disparadores, puedes hacer que una sola macro responda a varios eventos.</li>
-<li><strong>Precisión</strong>: Agregar restricciones a los disparadores te permite ajustar cuándo se activan, asegurando que tus macros se ejecuten solo en el contexto adecuado.</li>
+<li><strong>Initiation</strong>: Triggers are the starting point of every macro, determining <em>when</em> your automation runs.</li>
+<li><strong>Flexibility</strong>: With multiple triggers, you can make a single macro respond to various events.</li>
+<li><strong>Precision</strong>: Adding constraints to triggers allows you to fine-tune when they activate, ensuring your macros run only in the right context.</li>
 </ul>
-<h3 id="ejemplo-practico">Ejemplo Práctico:<a class="headerlink" href="#ejemplo-practico" title="Permanent link">&para;</a></h3>
-<p>Una macro diseñada para ahorrar batería podría incluir:
-- <strong>Disparador</strong>: "Nivel de Batería por Debajo del 20%" para detectar batería baja.
-- <strong>Disparador Adicional</strong>: "Pantalla Encendida" para detectar cuando el dispositivo está en uso.
-- <strong>Restricción</strong> (en el disparador "Pantalla Encendida"): "No Está Cargando" para asegurar que la macro solo se ejecute cuando el dispositivo no está enchufado.
-- <strong>Acciones</strong>: "Reducir Brillo" y "Mostrar Notificación: ¡Batería Baja!".</p>
+<h3 id="practical-example">Practical Example:<a class="headerlink" href="#practical-example" title="Permanent link">&para;</a></h3>
+<p>A macro designed to save battery might include:
+- <strong>Trigger</strong>: "Battery Level Drops Below 20%" to detect low battery.
+- <strong>Additional Trigger</strong>: "Screen On" to catch when the device is actively used.
+- <strong>Constraint</strong> (on the "Screen On" trigger): "Not Charging" to ensure the macro only runs when the device isn’t plugged in.
+- <strong>Actions</strong>: "Lower Brightness" and "Show Notification: Low Battery!"</p>
 <hr />
-<h2 id="consejos-para-usuarios-nuevos">🔹 Consejos para Usuarios Nuevos<a class="headerlink" href="#consejos-para-usuarios-nuevos" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Explora Disparadores</strong>: Navega por la lista de disparadores en la pantalla de edición de macros para ver qué eventos puede detectar tu dispositivo.</li>
-<li><strong>Empieza con Algo Simple</strong>: Prueba un disparador como "Pantalla Encendida" para entender cómo inicia una macro.</li>
-<li><strong>Verifica el Estado de la Macro</strong>: Asegúrate de que tu macro esté habilitada, ya que las macros desactivadas no responderán a los disparadores.</li>
-</ul>
-<hr />
-<h2 id="consejos-para-usuarios-avanzados">🔹 Consejos para Usuarios Avanzados<a class="headerlink" href="#consejos-para-usuarios-avanzados" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Usa Múltiples Disparadores</strong>: Combina disparadores para que una macro responda a diferentes escenarios, como "Cargador Conectado" y "Ubicación: Casa".</li>
-<li><strong>Añade Restricciones</strong>: Usa restricciones en disparadores individuales para crear condiciones precisas, como limitar un disparador de "Notificación Recibida" a una app o hora específica.</li>
-<li><strong>Prueba a Fondo</strong>: Dado que solo un disparador inicia una macro, prueba tu configuración para asegurar que el disparador correcto se activa en las condiciones esperadas.</li>
-</ul>
-<hr />
-<p>Los disparadores son la base de las automatizaciones de MacroDroid, dándote control sobre <em>cuándo</em> se ejecutan tus macros. Ya sea que estés creando automatizaciones simples o flujos complejos con múltiples disparadores y restricciones, experimentar con ellos te ayudará a desbloquear todo el potencial de MacroDroid.</p>
+<p>Triggers are the foundation of MacroDroid’s automations, giving you control over <em>when</em> your macros run. Whether you’re creating simple automations or complex workflows with multiple triggers and constraints, experimenting with triggers will help you unlock the full power of MacroDroid!</p>
 
 
 
@@ -1075,6 +1101,10 @@
     
     
       <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../assets/categories.json"></script>
+      
+        <script src="../../apply-colors.js"></script>
       
     
   </body>

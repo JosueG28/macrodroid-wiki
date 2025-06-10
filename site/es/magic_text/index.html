@@ -13,7 +13,7 @@
       
       
       
-        <link rel="prev" href="../constraints/">
+        <link rel="prev" href="../action_blocks/">
       
       
         <link rel="next" href="no_trigger/">
@@ -50,6 +50,10 @@
       
     
     
+      <link rel="stylesheet" href="../../macrodroid-colors.css">
+    
+      <link rel="stylesheet" href="../../overrides/categorias.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -67,7 +71,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -76,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#texto-magico-en-macrodroid" class="md-skip">
+        <a href="#magic-text-in-macrodroid" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -94,8 +98,7 @@
   <nav class="md-header__inner md-grid" aria-label="Cabecera">
     <a href="../" title="MacroDroid Wiki" class="md-header__button md-logo" aria-label="MacroDroid Wiki" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/macrodroid_icon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -125,20 +128,20 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple"  aria-label="Cambiar a tema claro"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      <label class="md-header__button md-icon" title="Cambiar a tema claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
       </label>
     
   
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Cambiar a tema oscuro"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      <label class="md-header__button md-icon" title="Cambiar a tema oscuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
       </label>
     
   
@@ -246,8 +249,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../" title="MacroDroid Wiki" class="md-nav__button md-logo" aria-label="MacroDroid Wiki" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/macrodroid_icon.png" alt="logo">
 
     </a>
     MacroDroid Wiki
@@ -523,6 +525,79 @@
       
   
   
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Bloques de accion
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Bloques de accion
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../action_blocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introducción a bloques de accion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -541,10 +616,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   
@@ -557,8 +632,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Texto mágico
           </label>
@@ -621,19 +696,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#que-es-el-texto-magico-y-donde-lo-encuentras" class="md-nav__link">
+  <a href="#what-is-magic-text-and-where-do-you-find-it" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 ¿Qué es el Texto Mágico y dónde lo encuentras?
+      🔹 What is Magic Text and Where Do You Find It?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 ¿Qué es el Texto Mágico y dónde lo encuentras?">
+    <nav class="md-nav" aria-label="🔹 What is Magic Text and Where Do You Find It?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#ejemplo" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo:
+      Example:
     </span>
   </a>
   
@@ -645,28 +720,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#como-funciona-el-texto-magico" class="md-nav__link">
+  <a href="#how-does-magic-text-work" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 ¿Cómo funciona el Texto Mágico?
+      🔹 How Does Magic Text Work?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#usar-el-texto-magico-manualmente" class="md-nav__link">
+  <a href="#using-magic-text-manually" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Usar el Texto Mágico manualmente
+      🔹 Using Magic Text Manually
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 Usar el Texto Mágico manualmente">
+    <nav class="md-nav" aria-label="🔹 Using Magic Text Manually">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#advertencia" class="md-nav__link">
+  <a href="#warning" class="md-nav__link">
     <span class="md-ellipsis">
-      Advertencia:
+      Warning:
     </span>
   </a>
   
@@ -678,19 +753,19 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#estilos-de-formato" class="md-nav__link">
+  <a href="#format-styles" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Estilos de formato
+      🔹 Format Styles
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 Estilos de formato">
+    <nav class="md-nav" aria-label="🔹 Format Styles">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#ejemplo_1" class="md-nav__link">
+  <a href="#example_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo:
+      Example:
     </span>
   </a>
   
@@ -702,27 +777,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#consejos-para-usuarios-nuevos" class="md-nav__link">
+  <a href="#tips-for-new-users" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Consejos para usuarios nuevos
+      🔹 Tips for New Users
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#ejemplos-practicos-para-inspirarte" class="md-nav__link">
+  <a href="#why-magic-text-is-so-powerful" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Ejemplos prácticos para inspirarte
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#por-que-el-texto-magico-es-tan-poderoso" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Por qué el Texto Mágico es tan poderoso
+      🔹 Why Magic Text is So Powerful
     </span>
   </a>
   
@@ -817,19 +883,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#que-es-el-texto-magico-y-donde-lo-encuentras" class="md-nav__link">
+  <a href="#what-is-magic-text-and-where-do-you-find-it" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 ¿Qué es el Texto Mágico y dónde lo encuentras?
+      🔹 What is Magic Text and Where Do You Find It?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 ¿Qué es el Texto Mágico y dónde lo encuentras?">
+    <nav class="md-nav" aria-label="🔹 What is Magic Text and Where Do You Find It?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#ejemplo" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo:
+      Example:
     </span>
   </a>
   
@@ -841,28 +907,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#como-funciona-el-texto-magico" class="md-nav__link">
+  <a href="#how-does-magic-text-work" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 ¿Cómo funciona el Texto Mágico?
+      🔹 How Does Magic Text Work?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#usar-el-texto-magico-manualmente" class="md-nav__link">
+  <a href="#using-magic-text-manually" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Usar el Texto Mágico manualmente
+      🔹 Using Magic Text Manually
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 Usar el Texto Mágico manualmente">
+    <nav class="md-nav" aria-label="🔹 Using Magic Text Manually">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#advertencia" class="md-nav__link">
+  <a href="#warning" class="md-nav__link">
     <span class="md-ellipsis">
-      Advertencia:
+      Warning:
     </span>
   </a>
   
@@ -874,19 +940,19 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#estilos-de-formato" class="md-nav__link">
+  <a href="#format-styles" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Estilos de formato
+      🔹 Format Styles
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 Estilos de formato">
+    <nav class="md-nav" aria-label="🔹 Format Styles">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#ejemplo_1" class="md-nav__link">
+  <a href="#example_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo:
+      Example:
     </span>
   </a>
   
@@ -898,27 +964,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#consejos-para-usuarios-nuevos" class="md-nav__link">
+  <a href="#tips-for-new-users" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Consejos para usuarios nuevos
+      🔹 Tips for New Users
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#ejemplos-practicos-para-inspirarte" class="md-nav__link">
+  <a href="#why-magic-text-is-so-powerful" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Ejemplos prácticos para inspirarte
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#por-que-el-texto-magico-es-tan-poderoso" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Por qué el Texto Mágico es tan poderoso
+      🔹 Why Magic Text is So Powerful
     </span>
   </a>
   
@@ -940,58 +997,51 @@
 
 
 
-<h1 id="texto-magico-en-macrodroid">✨ Texto Mágico en MacroDroid<a class="headerlink" href="#texto-magico-en-macrodroid" title="Permanent link">&para;</a></h1>
-<p><strong>Texto Mágico</strong> es una función poderosa en MacroDroid que te permite insertar valores dinámicos en tus macros en lugar de texto estático. Estos valores, como el nivel de batería, la hora actual, datos de sensores o la ubicación del dispositivo, se actualizan en tiempo real cuando se ejecuta la macro, haciendo que tus automatizaciones sean más flexibles y adaptables.</p>
+<h1 id="magic-text-in-macrodroid">✨ Magic Text in MacroDroid<a class="headerlink" href="#magic-text-in-macrodroid" title="Permanent link">&para;</a></h1>
+<p><strong>Magic Text</strong> is a powerful feature in MacroDroid that lets you insert dynamic values into your macros instead of static text. These values, such as battery level, current time, sensor data, or device location, are updated in real-time when the macro runs, making your automations more flexible and responsive.</p>
+<p><a href="list/"><strong>Go to magic text list</strong></a></p>
 <hr />
-<h2 id="que-es-el-texto-magico-y-donde-lo-encuentras">🔹 ¿Qué es el Texto Mágico y dónde lo encuentras?<a class="headerlink" href="#que-es-el-texto-magico-y-donde-lo-encuentras" title="Permanent link">&para;</a></h2>
-<p>En muchos <strong>disparadores</strong>, <strong>acciones</strong> y <strong>restricciones</strong> en MacroDroid, notarás que algunos campos tienen un botón <strong>"..."</strong> junto a ellos. Al hacer clic en este botón, se abre una lista de opciones de <strong>Texto Mágico</strong> disponibles, que dependen del contexto del campo en el que estés trabajando.</p>
-<p>Estos valores dinámicos se resuelven en tiempo de ejecución, lo que significa que reflejan el estado actual del dispositivo cuando se ejecuta la macro.</p>
-<h3 id="ejemplo">Ejemplo:<a class="headerlink" href="#ejemplo" title="Permanent link">&para;</a></h3>
-<p>Si configuras una notificación con el texto "Mi batería está al {battery}%", cuando la macro se ejecute, MacroDroid reemplazará <code>{battery}</code> con el porcentaje real de batería. Por ejemplo, si tu batería está al 42%, la notificación dirá: "Mi batería está al 42%."</p>
+<h2 id="what-is-magic-text-and-where-do-you-find-it">🔹 What is Magic Text and Where Do You Find It?<a class="headerlink" href="#what-is-magic-text-and-where-do-you-find-it" title="Permanent link">&para;</a></h2>
+<p>In many <strong>triggers</strong>, <strong>actions</strong>, and <strong>constraints</strong> in MacroDroid, you’ll notice fields with a <strong>"..."</strong> button next to them. Clicking this button opens a list of available <strong>Magic Text</strong> options, which depend on the context of the field you’re working with.</p>
+<p>These dynamic values are resolved at runtime, meaning they reflect the device’s state when the macro executes.</p>
+<h3 id="example">Example:<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
+<p>If you set up a notification with the text "My battery is at {battery}%", when the macro runs, MacroDroid replaces <code>{battery}</code> with the actual battery percentage. For instance, if your battery is at 42%, the notification will read: "My battery is at 42%."</p>
 <hr />
-<h2 id="como-funciona-el-texto-magico">🔹 ¿Cómo funciona el Texto Mágico?<a class="headerlink" href="#como-funciona-el-texto-magico" title="Permanent link">&para;</a></h2>
-<p>El Texto Mágico actúa como un marcador que MacroDroid reemplaza automáticamente con el valor correspondiente cuando se activa la macro. Esto lo hace ideal para personalizar acciones o tomar decisiones basadas en datos en tiempo real.</p>
+<h2 id="how-does-magic-text-work">🔹 How Does Magic Text Work?<a class="headerlink" href="#how-does-magic-text-work" title="Permanent link">&para;</a></h2>
+<p>Magic Text acts as a placeholder that MacroDroid automatically replaces with the corresponding value when the macro is triggered. This makes it ideal for customizing actions or making decisions based on real-time data.</p>
 <hr />
-<h2 id="usar-el-texto-magico-manualmente">🔹 Usar el Texto Mágico manualmente<a class="headerlink" href="#usar-el-texto-magico-manualmente" title="Permanent link">&para;</a></h2>
-<p>También puedes escribir el Texto Mágico directamente en los campos de texto en lugar de seleccionarlo de la lista. Esto es útil si conoces el código exacto o si una opción no aparece en la lista.</p>
-<h3 id="advertencia">Advertencia:<a class="headerlink" href="#advertencia" title="Permanent link">&para;</a></h3>
+<h2 id="using-magic-text-manually">🔹 Using Magic Text Manually<a class="headerlink" href="#using-magic-text-manually" title="Permanent link">&para;</a></h2>
+<p>You can also type Magic Text directly into text fields instead of selecting from the list. This is helpful if you know the exact code or if an option isn’t listed.</p>
+<h3 id="warning">Warning:<a class="headerlink" href="#warning" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>La sintaxis es importante:</strong> El Texto Mágico debe escribirse exactamente como se indica (por ejemplo, <code>{battery}</code>). Un error como <code>{batery}</code> no funcionará y el texto aparecerá como "{batery}" en lugar del valor esperado.</li>
-<li><strong>Prueba tus macros:</strong> Siempre ejecuta una prueba para asegurarte de que el Texto Mágico escrito manualmente se resuelve correctamente.</li>
+<li><strong>Syntax matters:</strong> Magic Text must be written exactly as shown (e.g., <code>{battery}</code>). A typo like <code>{batery}</code> will not work, and the text will appear as "{batery}" instead of the intended value.</li>
+<li><strong>Test your macros:</strong> Always run a test to ensure manually entered Magic Text resolves correctly.</li>
 </ul>
 <hr />
-<h2 id="estilos-de-formato">🔹 Estilos de formato<a class="headerlink" href="#estilos-de-formato" title="Permanent link">&para;</a></h2>
-<p>Hay dos formatos para el Texto Mágico:</p>
+<h2 id="format-styles">🔹 Format Styles<a class="headerlink" href="#format-styles" title="Permanent link">&para;</a></h2>
+<p>There are two formats for Magic Text:</p>
 <ul>
-<li><strong>Llaves <code>{}</code></strong>: Formato moderno (recomendado).  </li>
-<li><strong>Corchetes <code>[]</code></strong>: Formato antiguo (aún soportado).</li>
+<li><strong>Curly brackets <code>{}</code></strong>: Modern format (recommended).  </li>
+<li><strong>Square brackets <code>[]</code></strong>: Legacy format (still supported).</li>
 </ul>
-<p>✅ <strong>Usa llaves <code>{}</code> siempre que sea posible.</strong> Son más confiables y fáciles de leer, especialmente para expresiones complejas (como listas anidadas o diccionarios).</p>
-<h3 id="ejemplo_1">Ejemplo:<a class="headerlink" href="#ejemplo_1" title="Permanent link">&para;</a></h3>
+<p>✅ <strong>Use curly brackets <code>{}</code> whenever possible.</strong> They’re more reliable and easier to read, especially for complex expressions (like nested lists or dictionaries).</p>
+<h3 id="example_1">Example:<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Moderno: <code>{battery}</code> → Muestra el nivel actual de batería (por ejemplo, "42").</li>
-<li>Antiguo: <code>[battery]</code> → También funciona, pero es menos preferido.</li>
-</ul>
-<hr />
-<h2 id="consejos-para-usuarios-nuevos">🔹 Consejos para usuarios nuevos<a class="headerlink" href="#consejos-para-usuarios-nuevos" title="Permanent link">&para;</a></h2>
-<p>Si eres nuevo en MacroDroid, el Texto Mágico puede parecer complejo al principio, pero estos consejos te ayudarán a comenzar:</p>
-<ul>
-<li><strong>Explora las opciones:</strong> Haz clic en el botón <strong>"..."</strong> siempre que lo veas para descubrir los valores de Texto Mágico disponibles para ese campo.</li>
-<li><strong>Empieza con algo simple:</strong> Prueba usar <code>{battery}</code> en una notificación para ver cómo funcionan los valores dinámicos.</li>
-<li><strong>Prueba tu configuración:</strong> Ejecuta tu macro después de agregar Texto Mágico para confirmar que funciona como esperas.</li>
+<li>Modern: <code>{battery}</code> → Displays the current battery level (e.g., "42").</li>
+<li>Legacy: <code>[battery]</code> → Also works but less preferred.</li>
 </ul>
 <hr />
-<h2 id="ejemplos-practicos-para-inspirarte">🔹 Ejemplos prácticos para inspirarte<a class="headerlink" href="#ejemplos-practicos-para-inspirarte" title="Permanent link">&para;</a></h2>
+<h2 id="tips-for-new-users">🔹 Tips for New Users<a class="headerlink" href="#tips-for-new-users" title="Permanent link">&para;</a></h2>
+<p>If you’re new to MacroDroid, Magic Text might seem complex at first, but these tips will help you get started:</p>
 <ul>
-<li><strong>Notificación personalizada:</strong> "La temperatura de la CPU es {cpu_temp}°C" para monitorear el estado de tu dispositivo.</li>
-<li><strong>Disparador basado en hora:</strong> Usa <code>{hour}</code> y <code>{minute}</code> para activar una macro en un momento específico.</li>
-<li><strong>Registro de datos:</strong> Escribe <code>{memory_free}</code> en un archivo de registro para seguir el rastro de la memoria disponible.</li>
-<li><strong>Restricción dinámica:</strong> Configura una macro para que solo se ejecute si <code>{wifi_ssid}</code> coincide con el nombre de tu red Wi-Fi.</li>
+<li><strong>Explore the options:</strong> Click the <strong>"..."</strong> button whenever you see it to discover available Magic Text values for that field.</li>
+<li><strong>Start simple:</strong> Try using <code>{battery}</code> in a notification to see how dynamic values work.</li>
+<li><strong>Test your setup:</strong> Run your macro after adding Magic Text to confirm it behaves as expected.</li>
 </ul>
 <hr />
-<h2 id="por-que-el-texto-magico-es-tan-poderoso">🔹 Por qué el Texto Mágico es tan poderoso<a class="headerlink" href="#por-que-el-texto-magico-es-tan-poderoso" title="Permanent link">&para;</a></h2>
-<p>El Texto Mágico transforma tus macros de estáticas a dinámicas, permitiéndoles adaptarse al estado actual de tu dispositivo. Ya sea que estés mostrando información en tiempo real, tomando decisiones basadas en datos de sensores o automatizando tareas de manera más inteligente, el Texto Mágico es una de las herramientas más versátiles de MacroDroid.</p>
-<p>¡Experimenta con el Texto Mágico para llevar tus macros al siguiente nivel, ya seas principiante o un experto!</p>
+<h2 id="why-magic-text-is-so-powerful">🔹 Why Magic Text is So Powerful<a class="headerlink" href="#why-magic-text-is-so-powerful" title="Permanent link">&para;</a></h2>
+<p>Magic Text transforms your macros from static to dynamic, enabling them to adapt to your device’s current state. Whether you’re displaying real-time information, making decisions based on sensor data, or automating tasks more intelligently, Magic Text is one of MacroDroid’s most versatile tools.</p>
+<p>Experiment with Magic Text to take your macros to the next level, whether you’re a beginner or a seasoned pro!</p>
 
 
 
@@ -1044,6 +1094,10 @@
     
     
       <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../assets/categories.json"></script>
+      
+        <script src="../../apply-colors.js"></script>
       
     
   </body>

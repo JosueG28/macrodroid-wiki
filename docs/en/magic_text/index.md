@@ -2,6 +2,8 @@
 
 **Magic Text** is a powerful feature in MacroDroid that lets you insert dynamic values into your macros instead of static text. These values, such as battery level, current time, sensor data, or device location, are updated in real-time when the macro runs, making your automations more flexible and responsive.
 
+[**Go to magic text list**](list.md)
+
 ---
 
 ## 🔹 What is Magic Text and Where Do You Find It?

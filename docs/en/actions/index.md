@@ -2,6 +2,8 @@
 
 **Actions** in MacroDroid are the tasks your device performs when a macro runs. They are the core of any automation, defining what the macro does once its trigger is activated and constraints are met. From sending notifications to controlling device hardware, actions allow you to customize your device’s behavior in powerful and flexible ways.
 
+[**Go to action list**](list.md)
+
 ---
 
 ## 🔹 What Are Actions?

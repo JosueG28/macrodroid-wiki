@@ -2,34 +2,12 @@ site_name: MacroDroid Wiki
 site_description: Unofficial MacroDroid Documentation
 site_author: JosueG28
 
+site_favicon: assets/favicon.ico
+
 theme:
   name: material
-  #custom_dir: overrides/          # si usas overrides para templates
-  #logo: assets/logo.svg           # pon aquí tu logo si lo tienes
+  logo: assets/macrodroid_icon.png
   language: en
-
-  # Paleta de colores base (sin primary ni accent)
-  palette:
-    # Modo claro
-    - scheme: default
-      toggle:
-        icon: material/brightness-4
-        name: Switch to dark mode
-
-    # Modo oscuro
-    - scheme: slate
-      toggle:
-        icon: material/brightness-7
-        name: Switch to light mode
-
-  # Habilita tu CSS extra con las variables de MacroDroid
-  extra_css:
-    - stylesheets/extra.css
-
-  extra_javascript:
-    - javascripts/section-highlights.js
-
-  # Funcionalidades de Material for MkDocs
   features:
     - navigation.instant
     - navigation.sections
@@ -38,6 +16,28 @@ theme:
     - search.suggest
     - search.highlight
     - i18n
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a tema claro
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a tema oscuro
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra_css:
+  - macrodroid-colors.css
+  - overrides/categorias.css
+
+extra_javascript:
+  - assets/categories.json
+  - apply-colors.js
 
 markdown_extensions:
   - admonition
@@ -49,6 +49,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.emoji
   - pymdownx.tasklist
+  - attr_list
+  - def_list
+  - tables
 
 plugins:
   - search
@@ -65,18 +68,37 @@ plugins:
           site_author: JosueG28
           nav:
             - Home: index.md
+            - Helper app: 
+                - Download and information: helper/index.md
+                - Install Universal Helper: helper/universal.md
+                - Install Connectivity Helper: helper/connectivity.md
+            - Hack ADB:
+                - Guide: action_bñloks/index.md
             - Triggers:
                 - Introduction to triggers: triggers/index.md
+                - List of triggers: triggers/list.md
             - Actions:
                 - Introduction to actions: actions/index.md
                 - Control flow: actions/control_flow/index.md
-                - Actions list: actions/actions_list/index.md
+                - Actions list: actions/list.md
             - Constraints:
-                - Introduction to restrictions: constraints/index.md
+                - Introduction to constraints: constraints/index.md
+                - Constraints list: constraints/list.md
+            - Action blocks: 
+                - Introduction to the action blocks: action_blocks/index.md
+            - Variables:
+                - Introduction to variables: variables/index.md
             - Magic text:
                 - Introduction to the Magic Text: magic_text/index.md
                 - No trigger required to operate: magic_text/no_trigger/index.md
                 - Trigger required to operate: magic_text/trigger_required/index.md
+            - Stopwatches:
+                - Introduction to stopwatches: stopwatches/index.md
+            - MacroDroid log:
+                - System log: macrodroid_log/system_log.md
+                - User log: macrodroid_log/user_log.md
+            - Import/Export:
+                - Introduction: import_export/index.md
 
         - locale: es
           name: Español
@@ -93,6 +115,8 @@ plugins:
                 - Flujo de control: actions/control_flow/index.md
             - Restricciones:
                 - Introducción a restricciones: constraints/index.md
+            - Bloques de accion:
+                - Introducción a bloques de accion: action_blocks/index.md
             - Texto mágico: 
                 - Introducción al texto mágico: magic_text/index.md
                 - No trigger required to operate: magic_text/no_trigger/index.md
@@ -101,9 +125,8 @@ plugins:
 extra:
   alternate:
     - name: English
-      link: "/"     # raíz
+      link: "/"
       lang: en
-
     - name: Español
-      link: "es/"   # /es/
+      link: "/es/"
       lang: es

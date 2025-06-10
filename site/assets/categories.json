@@ -1,0 +1,46 @@
+{
+  "triggers": {
+    "en": "triggers",
+    "color": "#e53935",
+    "hover": "#ff6b6b"
+  },
+  "actions": {
+    "en": "actions",
+    "color": "#1e88e5",
+    "hover": "#64b5f6"
+  },
+  "constraints": {
+    "en": "constraints",
+    "color": "#43a047",
+    "hover": "#81c784"
+  },
+  "action_blocks": {
+    "en": "action_blocks",
+    "color": "#1e88e5",
+    "hover": "#64b5f6"
+  },
+  "magic_text": {
+    "en": "magic_text",
+    "color": "#9c27b0",
+    "hover": "#ba68c8"
+  },
+  "stopwatches": {
+    "en": "stopwatches",
+    "color": "#8f2d56",
+    "hover": "#d81b60"
+  },
+  "variables": {
+    "en": "variables",
+    "color": "#00828f",
+    "hover": "#00acc1"
+  },
+  "import_export": {
+    "en": "import_export",
+    "color": "#f68549",
+    "hover": "#ffab73"
+  },
+  "default": {
+    "color": "#607d8b",
+    "hover": "#90a4ae"
+  }
+}

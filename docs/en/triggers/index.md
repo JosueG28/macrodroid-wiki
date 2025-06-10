@@ -2,6 +2,8 @@
 
 **Triggers** in MacroDroid are instantaneous events that your device detects to start a macro. They are the spark that initiates your automation, telling MacroDroid when to execute the macro’s actions. From detecting a screen unlock to receiving a notification, triggers allow you to create responsive and dynamic automations tailored to your needs.
 
+[**Go to trigger list**](list.md)
+
 ---
 
 ## 🔹 What Are Triggers?
@@ -51,22 +53,6 @@ A macro designed to save battery might include:
 - **Additional Trigger**: "Screen On" to catch when the device is actively used.
 - **Constraint** (on the "Screen On" trigger): "Not Charging" to ensure the macro only runs when the device isn’t plugged in.
 - **Actions**: "Lower Brightness" and "Show Notification: Low Battery!"
-
----
-
-## 🔹 Tips for New Users
-
-- **Explore Triggers**: Browse the trigger list in the macro editing screen to see what events your device can detect.
-- **Start Simple**: Try a trigger like "Screen On" to understand how it initiates a macro.
-- **Check Macro Status**: Ensure your macro is enabled, as disabled macros won’t respond to triggers.
-
----
-
-## 🔹 Tips for Advanced Users
-
-- **Use Multiple Triggers**: Combine triggers to make a macro respond to different scenarios, like both "Charger Connected" and "Location: Home."
-- **Add Constraints**: Use constraints on individual triggers to create precise conditions, such as limiting a "Notification Received" trigger to a specific app or time.
-- **Test Thoroughly**: Since only one trigger starts a macro, test your setup to ensure the right trigger fires under the expected conditions.
 
 ---
 

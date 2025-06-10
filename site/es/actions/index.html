@@ -50,6 +50,10 @@
       
     
     
+      <link rel="stylesheet" href="../../macrodroid-colors.css">
+    
+      <link rel="stylesheet" href="../../overrides/categorias.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -67,7 +71,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -76,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduccion-a-las-acciones-en-macrodroid" class="md-skip">
+        <a href="#introduction-to-actions-in-macrodroid" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -94,8 +98,7 @@
   <nav class="md-header__inner md-grid" aria-label="Cabecera">
     <a href="../" title="MacroDroid Wiki" class="md-header__button md-logo" aria-label="MacroDroid Wiki" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/macrodroid_icon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -125,20 +128,20 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple"  aria-label="Cambiar a tema claro"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      <label class="md-header__button md-icon" title="Cambiar a tema claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
       </label>
     
   
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Cambiar a tema oscuro"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      <label class="md-header__button md-icon" title="Cambiar a tema oscuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
       </label>
     
   
@@ -246,8 +249,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../" title="MacroDroid Wiki" class="md-nav__button md-logo" aria-label="MacroDroid Wiki" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/macrodroid_icon.png" alt="logo">
 
     </a>
     MacroDroid Wiki
@@ -452,19 +454,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#que-son-las-acciones" class="md-nav__link">
+  <a href="#what-are-actions" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 ¿Qué son las Acciones?
+      🔹 What Are Actions?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 ¿Qué son las Acciones?">
+    <nav class="md-nav" aria-label="🔹 What Are Actions?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#ejemplo" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo:
+      Example:
     </span>
   </a>
   
@@ -476,38 +478,38 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#acciones-sincronas-vs-asincronas" class="md-nav__link">
+  <a href="#synchronous-vs-asynchronous-actions" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Acciones Síncronas vs. Asíncronas
+      🔹 Synchronous vs. Asynchronous Actions
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 Acciones Síncronas vs. Asíncronas">
+    <nav class="md-nav" aria-label="🔹 Synchronous vs. Asynchronous Actions">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#acciones-sincronas" class="md-nav__link">
+  <a href="#synchronous-actions" class="md-nav__link">
     <span class="md-ellipsis">
-      Acciones Síncronas
+      Synchronous Actions
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#acciones-asincronas" class="md-nav__link">
+  <a href="#asynchronous-actions" class="md-nav__link">
     <span class="md-ellipsis">
-      Acciones Asíncronas
+      Asynchronous Actions
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Acciones Asíncronas">
+    <nav class="md-nav" aria-label="Asynchronous Actions">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#controlar-acciones-asincronas" class="md-nav__link">
+  <a href="#managing-asynchronous-actions" class="md-nav__link">
     <span class="md-ellipsis">
-      Controlar Acciones Asíncronas
+      Managing Asynchronous Actions
     </span>
   </a>
   
@@ -519,9 +521,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#ejemplo_1" class="md-nav__link">
+  <a href="#example_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo:
+      Example:
     </span>
   </a>
   
@@ -533,28 +535,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ejemplos-comunes-de-acciones" class="md-nav__link">
+  <a href="#common-action-examples" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Ejemplos Comunes de Acciones
+      🔹 Common Action Examples
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#por-que-son-importantes-las-acciones" class="md-nav__link">
+  <a href="#why-are-actions-important" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 ¿Por qué son importantes las Acciones?
+      🔹 Why Are Actions Important?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 ¿Por qué son importantes las Acciones?">
+    <nav class="md-nav" aria-label="🔹 Why Are Actions Important?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#ejemplo-practico" class="md-nav__link">
+  <a href="#practical-example" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo Práctico:
+      Practical Example:
     </span>
   </a>
   
@@ -566,18 +568,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#consejos-para-usuarios-nuevos" class="md-nav__link">
+  <a href="#tips-for-new-users" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Consejos para Usuarios Nuevos
+      🔹 Tips for New Users
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#consejos-para-usuarios-avanzados" class="md-nav__link">
+  <a href="#tips-for-advanced-users" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Consejos para Usuarios Avanzados
+      🔹 Tips for Advanced Users
     </span>
   </a>
   
@@ -723,7 +725,7 @@
   
   
   <span class="md-ellipsis">
-    Texto mágico
+    Bloques de accion
     
   </span>
   
@@ -733,6 +735,79 @@
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Bloques de accion
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../action_blocks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introducción a bloques de accion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Texto mágico
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Texto mágico
           </label>
@@ -841,19 +916,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#que-son-las-acciones" class="md-nav__link">
+  <a href="#what-are-actions" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 ¿Qué son las Acciones?
+      🔹 What Are Actions?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 ¿Qué son las Acciones?">
+    <nav class="md-nav" aria-label="🔹 What Are Actions?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#ejemplo" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo:
+      Example:
     </span>
   </a>
   
@@ -865,38 +940,38 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#acciones-sincronas-vs-asincronas" class="md-nav__link">
+  <a href="#synchronous-vs-asynchronous-actions" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Acciones Síncronas vs. Asíncronas
+      🔹 Synchronous vs. Asynchronous Actions
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 Acciones Síncronas vs. Asíncronas">
+    <nav class="md-nav" aria-label="🔹 Synchronous vs. Asynchronous Actions">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#acciones-sincronas" class="md-nav__link">
+  <a href="#synchronous-actions" class="md-nav__link">
     <span class="md-ellipsis">
-      Acciones Síncronas
+      Synchronous Actions
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#acciones-asincronas" class="md-nav__link">
+  <a href="#asynchronous-actions" class="md-nav__link">
     <span class="md-ellipsis">
-      Acciones Asíncronas
+      Asynchronous Actions
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Acciones Asíncronas">
+    <nav class="md-nav" aria-label="Asynchronous Actions">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#controlar-acciones-asincronas" class="md-nav__link">
+  <a href="#managing-asynchronous-actions" class="md-nav__link">
     <span class="md-ellipsis">
-      Controlar Acciones Asíncronas
+      Managing Asynchronous Actions
     </span>
   </a>
   
@@ -908,9 +983,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#ejemplo_1" class="md-nav__link">
+  <a href="#example_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo:
+      Example:
     </span>
   </a>
   
@@ -922,28 +997,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ejemplos-comunes-de-acciones" class="md-nav__link">
+  <a href="#common-action-examples" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Ejemplos Comunes de Acciones
+      🔹 Common Action Examples
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#por-que-son-importantes-las-acciones" class="md-nav__link">
+  <a href="#why-are-actions-important" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 ¿Por qué son importantes las Acciones?
+      🔹 Why Are Actions Important?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 ¿Por qué son importantes las Acciones?">
+    <nav class="md-nav" aria-label="🔹 Why Are Actions Important?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#ejemplo-practico" class="md-nav__link">
+  <a href="#practical-example" class="md-nav__link">
     <span class="md-ellipsis">
-      Ejemplo Práctico:
+      Practical Example:
     </span>
   </a>
   
@@ -955,18 +1030,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#consejos-para-usuarios-nuevos" class="md-nav__link">
+  <a href="#tips-for-new-users" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Consejos para Usuarios Nuevos
+      🔹 Tips for New Users
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#consejos-para-usuarios-avanzados" class="md-nav__link">
+  <a href="#tips-for-advanced-users" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Consejos para Usuarios Avanzados
+      🔹 Tips for Advanced Users
     </span>
   </a>
   
@@ -988,62 +1063,63 @@
 
 
 
-<h1 id="introduccion-a-las-acciones-en-macrodroid">⚡ Introducción a las Acciones en MacroDroid<a class="headerlink" href="#introduccion-a-las-acciones-en-macrodroid" title="Permanent link">&para;</a></h1>
-<p>Las <strong>Acciones</strong> en MacroDroid son las tareas que tu dispositivo realiza cuando se ejecuta una macro. Son el núcleo de cualquier automatización, ya que definen qué hace la macro una vez que se activa su disparador y se cumplen sus restricciones. Desde enviar notificaciones hasta controlar el hardware del dispositivo, las acciones te permiten personalizar el comportamiento de tu dispositivo de manera poderosa y flexible.</p>
+<h1 id="introduction-to-actions-in-macrodroid">⚡ Introduction to Actions in MacroDroid<a class="headerlink" href="#introduction-to-actions-in-macrodroid" title="Permanent link">&para;</a></h1>
+<p><strong>Actions</strong> in MacroDroid are the tasks your device performs when a macro runs. They are the core of any automation, defining what the macro does once its trigger is activated and constraints are met. From sending notifications to controlling device hardware, actions allow you to customize your device’s behavior in powerful and flexible ways.</p>
+<p><a href="list/"><strong>Go to action list</strong></a></p>
 <hr />
-<h2 id="que-son-las-acciones">🔹 ¿Qué son las Acciones?<a class="headerlink" href="#que-son-las-acciones" title="Permanent link">&para;</a></h2>
-<p>Una <strong>acción</strong> es cualquier tarea que tu dispositivo puede realizar como parte de una macro. Para que una macro sea válida, debe incluir <strong>al menos una acción</strong>. MacroDroid ofrece una amplia variedad de acciones, desde ajustes simples como cambiar el brillo de la pantalla hasta tareas complejas como realizar solicitudes HTTP o ejecutar scripts.</p>
-<h3 id="ejemplo">Ejemplo:<a class="headerlink" href="#ejemplo" title="Permanent link">&para;</a></h3>
-<p>Una macro con el disparador "Cargador Conectado" podría incluir una acción como "Activar Wi-Fi" para conectar tu dispositivo a una red automáticamente al enchufarlo.</p>
+<h2 id="what-are-actions">🔹 What Are Actions?<a class="headerlink" href="#what-are-actions" title="Permanent link">&para;</a></h2>
+<p>An <strong>action</strong> is any task your device can execute as part of a macro. For a macro to be valid, it must include <strong>at least one action</strong>. MacroDroid offers a wide variety of actions, ranging from simple tasks like adjusting screen brightness to complex ones like making HTTP requests or running scripts.</p>
+<h3 id="example">Example:<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
+<p>A macro with the trigger "Charger Connected" might include an action like "Turn On Wi-Fi" to automatically connect your device to a network when plugged in.</p>
 <hr />
-<h2 id="acciones-sincronas-vs-asincronas">🔹 Acciones Síncronas vs. Asíncronas<a class="headerlink" href="#acciones-sincronas-vs-asincronas" title="Permanent link">&para;</a></h2>
-<h3 id="acciones-sincronas">Acciones Síncronas<a class="headerlink" href="#acciones-sincronas" title="Permanent link">&para;</a></h3>
-<p>La mayoría de las acciones en MacroDroid se ejecutan rápidamente y de forma secuencial. Esto significa que cada acción espera a que la anterior termine antes de comenzar.</p>
-<h3 id="acciones-asincronas">Acciones Asíncronas<a class="headerlink" href="#acciones-asincronas" title="Permanent link">&para;</a></h3>
-<p>Algunas acciones, como <strong>solicitudes HTTP</strong> o <strong>scripts de shell</strong>, pueden tardar más en completarse. Por defecto, estas acciones se ejecutan de forma <strong>asíncrona</strong>, lo que significa que las acciones posteriores en la macro podrían ejecutarse antes de que la acción asíncrona termine.</p>
-<h4 id="controlar-acciones-asincronas">Controlar Acciones Asíncronas<a class="headerlink" href="#controlar-acciones-asincronas" title="Permanent link">&para;</a></h4>
+<h2 id="synchronous-vs-asynchronous-actions">🔹 Synchronous vs. Asynchronous Actions<a class="headerlink" href="#synchronous-vs-asynchronous-actions" title="Permanent link">&para;</a></h2>
+<h3 id="synchronous-actions">Synchronous Actions<a class="headerlink" href="#synchronous-actions" title="Permanent link">&para;</a></h3>
+<p>Most MacroDroid actions execute quickly and sequentially, meaning each action waits for the previous one to complete before starting.</p>
+<h3 id="asynchronous-actions">Asynchronous Actions<a class="headerlink" href="#asynchronous-actions" title="Permanent link">&para;</a></h3>
+<p>Certain actions, such as <strong>HTTP requests</strong> or <strong>shell scripts</strong>, may take longer to complete. By default, these actions run <strong>asynchronously</strong>, meaning subsequent actions in the macro might start before the asynchronous action finishes.</p>
+<h4 id="managing-asynchronous-actions">Managing Asynchronous Actions<a class="headerlink" href="#managing-asynchronous-actions" title="Permanent link">&para;</a></h4>
 <ul>
-<li><strong>Opción "Bloquear la siguiente acción hasta completar"</strong>: Activa esta opción en la interfaz de configuración de la acción para asegurarte de que las acciones posteriores esperen a que la acción asíncrona termine antes de continuar.</li>
-<li><strong>Advertencia</strong>: MacroDroid no ofrece una opción sistemática para manejar retornos de datos o funciones de callback como en lenguajes de programación tradicionales. En su lugar, deberás usar soluciones alternativas, como almacenar resultados en variables o añadir acciones de espera (por ejemplo, "Esperar X segundos") para manejar la asincronía.</li>
+<li><strong>"Block Next Action Until Complete" Option</strong>: Enable this in the action’s configuration interface to ensure subsequent actions wait for the asynchronous action to finish before proceeding.</li>
+<li><strong>Note</strong>: Unlike traditional programming languages where you might use a callback function to handle data returned by an asynchronous action, MacroDroid’s internal mechanics don’t offer a systematic callback option. Instead, you’ll need to use workarounds, such as storing results in variables or adding wait actions (e.g., "Wait X Seconds") to manage asynchronous flow.</li>
 </ul>
-<h3 id="ejemplo_1">Ejemplo:<a class="headerlink" href="#ejemplo_1" title="Permanent link">&para;</a></h3>
-<p>Si tienes una acción de "Solicitud HTTP" que obtiene datos de una API, activa "Bloquear la siguiente acción hasta completar" para asegurarte de que la siguiente acción, como "Mostrar Notificación" con los datos obtenidos, no se ejecute hasta que la solicitud esté completa.</p>
+<h3 id="example_1">Example:<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h3>
+<p>If you have an "HTTP Request" action that fetches data from an API, enable "Block Next Action Until Complete" to ensure a subsequent "Show Notification" action, displaying the retrieved data, doesn’t run until the request is complete.</p>
 <hr />
-<h2 id="ejemplos-comunes-de-acciones">🔹 Ejemplos Comunes de Acciones<a class="headerlink" href="#ejemplos-comunes-de-acciones" title="Permanent link">&para;</a></h2>
-<p>MacroDroid ofrece una amplia gama de acciones para personalizar tus automatizaciones. Algunas populares incluyen:
-- <strong>Notificaciones</strong>: Mostrar un mensaje en pantalla o enviar una notificación push.
-- <strong>Control del Dispositivo</strong>: Ajustar el volumen, cambiar el brillo, o activar/desactivar Wi-Fi, Bluetooth o datos móviles.
-- <strong>Aplicaciones</strong>: Abrir una app, cerrar una app o simular toques en pantalla.
-- <strong>Conectividad</strong>: Enviar correos, mensajes SMS o realizar solicitudes HTTP.
-- <strong>Avanzadas</strong>: Ejecutar scripts de shell, manipular variables o controlar hardware como la cámara o el flash.</p>
+<h2 id="common-action-examples">🔹 Common Action Examples<a class="headerlink" href="#common-action-examples" title="Permanent link">&para;</a></h2>
+<p>MacroDroid provides a broad range of actions to customize your automations. Some popular ones include:
+- <strong>Notifications</strong>: Display a message on-screen or send a push notification.
+- <strong>Device Control</strong>: Adjust volume, change brightness, or toggle Wi-Fi, Bluetooth, or mobile data.
+- <strong>Apps</strong>: Open an app, close an app, or simulate screen taps.
+- <strong>Connectivity</strong>: Send emails, SMS messages, or make HTTP requests.
+- <strong>Advanced</strong>: Run shell scripts, manipulate variables, or control hardware like the camera or flashlight.</p>
 <hr />
-<h2 id="por-que-son-importantes-las-acciones">🔹 ¿Por qué son importantes las Acciones?<a class="headerlink" href="#por-que-son-importantes-las-acciones" title="Permanent link">&para;</a></h2>
+<h2 id="why-are-actions-important">🔹 Why Are Actions Important?<a class="headerlink" href="#why-are-actions-important" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Funcionalidad</strong>: Las acciones son lo que hace que tus macros "hagan algo", transformando ideas en automatizaciones prácticas.</li>
-<li><strong>Flexibilidad</strong>: Con cientos de acciones disponibles, puedes personalizar tus macros para casi cualquier tarea.</li>
-<li><strong>Control</strong>: La capacidad de manejar acciones síncronas y asíncronas te permite crear flujos precisos y eficientes.</li>
+<li><strong>Functionality</strong>: Actions are what make your macros "do something," turning ideas into practical automations.</li>
+<li><strong>Flexibility</strong>: With hundreds of actions available, you can tailor macros to almost any task.</li>
+<li><strong>Control</strong>: The ability to manage synchronous and asynchronous actions lets you create precise and efficient workflows.</li>
 </ul>
-<h3 id="ejemplo-practico">Ejemplo Práctico:<a class="headerlink" href="#ejemplo-practico" title="Permanent link">&para;</a></h3>
-<p>Una macro que se activa al conectar auriculares (disparador: "Auriculares Conectados") podría incluir las siguientes acciones:
-1. "Abrir Spotify" para iniciar tu app de música.
-2. "Establecer Volumen" para ajustar el volumen al 50%.
-3. "Mostrar Notificación" con el texto "¡Disfruta tu música!".</p>
+<h3 id="practical-example">Practical Example:<a class="headerlink" href="#practical-example" title="Permanent link">&para;</a></h3>
+<p>A macro triggered when headphones are connected (trigger: "Headphones Connected") could include the following actions:
+1. "Open Spotify" to launch your music app.
+2. "Set Volume" to adjust the volume to 50%.
+3. "Show Notification" with the text "Enjoy your music!".</p>
 <hr />
-<h2 id="consejos-para-usuarios-nuevos">🔹 Consejos para Usuarios Nuevos<a class="headerlink" href="#consejos-para-usuarios-nuevos" title="Permanent link">&para;</a></h2>
+<h2 id="tips-for-new-users">🔹 Tips for New Users<a class="headerlink" href="#tips-for-new-users" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Explora las acciones</strong>: Navega por la lista de acciones en la pantalla de edición de macros para descubrir qué puedes hacer.</li>
-<li><strong>Comienza con lo simple</strong>: Prueba acciones como "Mostrar Notificación" o "Activar Wi-Fi" para entender cómo funcionan.</li>
-<li><strong>Prueba siempre</strong>: Ejecuta tu macro después de configurarla para asegurarte de que las acciones se comportan como esperas.</li>
-</ul>
-<hr />
-<h2 id="consejos-para-usuarios-avanzados">🔹 Consejos para Usuarios Avanzados<a class="headerlink" href="#consejos-para-usuarios-avanzados" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Combina acciones</strong>: Usa varias acciones en una macro para crear automatizaciones complejas, como descargar datos de una API y procesarlos en variables.</li>
-<li><strong>Maneja la asincronía</strong>: Usa la opción "Bloquear la siguiente acción" o añade acciones de espera para controlar el flujo de macros con acciones asíncronas.</li>
-<li><strong>Usa variables</strong>: Almacena resultados de acciones (como datos de una solicitud HTTP) en variables para manipularlos en pasos posteriores.</li>
+<li><strong>Explore Actions</strong>: Browse the action list in the macro editing screen to discover what’s possible.</li>
+<li><strong>Start Simple</strong>: Try actions like "Show Notification" or "Turn On Wi-Fi" to understand how they work.</li>
+<li><strong>Test Always</strong>: Run your macro after setting it up to ensure actions behave as expected.</li>
 </ul>
 <hr />
-<p>Las acciones son el corazón de las automatizaciones en MacroDroid. Ya sea que estés creando una macro simple o una automatización avanzada con acciones asíncronas, experimentar con ellas te permitirá aprovechar al máximo el potencial de tu dispositivo. ¡Empieza a explorar y lleva tus macros al siguiente nivel!</p>
+<h2 id="tips-for-advanced-users">🔹 Tips for Advanced Users<a class="headerlink" href="#tips-for-advanced-users" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Combine Actions</strong>: Use multiple actions in a macro to create complex automations, like fetching data from an API and processing it with variables.</li>
+<li><strong>Handle Asynchrony</strong>: Use the "Block Next Action" option or add wait actions to control the flow of macros with asynchronous actions.</li>
+<li><strong>Leverage Variables</strong>: Store action results (e.g., HTTP request data) in variables for further manipulation in later steps.</li>
+</ul>
+<hr />
+<p>Actions are the heart of MacroDroid’s automations. Whether you’re building a simple macro or an advanced automation with asynchronous actions, experimenting with them will unlock your device’s full potential. Start exploring and take your macros to the next level!</p>
 
 
 
@@ -1096,6 +1172,10 @@
     
     
       <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../assets/categories.json"></script>
+      
+        <script src="../../apply-colors.js"></script>
       
     
   </body>
