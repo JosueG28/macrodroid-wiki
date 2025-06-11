@@ -20,7 +20,7 @@
     
     
       
-        <title>🧠 Understanding Variables in MacroDroid - MacroDroid Wiki</title>
+        <title>Variables in MacroDroid - MacroDroid Wiki</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#understanding-variables-in-macrodroid" class="md-skip">
+        <a href="#variables-in-macrodroid" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🧠 Understanding Variables in MacroDroid
+              Variables in MacroDroid
             
           </span>
         </div>
@@ -736,42 +736,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#types-of-variables" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔄 Types of Variables
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔄 Types of Variables">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#global-variables" class="md-nav__link">
-    <span class="md-ellipsis">
-      🌐 Global Variables
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#local-variables" class="md-nav__link">
-    <span class="md-ellipsis">
-      📦 Local Variables
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#supported-variable-types" class="md-nav__link">
     <span class="md-ellipsis">
-      🧰 Supported Variable Types
+      Supported Variable Types
     </span>
   </a>
   
@@ -780,60 +747,36 @@
         <li class="md-nav__item">
   <a href="#secure-variables" class="md-nav__link">
     <span class="md-ellipsis">
-      🔒 Secure Variables
+      Secure Variables
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#variables-in-conditions-and-constraints" class="md-nav__link">
+  <a href="#using-variables-in-conditions-constraints-and-text-fields" class="md-nav__link">
     <span class="md-ellipsis">
-      ⚙️ Variables in Conditions and Constraints
+      Using Variables in Conditions, Constraints, and Text Fields
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
+  <a href="#quick-summary" class="md-nav__link">
     <span class="md-ellipsis">
-      💡 Summary
+      Quick Summary
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#variables-video-guides" class="md-nav__link">
+  <a href="#recommended-video-guides" class="md-nav__link">
     <span class="md-ellipsis">
-      🎥 Variables Video Guides
+      Recommended Video Guides
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="🎥 Variables Video Guides">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#macrodroid-variables" class="md-nav__link">
-    <span class="md-ellipsis">
-      ▶️ MacroDroid Variables
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#using-dictionary-and-array-variables" class="md-nav__link">
-    <span class="md-ellipsis">
-      ▶️ Using Dictionary and Array Variables
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -853,96 +796,61 @@
 
 
 
-<h1 id="understanding-variables-in-macrodroid">🧠 Understanding Variables in MacroDroid<a class="headerlink" href="#understanding-variables-in-macrodroid" title="Permanent link">&para;</a></h1>
-<p>Variables are used to <strong>store and manipulate data</strong> in your macros — they’re like containers that hold values your macros can use and modify as they run.</p>
-<h2 id="types-of-variables">🔄 Types of Variables<a class="headerlink" href="#types-of-variables" title="Permanent link">&para;</a></h2>
-<p>MacroDroid supports two main types of variables:</p>
-<h3 id="global-variables">🌐 Global Variables<a class="headerlink" href="#global-variables" title="Permanent link">&para;</a></h3>
+<h1 id="variables-in-macrodroid">Variables in MacroDroid<a class="headerlink" href="#variables-in-macrodroid" title="Permanent link">&para;</a></h1>
+<p>Variables store and manipulate data in your macros — they are containers holding values your macros use and change during execution.</p>
 <ul>
-<li><strong>Syntax:</strong> <code>{v=varName}</code> or <code>[v=varName]</code>  </li>
-<li><strong>Scope:</strong> Available in <strong>all macros</strong>, including Action Blocks  </li>
-<li>Ideal for sharing data between different macros or across multiple triggers</li>
-</ul>
-<h3 id="local-variables">📦 Local Variables<a class="headerlink" href="#local-variables" title="Permanent link">&para;</a></h3>
-<ul>
-<li><strong>Syntax:</strong> <code>{lv=varName}</code> or <code>[lv=varName]</code>  </li>
-<li><strong>Scope:</strong> Only available <strong>within the macro</strong> where they were created (including Action Blocks called by that macro)  </li>
-<li>Ideal for temporary or macro-specific values</li>
+<li><strong>Global Variables</strong>  </li>
+<li>Syntax: <code>{v=varName}</code> or <code>[v=varName]</code>  </li>
+<li>Available in <strong>all macros</strong>, including Action Blocks  </li>
+<li>
+<p>Ideal for sharing data between macros or across multiple triggers  </p>
+</li>
+<li>
+<p><strong>Local Variables</strong>  </p>
+</li>
+<li>Syntax: <code>{lv=varName}</code> or <code>[lv=varName]</code>  </li>
+<li>Only available <strong>within the macro</strong> where created (including Action Blocks called by that macro)  </li>
+<li>Best for temporary or macro-specific values  </li>
 </ul>
 <blockquote>
-<p>Use Global Variables when you need persistent or shared data.<br />
-Use Local Variables for isolated, one-time-use values within a single macro execution.</p>
+<p>Use Global Variables for persistent or shared data. Use Local Variables for isolated, one-time-use values.</p>
 </blockquote>
 <hr />
-<h2 id="supported-variable-types">🧰 Supported Variable Types<a class="headerlink" href="#supported-variable-types" title="Permanent link">&para;</a></h2>
-<p>You can create variables using different <strong>data types</strong> depending on your needs:</p>
+<h2 id="supported-variable-types">Supported Variable Types<a class="headerlink" href="#supported-variable-types" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>String</code> – Text (e.g. "Hello world")  </li>
-<li><code>Integer</code> – Whole numbers (e.g. 5, -12)  </li>
-<li><code>Decimal</code> – Numbers with decimals (e.g. 3.14, -0.01)  </li>
-<li><code>Boolean</code> – True/False  </li>
-<li><code>Array</code> – A list of values (e.g. [1, 2, 3] or ["A", "B", "C"])  </li>
-<li><code>Dictionary</code> – A collection of key-value pairs (e.g. {"name": "Alex", "age": 30})  </li>
+<li><code>String</code> — text values (e.g., "Hello world")  </li>
+<li><code>Integer</code> — whole numbers (e.g., 5, -12)  </li>
+<li><code>Decimal</code> — decimal numbers (e.g., 3.14, -0.01)  </li>
+<li><code>Boolean</code> — true/false  </li>
+<li><code>Array</code> — lists of values (e.g., [1, 2, 3], ["A", "B", "C"])  </li>
+<li><code>Dictionary</code> — key-value pairs (e.g., {"name": "Alex", "age": 30})</li>
 </ul>
-<p>These types allow for powerful data handling inside your macros.</p>
 <hr />
-<h2 id="secure-variables">🔒 Secure Variables<a class="headerlink" href="#secure-variables" title="Permanent link">&para;</a></h2>
-<p>When creating a variable, you can choose to mark it as <strong>Secure</strong>.</p>
-<blockquote>
-<p>A variable marked as secure will have its contents <strong>cleared</strong> when macro(s) are shared/exported or uploaded to the template store.</p>
-</blockquote>
-<p>This is useful when your variable holds <strong>sensitive information</strong> like passwords, tokens, or personal data that shouldn’t be shared.</p>
+<h2 id="secure-variables">Secure Variables<a class="headerlink" href="#secure-variables" title="Permanent link">&para;</a></h2>
+<p>Mark variables as <strong>Secure</strong> to clear their contents when macros are shared, exported, or uploaded to the template store.</p>
+<p>Use Secure variables to protect sensitive data like passwords or tokens.</p>
 <hr />
-<h2 id="variables-in-conditions-and-constraints">⚙️ Variables in Conditions and Constraints<a class="headerlink" href="#variables-in-conditions-and-constraints" title="Permanent link">&para;</a></h2>
+<h2 id="using-variables-in-conditions-constraints-and-text-fields">Using Variables in Conditions, Constraints, and Text Fields<a class="headerlink" href="#using-variables-in-conditions-constraints-and-text-fields" title="Permanent link">&para;</a></h2>
 <p>Variables can be used in:</p>
 <ul>
-<li><strong>Conditions</strong> (e.g., “if <code>isLoggedIn</code> is true”)  </li>
-<li><strong>Constraints</strong> (e.g., “run only if <code>batteryLevel</code> &gt; 50”)  </li>
-<li><strong>Text fields</strong> by referencing <code>{v=yourVar}</code> or <code>{lv=yourVar}</code>  </li>
-<li><strong>Magic Text</strong> inputs across actions</li>
+<li>Conditions (e.g., "if <code>isLoggedIn</code> is true")  </li>
+<li>Constraints (e.g., "run only if <code>batteryLevel</code> &gt; 50")  </li>
+<li>Text fields by referencing <code>{v=yourVar}</code> or <code>{lv=yourVar}</code>  </li>
+<li>Magic Text inputs throughout actions  </li>
 </ul>
-<p>They let you dynamically control the behavior of your macros based on real-time values.</p>
+<p>They allow your macros to adapt dynamically based on real-time data.</p>
 <hr />
-<h2 id="summary">💡 Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Syntax</th>
-<th>Scope</th>
-<th>Good For</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Global</td>
-<td><code>{v=varName}</code></td>
-<td>All macros and action blocks</td>
-<td>Shared or persistent data</td>
-</tr>
-<tr>
-<td>Local</td>
-<td><code>{lv=varName}</code></td>
-<td>Single macro and its blocks</td>
-<td>Temporary or isolated values</td>
-</tr>
-<tr>
-<td>Secure</td>
-<td>(any variable)</td>
-<td>Same as global/local</td>
-<td>Hiding sensitive data in exports</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p>Variables are the brain of your macro logic. Master them and you’ll unlock the full power of MacroDroid 🚀</p>
-</blockquote>
+<h2 id="quick-summary">Quick Summary<a class="headerlink" href="#quick-summary" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Global:</strong> <code>{v=varName}</code> — shared and persistent data  </li>
+<li><strong>Local:</strong> <code>{lv=varName}</code> — temporary data inside a single macro  </li>
+<li><strong>Secure:</strong> any variable marked to hide sensitive info in exports</li>
+</ul>
+<p>Variables are the brain behind your macros. Master them to unlock MacroDroid’s full potential.</p>
 <hr />
-<h2 id="variables-video-guides">🎥 Variables Video Guides<a class="headerlink" href="#variables-video-guides" title="Permanent link">&para;</a></h2>
-<h3 id="macrodroid-variables">▶️ MacroDroid Variables<a class="headerlink" href="#macrodroid-variables" title="Permanent link">&para;</a></h3>
+<h2 id="recommended-video-guides">Recommended Video Guides<a class="headerlink" href="#recommended-video-guides" title="Permanent link">&para;</a></h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0V_EcyhxrpA?si=Mvq51zfOQaU4AWbe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<h3 id="using-dictionary-and-array-variables">▶️ Using Dictionary and Array Variables<a class="headerlink" href="#using-dictionary-and-array-variables" title="Permanent link">&para;</a></h3>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u2zY5dv34CM?si=8n0rwJRhtAcNFnh6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 

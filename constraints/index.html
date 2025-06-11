@@ -24,7 +24,7 @@
     
     
       
-        <title>📄 Introduction to constraints - MacroDroid Wiki</title>
+        <title>📄 About constraints - MacroDroid Wiki</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduction-to-constraints-in-macrodroid" class="md-skip">
+        <a href="#constraints-in-macrodroid" class="md-skip">
           Skip to content
         </a>
       
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              📄 Introduction to constraints
+              📄 About constraints
             
           </span>
         </div>
@@ -526,7 +526,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Introduction to triggers
+    📄 About triggers
     
   </span>
   
@@ -622,7 +622,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Introduction to actions
+    📄 About actions
     
   </span>
   
@@ -752,7 +752,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Introduction to constraints
+    📄 About constraints
     
   </span>
   
@@ -765,7 +765,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Introduction to constraints
+    📄 About constraints
     
   </span>
   
@@ -788,61 +788,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-are-constraints" class="md-nav__link">
+  <a href="#what-is-a-constraint" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 What Are Constraints?
+      What Is a Constraint?
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="🔹 What Are Constraints?">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#key-rules" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Rules:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#using-multiple-constraints" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Using Multiple Constraints
+      Using Multiple Constraints
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 Using Multiple Constraints">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-constraints-apply" class="md-nav__link">
+    <span class="md-ellipsis">
+      Where Constraints Apply
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Where Constraints Apply">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#how-constraints-interact" class="md-nav__link">
+  <a href="#local-to-triggers" class="md-nav__link">
     <span class="md-ellipsis">
-      How Constraints Interact:
+      Local to Triggers
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#example_1" class="md-nav__link">
+  <a href="#local-to-actions" class="md-nav__link">
     <span class="md-ellipsis">
-      Example:
+      Local to Actions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#global-constraints" class="md-nav__link">
+    <span class="md-ellipsis">
+      Global Constraints
     </span>
   </a>
   
@@ -854,28 +848,37 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#two-ways-to-apply-constraints" class="md-nav__link">
+  <a href="#summary-of-constraint-scopes" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Two Ways to Apply Constraints
+      Summary of Constraint Scopes
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 Two Ways to Apply Constraints">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#real-life-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Real-Life Examples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Real-Life Examples">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-local-constraints-attached-to-triggersactions" class="md-nav__link">
+  <a href="#morning-alarm" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Local Constraints (Attached to Triggers/Actions)
+      Morning Alarm
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-global-constraints-in-constraints-section" class="md-nav__link">
+  <a href="#location-reminder" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Global Constraints (In Constraints Section)
+      Location Reminder
     </span>
   </a>
   
@@ -887,51 +890,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#scopes-compared" class="md-nav__link">
+  <a href="#constraint-categories" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Scopes Compared
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#practical-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Practical Examples
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔹 Practical Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#scenario-1-morning-alarm-macro" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scenario 1: Morning Alarm Macro
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scenario-2-location-based-reminder" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scenario 2: Location-Based Reminder
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#common-constraint-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Common Constraint Examples
+      Constraint Categories
     </span>
   </a>
   
@@ -940,16 +901,16 @@
         <li class="md-nav__item">
   <a href="#why-constraints-matter" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Why Constraints Matter
+      Why Constraints Matter
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#constraints-vs-triggers" class="md-nav__link">
+  <a href="#triggers-vs-constraints" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Constraints vs. Triggers
+      Triggers vs Constraints
     </span>
   </a>
   
@@ -1122,7 +1083,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Variables
+    📄 Variables in MacroDroid
     
   </span>
   
@@ -1195,7 +1156,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Introduction to the Magic Text
+    📄 About Magic Text
     
   </span>
   
@@ -1314,7 +1275,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Stopwatch
+    📄 About Stopwatch
     
   </span>
   
@@ -1483,7 +1444,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Introduction
+    📄 About Import/Export
     
   </span>
   
@@ -1556,7 +1517,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Introduction
+    📄 About geofences
     
   </span>
   
@@ -1601,61 +1562,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-are-constraints" class="md-nav__link">
+  <a href="#what-is-a-constraint" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 What Are Constraints?
+      What Is a Constraint?
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="🔹 What Are Constraints?">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#key-rules" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Rules:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#using-multiple-constraints" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Using Multiple Constraints
+      Using Multiple Constraints
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 Using Multiple Constraints">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-constraints-apply" class="md-nav__link">
+    <span class="md-ellipsis">
+      Where Constraints Apply
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Where Constraints Apply">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#how-constraints-interact" class="md-nav__link">
+  <a href="#local-to-triggers" class="md-nav__link">
     <span class="md-ellipsis">
-      How Constraints Interact:
+      Local to Triggers
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#example_1" class="md-nav__link">
+  <a href="#local-to-actions" class="md-nav__link">
     <span class="md-ellipsis">
-      Example:
+      Local to Actions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#global-constraints" class="md-nav__link">
+    <span class="md-ellipsis">
+      Global Constraints
     </span>
   </a>
   
@@ -1667,28 +1622,37 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#two-ways-to-apply-constraints" class="md-nav__link">
+  <a href="#summary-of-constraint-scopes" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Two Ways to Apply Constraints
+      Summary of Constraint Scopes
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔹 Two Ways to Apply Constraints">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#real-life-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Real-Life Examples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Real-Life Examples">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-local-constraints-attached-to-triggersactions" class="md-nav__link">
+  <a href="#morning-alarm" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Local Constraints (Attached to Triggers/Actions)
+      Morning Alarm
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-global-constraints-in-constraints-section" class="md-nav__link">
+  <a href="#location-reminder" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Global Constraints (In Constraints Section)
+      Location Reminder
     </span>
   </a>
   
@@ -1700,51 +1664,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#scopes-compared" class="md-nav__link">
+  <a href="#constraint-categories" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Scopes Compared
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#practical-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Practical Examples
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔹 Practical Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#scenario-1-morning-alarm-macro" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scenario 1: Morning Alarm Macro
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scenario-2-location-based-reminder" class="md-nav__link">
-    <span class="md-ellipsis">
-      Scenario 2: Location-Based Reminder
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#common-constraint-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Common Constraint Examples
+      Constraint Categories
     </span>
   </a>
   
@@ -1753,16 +1675,16 @@
         <li class="md-nav__item">
   <a href="#why-constraints-matter" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Why Constraints Matter
+      Why Constraints Matter
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#constraints-vs-triggers" class="md-nav__link">
+  <a href="#triggers-vs-constraints" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Constraints vs. Triggers
+      Triggers vs Constraints
     </span>
   </a>
   
@@ -1784,155 +1706,152 @@
 
 
 
-<h1 id="introduction-to-constraints-in-macrodroid">🔒 Introduction to Constraints in MacroDroid<a class="headerlink" href="#introduction-to-constraints-in-macrodroid" title="Permanent link">&para;</a></h1>
-<p><strong>Constraints</strong> are conditions that must be met <em>at the moment a trigger fires</em> for your macro to execute. They act as filters for your triggers, adding precision to when your automations should run. While triggers define <em>when</em> a macro could start, constraints define <em>whether</em> it actually should based on additional criteria.</p>
-<p><a href="list/"><strong>Go to constraints list</strong></a></p>
+<h1 id="constraints-in-macrodroid">Constraints in MacroDroid<a class="headerlink" href="#constraints-in-macrodroid" title="Permanent link">&para;</a></h1>
+<p><strong>Constraints</strong> are real-time conditions that must be true <em>when a trigger fires</em> for a macro to run.<br />
+While triggers define <em>when</em> something could happen, constraints decide <em>if</em> it should — based on things like time, charging status, or location.</p>
+<p><a href="list/">→ Full Constraints List</a></p>
 <hr />
-<h2 id="what-are-constraints">🔹 What Are Constraints?<a class="headerlink" href="#what-are-constraints" title="Permanent link">&para;</a></h2>
-<p>A <strong>constraint</strong> is a real-time condition checked when a trigger activates. If <em>all constraints</em> are satisfied, the macro runs. If any constraint fails, the macro is blocked. Constraints can check device states (e.g., Wi-Fi status), contextual data (e.g., time of day), or custom variables.</p>
-<h3 id="key-rules">Key Rules:<a class="headerlink" href="#key-rules" title="Permanent link">&para;</a></h3>
-<ol>
-<li>Constraints only validate conditions <strong>at the exact moment the trigger fires</strong>.  </li>
-<li>They use <strong>AND logic</strong> – <em>all</em> constraints must pass simultaneously.  </li>
-<li>Constraints <em>do not</em> continuously monitor conditions (unlike triggers).  </li>
-</ol>
-<h3 id="example">Example:<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
-<p>A "Headphones Connected" trigger + a "Media Volume &lt; 30%" constraint will only run your macro when headphones are plugged in <em>and</em> volume is already low.</p>
+<h2 id="what-is-a-constraint">What Is a Constraint?<a class="headerlink" href="#what-is-a-constraint" title="Permanent link">&para;</a></h2>
+<p>A constraint is a check that runs <strong>only</strong> at the moment a trigger activates.<br />
+If all constraints pass, the macro continues. If any fail, it’s canceled.</p>
+<p>Key facts:
+- Checked only at <strong>trigger time</strong>
+- Uses <strong>AND logic</strong> — all must be true
+- Doesn’t monitor continuously</p>
+<p><strong>Example:</strong><br />
+Trigger: Headphones Connected<br />
+Constraint: Media Volume &lt; 30%<br />
+→ Runs only if both are true at the same time.</p>
 <hr />
-<h2 id="using-multiple-constraints">🔹 Using Multiple Constraints<a class="headerlink" href="#using-multiple-constraints" title="Permanent link">&para;</a></h2>
-<p>You can add <strong>multiple constraints</strong> to a macro. All constraints must be satisfied for the macro to execute. This allows complex conditional logic without cluttering triggers.</p>
-<h3 id="how-constraints-interact">How Constraints Interact:<a class="headerlink" href="#how-constraints-interact" title="Permanent link">&para;</a></h3>
+<h2 id="using-multiple-constraints">Using Multiple Constraints<a class="headerlink" href="#using-multiple-constraints" title="Permanent link">&para;</a></h2>
+<p>You can add as many constraints as needed — but remember:</p>
 <ul>
-<li><strong>AND Logic Only</strong>: Constraints are <em>always</em> combined with AND (<code>Constraint1 AND Constraint2 AND ...</code>).  </li>
-<li><strong>Order Doesn't Matter</strong>: Evaluation happens simultaneously when the trigger fires.  </li>
-<li><strong>Flexible Combinations</strong>: Mix different constraint types (e.g., time + location + battery).  </li>
+<li>All must be <strong>true</strong></li>
+<li>They’re evaluated <strong>simultaneously</strong></li>
+<li>You can combine types (e.g. time + battery + location)</li>
 </ul>
-<h3 id="example_1">Example:<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h3>
-<p>A "Screen On" trigger with these constraints:<br />
-1. <code>Time of Day: 10:00 PM - 7:00 AM</code><br />
-2. <code>Charging: No</code><br />
-3. <code>Wifi Connected: Yes</code><br />
-→ Only runs at night, on battery, when connected to Wi-Fi.</p>
+<p><strong>Example:</strong><br />
+Trigger: Screen On<br />
+Constraints:<br />
+- Time: 10:00 PM–7:00 AM<br />
+- Charging: No<br />
+- Wi-Fi: Connected<br />
+→ Runs only during the night, on battery, and with Wi-Fi.</p>
 <hr />
-<h2 id="two-ways-to-apply-constraints">🔹 Two Ways to Apply Constraints<a class="headerlink" href="#two-ways-to-apply-constraints" title="Permanent link">&para;</a></h2>
-<h3 id="1-local-constraints-attached-to-triggersactions">1. Local Constraints (Attached to Triggers/Actions)<a class="headerlink" href="#1-local-constraints-attached-to-triggersactions" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Added directly to <strong>individual triggers or actions</strong></li>
-<li>Only affect the specific component they're attached to</li>
-<li>Don't impact other parts of the macro</li>
-</ul>
-<p><strong>Trigger Constraint Example</strong>:<br />
-A "Screen On" trigger with local constraint <code>Charging = No</code><br />
-→ Macro only starts when screen turns on <em>while not charging</em></p>
-<p><strong>Action Constraint Example</strong>:<br />
-A "Set Brightness to 100%" action with constraint <code>Time = Daytime</code><br />
-→ This brightness action only runs during daytime</p>
-<h3 id="2-global-constraints-in-constraints-section">2. Global Constraints (In Constraints Section)<a class="headerlink" href="#2-global-constraints-in-constraints-section" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Added in the macro's dedicated <strong>Constraints section</strong></li>
-<li>Affect the <strong>entire macro</strong></li>
-<li>Must be satisfied for the macro to run at all</li>
-</ul>
-<p><strong>Global Constraint Example</strong>:<br />
-Global constraint <code>Wi-Fi Connected = Home Network</code><br />
-→ Macro won't run unless device is on home Wi-Fi</p>
+<h2 id="where-constraints-apply">Where Constraints Apply<a class="headerlink" href="#where-constraints-apply" title="Permanent link">&para;</a></h2>
+<p>Constraints can be attached at different levels:</p>
+<h3 id="local-to-triggers">Local to Triggers<a class="headerlink" href="#local-to-triggers" title="Permanent link">&para;</a></h3>
+<p>Affect only a specific trigger.</p>
+<p><strong>Example:</strong><br />
+Trigger: Screen On<br />
+Constraint: Charging = No<br />
+→ Trigger fires only if not charging.</p>
+<h3 id="local-to-actions">Local to Actions<a class="headerlink" href="#local-to-actions" title="Permanent link">&para;</a></h3>
+<p>Affect only a specific action.</p>
+<p><strong>Example:</strong><br />
+Action: Set Brightness to 100%<br />
+Constraint: Time = Daytime<br />
+→ Runs only during the day.</p>
+<h3 id="global-constraints">Global Constraints<a class="headerlink" href="#global-constraints" title="Permanent link">&para;</a></h3>
+<p>Affect the entire macro — added in the Constraints section.</p>
+<p><strong>Example:</strong><br />
+Global: Wi-Fi SSID = Home<br />
+→ Macro won’t run unless you’re on your home network.</p>
 <hr />
-<h2 id="scopes-compared">🔹 Scopes Compared<a class="headerlink" href="#scopes-compared" title="Permanent link">&para;</a></h2>
+<h2 id="summary-of-constraint-scopes">Summary of Constraint Scopes<a class="headerlink" href="#summary-of-constraint-scopes" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Constraint Type</th>
-<th>Where Added</th>
+<th>Type</th>
+<th>Affects</th>
 <th>Scope</th>
-<th>Example Use Case</th>
+<th>Example</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Trigger Local</strong></td>
-<td>On trigger</td>
-<td>Only that trigger</td>
-<td>Run macro when headphones connect, but only if volume &gt; 50%</td>
+<td>Trigger Local</td>
+<td>A trigger</td>
+<td>That trigger only</td>
+<td>Only run if volume &gt; 50% when headphones connect</td>
 </tr>
 <tr>
-<td><strong>Action Local</strong></td>
-<td>On action</td>
-<td>Only that action</td>
-<td>Send SMS only if battery &gt; 20%</td>
+<td>Action Local</td>
+<td>An action</td>
+<td>That action only</td>
+<td>Only send SMS if battery &gt; 20%</td>
 </tr>
 <tr>
-<td><strong>Global</strong></td>
-<td>Constraints section</td>
+<td>Global</td>
 <td>Entire macro</td>
+<td>All parts</td>
 <td>Block macro during work hours</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="practical-examples">🔹 Practical Examples<a class="headerlink" href="#practical-examples" title="Permanent link">&para;</a></h2>
-<h3 id="scenario-1-morning-alarm-macro">Scenario 1: Morning Alarm Macro<a class="headerlink" href="#scenario-1-morning-alarm-macro" title="Permanent link">&para;</a></h3>
-<p><strong>Macro Goal</strong>: Smart alarm that prepares your day only under the right conditions</p>
+<h2 id="real-life-examples">Real-Life Examples<a class="headerlink" href="#real-life-examples" title="Permanent link">&para;</a></h2>
+<h3 id="morning-alarm">Morning Alarm<a class="headerlink" href="#morning-alarm" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>Trigger</strong>: 7:00 AM Alarm</li>
-<li>
-<p><strong>Global Constraint</strong>: Day of Week = Weekdays<br />
-→ Macro only runs Monday to Friday</p>
-</li>
-<li>
-<p><strong>Action 1</strong>: Increase Volume</p>
-</li>
-<li><strong>Action 2</strong>: Read Weather Forecast</li>
-<li><strong>Action 3</strong>: Turn On Coffee Smart Plug  </li>
-<li><strong>Local Constraint</strong>: Smart Plug must be connected</li>
+<li>Trigger: Alarm at 7:00 AM  </li>
+<li>Global Constraint: Day = Weekdays  </li>
+<li>Actions:</li>
+<li>Increase volume  </li>
+<li>Read weather forecast  </li>
+<li>Turn on smart plug  <ul>
+<li>Action Constraint: Plug is connected</li>
 </ul>
-<p>This setup ensures the macro only runs on workdays, and only attempts to brew coffee if the smart plug is ready.</p>
-<h3 id="scenario-2-location-based-reminder">Scenario 2: Location-Based Reminder<a class="headerlink" href="#scenario-2-location-based-reminder" title="Permanent link">&para;</a></h3>
-<p><strong>Trigger</strong>: Enter Grocery Store (geofence)<br />
-<strong>Global Constraint</strong>: Time = 8AM-8PM (macro won't run at night)<br />
-<strong>Action</strong>: Show "Buy Milk" notification<br />
-<strong>Action Constraint</strong>: Notification Not Exists (prevents duplicates)</p>
+</li>
+</ul>
+<h3 id="location-reminder">Location Reminder<a class="headerlink" href="#location-reminder" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Trigger: Enter grocery store (geofence)  </li>
+<li>Global Constraint: Time = 8:00 AM – 8:00 PM  </li>
+<li>Action: Show “Buy Milk” notification  </li>
+<li>Action Constraint: Notification not already shown</li>
+</ul>
 <hr />
-<h2 id="common-constraint-examples">🔹 Common Constraint Examples<a class="headerlink" href="#common-constraint-examples" title="Permanent link">&para;</a></h2>
+<h2 id="constraint-categories">Constraint Categories<a class="headerlink" href="#constraint-categories" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
 <th>Category</th>
-<th>Examples</th>
+<th>Example Conditions</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Device State</strong></td>
-<td>Screen On/Off, Charging State, Headphones Plugged</td>
+<td>Device State</td>
+<td>Screen on/off, Charging, Headphones plugged</td>
 </tr>
 <tr>
-<td><strong>Connectivity</strong></td>
-<td>Wi-Fi Connected/SSID, Bluetooth Device Active</td>
+<td>Connectivity</td>
+<td>Wi-Fi SSID, Bluetooth device active</td>
 </tr>
 <tr>
-<td><strong>Time/Location</strong></td>
-<td>Time Range, Day of Week, Enter/Exit Geofence</td>
+<td>Time/Location</td>
+<td>Time range, Day of week, Geofence entered</td>
 </tr>
 <tr>
-<td><strong>System</strong></td>
-<td>Battery Level, Foreground App, Notification Exists</td>
+<td>System</td>
+<td>Battery level, App in foreground, Notification shown</td>
 </tr>
 <tr>
-<td><strong>Custom</strong></td>
-<td>Variable Value, Macro Not Running</td>
+<td>Custom Logic</td>
+<td>Variable value, Macro not running</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="why-constraints-matter">🔹 Why Constraints Matter<a class="headerlink" href="#why-constraints-matter" title="Permanent link">&para;</a></h2>
+<h2 id="why-constraints-matter">Why Constraints Matter<a class="headerlink" href="#why-constraints-matter" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Precision</strong>: Prevent macros from running in unwanted scenarios (e.g., during meetings).</li>
-<li><strong>Efficiency</strong>: Reduce unnecessary macro executions to save battery/resources.</li>
-<li><strong>Simplification</strong>: Avoid creating duplicate macros for slight condition variations.</li>
-<li><strong>Dynamic Control</strong>: Combine with variables for context-aware automations.</li>
+<li>Precision – Run macros only in the right conditions  </li>
+<li>Efficiency – Save battery and system resources  </li>
+<li>Simplicity – Avoid duplicating macros  </li>
+<li>Control – Combine with variables for smart logic</li>
 </ul>
 <hr />
-<h2 id="constraints-vs-triggers">🔹 Constraints vs. Triggers<a class="headerlink" href="#constraints-vs-triggers" title="Permanent link">&para;</a></h2>
+<h2 id="triggers-vs-constraints">Triggers vs Constraints<a class="headerlink" href="#triggers-vs-constraints" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -1942,24 +1861,23 @@ Global constraint <code>Wi-Fi Connected = Home Network</code><br />
 </thead>
 <tbody>
 <tr>
-<td>Detect <strong>events</strong> (e.g., SMS received)</td>
-<td>Check <strong>states</strong> (e.g., screen off)</td>
+<td>Detect events (e.g., SMS received)</td>
+<td>Check current states (e.g., charging)</td>
 </tr>
 <tr>
-<td>Start macro execution</td>
-<td>Gatekeep <em>whether</em> macro runs</td>
+<td>Start the macro</td>
+<td>Decide if it should run</td>
 </tr>
 <tr>
-<td>Support OR logic (multiple triggers)</td>
-<td>Use AND logic (all must pass)</td>
+<td>Support OR logic</td>
+<td>Use AND logic only</td>
 </tr>
 <tr>
-<td>Instantaneous (moment of event)</td>
-<td>Evaluated at trigger-fire instant</td>
+<td>React to changes</td>
+<td>Evaluate conditions once, on fire</td>
 </tr>
 </tbody>
 </table>
-<hr />
 
 
 

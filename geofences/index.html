@@ -22,7 +22,7 @@
     
     
       
-        <title>📄 Introduction - MacroDroid Wiki</title>
+        <title>📄 About geofences - MacroDroid Wiki</title>
       
     
     
@@ -113,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              📄 Introduction
+              📄 About geofences
             
           </span>
         </div>
@@ -524,7 +524,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Introduction to triggers
+    📄 About triggers
     
   </span>
   
@@ -620,7 +620,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Introduction to actions
+    📄 About actions
     
   </span>
   
@@ -739,7 +739,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Introduction to constraints
+    📄 About constraints
     
   </span>
   
@@ -908,7 +908,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Variables
+    📄 Variables in MacroDroid
     
   </span>
   
@@ -981,7 +981,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Introduction to the Magic Text
+    📄 About Magic Text
     
   </span>
   
@@ -1100,7 +1100,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Stopwatch
+    📄 About Stopwatch
     
   </span>
   
@@ -1269,7 +1269,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Introduction
+    📄 About Import/Export
     
   </span>
   
@@ -1353,7 +1353,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Introduction
+    📄 About geofences
     
   </span>
   
@@ -1366,7 +1366,7 @@
   
   
   <span class="md-ellipsis">
-    📄 Introduction
+    📄 About geofences
     
   </span>
   
@@ -1391,25 +1391,25 @@
         <li class="md-nav__item">
   <a href="#what-are-geofences" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 What Are Geofences?
+      What Are Geofences?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#creating-your-first-geofence" class="md-nav__link">
+  <a href="#how-to-create-a-geofence" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Creating Your First Geofence
+      How to Create a Geofence
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#important-things-to-know" class="md-nav__link">
+  <a href="#things-to-keep-in-mind" class="md-nav__link">
     <span class="md-ellipsis">
-      ⚠️ Important Things to Know
+      Things to Keep in Mind
     </span>
   </a>
   
@@ -1460,25 +1460,25 @@
         <li class="md-nav__item">
   <a href="#what-are-geofences" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 What Are Geofences?
+      What Are Geofences?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#creating-your-first-geofence" class="md-nav__link">
+  <a href="#how-to-create-a-geofence" class="md-nav__link">
     <span class="md-ellipsis">
-      🔹 Creating Your First Geofence
+      How to Create a Geofence
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#important-things-to-know" class="md-nav__link">
+  <a href="#things-to-keep-in-mind" class="md-nav__link">
     <span class="md-ellipsis">
-      ⚠️ Important Things to Know
+      Things to Keep in Mind
     </span>
   </a>
   
@@ -1500,40 +1500,38 @@
 
 
 
-<h1 id="introduction-to-geofences-in-macrodroid">📍 Introduction to Geofences in MacroDroid<a class="headerlink" href="#introduction-to-geofences-in-macrodroid" title="Permanent link">&para;</a></h1>
-<p><strong>Geofences</strong> are virtual boundaries around real places like your home or office. They automatically detect when your device enters or leaves these areas to start helpful automations.</p>
-<p><a href="../triggers/geofence/"><strong>Geofence Trigger</strong></a> | 
-<a href="../constraints/geofence/"><strong>Geofence Constraint</strong></a> | 
-<a href="../magic_text/trigger_required/geofence/"><strong>Magic Text</strong></a></p>
+<h1 id="introduction-to-geofences-in-macrodroid">Introduction to Geofences in MacroDroid<a class="headerlink" href="#introduction-to-geofences-in-macrodroid" title="Permanent link">&para;</a></h1>
+<p><strong>Geofences</strong> are virtual boundaries around real-world locations such as your home, work, or a frequent destination. They allow MacroDroid to automatically trigger actions when your device enters or exits those defined areas.</p>
+<p><a href="../triggers/geofence/">Geofence Trigger</a><br />
+<a href="../constraints/geofence/">Geofence Constraint</a><br />
+<a href="../magic_text/trigger_required/geofence/">Geofence Magic Text</a></p>
 <hr />
-<h2 id="what-are-geofences">🔹 What Are Geofences?<a class="headerlink" href="#what-are-geofences" title="Permanent link">&para;</a></h2>
-<p>Geofences let you create invisible circles around locations. When your phone crosses these circles:</p>
+<h2 id="what-are-geofences">What Are Geofences?<a class="headerlink" href="#what-are-geofences" title="Permanent link">&para;</a></h2>
+<p>A geofence is an invisible circle around a specific point on the map. When your phone crosses the boundary:</p>
 <ul>
-<li><strong>Triggers</strong> can start automations  </li>
-<li><strong>Constraints</strong> can check your location  </li>
-<li><strong>Magic Text</strong> can use place details  </li>
+<li>A <strong>trigger</strong> can fire to launch a macro  </li>
+<li>A <strong>constraint</strong> can check if you're inside/outside a geofence  </li>
+<li><strong>Magic Text</strong> can fetch data about your current or last geofence</li>
 </ul>
-<p>They work efficiently in the background to save battery.</p>
+<p>Geofences work silently in the background and are battery efficient thanks to integration with location services.</p>
 <hr />
-<h2 id="creating-your-first-geofence">🔹 Creating Your First Geofence<a class="headerlink" href="#creating-your-first-geofence" title="Permanent link">&para;</a></h2>
+<h2 id="how-to-create-a-geofence">How to Create a Geofence<a class="headerlink" href="#how-to-create-a-geofence" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Tap the <strong>Geofences</strong> tile on the main screen</li>
-<li>Press <strong>+</strong> to create a new geofence</li>
-<li>Set your location by: Typing an address or placing a pin on the map</li>
-<li>Adjust the circle size (100-500m works best)</li>
-<li>Name it (like "Home" or "Work")</li>
-<li>Tap <strong>Save</strong></li>
+<li>Open the MacroDroid home screen and tap the <strong>Geofences</strong> tile  </li>
+<li>Tap the <strong>+</strong> button to create a new geofence  </li>
+<li>Choose a location by typing an address or dropping a pin on the map  </li>
+<li>Adjust the radius (100 to 500 meters is recommended)  </li>
+<li>Give it a name (e.g., <code>Home</code>, <code>Office</code>, or <code>Gym</code>)  </li>
+<li>Tap <strong>Save</strong> to finish</li>
 </ol>
-<blockquote>
-<p>⚙️ You can edit or delete geofences anytime</p>
-</blockquote>
+<p>You can always go back to edit or delete any geofence.</p>
 <hr />
-<h2 id="important-things-to-know">⚠️ Important Things to Know<a class="headerlink" href="#important-things-to-know" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Needs <strong>Google Play Services</strong> to work</li>
-<li>Detections take 1-5 minutes (not instant)</li>
-<li>Use <strong>Location Trigger</strong> instead if you have problems</li>
-</ol>
+<h2 id="things-to-keep-in-mind">Things to Keep in Mind<a class="headerlink" href="#things-to-keep-in-mind" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Geofences rely on <strong>Google Play Services</strong>  </li>
+<li>Detection is <strong>not instant</strong> — it typically takes 1–5 minutes  </li>
+<li>If geofences don’t work reliably, try using the <strong>Location Trigger</strong> as an alternative</li>
+</ul>
 
 
 
