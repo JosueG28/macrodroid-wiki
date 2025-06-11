@@ -20,7 +20,7 @@
     
     
       
-        <title>Battery level - MacroDroid Wiki</title>
+        <title>Battery Level - MacroDroid Wiki</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#battery-level" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Battery level
+              Battery Level
             
           </span>
         </div>
@@ -1370,6 +1375,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1385,9 +1392,25 @@
 
 
 
-  <h1>Battery level</h1>
-
-
+<h1 id="battery-level">Battery Level<a class="headerlink" href="#battery-level" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger activates based on changes in the battery level. You can choose whether to trigger when the level increases, decreases, or changes in any direction.</p>
+<p><strong>Configuration:</strong><br />
+- <strong>Trigger type:</strong><br />
+  - <code>Decrease to</code>: Fires when battery drops to the specified percentage.<br />
+  - <code>Increase to</code>: Fires when battery rises to the specified percentage.<br />
+  - <code>Any change</code>: Fires on any battery level change.</p>
+<p><strong>Magic Text:</strong>  </p>
+<p><a href="../../magic_text/no_trigger/current_battery/"><strong>Current battery</strong></a><br />
+<a href="../../magic_text/no_trigger/battery_temp/"><strong>Battery temperature c</strong></a><br />
+<a href="../../magic_text/no_trigger/battery_current_now/"><strong>Battery current now mA</strong></a>    </p>
+<blockquote>
+<p><strong>Note:</strong> These Magic Text variables are available globally, even if this trigger is not used.</p>
+</blockquote>
+<p><strong>Example:</strong><br />
+Trigger low-power mode when battery decreases to 20%.</p>
+<p><strong>Simple explanation:</strong><br />
+Fires when your battery reaches a specific percentage or simply changes. Great for optimizing behavior based on battery status.</p>
 
 
 

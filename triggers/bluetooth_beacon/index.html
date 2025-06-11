@@ -20,7 +20,7 @@
     
     
       
-        <title>Bluetooth beacon - MacroDroid Wiki</title>
+        <title>Bluetooth Beacon - MacroDroid Wiki</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#bluetooth-beacon" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Bluetooth beacon
+              Bluetooth Beacon
             
           </span>
         </div>
@@ -1370,6 +1375,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1385,9 +1392,22 @@
 
 
 
-  <h1>Bluetooth beacon</h1>
-
-
+<h1 id="bluetooth-beacon">Bluetooth Beacon<a class="headerlink" href="#bluetooth-beacon" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger activates when a specified Bluetooth beacon comes <strong>into range</strong> or goes <strong>out of range</strong> of your device.</p>
+<p><strong>Configuration:</strong><br />
+- <strong>Trigger type:</strong><br />
+  - <code>Beacon in range</code>: Fires when the selected beacon is detected nearby.<br />
+  - <code>Beacon out of range</code>: Fires when the selected beacon is no longer detected.</p>
+<ul>
+<li><strong>Beacon selection:</strong>  </li>
+<li>Beacons can be detected automatically by scanning.  </li>
+<li>If a beacon is not found during scan, it can be added manually by entering its <code>Beacon UUID</code> and an <code>Beacon name</code>.</li>
+</ul>
+<p><strong>Example:</strong><br />
+Start a timer when a specific beacon comes into range (e.g., entering the car).</p>
+<p><strong>Simple explanation:</strong><br />
+Fires when your device detects or loses connection to a specific Bluetooth beacon. Useful for proximity-based automations.</p>
 
 
 

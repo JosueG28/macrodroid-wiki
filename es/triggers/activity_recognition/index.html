@@ -20,7 +20,7 @@
     
     
       
-        <title>📲 Activity Recognition - MacroDroid Wiki</title>
+        <title>Activity Recognition - MacroDroid Wiki</title>
       
     
     
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              📲 Activity Recognition
+              Activity Recognition
             
           </span>
         </div>
@@ -729,50 +729,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#description" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Description
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
-    <span class="md-ellipsis">
-      ⚙️ Requirements
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#available-configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      🛠️ Available Configuration
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#magic-text" class="md-nav__link">
-    <span class="md-ellipsis">
-      🧪 Magic Text
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -787,28 +743,22 @@
 
 
 
-<h1 id="activity-recognition">📲 Activity Recognition<a class="headerlink" href="#activity-recognition" title="Permanent link">&para;</a></h1>
-<h2 id="description">🔹 Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
-<p>This trigger activates when your device detects a specific activity, such as driving, cycling, running, walking, or standing still.</p>
-<h2 id="requirements">⚙️ Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Google Play Services must be installed and up to date.</li>
-</ul>
-<h2 id="available-configuration">🛠️ Available Configuration<a class="headerlink" href="#available-configuration" title="Permanent link">&para;</a></h2>
-<ul>
-<li>
-<p><strong>Activity type:</strong><br />
-  Choose the activity to detect: <code>In Vehicle</code>, <code>On Bicycle</code>, <code>Running</code>, <code>Walking</code>, or <code>Still</code>.</p>
-</li>
-<li>
-<p><strong>Confidence value (0–100):</strong><br />
-  Controls how easily the trigger activates.  </p>
-</li>
-<li>A <strong>low value</strong> may trigger more often, but can be inaccurate.  </li>
-<li>A <strong>high value</strong> avoids false triggers but may miss some valid ones.</li>
-</ul>
-<h2 id="magic-text">🧪 Magic Text<a class="headerlink" href="#magic-text" title="Permanent link">&para;</a></h2>
-<p><em>Not applicable</em></p>
+<h1 id="activity-recognition">Activity Recognition<a class="headerlink" href="#activity-recognition" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+Activates when your device detects a specific physical activity such as driving, cycling, running, walking, or standing still.</p>
+<p><strong>Configuration:</strong><br />
+- <strong>Activity type:</strong> Select from <code>In Vehicle</code>, <code>On Bicycle</code>, <code>Running</code>, <code>Walking</code>, or <code>Still</code>.<br />
+- <strong>Confidence value (0–100):</strong> Determines the detection threshold.<br />
+  - Lower values trigger more often but might be inaccurate.<br />
+  - Higher values are more precise but may miss some detections.</p>
+<p><strong>Requires:</strong><br />
+Google Play Services must be installed and up to date.</p>
+<p><strong>Example:</strong><br />
+Trigger when the user starts running with at least 80% confidence.</p>
+<p><strong>Example 2:</strong><br />
+When activity is detected as <code>In Vehicle</code> with 90% confidence, automatically enable Do Not Disturb mode — restricted to trigger only between 7 AM and 10 PM.</p>
+<p><strong>Simple explanation:</strong><br />
+This trigger fires automatically when your phone recognizes you're doing a certain physical activity, like walking or driving. You can pair it with specific actions and limit it to certain times or conditions to avoid false positives.</p>
 
 
 

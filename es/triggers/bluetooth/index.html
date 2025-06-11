@@ -20,7 +20,7 @@
     
     
       
-        <title>Bluetooth - MacroDroid Wiki</title>
+        <title>Bluetooth Event - MacroDroid Wiki</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#bluetooth-event" class="md-skip">
+          Saltar a contenido
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Bluetooth
+              Bluetooth Event
             
           </span>
         </div>
@@ -721,6 +726,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -736,9 +743,28 @@
 
 
 
-  <h1>Bluetooth</h1>
-
-
+<h1 id="bluetooth-event">Bluetooth Event<a class="headerlink" href="#bluetooth-event" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger activates based on changes in your device's Bluetooth status or when a Bluetooth device connects or disconnects.</p>
+<p><strong>Configuration:</strong><br />
+- <strong>Event type:</strong><br />
+  - <code>Bluetooth enabled</code>: Fires when Bluetooth is turned on.<br />
+  - <code>Bluetooth disabled</code>: Fires when Bluetooth is turned off.<br />
+  - <code>Device connected</code>: Fires when a Bluetooth device connects.<br />
+  - <code>Device disconnected</code>: Fires when a Bluetooth device disconnects.</p>
+<ul>
+<li><strong>Device selection (for connected/disconnected):</strong><br />
+  You can choose <code>Any device</code> or select a specific previously paired device from the list.</li>
+</ul>
+<p><strong>Magic Text:</strong>  </p>
+<p><a href="../../magic_text/trigger_required/bluetooth/"><strong>Bluetooth</strong></a>  </p>
+<blockquote>
+<p><strong>Note:</strong> Magic Text values are available when using the <code>Device connected</code> or <code>Device disconnected</code> options.</p>
+</blockquote>
+<p><strong>Example:</strong><br />
+Launch the music app when your car’s Bluetooth connects.</p>
+<p><strong>Simple explanation:</strong><br />
+Fires when Bluetooth is toggled on/off, or when a device connects/disconnects — ideal for automating tasks around headphones, cars, or other Bluetooth accessories.</p>
 
 
 

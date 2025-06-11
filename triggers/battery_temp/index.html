@@ -20,7 +20,7 @@
     
     
       
-        <title>Battery temp - MacroDroid Wiki</title>
+        <title>Battery Temperature - MacroDroid Wiki</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#battery-temperature" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Battery temp
+              Battery Temperature
             
           </span>
         </div>
@@ -1370,6 +1375,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1385,9 +1392,25 @@
 
 
 
-  <h1>Battery temp</h1>
-
-
+<h1 id="battery-temperature">Battery Temperature<a class="headerlink" href="#battery-temperature" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger activates based on changes in the battery temperature. You can choose whether to trigger when the temperature increases, decreases, or changes in any direction.</p>
+<p><strong>Configuration:</strong><br />
+- <strong>Trigger type:</strong><br />
+  - <code>Decrease to</code>: Fires when battery temperature drops to the specified value (°C).<br />
+  - <code>Increase to</code>: Fires when battery temperature rises to the specified value (°C).<br />
+  - <code>Any change</code>: Fires on any change in battery temperature.</p>
+<p><strong>Magic Text:</strong>  </p>
+<p><a href="../../magic_text/no_trigger/current_battery/"><strong>Current battery</strong></a><br />
+<a href="../../magic_text/no_trigger/battery_temp/"><strong>Battery temperature c</strong></a><br />
+<a href="../../magic_text/no_trigger/battery_current_now/"><strong>Battery current now mA</strong></a>    </p>
+<blockquote>
+<p><strong>Note:</strong> These Magic Text variables are available globally, even if this trigger is not used.</p>
+</blockquote>
+<p><strong>Example:</strong><br />
+Trigger a cooling alert when battery temperature increases to 45°C.</p>
+<p><strong>Simple explanation:</strong><br />
+Fires when your device’s battery temperature reaches a specific point or changes, allowing you to take action before overheating becomes a problem.</p>
 
 
 

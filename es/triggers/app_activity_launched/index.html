@@ -20,7 +20,7 @@
     
     
       
-        <title>App activity launched - MacroDroid Wiki</title>
+        <title>App Activity Launched/Closed - MacroDroid Wiki</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#app-activity-launchedclosed" class="md-skip">
+          Saltar a contenido
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              App activity launched
+              App Activity Launched/Closed
             
           </span>
         </div>
@@ -721,6 +726,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -736,9 +743,52 @@
 
 
 
-  <h1>App activity launched</h1>
-
-
+<h1 id="app-activity-launchedclosed">App Activity Launched/Closed<a class="headerlink" href="#app-activity-launchedclosed" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger fires when a specific app activity is launched or closed. You can choose to activate it on open or close events.</p>
+<p><strong>Configuration:</strong><br />
+- <strong>Activation type:</strong><br />
+  Choose whether to trigger on activity <strong>launch</strong> or <strong>close</strong>.</p>
+<ul>
+<li><strong>Activity name matching options:</strong>  </li>
+<li>
+<p><strong>Matches:</strong><br />
+    Exact match of the activity name.<br />
+<em>Example:</em> <code>com.example.MainActivity</code> matches only that exact activity.  </p>
+</li>
+<li>
+<p><strong>Contains:</strong><br />
+    Triggers if the activity name contains the specified text anywhere.<br />
+<em>Example:</em> <code>Settings</code> matches <code>com.android.SettingsActivity</code> or <code>SettingsFragment</code>.  </p>
+</li>
+<li>
+<p><strong>Wildcards support:</strong>  </p>
+</li>
+<li><code>*</code> matches any sequence of characters.  </li>
+<li>
+<p><code>?</code> matches any single character.<br />
+<em>Examples:</em>  </p>
+<ul>
+<li><code>com.example.*</code> matches all activities starting with <code>com.example.</code>  </li>
+<li><code>MainAct?vity</code> matches <code>MainActivity</code> and <code>MainActXvity</code>.  </li>
+</ul>
+</li>
+<li>
+<p><strong>Regular expressions:</strong><br />
+  Enable with <strong>"Enable regular expression matching"</strong> option.<br />
+  Use regex patterns for more flexible matching.<br />
+<em>Example:</em> <code>com\.example\.(Main|Settings)Activity</code> matches either <code>com.example.MainActivity</code> or <code>com.example.SettingsActivity</code>.</p>
+</li>
+<li>
+<p><strong>Case insensitive:</strong><br />
+  Optionally ignore case differences when matching.<br />
+<em>Example:</em> <code>settings</code> matches <code>SettingsActivity</code> or <code>settingsactivity</code>.</p>
+</li>
+</ul>
+<p><strong>Example:</strong><br />
+Trigger when <code>com.example.MainActivity</code> is launched to start a timer.</p>
+<p><strong>Simple explanation:</strong><br />
+This trigger detects when an app screen opens or closes. You can use exact names, partial matches, wildcards, or regex to precisely specify which activities activate your automation.</p>
 
 
 

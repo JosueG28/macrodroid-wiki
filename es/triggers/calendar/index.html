@@ -20,7 +20,7 @@
     
     
       
-        <title>Calendar - MacroDroid Wiki</title>
+        <title>Calendar Event - MacroDroid Wiki</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#calendar-event" class="md-skip">
+          Saltar a contenido
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Calendar
+              Calendar Event
             
           </span>
         </div>
@@ -721,6 +726,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -736,9 +743,84 @@
 
 
 
-  <h1>Calendar</h1>
-
-
+<h1 id="calendar-event">Calendar Event<a class="headerlink" href="#calendar-event" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger activates when a calendar event <strong>starts</strong> or <strong>ends</strong>. You can customize it to respond only to certain events, calendars, or event details.</p>
+<p><strong>Configuration:</strong>  </p>
+<ul>
+<li>
+<p><strong>Trigger type:</strong><br />
+  Choose whether the trigger fires when an event <strong>starts</strong> or <strong>ends</strong>.</p>
+</li>
+<li>
+<p><strong>Calendar account:</strong><br />
+  Select which calendar to monitor. Examples:  </p>
+</li>
+<li>Local device calendar  </li>
+<li>Specific email calendar like <code>mymail@example.com</code>  </li>
+<li>
+<p>Special calendars like <code>Holidays in Mexico</code> or <code>Family</code></p>
+</li>
+<li>
+<p><strong>Availability filter:</strong><br />
+  Filters events based on their status:  </p>
+</li>
+<li><code>Free</code>: Events where you are marked as free (no busy status)  </li>
+<li><code>Busy</code>: Events where you are marked as busy (e.g., meetings)  </li>
+<li>
+<p><code>Any</code>: All events regardless of availability</p>
+</li>
+<li>
+<p><strong>Event matching by title or details:</strong><br />
+  You can limit triggering to events whose <strong>title</strong> or <strong>details</strong> match certain patterns.  </p>
+</li>
+<li><strong>Wildcards:</strong>  <ul>
+<li><code>*</code> matches any number of characters  </li>
+<li><code>?</code> matches exactly one character  </li>
+<li>Example:  </li>
+<li><code>Meeting*</code> matches <code>Meeting with John</code> or <code>Meeting123</code>  </li>
+<li><code>Lunch?</code> matches <code>Lunch1</code> but not <code>Lunch12</code>  </li>
+</ul>
+</li>
+<li><strong>Regular Expressions (regex):</strong>  <ul>
+<li>More powerful, flexible pattern matching. Enable with the option "Enable regular expression matching".  </li>
+<li>Example regex:  </li>
+<li><code>^Call\s\d{3}$</code> matches exactly <code>Call 123</code> but not <code>Call1234</code> or <code>Call 12</code>  </li>
+</ul>
+</li>
+<li>
+<p><strong>Case insensitive:</strong>  </p>
+<ul>
+<li>When enabled, matching ignores uppercase/lowercase differences.  </li>
+<li>So <code>meeting</code> matches <code>Meeting</code> and <code>MEETING</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Ignore all-day events:</strong><br />
+  Skip events that last all day, which often are reminders or holidays.</p>
+</li>
+<li>
+<p><strong>Use alarm:</strong><br />
+  Instead of triggering exactly at event start or end, this option triggers when the calendar alarm goes off for the event.</p>
+</li>
+<li>
+<p><strong>Check in advance:</strong><br />
+  Set how early or late the trigger fires relative to the event time. Use days, hours, and minutes.  </p>
+</li>
+<li>Positive values mean trigger <strong>before</strong> the event.  </li>
+<li>Negative values mean trigger <strong>after</strong> the event.  </li>
+<li>Examples:  <ul>
+<li>Trigger 15 minutes <strong>before</strong> a meeting: set <code>0 days, 0 hours, 15 minutes</code>  </li>
+<li>Trigger 10 minutes <strong>after</strong> event ends: set <code>0 days, 0 hours, -10 minutes</code></li>
+</ul>
+</li>
+</ul>
+<p><strong>Magic Text:</strong>  </p>
+<p><a href="../../magic_text/trigger_required/calendar_event/"><strong>Calendar event details</strong></a></p>
+<p><strong>Example:</strong><br />
+Trigger a reminder 10 minutes before any busy event with a title starting with <code>Doctor</code> (e.g., <code>Doctor appointment</code>) in your <code>mymail@example.com</code> calendar.</p>
+<p><strong>Simple explanation:</strong><br />
+This trigger helps you automatically act when events start or end. It’s flexible: you pick which calendar, event status, and even match event titles or details using easy wildcards or advanced regex patterns.</p>
 
 
 

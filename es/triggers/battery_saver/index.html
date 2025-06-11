@@ -20,7 +20,7 @@
     
     
       
-        <title>Battery saver - MacroDroid Wiki</title>
+        <title>Battery Saver State - MacroDroid Wiki</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#battery-saver-state" class="md-skip">
+          Saltar a contenido
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Battery saver
+              Battery Saver State
             
           </span>
         </div>
@@ -721,6 +726,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -736,9 +743,23 @@
 
 
 
-  <h1>Battery saver</h1>
-
-
+<h1 id="battery-saver-state">Battery Saver State<a class="headerlink" href="#battery-saver-state" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger activates when the system's battery saver mode is turned <strong>on</strong> (enabled) or <strong>off</strong> (disabled).</p>
+<p><strong>Configuration:</strong><br />
+- <strong>State:</strong><br />
+  Choose whether the trigger fires when battery saver is <code>Enabled</code> or <code>Disabled</code>.</p>
+<p><strong>Magic Text:</strong>  </p>
+<p><a href="../../magic_text/no_trigger/current_battery/"><strong>Current battery</strong></a><br />
+<a href="../../magic_text/no_trigger/battery_temp/"><strong>Battery temperature c</strong></a><br />
+<a href="../../magic_text/no_trigger/battery_current_now/"><strong>Battery current now mA</strong></a>    </p>
+<blockquote>
+<p><strong>Note:</strong> These Magic Text variables are available globally, even if this trigger is not used.</p>
+</blockquote>
+<p><strong>Example:</strong><br />
+Activate dark mode when battery saver is enabled.</p>
+<p><strong>Simple explanation:</strong><br />
+Fires automatically when your device enters or exits battery saver mode, allowing you to adapt your automations to low-power scenarios.</p>
 
 
 

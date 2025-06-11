@@ -20,7 +20,7 @@
     
     
       
-        <title>Application launched - MacroDroid Wiki</title>
+        <title>Application Launched/Closed - MacroDroid Wiki</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#application-launchedclosed" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Application launched
+              Application Launched/Closed
             
           </span>
         </div>
@@ -1370,6 +1375,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1385,9 +1392,37 @@
 
 
 
-  <h1>Application launched</h1>
-
-
+<h1 id="application-launchedclosed">Application Launched/Closed<a class="headerlink" href="#application-launchedclosed" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger fires when an application is opened (launched) or closed. You can target one or more specific apps using the app list or define the target by package name.</p>
+<p><strong>Configuration:</strong><br />
+- <strong>App selection:</strong><br />
+  - Select one or more apps from the list,<br />
+  - Or enter the <strong>package name</strong> manually.<br />
+<em>Example:</em> <code>com.instagram.android</code> refers to the Instagram app.</p>
+<ul>
+<li>
+<p><strong>Trigger type:</strong><br />
+  Choose whether to trigger when the app is <strong>launched</strong> or <strong>closed</strong>.</p>
+</li>
+<li>
+<p><strong>Force legacy mechanism:</strong>  </p>
+</li>
+<li>If enabled, MacroDroid will use an older detection method.  </li>
+<li>
+<p>Useful if the new implementation doesn’t work on your device or you don’t want to grant Accessibility access.<br />
+<em>Example:</em> On older Android versions or restricted OEMs (e.g., Xiaomi/MIUI), the default method might not detect launches correctly. Enabling legacy mode may fix this.</p>
+</li>
+<li>
+<p><strong>Magic Text:</strong><br />
+  You can insert Magic Text using the <code>...</code> button when defining the package name.<br />
+<a href="../../magic_text/trigger_required/application_launched_closed/"><strong>App Launched/Closed</strong></a></p>
+</li>
+</ul>
+<p><strong>Example:</strong><br />
+Trigger when <code>com.spotify.music</code> is launched to increase media volume.</p>
+<p><strong>Simple explanation:</strong><br />
+This trigger detects when a specific app opens or closes, either by selecting it from a list or by entering its internal name (package). Legacy mode helps on phones where the normal detection doesn’t work properly.</p>
 
 
 
