@@ -20,7 +20,7 @@
     
     
       
-        <title>🔁 Exporting and Importing in MacroDroid - MacroDroid Wiki</title>
+        <title>Exporting and Importing in MacroDroid - MacroDroid Wiki</title>
       
     
     
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🔁 Exporting and Importing in MacroDroid
+              Exporting and Importing in MacroDroid
             
           </span>
         </div>
@@ -729,107 +729,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#full-export-import" class="md-nav__link">
-    <span class="md-ellipsis">
-      📦 Full Export / Import
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📦 Full Export / Import">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#export" class="md-nav__link">
-    <span class="md-ellipsis">
-      Export:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#import" class="md-nav__link">
-    <span class="md-ellipsis">
-      Import:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#export-via-action" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔄 Export via Action
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exporting-individual-components" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Exporting Individual Components
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔹 Exporting Individual Components">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#single-macro-macro-file" class="md-nav__link">
-    <span class="md-ellipsis">
-      Single Macro (.macro file):
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#entire-category-category-file" class="md-nav__link">
-    <span class="md-ellipsis">
-      Entire Category (.category file):
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#action-block-ablock-file" class="md-nav__link">
-    <span class="md-ellipsis">
-      Action Block (.ablock file):
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#supported-import-formats" class="md-nav__link">
-    <span class="md-ellipsis">
-      🧩 Supported Import Formats
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -844,99 +743,70 @@
 
 
 
-<h1 id="exporting-and-importing-in-macrodroid">🔁 Exporting and Importing in MacroDroid<a class="headerlink" href="#exporting-and-importing-in-macrodroid" title="Permanent link">&para;</a></h1>
-<p>MacroDroid provides a robust system to <strong>back up, share, and migrate</strong> your automations. You can export entire setups or specific components like macros, categories, or action blocks.</p>
-<hr />
-<h2 id="full-export-import">📦 Full Export / Import<a class="headerlink" href="#full-export-import" title="Permanent link">&para;</a></h2>
-<p>From the <strong>Import/Export</strong> tile on the main screen:</p>
-<h3 id="export">Export:<a class="headerlink" href="#export" title="Permanent link">&para;</a></h3>
+<h1 id="exporting-and-importing-in-macrodroid">Exporting and Importing in MacroDroid<a class="headerlink" href="#exporting-and-importing-in-macrodroid" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+<code>MacroDroid lets you export and import your automation setups in flexible ways — from full backups to individual macros, categories, or action blocks. This makes sharing, moving, or backing up your work simple and efficient.</code></p>
 <ul>
-<li><strong>Export all</strong> generates a <code>.MDR</code> file containing:</li>
-<li>All macros, action blocks, variables</li>
-<li>Settings, quick tiles, drawer items</li>
-<li>Choose to <strong>save to device storage</strong> or <strong>share via Android's share menu</strong></li>
-</ul>
-<h3 id="import">Import:<a class="headerlink" href="#import" title="Permanent link">&para;</a></h3>
-<ol>
-<li>Tap <strong>Import/Export</strong> → <strong>Import Macros</strong>  </li>
-<li>Select a <code>.MDR</code> file from storage  </li>
-<li>Optionally <strong>reset variables on import</strong>  <blockquote>
-<p><strong>Note:</strong> Resets all variables to their default values (e.g., integer → 0, boolean → false, strings → empty) when loading an <code>.mdr</code> file.</p>
-</blockquote>
+<li>
+<p><strong>Full backup and restore:</strong><br />
+  Use the <strong>Import/Export</strong> tile on the main MacroDroid screen. This option lets you export your entire setup into a single <code>.mdr</code> file or import one to restore everything at once. When importing, you can also choose to reset all your variables (integers, booleans, strings, and lists) back to their default empty or zero states.</p>
 </li>
-</ol>
+<li>
+<p><strong>Exporting individual macros, categories, or action blocks:</strong><br />
+  For more precise backups or sharing, MacroDroid allows exporting parts of your setup through long-press menus or editor options:</p>
+</li>
+</ul>
+<p><strong>Single Macro (<code>.macro</code> file)</strong><br />
+  - From the <strong>macro list</strong>, find the macro you want to export, then <strong>long-press</strong> it to open the context menu and tap <strong>Export Macro</strong>.<br />
+  - Or from inside the <strong>macro editor</strong>, tap the 3-dot menu in the top-right corner and select <strong>Export Macro</strong>.<br />
+  - What’s included:<br />
+    - The macro’s <strong>triggers</strong>, <strong>actions</strong>, and <strong>constraints</strong> — everything needed to run it.<br />
+    - Any <strong>global or local variables</strong> used within that macro.<br />
+    - All <strong>referenced action blocks</strong> the macro depends on.</p>
+<p><strong>Entire Category (<code>.category</code> file)</strong><br />
+  - In the macro categories list, <strong>long-press the category</strong> you want to export.<br />
+  - Tap <strong>Export</strong> to save all the macros in that category together.<br />
+  - What’s included:<br />
+    - <strong>All macros</strong> within that category.<br />
+    - Any <strong>action blocks</strong> related to those macros.<br />
+    - All <strong>variables</strong> associated with those macros.</p>
+<p><strong>Action Block (<code>.ablock</code> file)</strong><br />
+  - Go to the <strong>Action Blocks</strong> screen where your reusable action blocks are listed.<br />
+  - <strong>Long-press the action block</strong> you want to export and select <strong>Share</strong>.<br />
+  - What’s included:<br />
+    - Only the <strong>selected action block</strong> itself — no macros or variables are included here.</p>
+<ul>
+<li><strong>Exporting from inside a macro using the Export Macros action:</strong><br />
+  You can also back up your macros directly from within a macro’s workflow by adding the <strong>Export Macros</strong> action. This lets you:  </li>
+<li>Save a full backup <code>.mdr</code> file to your device storage.  </li>
+<li>Store your macro setup as JSON text inside a variable, useful for advanced users who want to manipulate or upload their macros as text.  </li>
+<li><strong>Important:</strong> To import macros stored as JSON in a variable, you must manually save the JSON as a <code>.mdr</code> file and import it via the main screen’s import option.</li>
+</ul>
+<p><strong>Types of formats when exporting:</strong>  </p>
+<ul>
+<li><strong><code>.mdr</code></strong> — full setup backup including <em>all macros, action blocks, global variables, and app settings</em>  </li>
+<li><strong><code>.macro</code></strong> — single macro including <em>triggers, actions, constraints, local/global variables, and referenced action blocks</em>  </li>
+<li><strong><code>.category</code></strong> — full macro category with <em>all macros inside, related action blocks, and associated variables</em>  </li>
+<li>
+<p><strong><code>.ablock</code></strong> — single standalone action block without macros or variables  </p>
+</li>
+<li>
+<p>Storage permission to save/load files.  </p>
+</li>
+<li>Careful use when importing full <code>.mdr</code> backups since they completely overwrite your current setup.</li>
+</ul>
 <blockquote>
-<p>⚠️ <strong>Critical Warning</strong>:<br />
-Importing a <code>.MDR</code> file <strong>will delete all existing macros and settings</strong> before restoring the imported content. This action cannot be undone.</p>
+<p>⚠️ <strong>WARNING:</strong> Importing a <code>.mdr</code> file <strong>will erase your entire current MacroDroid setup</strong>, deleting all macros, action blocks, variables, and settings, replacing them with the imported content. This action is irreversible.  </p>
+<p>This full reset and overwrite <strong>only happen with <code>.mdr</code> files</strong>. Importing <code>.macro</code>, <code>.category</code>, or <code>.ablock</code> files <strong>will not erase your full setup</strong>, but simply add or replace those specific parts.</p>
 </blockquote>
-<hr />
-<h2 id="export-via-action">🔄 Export via Action<a class="headerlink" href="#export-via-action" title="Permanent link">&para;</a></h2>
-<p>Use the <strong>Export Macros</strong> action within macros:</p>
-<ul>
-<li><strong>To File (.MDR)</strong>: Creates complete backup file</li>
-<li><strong>To Variable</strong>: Exports as JSON string<br />
-<em>Requires manual steps</em>:  </li>
-<li>Save output to file  </li>
-<li>Rename with <code>.MDR</code> extension  </li>
-<li>Import via main screen</li>
-</ul>
-<hr />
-<h2 id="exporting-individual-components">🔹 Exporting Individual Components<a class="headerlink" href="#exporting-individual-components" title="Permanent link">&para;</a></h2>
-<h3 id="single-macro-macro-file">Single Macro (.macro file):<a class="headerlink" href="#single-macro-macro-file" title="Permanent link">&para;</a></h3>
-<ul>
-<li><strong>From macro list</strong>: Long-press macro → <strong>Export Macro</strong></li>
-<li><strong>From editor</strong>: 3-dot menu (top-right) → <strong>Export Macro</strong></li>
-<li><em>Includes</em>:  </li>
-<li>Triggers, actions, constraints  </li>
-<li>Global/local variables (if used)  </li>
-<li>Referenced action blocks</li>
-</ul>
-<h3 id="entire-category-category-file">Entire Category (.category file):<a class="headerlink" href="#entire-category-category-file" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Long-press category → <strong>Export</strong></li>
-<li><em>Includes</em>:  </li>
-<li>All macros in category  </li>
-<li>Related action blocks  </li>
-<li>Associated variables</li>
-</ul>
-<h3 id="action-block-ablock-file">Action Block (.ablock file):<a class="headerlink" href="#action-block-ablock-file" title="Permanent link">&para;</a></h3>
-<ul>
-<li><strong>Action Blocks</strong> screen → Long-press block → <strong>Share</strong></li>
-<li><em>Contains only</em> the action block (no macros/variables)</li>
-</ul>
-<hr />
-<h2 id="supported-import-formats">🧩 Supported Import Formats<a class="headerlink" href="#supported-import-formats" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>File Type</th>
-<th>Contents</th>
-<th>Import Method</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>.MDR</code></td>
-<td>Full setup</td>
-<td>Main screen → Import Macros / Any file manager</td>
-</tr>
-<tr>
-<td><code>.macro</code></td>
-<td>Single macro + dependencies</td>
-<td>Any file manager</td>
-</tr>
-<tr>
-<td><code>.category</code></td>
-<td>Category + contents</td>
-<td>Any file manager</td>
-</tr>
-<tr>
-<td><code>.ablock</code></td>
-<td>Standalone action block</td>
-<td>Any file manager</td>
-</tr>
-</tbody>
-</table>
+<p><strong>Resetting variables on import:</strong><br />
+When importing a full <code>.mdr</code> backup, you can choose to reset all variables to their default states:<br />
+- Integers → <code>0</code><br />
+- Booleans → <code>false</code><br />
+- Strings → empty<br />
+- Lists → empty</p>
+<p><strong>Simple explanation:</strong><br />
+Export your MacroDroid setup fully or partially, depending on what you need to back up or share. Full backups save everything in one <code>.mdr</code> file. Single macros and categories let you export only what you want. Action blocks export individual building blocks. Import carefully to avoid losing your current configuration, especially when doing full restores.</p>
 
 
 
