@@ -1065,6 +1065,13 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/minute/"/>
     </url>
     <url>
+        <loc>Nonemagic_text/no_trigger/mobile_country_code/</loc>
+        <lastmod>2025-06-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/mobile_country_code/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/mobile_country_code/"/>
+    </url>
+    <url>
         <loc>Nonemagic_text/no_trigger/mobile_network_code/</loc>
         <lastmod>2025-06-11</lastmod>
         <changefreq>daily</changefreq>
@@ -1378,6 +1385,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_required/text_shared_to_macrodroid/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_required/text_shared_to_macrodroid/"/>
+    </url>
+    <url>
+        <loc>Nonemagic_text/trigger_required/trigger_that%20_fired/</loc>
+        <lastmod>2025-06-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_required/trigger_that%20_fired/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_required/trigger_that%20_fired/"/>
     </url>
     <url>
         <loc>Nonemagic_text/trigger_required/ui_click/</loc>
@@ -3207,6 +3221,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/minute/"/>
     </url>
     <url>
+        <loc>Nonees/magic_text/no_trigger/mobile_country_code/</loc>
+        <lastmod>2025-06-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/mobile_country_code/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/mobile_country_code/"/>
+    </url>
+    <url>
         <loc>Nonees/magic_text/no_trigger/mobile_network_code/</loc>
         <lastmod>2025-06-11</lastmod>
         <changefreq>daily</changefreq>
@@ -3520,6 +3541,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_required/text_shared_to_macrodroid/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_required/text_shared_to_macrodroid/"/>
+    </url>
+    <url>
+        <loc>Nonees/magic_text/trigger_required/trigger_that%20_fired/</loc>
+        <lastmod>2025-06-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_required/trigger_that%20_fired/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_required/trigger_that%20_fired/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/trigger_required/ui_click/</loc>

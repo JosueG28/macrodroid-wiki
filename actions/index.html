@@ -669,6 +669,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#go-to-action-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      Go to action list
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-are-actions" class="md-nav__link">
     <span class="md-ellipsis">
       🔹 What Are Actions?
@@ -1565,6 +1574,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#go-to-action-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      Go to action list
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-are-actions" class="md-nav__link">
     <span class="md-ellipsis">
       🔹 What Are Actions?
@@ -1713,62 +1731,63 @@
 
 
 <h1 id="introduction-to-actions-in-macrodroid">⚡ Introduction to Actions in MacroDroid<a class="headerlink" href="#introduction-to-actions-in-macrodroid" title="Permanent link">&para;</a></h1>
-<p><strong>Actions</strong> in MacroDroid are the tasks your device performs when a macro runs. They are the core of any automation, defining what the macro does once its trigger is activated and constraints are met. From sending notifications to controlling device hardware, actions allow you to customize your device’s behavior in powerful and flexible ways.</p>
-<p><a href="list/"><strong>Go to action list</strong></a></p>
-<hr />
+<p><strong>Actions</strong> are the tasks your device performs when a macro runs. They define what happens once a trigger fires and constraints are met. From sending notifications to controlling hardware, actions give you full control to customize your device’s behavior with power and flexibility.</p>
+<h2 id="go-to-action-list"><a href="list/"><strong>Go to action list</strong></a><a class="headerlink" href="#go-to-action-list" title="Permanent link">&para;</a></h2>
 <h2 id="what-are-actions">🔹 What Are Actions?<a class="headerlink" href="#what-are-actions" title="Permanent link">&para;</a></h2>
-<p>An <strong>action</strong> is any task your device can execute as part of a macro. For a macro to be valid, it must include <strong>at least one action</strong>. MacroDroid offers a wide variety of actions, ranging from simple tasks like adjusting screen brightness to complex ones like making HTTP requests or running scripts.</p>
+<p>An <strong>action</strong> is any task your device executes as part of a macro. Every macro needs <strong>at least one action</strong> to be valid. MacroDroid offers tons of actions, from simple stuff like adjusting brightness to complex things like HTTP requests or running scripts.</p>
 <h3 id="example">Example:<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
-<p>A macro with the trigger "Charger Connected" might include an action like "Turn On Wi-Fi" to automatically connect your device to a network when plugged in.</p>
+<p>Trigger: "Charger Connected"<br />
+Action: "Turn On Wi-Fi" — so your device auto-connects when plugged in.</p>
 <hr />
 <h2 id="synchronous-vs-asynchronous-actions">🔹 Synchronous vs. Asynchronous Actions<a class="headerlink" href="#synchronous-vs-asynchronous-actions" title="Permanent link">&para;</a></h2>
 <h3 id="synchronous-actions">Synchronous Actions<a class="headerlink" href="#synchronous-actions" title="Permanent link">&para;</a></h3>
-<p>Most MacroDroid actions execute quickly and sequentially, meaning each action waits for the previous one to complete before starting.</p>
+<p>Most actions run quickly and one after another, waiting for the previous to finish.</p>
 <h3 id="asynchronous-actions">Asynchronous Actions<a class="headerlink" href="#asynchronous-actions" title="Permanent link">&para;</a></h3>
-<p>Certain actions, such as <strong>HTTP requests</strong> or <strong>shell scripts</strong>, may take longer to complete. By default, these actions run <strong>asynchronously</strong>, meaning subsequent actions in the macro might start before the asynchronous action finishes.</p>
+<p>Some actions—like <strong>HTTP requests</strong> or <strong>shell scripts</strong>—take longer and run <strong>asynchronously</strong>. That means next actions might start before these finish.</p>
 <h4 id="managing-asynchronous-actions">Managing Asynchronous Actions<a class="headerlink" href="#managing-asynchronous-actions" title="Permanent link">&para;</a></h4>
 <ul>
-<li><strong>"Block Next Action Until Complete" Option</strong>: Enable this in the action’s configuration interface to ensure subsequent actions wait for the asynchronous action to finish before proceeding.</li>
-<li><strong>Note</strong>: Unlike traditional programming languages where you might use a callback function to handle data returned by an asynchronous action, MacroDroid’s internal mechanics don’t offer a systematic callback option. Instead, you’ll need to use workarounds, such as storing results in variables or adding wait actions (e.g., "Wait X Seconds") to manage asynchronous flow.</li>
+<li>Enable <strong>"Block Next Action Until Complete"</strong> to pause subsequent actions until the async one finishes.  </li>
+<li>Unlike programming languages, MacroDroid has no built-in callback system. You’ll need workarounds like storing results in variables or adding wait steps.</li>
 </ul>
 <h3 id="example_1">Example:<a class="headerlink" href="#example_1" title="Permanent link">&para;</a></h3>
-<p>If you have an "HTTP Request" action that fetches data from an API, enable "Block Next Action Until Complete" to ensure a subsequent "Show Notification" action, displaying the retrieved data, doesn’t run until the request is complete.</p>
+<p>For an HTTP Request fetching data, block the next action so a "Show Notification" with the fetched data doesn’t run too soon.</p>
 <hr />
 <h2 id="common-action-examples">🔹 Common Action Examples<a class="headerlink" href="#common-action-examples" title="Permanent link">&para;</a></h2>
-<p>MacroDroid provides a broad range of actions to customize your automations. Some popular ones include:
-- <strong>Notifications</strong>: Display a message on-screen or send a push notification.
-- <strong>Device Control</strong>: Adjust volume, change brightness, or toggle Wi-Fi, Bluetooth, or mobile data.
-- <strong>Apps</strong>: Open an app, close an app, or simulate screen taps.
-- <strong>Connectivity</strong>: Send emails, SMS messages, or make HTTP requests.
-- <strong>Advanced</strong>: Run shell scripts, manipulate variables, or control hardware like the camera or flashlight.</p>
+<p>MacroDroid’s action arsenal includes:<br />
+- <strong>Notifications:</strong> Show messages or push notifications<br />
+- <strong>Device Control:</strong> Volume, brightness, Wi-Fi, Bluetooth, mobile data toggles<br />
+- <strong>Apps:</strong> Open/close apps, simulate taps<br />
+- <strong>Connectivity:</strong> Send SMS, emails, make HTTP requests<br />
+- <strong>Advanced:</strong> Run shell scripts, manipulate variables, control camera or flashlight  </p>
 <hr />
 <h2 id="why-are-actions-important">🔹 Why Are Actions Important?<a class="headerlink" href="#why-are-actions-important" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Functionality</strong>: Actions are what make your macros "do something," turning ideas into practical automations.</li>
-<li><strong>Flexibility</strong>: With hundreds of actions available, you can tailor macros to almost any task.</li>
-<li><strong>Control</strong>: The ability to manage synchronous and asynchronous actions lets you create precise and efficient workflows.</li>
+<li><strong>Functionality:</strong> They make your macros <em>do</em> stuff.  </li>
+<li><strong>Flexibility:</strong> Hundreds of actions let you tailor automations to any need.  </li>
+<li><strong>Control:</strong> Sync vs async options let you optimize your workflows precisely.  </li>
 </ul>
 <h3 id="practical-example">Practical Example:<a class="headerlink" href="#practical-example" title="Permanent link">&para;</a></h3>
-<p>A macro triggered when headphones are connected (trigger: "Headphones Connected") could include the following actions:
-1. "Open Spotify" to launch your music app.
-2. "Set Volume" to adjust the volume to 50%.
-3. "Show Notification" with the text "Enjoy your music!".</p>
+<p>Trigger: "Headphones Connected"<br />
+Actions:<br />
+1. Open Spotify<br />
+2. Set volume to 50%<br />
+3. Show notification: "Enjoy your music!"  </p>
 <hr />
 <h2 id="tips-for-new-users">🔹 Tips for New Users<a class="headerlink" href="#tips-for-new-users" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Explore Actions</strong>: Browse the action list in the macro editing screen to discover what’s possible.</li>
-<li><strong>Start Simple</strong>: Try actions like "Show Notification" or "Turn On Wi-Fi" to understand how they work.</li>
-<li><strong>Test Always</strong>: Run your macro after setting it up to ensure actions behave as expected.</li>
+<li>Explore the action list to see what’s possible.  </li>
+<li>Start with basics like "Show Notification" or "Turn On Wi-Fi."  </li>
+<li>Always test your macros to verify they work.  </li>
 </ul>
 <hr />
 <h2 id="tips-for-advanced-users">🔹 Tips for Advanced Users<a class="headerlink" href="#tips-for-advanced-users" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Combine Actions</strong>: Use multiple actions in a macro to create complex automations, like fetching data from an API and processing it with variables.</li>
-<li><strong>Handle Asynchrony</strong>: Use the "Block Next Action" option or add wait actions to control the flow of macros with asynchronous actions.</li>
-<li><strong>Leverage Variables</strong>: Store action results (e.g., HTTP request data) in variables for further manipulation in later steps.</li>
+<li>Combine multiple actions for complex automations (e.g., API data + variables).  </li>
+<li>Control async flow with blocking or wait actions.    </li>
+<li>Use variables to store and manipulate action results.  </li>
 </ul>
 <hr />
-<p>Actions are the heart of MacroDroid’s automations. Whether you’re building a simple macro or an advanced automation with asynchronous actions, experimenting with them will unlock your device’s full potential. Start exploring and take your macros to the next level!</p>
+<p>Actions are the beating heart of MacroDroid. Master them, simple or complex, and unlock your device’s full automation potential. Start experimenting and level up your macros!</p>
 
 
 
