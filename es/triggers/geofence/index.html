@@ -20,7 +20,7 @@
     
     
       
-        <title>Geofence - MacroDroid Wiki</title>
+        <title>📍 Trigger: Geofence (location) - MacroDroid Wiki</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#trigger-geofence-location" class="md-skip">
+          Saltar a contenido
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Geofence
+              📍 Trigger: Geofence (location)
             
           </span>
         </div>
@@ -721,6 +726,58 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#trigger-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Trigger Options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔹 Trigger Options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#activation-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activation Type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trigger-if-previous-location-unknown" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trigger if previous location unknown
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#update-frequency-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Update Frequency Settings
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -736,9 +793,31 @@
 
 
 
-  <h1>Geofence</h1>
-
-
+<h1 id="trigger-geofence-location">📍 Trigger: Geofence (location)<a class="headerlink" href="#trigger-geofence-location" title="Permanent link">&para;</a></h1>
+<p><strong>Geofence triggers</strong> automatically start your macros when your device enters or exits a defined geographical area. They provide battery-efficient location detection using Google Play Services.</p>
+<p><a href="../../constraints/geofence/"><strong>Geofence Constraint</strong></a> | 
+<a href="../../magic_text/trigger_required/geofence/"><strong>Magic Text</strong></a></p>
+<hr />
+<h2 id="trigger-options">🔹 Trigger Options<a class="headerlink" href="#trigger-options" title="Permanent link">&para;</a></h2>
+<h3 id="activation-type">Activation Type<a class="headerlink" href="#activation-type" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Entry</strong>: Triggers when device enters the geofenced area</li>
+<li><strong>Exit</strong>: Triggers when device leaves the geofenced area</li>
+</ul>
+<h3 id="trigger-if-previous-location-unknown">Trigger if previous location unknown<a class="headerlink" href="#trigger-if-previous-location-unknown" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Trigger if previous location unknown</strong>:<br />
+  When enabled, the trigger will activate even if the device's previous location wasn't known.<br />
+<em>Useful for:</em> Ensuring triggers fire after device reboot or when location services were temporarily disabled.</li>
+</ul>
+<hr />
+<h2 id="update-frequency-settings">🔹 Update Frequency Settings<a class="headerlink" href="#update-frequency-settings" title="Permanent link">&para;</a></h2>
+<p><strong>High frequency update rates may cause additional battery drain.</strong>  </p>
+<hr />
+<p><strong>Requires:</strong><br />
+- An existing geofence created via the Geofences tile<br />
+- Location services enabled on device<br />
+- Google Play Services  </p>
 
 
 

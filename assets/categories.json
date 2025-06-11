@@ -19,10 +19,10 @@
     "color": "#1e88e5",
     "hover": "#64b5f6"
   },
-  "magic_text": {
-    "en": "magic_text",
-    "color": "#9c27b0",
-    "hover": "#ba68c8"
+  "geofences": {
+    "en": "geofences",
+    "color": "#548687",
+    "hover": "#7ba1a5"
   },
   "stopwatches": {
     "en": "stopwatches",
