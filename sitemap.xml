@@ -1240,11 +1240,11 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/system_time_%28ms%29/"/>
     </url>
     <url>
-        <loc>Nonemagic_text/no_trigger/variable%20length%20string/</loc>
+        <loc>Nonemagic_text/no_trigger/variable_length%20string/</loc>
         <lastmod>2025-06-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/variable%20length%20string/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/variable%20length%20string/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/variable_length%20string/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/variable_length%20string/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/variable_type/</loc>
@@ -1392,6 +1392,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_required/usb_device_connected/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_required/usb_device_connected/"/>
+    </url>
+    <url>
+        <loc>Nonemagic_text/trigger_required/weather/</loc>
+        <lastmod>2025-06-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_required/weather/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_required/weather/"/>
     </url>
     <url>
         <loc>Nonestopwatches/</loc>
@@ -3375,11 +3382,11 @@
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/system_time_%28ms%29/"/>
     </url>
     <url>
-        <loc>Nonees/magic_text/no_trigger/variable%20length%20string/</loc>
+        <loc>Nonees/magic_text/no_trigger/variable_length%20string/</loc>
         <lastmod>2025-06-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/variable%20length%20string/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/variable%20length%20string/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/variable_length%20string/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/variable_length%20string/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/variable_type/</loc>
@@ -3527,6 +3534,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_required/usb_device_connected/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_required/usb_device_connected/"/>
+    </url>
+    <url>
+        <loc>Nonees/magic_text/trigger_required/weather/</loc>
+        <lastmod>2025-06-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/trigger_required/weather/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/trigger_required/weather/"/>
     </url>
     <url>
         <loc>Nonees/stopwatches/</loc>
