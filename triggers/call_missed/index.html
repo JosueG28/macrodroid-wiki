@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#call-missed" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1370,6 +1375,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1385,9 +1392,55 @@
 
 
 
-  <h1>Call missed</h1>
-
-
+<h1 id="call-missed">Call missed<a class="headerlink" href="#call-missed" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+Triggered when you miss an incoming call (i.e., the call rings but is not answered). You can filter the trigger by contact(s), group(s), or number(s), with advanced matching options.</p>
+<p><strong>Configuration:</strong><br />
+- <strong>Any number:</strong><br />
+  Triggers on any missed call, regardless of whether the number is saved or not.</p>
+<ul>
+<li><strong>Select Contact(s):</strong><br />
+  Choose how to match missed callers based on your contact list. Modes include:  </li>
+<li><code>Any contact</code> – triggers for all saved contacts.  </li>
+<li><code>Non contact</code> – triggers only for numbers not saved in contacts.  </li>
+<li><code>Unknown caller</code> – triggers if the caller ID is hidden.  </li>
+<li>
+<p>You can also select specific contacts and choose to <strong>Include</strong> or <strong>Exclude</strong> them.  </p>
+</li>
+<li>
+<p><strong>Select Group(s):</strong><br />
+  Lets you include or exclude contact groups like:  </p>
+</li>
+<li><code>My Contacts</code>, <code>Starred in Android</code>, <code>Family</code>, <code>Coworkers</code>, or custom groups like <code>Friends DND</code>.  </li>
+<li>
+<p>Works similarly to contact filtering with include/exclude logic.  </p>
+</li>
+<li>
+<p><strong>Select Number:</strong><br />
+  Match based on number patterns:</p>
+</li>
+<li><strong>Excludes</strong> checkbox – inverts the logic (i.e., do not trigger for matching numbers).  </li>
+<li><strong>Wildcards</strong>:  <ul>
+<li><code>*</code> matches any sequence of characters.<br />
+  Example: <code>+52*</code> matches any number starting with <code>+52</code>.  </li>
+<li><code>?</code> matches a single character.<br />
+  Example: <code>555?1234</code> matches <code>55501234</code>, <code>55511234</code>, etc.  </li>
+</ul>
+</li>
+<li><strong>Regular expression</strong> (enable “Enable regular expression matching”):    <ul>
+<li><code>^\+52\d{10}$</code> matches a 10-digit number starting with +52.  </li>
+<li><code>^555.*</code> matches any number starting with <code>555</code>.  </li>
+</ul>
+</li>
+</ul>
+<p><strong>Magic Text:</strong><br />
+<a href="../../magic_text/trigger_required/call/"><strong>Call missed</strong></a></p>
+<p><strong>Example:</strong><br />
+- A missed call from a number ending in <code>123</code> matches the wildcard <code>*123</code>.<br />
+- If you exclude the <code>Family</code> group and your mom calls but you miss it, the trigger won't fire.<br />
+- The regex <code>^+44\d+</code> will match any UK number starting with <code>+44</code>.</p>
+<p><strong>Simple explanation:</strong><br />
+Fires when you miss a call, letting you act on it using contact, group, number patterns, or even regular expressions for fine-grained control.</p>
 
 
 

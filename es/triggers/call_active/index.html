@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#call-active" class="md-skip">
+          Saltar a contenido
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -721,6 +726,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -736,9 +743,55 @@
 
 
 
-  <h1>Call active</h1>
-
-
+<h1 id="call-active">Call active<a class="headerlink" href="#call-active" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+Triggered when a phone call becomes active (i.e., when the call is answered). You can filter the trigger by contact(s), group(s), or number(s), with advanced matching options.</p>
+<p><strong>Configuration:</strong><br />
+- <strong>Any number:</strong><br />
+  Triggers on any incoming number, regardless of contact or pattern.</p>
+<ul>
+<li><strong>Select Contact(s):</strong><br />
+  Choose how to match callers based on your contact list. Modes include:  </li>
+<li><code>Any contact</code> – triggers for all saved contacts.  </li>
+<li><code>Non contact</code> – triggers only for numbers not saved in contacts.  </li>
+<li><code>Unknown caller</code> – triggers if the caller ID is hidden.  </li>
+<li>
+<p>You can also select specific contacts and choose to <strong>Include</strong> or <strong>Exclude</strong> them.  </p>
+</li>
+<li>
+<p><strong>Select Group(s):</strong><br />
+  Lets you include or exclude contact groups like:  </p>
+</li>
+<li><code>My Contacts</code>, <code>Starred in Android</code>, <code>Family</code>, <code>Coworkers</code>, or custom groups like <code>Friends DND</code>.  </li>
+<li>
+<p>Works similarly to contact filtering with include/exclude logic.  </p>
+</li>
+<li>
+<p><strong>Select Number:</strong><br />
+  Match based on number patterns:</p>
+</li>
+<li><strong>Excludes</strong> checkbox – inverts the logic (i.e., do not trigger for matching numbers).  </li>
+<li><strong>Wildcards</strong>:  <ul>
+<li><code>*</code> matches any sequence of characters.<br />
+  Example: <code>+52*</code> matches any number starting with <code>+52</code>.  </li>
+<li><code>?</code> matches a single character.<br />
+  Example: <code>555?1234</code> matches <code>55501234</code>, <code>55511234</code>, etc.  </li>
+</ul>
+</li>
+<li><strong>Regular expression</strong> (enable “Enable regular expression matching”):    <ul>
+<li><code>^\+52\d{10}$</code> matches a 10-digit number starting with +52.  </li>
+<li><code>^555.*</code> matches any number starting with <code>555</code>.  </li>
+</ul>
+</li>
+</ul>
+<p><strong>Magic Text:</strong><br />
+<a href="../../magic_text/trigger_required/call/"><strong>Call active</strong></a></p>
+<p><strong>Example:</strong><br />
+- A call from a number not in contacts and matching <code>*999</code> will trigger if the number ends in <code>999</code>.<br />
+- A call from someone in the <code>Family</code> group can be excluded by setting the group to <strong>Exclude</strong>.<br />
+- The pattern <code>+1?00*</code> matches <code>+12001234</code>, <code>+13004567</code>, etc.  </p>
+<p><strong>Simple explanation:</strong><br />
+Fires when you're on an active call, with flexible filters based on who’s calling and from what number. You can use groups, wildcards, or even regex for detailed control.</p>
 
 
 

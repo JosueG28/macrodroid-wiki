@@ -1555,11 +1555,25 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/call_ended/"/>
     </url>
     <url>
+        <loc>Nonetriggers/call_incoming/</loc>
+        <lastmod>2025-06-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/call_incoming/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/call_incoming/"/>
+    </url>
+    <url>
         <loc>Nonetriggers/call_missed/</loc>
         <lastmod>2025-06-11</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/call_missed/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/call_missed/"/>
+    </url>
+    <url>
+        <loc>Nonetriggers/call_outgoing/</loc>
+        <lastmod>2025-06-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/call_outgoing/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/call_outgoing/"/>
     </url>
     <url>
         <loc>Nonetriggers/cell_tower/</loc>
@@ -3718,11 +3732,25 @@
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/call_ended/"/>
     </url>
     <url>
+        <loc>Nonees/triggers/call_incoming/</loc>
+        <lastmod>2025-06-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/call_incoming/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/call_incoming/"/>
+    </url>
+    <url>
         <loc>Nonees/triggers/call_missed/</loc>
         <lastmod>2025-06-11</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/call_missed/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/call_missed/"/>
+    </url>
+    <url>
+        <loc>Nonees/triggers/call_outgoing/</loc>
+        <lastmod>2025-06-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/call_outgoing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/call_outgoing/"/>
     </url>
     <url>
         <loc>Nonees/triggers/cell_tower/</loc>

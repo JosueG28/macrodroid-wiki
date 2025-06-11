@@ -20,7 +20,7 @@
     
     
       
-        <title>Calendar event - MacroDroid Wiki</title>
+        <title>Calendar Event - MacroDroid Wiki</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#calendar-event" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Calendar event
+              Calendar Event
             
           </span>
         </div>
@@ -1370,6 +1375,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1385,9 +1392,36 @@
 
 
 
-  <h1>Calendar event</h1>
-
-
+<h1 id="calendar-event">Calendar Event<a class="headerlink" href="#calendar-event" title="Permanent link">&para;</a></h1>
+<p><strong>Calendar Title</strong><br />
+<code>{calendar_title}</code> – Returns the title of the calendar event.<br />
+<strong>Example:</strong> <code>Project Meeting</code></p>
+<p><strong>Calendar Detail</strong><br />
+<code>{calendar_detail}</code> – Returns the details or description of the calendar event.<br />
+<strong>Example:</strong> <code>Review deliverables and assign tasks.</code></p>
+<p><strong>Calendar Location</strong><br />
+<code>{calendar_location}</code> – Returns the location where the event will take place.<br />
+<strong>Example:</strong> <code>Conference Room 3B</code></p>
+<p><strong>Calendar Start Date</strong><br />
+<code>{calendar_start_date}</code> – Returns the start date of the event in local format (usually DD/MM/YYYY).<br />
+<strong>Example:</strong> <code>06/11/2025</code></p>
+<p><strong>Calendar Start Date (US)</strong><br />
+<code>{calendar_start_date_us}</code> – Returns the start date of the event in US format (MM/DD/YYYY).<br />
+<strong>Example:</strong> <code>11/06/2025</code></p>
+<p><strong>Calendar Start Time</strong><br />
+<code>{calendar_start_time}</code> – Returns the start time of the event.<br />
+<strong>Example:</strong> <code>3:30 PM</code></p>
+<p><strong>Calendar End Date</strong><br />
+<code>{calendar_end_date}</code> – Returns the end date of the event in local format.<br />
+<strong>Example:</strong> <code>06/11/2025</code></p>
+<p><strong>Calendar End Date (US)</strong><br />
+<code>{calendar_end_date_us}</code> – Returns the end date of the event in US format.<br />
+<strong>Example:</strong> <code>11/06/2025</code></p>
+<p><strong>Calendar End Time</strong><br />
+<code>{calendar_end_time}</code> – Returns the end time of the event.<br />
+<strong>Example:</strong> <code>5:00 PM</code></p>
+<p><strong>Requires:</strong><br />
+The macro must be triggered by a <strong>Calendar Event</strong> trigger.</p>
 
 
 
