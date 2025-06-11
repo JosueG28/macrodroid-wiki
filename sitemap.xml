@@ -1240,18 +1240,18 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/system_time/"/>
     </url>
     <url>
-        <loc>Nonemagic_text/no_trigger/system_time_%28ms%29/</loc>
+        <loc>Nonemagic_text/no_trigger/system_time_ms/</loc>
         <lastmod>2025-06-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/system_time_%28ms%29/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/system_time_%28ms%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/system_time_ms/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/system_time_ms/"/>
     </url>
     <url>
-        <loc>Nonemagic_text/no_trigger/variable_length%20string/</loc>
+        <loc>Nonemagic_text/no_trigger/variable_length_string/</loc>
         <lastmod>2025-06-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/variable_length%20string/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/variable_length%20string/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/variable_length_string/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/variable_length_string/"/>
     </url>
     <url>
         <loc>Nonemagic_text/no_trigger/variable_type/</loc>
@@ -3403,18 +3403,18 @@
         <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/system_time/"/>
     </url>
     <url>
-        <loc>Nonees/magic_text/no_trigger/system_time_%28ms%29/</loc>
+        <loc>Nonees/magic_text/no_trigger/system_time_ms/</loc>
         <lastmod>2025-06-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/system_time_%28ms%29/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/system_time_%28ms%29/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/system_time_ms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/system_time_ms/"/>
     </url>
     <url>
-        <loc>Nonees/magic_text/no_trigger/variable_length%20string/</loc>
+        <loc>Nonees/magic_text/no_trigger/variable_length_string/</loc>
         <lastmod>2025-06-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/variable_length%20string/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/variable_length%20string/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/magic_text/no_trigger/variable_length_string/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemagic_text/no_trigger/variable_length_string/"/>
     </url>
     <url>
         <loc>Nonees/magic_text/no_trigger/variable_type/</loc>

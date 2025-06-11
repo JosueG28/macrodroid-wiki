@@ -20,7 +20,7 @@
     
     
       
-        <title>System time (ms) - MacroDroid Wiki</title>
+        <title>Variable Length (String) - MacroDroid Wiki</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#system-time-ms" class="md-skip">
+        <a href="#variable-length-string" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              System time (ms)
+              Variable Length (String)
             
           </span>
         </div>
@@ -158,7 +158,7 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../../magic_text/no_trigger/system_time_%28ms%29/" hreflang="en" class="md-select__link">
+            <a href="../../../../magic_text/no_trigger/variable_length_string/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -743,15 +743,15 @@
 
 
 
-<h1 id="system-time-ms">System time (ms)<a class="headerlink" href="#system-time-ms" title="Permanent link">&para;</a></h1>
+<h1 id="variable-length-string">Variable Length (String)<a class="headerlink" href="#variable-length-string" title="Permanent link">&para;</a></h1>
 <p><strong>Magic Text:</strong><br />
-<code>{system_time_ms}</code></p>
+<code>{strlen=my_var}</code></p>
 <p><strong>Returns:</strong><br />
-Current system time as a Unix timestamp in <strong>milliseconds</strong>.</p>
+The number of characters in the string stored in the variable <code>my_var</code>.</p>
 <p><strong>Example:</strong><br />
-<code>1735689600000</code> → Represents <code>00:00:00:000</code> GMT on January 1st, 2025.</p>
+If <code>my_var = "hello world"</code>, the result will be <code>11</code>.</p>
 <p><strong>Simple explanation:</strong><br />
-This Magic Text gives you the current time as a large number in milliseconds since January 1st, 1970 (UTC). It's just like <code>{system_time}</code>, but with three extra digits for milliseconds—great when you need more precise timing.</p>
+This Magic Text tells you how long a piece of text is—counting all letters, numbers, spaces, and symbols in the variable.</p>
 
 
 
