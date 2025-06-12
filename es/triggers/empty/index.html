@@ -20,7 +20,7 @@
     
     
       
-        <title>Empty - MacroDroid Wiki</title>
+        <title>Empty Trigger - MacroDroid Wiki</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#empty-trigger" class="md-skip">
+          Saltar a contenido
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Empty
+              Empty Trigger
             
           </span>
         </div>
@@ -721,6 +726,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -736,9 +743,15 @@
 
 
 
-  <h1>Empty</h1>
-
-
+<h1 id="empty-trigger">Empty Trigger<a class="headerlink" href="#empty-trigger" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger will <strong>never fire on its own</strong>. It's used when a macro is meant to be executed <strong>only</strong> by other macros, not by external events. Typically, it's combined with the <strong><code>Run Macro</code></strong> action.</p>
+<p><strong>Configuration:</strong><br />
+- No additional options. It simply acts as a placeholder trigger.</p>
+<p><strong>Example:</strong><br />
+You have a macro that performs a cleanup routine. Instead of triggering it with a time or event, you invoke it from another macro using the <strong><code>Run Macro</code></strong> action. This macro would use the <strong>Empty Trigger</strong>.</p>
+<p><strong>Simple explanation:</strong><br />
+It’s a dummy trigger. The macro won't start by itself but can still be run from another macro when needed — perfect for modular setups.</p>
 
 
 

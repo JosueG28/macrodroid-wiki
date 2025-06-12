@@ -20,7 +20,7 @@
     
     
       
-        <title>Floating button - MacroDroid Wiki</title>
+        <title>Floating Button - MacroDroid Wiki</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#floating-button" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Floating button
+              Floating Button
             
           </span>
         </div>
@@ -260,7 +265,7 @@
   
   
   <span class="md-ellipsis">
-    Home
+    🏠 Home
     
   </span>
   
@@ -1370,6 +1375,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1385,9 +1392,59 @@
 
 
 
-  <h1>Floating button</h1>
-
-
+<h1 id="floating-button">Floating Button<a class="headerlink" href="#floating-button" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger displays a floating button on the screen that can be tapped to activate a macro. The button appears or disappears when the macro is activated or deactivated. Dragging the button over the trash can icon will deactivate the macro by default.</p>
+<p><strong>Configuration:</strong><br />
+- <code>Identifier</code>:<br />
+  Unique ID used to reference this button across macros using the <code>Configure floating button</code> action.</p>
+<ul>
+<li>
+<p><code>Icon</code>:<br />
+  Choose from app icons, user images, MacroDroid icons, notification icons, material design icons, or even text.</p>
+</li>
+<li>
+<p><code>Set Background</code> / <code>Transparent Background</code>:<br />
+  Toggle whether the button has a visible background or appears as just the icon.</p>
+</li>
+<li>
+<p><code>Padding</code>:<br />
+  Controls how much space surrounds the icon (can visually enlarge/shrink the button).</p>
+</li>
+<li>
+<p><code>Opacity</code>:<br />
+  Set how transparent the button appears on screen.</p>
+</li>
+<li>
+<p><code>Size</code>:<br />
+  Select between <code>Normal</code> or <code>Small</code>.</p>
+</li>
+<li>
+<p><code>Disable Macro/Trigger on Remove</code>:<br />
+  Choose whether dragging the button to the trash disables the <code>entire macro</code> (default) or just the <code>trigger</code>.</p>
+</li>
+<li>
+<p><code>Prevent Removal by Dragging to Bin</code>:<br />
+  Locks the button in place so it can't be removed by dragging to the trash icon.</p>
+</li>
+<li>
+<p><code>Vibrate on Press</code>:<br />
+  Adds haptic feedback when the button is tapped.</p>
+</li>
+<li>
+<p><code>Force Location When Enabled</code>:<br />
+  Set specific screen coordinates (X/Y) where the button should appear every time it is activated.</p>
+</li>
+<li>
+<p><code>Fixed Location</code>:<br />
+  Prevents manual movement. Accepts pixels, percentages, and Magic Text variables for precision.</p>
+</li>
+</ul>
+<p><strong>Example:</strong><br />
+Trigger: Floating button appears in the bottom-right corner<br />
+Action: When tapped, toggles Wi-Fi and vibrates briefly.</p>
+<p><strong>Simple explanation:</strong><br />
+Shows a movable or fixed button on screen that you can tap to run macros. You can fully customize its appearance, location, and what happens if it’s removed.</p>
 
 
 

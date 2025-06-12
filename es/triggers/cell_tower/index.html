@@ -20,7 +20,7 @@
     
     
       
-        <title>Cell tower - MacroDroid Wiki</title>
+        <title>Cell Tower - MacroDroid Wiki</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#cell-tower" class="md-skip">
+          Saltar a contenido
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cell tower
+              Cell Tower
             
           </span>
         </div>
@@ -721,6 +726,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -736,9 +743,22 @@
 
 
 
-  <h1>Cell tower</h1>
-
-
+<h1 id="cell-tower">Cell Tower<a class="headerlink" href="#cell-tower" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger activates when your device detects entry to or exit from a group of cell towers you've previously saved. It’s a low-accuracy location method based on mobile signal coverage, not GPS. Ideal for detecting when you're in or out of a large area (like a city or neighborhood).</p>
+<p><strong>Configuration:</strong><br />
+- <strong>Cell Tower Group:</strong><br />
+  Choose a previously created group of cell towers that represents a specific area.</p>
+<ul>
+<li><code>Enter cell area</code>: Fires when at least one cell tower from the selected group is detected.  </li>
+<li><code>Leave cell area</code>: Fires when none of the towers from the selected group are currently detected.</li>
+</ul>
+<blockquote>
+<p>To create a cell tower group, go to:<br />
+<code>Triggers → Cell Tower → + → Scan Cell Towers</code></p>
+</blockquote>
+<p><strong>Simple explanation:</strong><br />
+Fires when your phone connects to or disconnects from cell towers you’ve saved as part of a group. It’s like a GPS-free location check—good for large areas, but not precise.</p>
 
 
 

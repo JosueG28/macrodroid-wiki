@@ -20,7 +20,7 @@
     
     
       
-        <title>Failed login - MacroDroid Wiki</title>
+        <title>Failed Login Attempt - MacroDroid Wiki</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#failed-login-attempt" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Failed login
+              Failed Login Attempt
             
           </span>
         </div>
@@ -260,7 +265,7 @@
   
   
   <span class="md-ellipsis">
-    Home
+    🏠 Home
     
   </span>
   
@@ -1370,6 +1375,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1385,9 +1392,22 @@
 
 
 
-  <h1>Failed login</h1>
-
-
+<h1 id="failed-login-attempt">Failed Login Attempt<a class="headerlink" href="#failed-login-attempt" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger fires whenever an incorrect passcode (not fingerprint) is entered on the lock screen. It only activates on valid login attempts—e.g., entering a wrong 4-digit PIN, not invalid shorter codes.</p>
+<p><strong>Important:</strong><br />
+To use this trigger, MacroDroid <strong>must</strong> have device administration permissions enabled.</p>
+<blockquote>
+<p><strong>Warning:</strong><br />
+With device admin enabled, you cannot uninstall MacroDroid the usual way. You must first disable device admin access via your device’s <strong>Settings &gt; Security</strong> or use the uninstall option inside MacroDroid’s drawer menu.</p>
+</blockquote>
+<p><strong>Configuration:</strong><br />
+- <strong>Failures within:</strong> Set the number of failed login attempts to detect (e.g., <code>3</code>).<br />
+- <strong>Time window:</strong> Define the time period (e.g., <code>2 minutes</code>) in which the failed attempts must occur.</p>
+<p><strong>Example:</strong><br />
+Trigger a notification if <code>3</code> failed login attempts happen within <code>2 minutes</code>.</p>
+<p><strong>Simple explanation:</strong><br />
+Detects multiple wrong password attempts on your lock screen within a set time frame, so you can be alerted of possible unauthorized access.</p>
 
 
 
