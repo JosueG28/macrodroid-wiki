@@ -15,7 +15,7 @@
       
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
@@ -45,6 +45,10 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
+      <link rel="stylesheet" href="../../../css/timeago.css">
     
       <link rel="stylesheet" href="../../../macrodroid-colors.css">
     
@@ -745,20 +749,20 @@
 
 <h1 id="failed-login-attempt">Failed Login Attempt<a class="headerlink" href="#failed-login-attempt" title="Permanent link">&para;</a></h1>
 <p><strong>Description:</strong><br />
-This trigger fires whenever an incorrect passcode (not fingerprint) is entered on the lock screen. It only activates on valid login attempts—e.g., entering a wrong 4-digit PIN, not invalid shorter codes.</p>
-<p><strong>Important:</strong><br />
-To use this trigger, MacroDroid <strong>must</strong> have device administration permissions enabled.</p>
-<blockquote>
-<p><strong>Warning:</strong><br />
-With device admin enabled, you cannot uninstall MacroDroid the usual way. You must first disable device admin access via your device’s <strong>Settings &gt; Security</strong> or use the uninstall option inside MacroDroid’s drawer menu.</p>
-</blockquote>
+This trigger fires whenever an incorrect passcode (not fingerprint) is entered on the lock screen. It only activates on valid login attempts—e.g., entering a wrong 4-digit PIN, not invalid shorter codes.  </p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>To use this trigger, MacroDroid <strong>must</strong> have device administration permissions enabled.  </p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>With device admin enabled, you cannot uninstall MacroDroid the usual way. You must first disable device admin access via your device’s <strong>Settings &gt; Security</strong> or use the uninstall option inside MacroDroid’s drawer menu.  </p>
+</div>
 <p><strong>Configuration:</strong><br />
-- <strong>Failures within:</strong> Set the number of failed login attempts to detect (e.g., <code>3</code>).<br />
-- <strong>Time window:</strong> Define the time period (e.g., <code>2 minutes</code>) in which the failed attempts must occur.</p>
+- <strong>Num failures:</strong> Set the number of failed login attempts to detect (e.g., <code>3</code>).<br />
+- <strong>failures within:</strong> Define the time period (e.g., <code>2 minutes</code>) in which the failed attempts must occur.  </p>
 <p><strong>Example:</strong><br />
 Trigger a notification if <code>3</code> failed login attempts happen within <code>2 minutes</code>.</p>
-<p><strong>Simple explanation:</strong><br />
-Detects multiple wrong password attempts on your lock screen within a set time frame, so you can be alerted of possible unauthorized access.</p>
 
 
 
@@ -766,6 +770,27 @@ Detects multiple wrong password attempts on your lock screen within a set time f
 
 
 
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Última actualización">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 10, 2025 22:59:45 UTC"><span class="timeago" datetime="2025-06-10T22:59:45+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 10, 2025 22:59:45 UTC">2025-06-10</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
 
 
 
@@ -811,6 +836,14 @@ Detects multiple wrong password attempts on your lock screen within a set time f
     
     
       <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
+      
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
       
         <script src="../../../assets/categories.json"></script>
       

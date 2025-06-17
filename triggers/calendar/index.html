@@ -15,7 +15,7 @@
       
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
@@ -45,6 +45,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../../css/timeago.css">
     
       <link rel="stylesheet" href="../../macrodroid-colors.css">
     
@@ -1396,75 +1398,49 @@
 <p><strong>Description:</strong><br />
 This trigger activates when a calendar event <strong>starts</strong> or <strong>ends</strong>. You can customize it to respond only to certain events, calendars, or event details.</p>
 <p><strong>Configuration:</strong>  </p>
-<p>Choose whether the trigger fires when an event <strong>starts</strong> or <strong>ends</strong>.</p>
-<ul>
-<li><strong>Calendar account:</strong><br />
-  Select which calendar to monitor. Examples:  </li>
-<li>Local device calendar  </li>
-<li>Specific email calendar like <code>mymail@example.com</code>  </li>
-<li>
-<p>Special calendars like <code>Holidays in Mexico</code> or <code>Family</code></p>
-</li>
-<li>
+<p><strong>Trigger time:</strong><br />
+- Choose whether the trigger fires when an event <strong>starts</strong> or <strong>ends</strong>.</p>
+<p><strong>Calendar account:</strong><br />
+- Select which calendar to monitor. Examples:<br />
+  - Local device calendar<br />
+  - Specific email calendar like <code>mymail@example.com</code><br />
+  - Special calendars like <code>Holidays in Mexico</code> or <code>Family</code></p>
 <p><strong>Availability filter:</strong><br />
-  Filters events based on their status:  </p>
-</li>
-<li><code>Free</code>: Events where you are marked as free (no busy status)  </li>
-<li><code>Busy</code>: Events where you are marked as busy (e.g., meetings)  </li>
-<li>
-<p><code>Any</code>: All events regardless of availability</p>
-</li>
-<li>
+- Filters events based on their status:<br />
+  - <code>Free:</code> Events where you are marked as free (no busy status)<br />
+  - <code>Busy:</code> Events where you are marked as busy (e.g., meetings)<br />
+  - <code>Any:</code> All events regardless of availability</p>
 <p><strong>Event matching by title or details:</strong><br />
-  You can limit triggering to events whose <strong>title</strong> or <strong>details</strong> match certain patterns.  </p>
-</li>
-<li><strong>Wildcards:</strong>  <ul>
-<li><code>*</code> matches any number of characters  </li>
-<li><code>?</code> matches exactly one character  </li>
-<li>Example:  </li>
-<li><code>Meeting*</code> matches <code>Meeting with John</code> or <code>Meeting123</code>  </li>
-<li><code>Lunch?</code> matches <code>Lunch1</code> but not <code>Lunch12</code>  </li>
-</ul>
-</li>
-<li><strong>Regular Expressions (regex):</strong>  <ul>
-<li>More powerful, flexible pattern matching. Enable with the option "Enable regular expression matching".  </li>
-<li>Example regex:  </li>
-<li><code>^Call\s\d{3}$</code> matches exactly <code>Call 123</code> but not <code>Call1234</code> or <code>Call 12</code>  </li>
-</ul>
-</li>
-<li>
-<p><strong>Case insensitive:</strong>  </p>
-<ul>
-<li>When enabled, matching ignores uppercase/lowercase differences.  </li>
-<li>So <code>meeting</code> matches <code>Meeting</code> and <code>MEETING</code>.</li>
-</ul>
-</li>
-<li>
+- Limit triggering to events whose <strong>title</strong> or <strong>details</strong> match certain patterns.<br />
+  - <strong>Wildcards:</strong><br />
+    - <code>*</code> matches any number of characters<br />
+    - <code>?</code> matches exactly one character<br />
+    - Examples:<br />
+      - <code>Meeting*</code> matches <code>Meeting with John</code> or <code>Meeting123</code><br />
+      - <code>Lunch?</code> matches <code>Lunch1</code> but not <code>Lunch12</code><br />
+  - <strong>Regular Expressions (regex):</strong><br />
+    - Enable with the option "Enable regular expression matching".<br />
+    - Example:<br />
+      - <code>^Call\s\d{3}$</code> matches exactly <code>Call 123</code> but not <code>Call1234</code> or <code>Call 12</code><br />
+  - <strong>Case insensitive:</strong><br />
+    - Matching ignores uppercase/lowercase differences.<br />
+    - So <code>meeting</code> matches <code>Meeting</code> and <code>MEETING</code>.</p>
 <p><strong>Ignore all-day events:</strong><br />
-  Skip events that last all day, which often are reminders or holidays.</p>
-</li>
-<li>
+- Skip events that last all day, often reminders or holidays.</p>
 <p><strong>Use alarm:</strong><br />
-  Instead of triggering exactly at event start or end, this option triggers when the calendar alarm goes off for the event.</p>
-</li>
-<li>
+- Use this option if your trigger time is not firing accurately.<br />
+- Android uses calendar alarms for better precision in triggering events.</p>
 <p><strong>Check in advance:</strong><br />
-  Set how early or late the trigger fires relative to the event time. Use days, hours, and minutes.  </p>
-</li>
-<li>Positive values mean trigger <strong>before</strong> the event.  </li>
-<li>Negative values mean trigger <strong>after</strong> the event.  </li>
-<li>Examples:  <ul>
-<li>Trigger 15 minutes <strong>before</strong> a meeting: set <code>0 days, 0 hours, 15 minutes</code>  </li>
-<li>Trigger 10 minutes <strong>after</strong> event ends: set <code>0 days, 0 hours, -10 minutes</code></li>
-</ul>
-</li>
-</ul>
-<p><strong>Magic Text:</strong>  </p>
-<p><a href="../../magic_text/trigger_required/calendar_event/">→ <strong>Calendar event details</strong></a></p>
+- Set how early or late the trigger fires relative to the event time.<br />
+  - Positive values mean trigger <strong>before</strong> the event.<br />
+  - Negative values mean trigger <strong>after</strong> the event.<br />
+  - Examples:<br />
+    - Trigger 15 minutes <strong>before</strong> a meeting: <code>0 days, 0 hours, 15 minutes</code><br />
+    - Trigger 10 minutes <strong>after</strong> event ends: <code>0 days, 0 hours, -10 minutes</code></p>
 <p><strong>Example:</strong><br />
 Trigger a reminder 10 minutes before any busy event with a title starting with <code>Doctor</code> (e.g., <code>Doctor appointment</code>) in your <code>mymail@example.com</code> calendar.</p>
-<p><strong>Simple explanation:</strong><br />
-This trigger helps you automatically act when events start or end. It’s flexible: you pick which calendar, event status, and even match event titles or details using easy wildcards or advanced regex patterns.</p>
+<p>Magic Text:<br />
+<a href="../../magic_text/trigger_required/calendar_event/"><strong>Calendar event details</strong></a></p>
 
 
 
@@ -1472,6 +1448,27 @@ This trigger helps you automatically act when events start or end. It’s flexib
 
 
 
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 10, 2025 22:59:45 UTC"><span class="timeago" datetime="2025-06-10T22:59:45+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 10, 2025 22:59:45 UTC">2025-06-10</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
 
 
 
@@ -1517,6 +1514,10 @@ This trigger helps you automatically act when events start or end. It’s flexib
     
     
       <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../js/timeago.min.js"></script>
+      
+        <script src="../../js/timeago_mkdocs_material.js"></script>
       
         <script src="../../assets/categories.json"></script>
       

@@ -19,7 +19,7 @@
         <link rel="next" href="list/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
@@ -49,6 +49,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../css/timeago.css">
     
       <link rel="stylesheet" href="../macrodroid-colors.css">
     
@@ -1523,14 +1525,14 @@
 <h1 id="introduction-to-triggers-in-macrodroid">Introduction to Triggers in MacroDroid<a class="headerlink" href="#introduction-to-triggers-in-macrodroid" title="Permanent link">&para;</a></h1>
 <p><strong>Triggers</strong> are the core of every MacroDroid automation. They are events that your device can detect—like plugging in the charger, receiving a notification, or unlocking the screen—that tell MacroDroid when to run your macro. Without at least one trigger, your macro will never start.</p>
 <p>If you're just starting with MacroDroid, think of triggers as the "WHEN" part of your automation:<br />
-“When this happens → do that.”</p>
-<p><a href="list/">→ <strong>Go to trigger list</strong></a></p>
+“When this happens do that.”</p>
+<p><a href="list/"><strong>Go to trigger list</strong></a></p>
 <hr />
 <h2 id="what-is-a-trigger">What Is a Trigger?<a class="headerlink" href="#what-is-a-trigger" title="Permanent link">&para;</a></h2>
 <p>A <strong>trigger</strong> is an event your device listens for. When that event happens, and the macro is enabled, the actions you defined will run. Every macro must have <strong>at least one trigger</strong>.</p>
 <p><strong>Example:</strong><br />
 Trigger: <code>Charger Connected</code><br />
-→ Actions: <code>Turn On Wi-Fi</code>, <code>Show Notification: Charging Started</code></p>
+Actions: <code>Turn On Wi-Fi</code>, <code>Show Notification: Charging Started</code></p>
 <hr />
 <h2 id="can-i-use-multiple-triggers">Can I Use Multiple Triggers?<a class="headerlink" href="#can-i-use-multiple-triggers" title="Permanent link">&para;</a></h2>
 <p>Yes. You can add several triggers to a single macro. If <strong>any one</strong> of them happens, the macro will run.</p>
@@ -1541,7 +1543,7 @@ Use <strong>constraints</strong> to control when a trigger is allowed to run.</p
 <p><strong>Example:</strong><br />
 Trigger: <code>Charger Connected</code><br />
 Constraint: <code>Time of Day: 8:00 AM – 10:00 PM</code><br />
-→ Macro only runs during those hours.</p>
+Macro only runs during those hours.</p>
 <hr />
 <h2 id="examples-of-useful-triggers">Examples of Useful Triggers<a class="headerlink" href="#examples-of-useful-triggers" title="Permanent link">&para;</a></h2>
 <p>Some common triggers include:<br />
@@ -1563,7 +1565,7 @@ Goal: Save battery when low and not charging.<br />
 - Trigger 1: <code>Battery Level Below 20%</code><br />
 - Trigger 2: <code>Screen On</code><br />
 - Constraint (on Trigger 2): <code>Not Charging</code><br />
-→ Actions: <code>Lower Brightness</code>, <code>Show Notification: Low Battery!</code></p>
+Actions: <code>Lower Brightness</code>, <code>Show Notification: Low Battery!</code></p>
 <hr />
 <p>Triggers are the starting point of every macro. Mastering them is key to building powerful automations in MacroDroid. Start small, experiment, and you’ll quickly see what’s possible.</p>
 
@@ -1573,6 +1575,27 @@ Goal: Save battery when low and not charging.<br />
 
 
 
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 10, 2025 22:59:45 UTC"><span class="timeago" datetime="2025-06-10T22:59:45+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 10, 2025 22:59:45 UTC">2025-06-10</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
 
 
 
@@ -1618,6 +1641,10 @@ Goal: Save battery when low and not charging.<br />
     
     
       <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../js/timeago.min.js"></script>
+      
+        <script src="../js/timeago_mkdocs_material.js"></script>
       
         <script src="../assets/categories.json"></script>
       

@@ -15,12 +15,12 @@
       
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>📍 Trigger: Geofence (location) - MacroDroid Wiki</title>
+        <title>Geofence (location) - MacroDroid Wiki</title>
       
     
     
@@ -45,6 +45,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../../css/timeago.css">
     
       <link rel="stylesheet" href="../../macrodroid-colors.css">
     
@@ -76,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#trigger-geofence-location" class="md-skip">
+        <a href="#geofence-location" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              📍 Trigger: Geofence (location)
+              Geofence (location)
             
           </span>
         </div>
@@ -1378,56 +1380,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#trigger-options" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Trigger Options
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔹 Trigger Options">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#activation-type" class="md-nav__link">
-    <span class="md-ellipsis">
-      Activation Type
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#trigger-if-previous-location-unknown" class="md-nav__link">
-    <span class="md-ellipsis">
-      Trigger if previous location unknown
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#update-frequency-settings" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Update Frequency Settings
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1442,31 +1394,25 @@
 
 
 
-<h1 id="trigger-geofence-location">📍 Trigger: Geofence (location)<a class="headerlink" href="#trigger-geofence-location" title="Permanent link">&para;</a></h1>
-<p><strong>Geofence triggers</strong> automatically start your macros when your device enters or exits a defined geographical area. They provide battery-efficient location detection using Google Play Services.</p>
-<p><a href="../../constraints/geofence/"><strong>Geofence Constraint</strong></a> | 
-<a href="../../magic_text/trigger_required/geofence/"><strong>Magic Text</strong></a></p>
-<hr />
-<h2 id="trigger-options">🔹 Trigger Options<a class="headerlink" href="#trigger-options" title="Permanent link">&para;</a></h2>
-<h3 id="activation-type">Activation Type<a class="headerlink" href="#activation-type" title="Permanent link">&para;</a></h3>
-<ul>
-<li><strong>Entry</strong>: Triggers when device enters the geofenced area</li>
-<li><strong>Exit</strong>: Triggers when device leaves the geofenced area</li>
-</ul>
-<h3 id="trigger-if-previous-location-unknown">Trigger if previous location unknown<a class="headerlink" href="#trigger-if-previous-location-unknown" title="Permanent link">&para;</a></h3>
-<ul>
-<li><strong>Trigger if previous location unknown</strong>:<br />
-  When enabled, the trigger will activate even if the device's previous location wasn't known.<br />
-<em>Useful for:</em> Ensuring triggers fire after device reboot or when location services were temporarily disabled.</li>
-</ul>
-<hr />
-<h2 id="update-frequency-settings">🔹 Update Frequency Settings<a class="headerlink" href="#update-frequency-settings" title="Permanent link">&para;</a></h2>
-<p><strong>High frequency update rates may cause additional battery drain.</strong>  </p>
-<hr />
+<h1 id="geofence-location">Geofence (location)<a class="headerlink" href="#geofence-location" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong>  </p>
+<p>Geofence triggers automatically start your macros when your device enters or exits a defined geographical area. They provide battery-efficient location detection using Google Play Services.</p>
+<p><strong>Configuration:</strong><br />
+<strong>Activation Type:</strong><br />
+- <code>Entry:</code> Triggers when device enters the geofenced area<br />
+- <code>Exit:</code> Triggers when device leaves the geofenced area  </p>
+<p><strong>Trigger if previous location unknown:</strong><br />
+- When enabled, the trigger will activate even if the device's previous location wasn't known.<br />
+<em>Useful for:</em> Ensuring triggers fire after device reboot or when location services were temporarily disabled.</p>
+<p><strong>Update Frequency Settings:</strong><br />
+- High frequency update rates may cause additional battery drain.</p>
 <p><strong>Requires:</strong><br />
 - An existing geofence created via the Geofences tile<br />
 - Location services enabled on device<br />
 - Google Play Services  </p>
+<p><strong>Magic Text:</strong><br />
+Magic Text: <a href="../../constraints/geofence/"><strong>Geofence Constraint</strong></a><br />
+Magic Text: <a href="../../magic_text/trigger_required/geofence/"><strong>Magic Text</strong></a>  </p>
 
 
 
@@ -1474,6 +1420,27 @@
 
 
 
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 10, 2025 22:59:45 UTC"><span class="timeago" datetime="2025-06-10T22:59:45+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 10, 2025 22:59:45 UTC">2025-06-10</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
 
 
 
@@ -1519,6 +1486,10 @@
     
     
       <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../js/timeago.min.js"></script>
+      
+        <script src="../../js/timeago_mkdocs_material.js"></script>
       
         <script src="../../assets/categories.json"></script>
       
