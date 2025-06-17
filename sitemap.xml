@@ -2087,13 +2087,6 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/timer/"/>
     </url>
     <url>
-        <loc>Nonetriggers/trigger_dial_number/</loc>
-        <lastmod>2025-06-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/trigger_dial_number/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/trigger_dial_number/"/>
-    </url>
-    <url>
         <loc>Nonetriggers/ui_click/</loc>
         <lastmod>2025-06-17</lastmod>
         <changefreq>daily</changefreq>
@@ -4269,13 +4262,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/timer/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/timer/"/>
-    </url>
-    <url>
-        <loc>Nonees/triggers/trigger_dial_number/</loc>
-        <lastmod>2025-06-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/triggers/trigger_dial_number/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonetriggers/trigger_dial_number/"/>
     </url>
     <url>
         <loc>Nonees/triggers/ui_click/</loc>

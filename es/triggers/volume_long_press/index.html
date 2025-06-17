@@ -20,7 +20,7 @@
     
     
       
-        <title>Volume long press - MacroDroid Wiki</title>
+        <title>Volume Button Long Press - MacroDroid Wiki</title>
       
     
     
@@ -45,10 +45,6 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
-    
-      <link rel="stylesheet" href="../../../css/timeago.css">
-    
-      <link rel="stylesheet" href="../../../css/timeago.css">
     
       <link rel="stylesheet" href="../../../macrodroid-colors.css">
     
@@ -78,6 +74,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#volume-button-long-press" class="md-skip">
+          Saltar a contenido
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -110,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Volume long press
+              Volume Button Long Press
             
           </span>
         </div>
@@ -725,6 +726,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -740,7 +743,34 @@
 
 
 
-  <h1>Volume long press</h1>
+<h1 id="volume-button-long-press">Volume Button Long Press<a class="headerlink" href="#volume-button-long-press" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger activates when you <strong>long press</strong> either the <strong>volume up</strong> or <strong>volume down</strong> button.<br />
+Unlike the standard Volume Button trigger, this one can also work <strong>while the screen is off</strong>, making it ideal for quick, discreet automations.</p>
+<p><strong>Configuration:</strong>  </p>
+<p><strong><code>Button:</code></strong><br />
+Choose which button will trigger the macro:</p>
+<ul>
+<li><code>Volume Up</code>  </li>
+<li><code>Volume Down</code></li>
+</ul>
+<p><strong><code>Press Type:</code></strong><br />
+This trigger only responds to <strong>long presses</strong>, not short taps.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>To use this feature on <strong>non-rooted devices</strong>, you must grant special permissions using <strong>ADB</strong> (Android Debug Bridge) from a computer.<br />
+This process is known as the <strong>ADB Hack</strong>, and it allows MacroDroid to detect hardware button presses even in the background.</p>
+<p>For detailed instructions, check:<br />
+<a href="https://macrodroidforum.com/index.php?threads/adb-hack-setup.38/">How to grant permissions (forum)</a></p>
+</div>
+<p><strong>Requires:</strong><br />
+Root access or <strong>ADB Hack</strong> permission.</p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>This trigger relies on a <strong>private Android API</strong>, which may stop working in future versions of Android or MacroDroid due to OS restrictions or changes in build tools.</p>
+</div>
+<p><strong>Example:</strong><br />
+Long press the volume down button to trigger a macro that sends your location via SMS in case of emergency.</p>
 
 
 
@@ -748,29 +778,6 @@
 
 
 
-
-
-  
-    
-  
-  
-
-
-  <aside class="md-source-file">
-    
-      
-  <span class="md-source-file__fact">
-    <span class="md-icon" title="Última actualización">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
-    </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 10, 2025 22:59:45 UTC"><span class="timeago" datetime="2025-06-10T22:59:45+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 10, 2025 22:59:45 UTC">2025-06-10</span>
-  </span>
-
-    
-    
-    
-    
-  </aside>
 
 
 
@@ -816,14 +823,6 @@
     
     
       <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
-      
-        <script src="../../../js/timeago.min.js"></script>
-      
-        <script src="../../../js/timeago_mkdocs_material.js"></script>
-      
-        <script src="../../../js/timeago.min.js"></script>
-      
-        <script src="../../../js/timeago_mkdocs_material.js"></script>
       
         <script src="../../../assets/categories.json"></script>
       

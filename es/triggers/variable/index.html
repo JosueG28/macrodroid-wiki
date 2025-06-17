@@ -20,7 +20,7 @@
     
     
       
-        <title>Variable - MacroDroid Wiki</title>
+        <title>MacroDroid Variable Change - MacroDroid Wiki</title>
       
     
     
@@ -45,10 +45,6 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
-    
-      <link rel="stylesheet" href="../../../css/timeago.css">
-    
-      <link rel="stylesheet" href="../../../css/timeago.css">
     
       <link rel="stylesheet" href="../../../macrodroid-colors.css">
     
@@ -78,6 +74,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#macrodroid-variable-change" class="md-skip">
+          Saltar a contenido
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -110,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Variable
+              MacroDroid Variable Change
             
           </span>
         </div>
@@ -725,6 +726,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -740,7 +743,70 @@
 
 
 
-  <h1>Variable</h1>
+<h1 id="macrodroid-variable-change">MacroDroid Variable Change<a class="headerlink" href="#macrodroid-variable-change" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger fires when a <strong>MacroDroid variable</strong> is set to a <strong>specific value</strong> or <strong>changes in any way</strong>.<br />
+It supports <strong>String</strong>, <strong>Integer</strong>, <strong>Decimal</strong>, and <strong>Boolean</strong> types (booleans only for comparison-based conditions).<br />
+When using <strong>greater than</strong> or <strong>less than</strong> comparisons, the trigger only fires <strong>once</strong> when the variable transitions into the target condition — not on every update that still satisfies it.</p>
+<p><strong>Configuration:</strong>  </p>
+<p><strong><code>Trigger type:</code></strong><br />
+- <code>Any value change:</code> Fires whenever the variable’s value is updated, regardless of content.<br />
+- <code>Specific value:</code> Compares the variable against a defined condition using one of several methods.</p>
+<p><strong>Comparison Methods:</strong></p>
+<ul>
+<li>
+<p><code>=</code><br />
+  Triggers when the variable is <strong>exactly equal</strong> to the specified value.<br />
+<em>Example:</em> <code>status = ready</code> → triggers if <code>status</code> becomes exactly <code>ready</code>.</p>
+</li>
+<li>
+<p><code>!=</code><br />
+  Triggers when the variable is <strong>not equal</strong> to the specified value.<br />
+<em>Example:</em> <code>mode != silent</code> → triggers if <code>mode</code> becomes anything except <code>silent</code>.</p>
+</li>
+<li>
+<p><code>Contains</code><br />
+  Triggers if the variable <strong>contains</strong> the specified string.<br />
+<em>Example:</em> <code>text contains hello</code> → matches <code>hello world</code>.</p>
+</li>
+<li>
+<p><code>Excludes</code><br />
+  Triggers if the variable <strong>does not contain</strong> the specified text.<br />
+<em>Example:</em> <code>note excludes secret</code> → matches <code>note = public info</code>.</p>
+</li>
+</ul>
+<p><strong>Wildcards:</strong><br />
+Wildcards can be used in string comparisons:</p>
+<ul>
+<li>
+<p><code>*</code> (asterisk)<br />
+  Matches <strong>any number of characters</strong> (including zero).<br />
+<em>Example:</em> <code>val = test*</code> → matches <code>test</code>, <code>testing</code>, <code>test123</code>.</p>
+</li>
+<li>
+<p><code>?</code> (question mark)<br />
+  Matches <strong>exactly one character</strong>.<br />
+<em>Example:</em> <code>val = t?st</code> → matches <code>test</code>, <code>tost</code>, <code>t9st</code>.</p>
+</li>
+</ul>
+<p><strong>Regular Expressions:</strong><br />
+Enable the checkbox <strong>"Enable regular expression matching"</strong> to use regex syntax.</p>
+<ul>
+<li><em>Example:</em> <code>^user_\d+$</code> → matches <code>user_1</code>, <code>user_42</code>, <code>user_999</code>.</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Regular expressions provide <strong>advanced flexibility</strong>, but should only be used if you’re familiar with how they work.</p>
+</div>
+<p><strong>Case insensitive:</strong><br />
+You can enable the <strong>"Case insensitive"</strong> checkbox to ignore letter casing when comparing values.</p>
+<ul>
+<li><em>Example:</em> <code>Text = Hello</code> will match <code>hello</code>, <code>HELLO</code>, or <code>HeLLo</code> if case-insensitive is enabled.</li>
+</ul>
+<p><strong>Example:</strong><br />
+Trigger when the variable <code>connectionStatus</code> is set to <code>disconnected</code>, ignoring case.<br />
+Trigger when <code>error_message</code> contains <code>timeout</code>, even if written as <code>Timeout</code> or <code>TIMEOUT</code>.<br />
+Trigger when <code>temperature</code> goes above <code>30</code> degrees.</p>
 
 
 
@@ -748,29 +814,6 @@
 
 
 
-
-
-  
-    
-  
-  
-
-
-  <aside class="md-source-file">
-    
-      
-  <span class="md-source-file__fact">
-    <span class="md-icon" title="Última actualización">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
-    </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 10, 2025 22:59:45 UTC"><span class="timeago" datetime="2025-06-10T22:59:45+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 10, 2025 22:59:45 UTC">2025-06-10</span>
-  </span>
-
-    
-    
-    
-    
-  </aside>
 
 
 
@@ -816,14 +859,6 @@
     
     
       <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
-      
-        <script src="../../../js/timeago.min.js"></script>
-      
-        <script src="../../../js/timeago_mkdocs_material.js"></script>
-      
-        <script src="../../../js/timeago.min.js"></script>
-      
-        <script src="../../../js/timeago_mkdocs_material.js"></script>
       
         <script src="../../../assets/categories.json"></script>
       

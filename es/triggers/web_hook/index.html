@@ -20,7 +20,7 @@
     
     
       
-        <title>Web hook - MacroDroid Wiki</title>
+        <title>Webhook Trigger - MacroDroid Wiki</title>
       
     
     
@@ -45,10 +45,6 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
-    
-      <link rel="stylesheet" href="../../../css/timeago.css">
-    
-      <link rel="stylesheet" href="../../../css/timeago.css">
     
       <link rel="stylesheet" href="../../../macrodroid-colors.css">
     
@@ -78,6 +74,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#webhook-trigger" class="md-skip">
+          Saltar a contenido
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -110,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Web hook
+              Webhook Trigger
             
           </span>
         </div>
@@ -725,6 +726,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -740,7 +743,72 @@
 
 
 
-  <h1>Web hook</h1>
+<h1 id="webhook-trigger">Webhook Trigger<a class="headerlink" href="#webhook-trigger" title="Permanent link">&para;</a></h1>
+<p><strong>Description:</strong><br />
+This trigger fires when a specific <strong>web URL</strong> associated with your device is called from anywhere (e.g., a browser, automation tool, or server). It allows external services to remotely trigger macros by visiting a unique URL.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>The URL is <strong>unique to your device</strong> and will <strong>change</strong> if the app is reinstalled or its data is cleared.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This feature uses <strong>Firebase Cloud Messaging</strong> to send webhook notifications. It will <strong>not work</strong> on devices without Google services (e.g., Alexa tablets).</p>
+</div>
+<p><strong>Configuration:</strong>  </p>
+<p><strong><code>Identifier:</code></strong><br />
+This is the name you define at the end of your base URL.<br />
+Example:<br />
+Base URL →<br />
+<code>https://trigger.macrodroid.com/c306bcd7-5f78-4895-bee4-677d4d/</code><br />
+Full URL with identifier →<br />
+<code>https://trigger.macrodroid.com/c306bcd7-5f78-4895-bee4-677d4d/mywebhook</code><br />
+In this case, the identifier is <code>mywebhook</code>.</p>
+<p><strong><code>IP address whitelist:</code></strong><br />
+Restrict activation to specific IP addresses.<br />
+You can list one or more allowed IPs. Magic Text is also supported.</p>
+<p><strong><code>Save body to string variable:</code></strong><br />
+If your HTTP POST request includes body content (plain text, JSON, etc.), it can be saved to a <strong>string variable</strong>.  </p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Due to Firebase Cloud Messaging limits, the body size must not exceed <strong>3800 characters</strong>.</p>
+</div>
+<p><strong>Magic Text:</strong>  </p>
+<p><a href="../magic_text\trigger_required\webhook_body_text.md"><strong>Webhook Body Text</strong></a></p>
+<p><strong>Example:</strong><br />
+A webhook from your server triggers a macro on your phone when a task completes.<br />
+Send a POST request to:<br />
+<code>https://trigger.macrodroid.com/c306bcd7-5f78-4895-bee4-677d4d/mywebhook</code><br />
+MacroDroid then performs a predefined action (e.g., send a notification).</p>
+<hr />
+<h1 id="webhook-variable-support">Webhook Variable Support<a class="headerlink" href="#webhook-variable-support" title="Permanent link">&para;</a></h1>
+<p><strong>String, Integer, Decimal, Boolean Variables</strong><br />
+You can define values directly in the URL using query parameters.  </p>
+<p><strong>Example - One variable:</strong><br />
+<code>https://trigger.macrodroid.com/deviceID/mywebhook?VAR1=Hello</code></p>
+<p><strong>Example - Multiple variables:</strong><br />
+<code>https://trigger.macrodroid.com/deviceID/mywebhook?VAR1=42&amp;VAR2=Hello_World</code></p>
+<p><strong>Dictionary / Array Variables</strong><br />
+To set entries in a dictionary or array variable, use this format:<br />
+<code>https://trigger.macrodroid.com/deviceID/mywebhook?mydict(KEY)=VALUETEXT</code>  </p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Use <strong>round brackets</strong> <code>()</code> instead of square brackets when setting dictionary/array values in the URL.</p>
+</div>
+<p><strong>Example:</strong><br />
+<code>https://trigger.macrodroid.com/deviceID/webhook123?cart(item1)=apple&amp;cart(item2)=banana</code></p>
+<hr />
+<h1 id="webhook-management">Webhook Management<a class="headerlink" href="#webhook-management" title="Permanent link">&para;</a></h1>
+<p><strong>Export device ID to new device:</strong><br />
+Create a password and export your current device ID for future recovery. Useful when switching or resetting your phone.</p>
+<p><strong>Import device ID from another device:</strong><br />
+Restore your previously saved device ID using the password and ID from the old device.</p>
+<p><strong>Generate new device ID:</strong><br />
+Assign a new ID to your device.  </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>All previous webhook URLs will <strong>stop working</strong> after generating a new ID.<br />
+You must confirm by checking the "I have read and understood" box to proceed.</p>
+</div>
 
 
 
@@ -748,29 +816,6 @@
 
 
 
-
-
-  
-    
-  
-  
-
-
-  <aside class="md-source-file">
-    
-      
-  <span class="md-source-file__fact">
-    <span class="md-icon" title="Última actualización">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
-    </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 10, 2025 22:59:45 UTC"><span class="timeago" datetime="2025-06-10T22:59:45+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 10, 2025 22:59:45 UTC">2025-06-10</span>
-  </span>
-
-    
-    
-    
-    
-  </aside>
 
 
 
@@ -816,14 +861,6 @@
     
     
       <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
-      
-        <script src="../../../js/timeago.min.js"></script>
-      
-        <script src="../../../js/timeago_mkdocs_material.js"></script>
-      
-        <script src="../../../js/timeago.min.js"></script>
-      
-        <script src="../../../js/timeago_mkdocs_material.js"></script>
       
         <script src="../../../assets/categories.json"></script>
       
